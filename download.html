@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>咕嘟食谱 - 官方下载与安装指南</title>
+  <link rel="icon" type="image/png" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" href="./icons/icon-192.png">
+  <style>
+    * { margin:0; padding:0; box-sizing:border-box; -webkit-tap-highlight-color: transparent; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      background: #FDFBF7;
+      color: #2D241E;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px 16px;
+    }
+    .download-card {
+      background: #FFFFFF;
+      width: 100%;
+      max-width: 420px;
+      border-radius: 28px;
+      padding: 32px 24px;
+      box-shadow: 0 12px 36px rgba(220, 100, 30, 0.12), 0 2px 8px rgba(0,0,0,0.04);
+      border: 1px solid #F5E6D8;
+      text-align: center;
+    }
+    .app-icon {
+      width: 104px;
+      height: 104px;
+      border-radius: 24px;
+      box-shadow: 0 8px 24px rgba(255, 107, 53, 0.28);
+      margin: 0 auto 16px;
+      display: block;
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+      color: #1F1610;
+      margin-bottom: 6px;
+    }
+    .slogan {
+      font-size: 13.5px;
+      color: #8C7565;
+      margin-bottom: 12px;
+    }
+    .version-tag {
+      display: inline-block;
+      font-size: 11.5px;
+      font-weight: 700;
+      color: #FF5A26;
+      background: #FFF0EB;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 24px;
+    }
+    .action-box {
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      width: 100%;
+      padding: 15px 20px;
+      border-radius: 16px;
+      font-size: 16px;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #FF7338 0%, #FA4D32 100%);
+      color: #FFFFFF;
+      box-shadow: 0 6px 18px rgba(250, 77, 50, 0.35);
+      margin-bottom: 12px;
+    }
+    .btn-primary:active {
+      transform: scale(0.98);
+      box-shadow: 0 2px 8px rgba(250, 77, 50, 0.25);
+    }
+    .btn-secondary {
+      background: #FFF6F0;
+      color: #D94824;
+      border: 1px solid #FFD9C7;
+    }
+    .guide-card {
+      background: #FAFAF7;
+      border: 1px solid #EFEAE3;
+      border-radius: 18px;
+      padding: 16px 18px;
+      text-align: left;
+      margin-top: 16px;
+    }
+    .guide-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #2D241E;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .guide-steps {
+      font-size: 13px;
+      color: #59473B;
+      line-height: 1.7;
+      padding-left: 18px;
+    }
+    .guide-steps li {
+      margin-bottom: 6px;
+    }
+    .guide-steps strong {
+      color: #FA4D32;
+    }
+    .feature-list {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 24px;
+      padding-top: 18px;
+      border-top: 1px dashed #EAE2D8;
+      font-size: 12px;
+      color: #7A6555;
+    }
+    .feature-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 4px;
+    }
+    .feature-icon {
+      font-size: 20px;
+    }
+    .footer-copy {
+      margin-top: 24px;
+      font-size: 11px;
+      color: #B5A496;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="download-card">
+    <img class="app-icon" src="./icons/icon-192.png" alt="咕嘟食谱">
+    <h1>咕嘟食谱</h1>
+    <div class="slogan">旬味寻真 · 四季风物 · 全风味智能食谱</div>
+    <div class="version-tag">✨ v3.5.0 终极商业版</div>
+
+    <!-- 动态平台操作区域 -->
+    <div class="action-box" id="actionArea">
+      <!-- 默认展示双平台安装方案 -->
+      <a href="./gudu-recipe.apk" class="btn btn-primary" id="btnAndroid" download>
+        <span>🤖</span> 安卓手机直接下载安装包 (APK)
+      </a>
+      <a href="./index.html" class="btn btn-secondary" id="btnWeb">
+        <span>🍎</span> 苹果用户进入并添加到桌面
+      </a>
+    </div>
+
+    <!-- 平台指南区域 -->
+    <div class="guide-card" id="guideArea">
+      <div class="guide-title">
+        <span>💡</span> 极速安装使用指南
+      </div>
+      <ol class="guide-steps" id="guideSteps">
+        <li><strong>安卓用户</strong>：点击上方下载 APK，下载完成后直接点击「安装」（系统提示时选「允许安装」即可）。</li>
+        <li><strong>苹果 iPhone 用户</strong>：点击上方按钮在 Safari 中打开，点击底部中间 <strong>【分享按钮 ⎋】</strong>，往下滑选择 <strong>【添加到主屏幕 ⊞】</strong>，手机桌面立得专属独立 App！</li>
+      </ol>
+    </div>
+
+    <!-- 核心特性 -->
+    <div class="feature-list">
+      <div class="feature-item">
+        <span class="feature-icon">🍲</span>
+        <span>中华全味</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🛒</span>
+        <span>微信买菜清单</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">🧊</span>
+        <span>冰箱反向清库</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">⚡</span>
+        <span>离线极速秒开</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-copy">
+    © 2026 咕嘟食谱 Gudu Recipes · 唯有美食与爱不可辜负
+  </div>
+
+  <script>
+    const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    const isAndroid = /Android/.test(navigator.userAgent);
+    const guideArea = document.getElementById('guideArea');
+    const guideSteps = document.getElementById('guideSteps');
+    const btnAndroid = document.getElementById('btnAndroid');
+    const btnWeb = document.getElementById('btnWeb');
+
+    if (isIOS) {
+      btnWeb.className = 'btn btn-primary';
+      btnAndroid.className = 'btn btn-secondary';
+      guideSteps.innerHTML = `
+        <li>第一步：点击上方按钮，进入「咕嘟食谱」主页。</li>
+        <li>第二步：在 Safari 浏览器底部点击 <strong>【分享按钮 ⎋】</strong>。</li>
+        <li>第三步：向下滑动，选择 <strong>【添加到主屏幕 ⊞】</strong>。</li>
+        <li><strong>完成！</strong>手机桌面即刻生成独立猫猫大厨 App，全屏无网址栏，可断网离线使用！</li>
+      `;
+    } else if (isAndroid) {
+      guideSteps.innerHTML = `
+        <li>第一步：点击上方「安卓手机直接下载安装包」。</li>
+        <li>第二步：下载完成后点击打开安装包。</li>
+        <li>第三步：如系统弹出安全提示，点击 <strong>「允许从此外链安装」</strong> 或 <strong>「继续安装」</strong> 即可。</li>
+      `;
+    }
+  </script>
+</body>
+</html>

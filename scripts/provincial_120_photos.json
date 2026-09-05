@@ -1,0 +1,962 @@
+{
+  "rec_prov_001": {
+    "name": "湘派国宴头牌毛氏红烧肉",
+    "search": "毛氏红烧肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/255be6aa870b11e6a9a10242ac110002_490w_556h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_002": {
+    "name": "湘潭传统双色剁椒蒸大鱼头",
+    "search": "剁椒鱼头",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/8c1b23ba873311e6b87c0242ac110003_450w_624h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_003": {
+    "name": "永州名门东安子鸡",
+    "search": "东安子鸡",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/0a778f6c4c2a11e7947d0242ac110002_1280w_720h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_prov_004": {
+    "name": "衡东土菜头牌黄贡椒炒脆肚",
+    "search": "黄贡椒脆肚",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/c9360c046c7642f59e3819407e8c4847_2200w_1467h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_005": {
+    "name": "长沙老街秘制紫苏口味虾",
+    "search": "口味虾",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/dc35243d57294977866158b502d83d9c_1086w_869h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_prov_006": {
+    "name": "长沙经典香辣紫苏口味蟹",
+    "search": "口味蟹",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/109680e191274366a23e4b65140a3ab7_1124w_1374h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_007": {
+    "name": "常德传统茶油谷鸭钵",
+    "search": "谷鸭钵",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/d5f79a1fbfae4af09bbd4e670a7c69b8_1920w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_008": {
+    "name": "常德传统红油肥肠钵",
+    "search": "干锅肥肠",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/885eb7a9f9ab48008457c60a08444035_1440w_1078h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_009": {
+    "name": "常德传统红煨甲鱼土鸡钵",
+    "search": "甲鱼烧鸡",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/76c7d514e34811e6947d0242ac110002_1280w_856h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_010": {
+    "name": "长沙老街灌汁臭豆腐",
+    "search": "长沙臭豆腐",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/47994c63c1c249228a500a21da20eecd_959w_1280h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_prov_011": {
+    "name": "长沙大排档金牌麻辣烤猪手",
+    "search": "烤猪蹄",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/0a412d348bb211e6b87c0242ac110003_1620w_1080h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_012": {
+    "name": "浏阳传统豆豉蒸农家五花腊肉",
+    "search": "豆豉蒸腊肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/8ea8d902872311e6a9a10242ac110002_340w_255h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_013": {
+    "name": "浏阳传统蒸手撕刁子鱼干",
+    "search": "蒸刁子鱼",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/d78bb60c30d54382835e2550d5710ef2_931w_523h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_014": {
+    "name": "湖南传统秘制红煨甲鱼",
+    "search": "红煨甲鱼",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/3863f0c0889211e6b87c0242ac110003_640w_480h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_015": {
+    "name": "常德正宗红油黄牛肉米粉",
+    "search": "常德牛肉粉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/a6e82c96b89911e6947d0242ac110002_800w_532h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_016": {
+    "name": "湘味正宗小炒黄牛肉",
+    "search": "小炒黄牛肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/a91dbcf6814248e9a1184e2dd2f65e85_2101w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_017": {
+    "name": "湖南农家大椒炒肉拌饭汁",
+    "search": "辣椒炒肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/885215d1cf4b4060bf1bf7ed051713cd_1077w_1280h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_018": {
+    "name": "湘西农家土匪猪肝",
+    "search": "土匪猪肝",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/5491512d1e054d8fab3fcc243011158c_1060w_1383h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_019": {
+    "name": "湖南金牌酸辣鸡杂",
+    "search": "酸辣鸡杂",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/3abd4431f3ed4b81880de7b9fa695ac0_1280w_1699h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_020": {
+    "name": "金牌小炒拆骨肉荷包蛋",
+    "search": "拆骨肉荷包蛋",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/3919b5342bf511e7bc9d0242ac110002_2000w_1500h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_021": {
+    "name": "大蒜叶炒烟熏腊牛肉",
+    "search": "蒜苗炒腊牛肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/7b05a8d8e7674dff9281013f06267093_1280w_1705h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_022": {
+    "name": "邵阳传统猪血丸子炒腊肉",
+    "search": "猪血丸子炒腊肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/2b79b93e875311e6b87c0242ac110003_600w_800h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_023": {
+    "name": "湖南农家青椒紫苏煎黄瓜",
+    "search": "紫苏煎黄瓜",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/407a9acc5bbd4c8cbb8b26057a7b3d2f_2808w_4096h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_024": {
+    "name": "湖南农家擂辣椒茄子皮蛋",
+    "search": "擂辣椒茄子皮蛋",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/b18c651ce240464d89836bdc8e989c90_2448w_3264h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_025": {
+    "name": "湘味老坛酸豆角肉末",
+    "search": "酸豆角炒肉末",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/5f37650bda3a4c7b83b0e809d1f0e72c_960w_1280h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_026": {
+    "name": "韭菜紫苏爆炒小河虾",
+    "search": "韭菜炒河虾",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/ccca1baddf114a5cb53b68cf892e43d4_2592w_1728h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_027": {
+    "name": "攸县香干炒五花肉丝",
+    "search": "攸县香干炒肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/4f92690558a74cd1887ef4265001579f_2824w_4096h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_028": {
+    "name": "湘西老坛萝卜干炒腊肉丁",
+    "search": "萝卜干炒腊肉",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/8c1a4f6603654f31b7abd869eee80412_1252w_1876h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_029": {
+    "name": "猪油渣爆炒大蒜手撕包菜",
+    "search": "手撕包菜",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/6ea9fa0252a24845a72ad1220b0457aa_3024w_4030h.jpg",
+    "candidatesCount": 14
+  },
+  "rec_prov_030": {
+    "name": "湖南农家腊八豆炒土鸡蛋",
+    "search": "腊八豆炒鸡蛋",
+    "region": "湖南",
+    "sub": "hunan",
+    "photoUrl": "https://i2.chuimg.com/d0753036871611e6a9a10242ac110002_450w_600h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_031": {
+    "name": "徽州传统红烧臭鳜鱼",
+    "search": "臭鳜鱼",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/87685f5c4f1344ea81b61fdd701f7dd7_1008w_1008h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_prov_032": {
+    "name": "徽州传统两面煎毛豆腐配辣酱",
+    "search": "煎毛豆腐",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/43e0ecaecf2411e6947d0242ac110002_800w_533h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_033": {
+    "name": "徽州问政山笋煨刀板香",
+    "search": "问政山笋煨刀板香",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/8a1c74f9fa7545dea4a8a900c310b0f2_1920w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_034": {
+    "name": "徽州传统绩溪一品锅",
+    "search": "绩溪一品锅",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/6719665d27e4420ab3ef185e4dd7bc46_2560w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_035": {
+    "name": "淮南正宗牛肉汤配葱油烧饼",
+    "search": "淮南牛肉汤",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/14adee1ee4704d578993ad68bf18bec2_1080w_864h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_036": {
+    "name": "安徽宿州符离集五香烧鸡",
+    "search": "符离集烧鸡",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/38a2674a82a74870992d44213076cc6c_720w_1030h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_037": {
+    "name": "皖北传统炭火地锅鸡配贴饼",
+    "search": "地锅鸡",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/80dbe1dd0abb4c95893ba28db5bad446_1920w_1281h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_038": {
+    "name": "皖北传统铁锅炖地锅羊肉",
+    "search": "地锅羊肉",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/e670c4bde9f84ba4b588afdb57a84074_900w_600h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_039": {
+    "name": "合肥官府名菜李鸿章大杂烩",
+    "search": "李鸿章大杂烩",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/68136eacfd3d4806a35388cf0f2d4b22_1280w_1338h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_040": {
+    "name": "徽州名山珍品农家石耳炖土鸡",
+    "search": "石耳炖鸡",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/a4e8c2ef3224427db52f30e01b65a537_960w_1280h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_041": {
+    "name": "徽州传统腊八豆腐炒香肠",
+    "search": "腊八豆腐炒香肠",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/7775aee62eb14ec88f96abc7e72fc9f0_6048w_4024h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_042": {
+    "name": "绩溪传统徽州肉末炒粉丝",
+    "search": "徽州炒粉丝",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/3a0ea314d6a84b4a957c36dfebe45704_1000w_1332h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_043": {
+    "name": "皖南农家蒜苗炒刀板香腊肉",
+    "search": "蒜苗炒腊肉",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/9d3c9703db664edca75b11fefa6a95db_3213w_2568h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_044": {
+    "name": "徽州雪菜毛豆肉丝炒鲜笋",
+    "search": "雪菜毛豆肉丝",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/de424da760eb4558936e49cddaa7eb92_3024w_2419h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_045": {
+    "name": "皖北农家干豆角烧五花肉",
+    "search": "干豆角烧肉",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/0194a150870e11e6a9a10242ac110002_458w_690h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_046": {
+    "name": "徽州农家青椒炒野生葛粉皮",
+    "search": "炒葛粉皮",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/2c93c6ba8a4711e6a9a10242ac110002_480w_323h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_047": {
+    "name": "徽州生煎臭豆腐炒青红椒",
+    "search": "炒臭豆腐",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/243e6c228b9111e6b87c0242ac110003_1080w_1080h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_048": {
+    "name": "皖中家常芹菜炒香干肉丝",
+    "search": "芹菜炒香干肉丝",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/54ed605b34924f06b1c25002b012211e_2769w_4096h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_049": {
+    "name": "徽州梅干菜肉末炒小河鱼",
+    "search": "梅干菜炒小鱼",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/263133f688b811e6b87c0242ac110003_1136w_640h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_050": {
+    "name": "皖南农家咸菜炒苦瓜薄片",
+    "search": "咸菜炒苦瓜",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/4e53c8e842fa46a1a23182473f71d2b3_912w_684h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_051": {
+    "name": "皖北传统水烙馍卷馓子卤肉",
+    "search": "水烙馍",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/a893b22ffaff4275bb7beb298bb3d1be_1080w_1440h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_052": {
+    "name": "徽州家常浓酱煨冬瓜块",
+    "search": "红烧冬瓜",
+    "region": "安徽",
+    "sub": "anhui",
+    "photoUrl": "https://i2.chuimg.com/fc87993e026c40408a684309f4ccc550_3401w_2267h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_053": {
+    "name": "新疆炭火红柳生烤羊肉串",
+    "search": "红柳羊肉串",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/5856aba48ae811e6b87c0242ac110003_1280w_986h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_054": {
+    "name": "沙湾正宗爆炒大盘土鸡配皮带面",
+    "search": "大盘鸡",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/99a3111f8401437aa2a14b2ea589b2b9_1656w_1242h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_055": {
+    "name": "新疆传统白水煮手抓羊肉",
+    "search": "手抓羊肉",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/52b8af6de39e4e6cafd74b4f9ec00321_4096w_2731h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_056": {
+    "name": "乌鲁木齐传统馕坑肉烤包子",
+    "search": "烤包子",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/0c77a40481074f91b78702c60b853acd_4000w_3000h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_057": {
+    "name": "新疆传统手撕冷浸椒麻鸡",
+    "search": "新疆椒麻鸡",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/66206bf7d0b34a14aefae3c81148ca28_960w_1280h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_058": {
+    "name": "新疆传统羊排手抓饭",
+    "search": "抓饭",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/369982b4879311e6a9a10242ac110002_600w_600h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_059": {
+    "name": "兰州传统白条手抓羊肉配蒜汁",
+    "search": "兰州手抓羊肉",
+    "region": "甘肃",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/ee82276eb3b211e6bc9d0242ac110002_1280w_960h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_060": {
+    "name": "甘肃靖远正宗黄焖羊肉",
+    "search": "靖远黄焖羊肉",
+    "region": "甘肃",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/470afbbb8d3542f8b172e99ec802ebdd_864w_864h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_061": {
+    "name": "宁夏正宗盐池手抓滩羊肉",
+    "search": "盐池手抓羊肉",
+    "region": "宁夏",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/1f95e654ba834e18b2de6021d9e0171e_1280w_960h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_062": {
+    "name": "青海传统高原紫铜锅土火锅",
+    "search": "青海土火锅",
+    "region": "青海",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/c18ddb2488e511e6b87c0242ac110003_750w_750h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_063": {
+    "name": "新疆正宗家常辣皮子炒米粉",
+    "search": "新疆炒米粉",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/d4dbd05e876011e6a9a10242ac110002_480w_640h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_064": {
+    "name": "新疆辣皮子大火炒嫩羊肉片",
+    "search": "辣皮子炒肉",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/0e656cd83d5d11e7bc9d0242ac110002_2448w_3264h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_065": {
+    "name": "新疆孜然洋葱爆炒羊肉粒",
+    "search": "孜然羊肉",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/76d69fff07234083b45007e98ea2a103_864w_1080h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_066": {
+    "name": "新疆西红柿青椒炒烤肉盖馕",
+    "search": "炒烤肉抓饼",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/22b2f61a8a7011e6a9a10242ac110002_2048w_1536h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_067": {
+    "name": "新疆家常蒜苔炒风干牛肉",
+    "search": "蒜苔炒风干牛肉",
+    "region": "新疆",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/cfdbc19e750b4edd86e731d0760f7b0f_1080w_864h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_068": {
+    "name": "甘肃传统酸辣洋芋擦擦小炒",
+    "search": "洋芋擦擦",
+    "region": "甘肃",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/c98004959d4143f18535f404dccd7544_1280w_1164h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_prov_069": {
+    "name": "兰州红根韭黄肉丝小炒",
+    "search": "韭黄炒肉丝",
+    "region": "甘肃",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/890e7e5444a14786ad70be790f9d5a0a_1280w_1866h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_070": {
+    "name": "敦煌传统胡羊焖薄面饼",
+    "search": "胡羊焖饼",
+    "region": "甘肃",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/0e33d9a8f86c4e0e8b42b96a06ae4ba0_1920w_2542h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_071": {
+    "name": "青海干煸手揪面片炒羊肉",
+    "search": "炒面片",
+    "region": "青海",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/3c395feff2fa41bea7b573e8cb51c1fc_600w_400h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_072": {
+    "name": "青海青椒爆炒牦牛干巴肉",
+    "search": "炒牦牛肉",
+    "region": "青海",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/61bca4e08ba211e6a9a10242ac110002_1440w_1080h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_073": {
+    "name": "宁夏家常洋葱爆炒羊杂碎",
+    "search": "爆炒羊杂",
+    "region": "宁夏",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/5d33f4908b1711e6a9a10242ac110002_1440w_1080h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_074": {
+    "name": "兰州地道高担酿皮浇香醋辣油",
+    "search": "高担酿皮",
+    "region": "甘肃",
+    "sub": "xibei",
+    "photoUrl": "https://i2.chuimg.com/de9b6f80750d4aa6ae73e4deeeff0a84_828w_1792h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_075": {
+    "name": "贵州凯里正宗红酸汤江团鱼",
+    "search": "凯里酸汤鱼",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/45d6e7e0f1f511e6947d0242ac110002_1080w_810h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_076": {
+    "name": "贵州凯里传统红酸汤软烂猪手煲",
+    "search": "酸汤猪脚",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/f77aaf064eab4b4f9f46e3bc0c7e01c3_1280w_960h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_077": {
+    "name": "贵州遵义传统虾子羊肉粉",
+    "search": "遵义羊肉粉",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/5a4a31e44b464194af4c9d5f258833e3_1080w_1438h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_078": {
+    "name": "贵阳传统青岩古镇卤猪脚",
+    "search": "青岩卤猪脚",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/9d1c48fa278d4eff926a9f61363c6f8f_1280w_854h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_079": {
+    "name": "云南宜良传统松毛炭烤麻鸭",
+    "search": "宜良烤鸭",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/608b6284870e11e6b87c0242ac110003_467w_700h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_080": {
+    "name": "建水古城传统炭火烤小豆腐",
+    "search": "建水烤豆腐",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/c32ca026865c468f82f7969833ae8e48_3024w_4032h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_081": {
+    "name": "大理传统瓦片烤白族纯乳扇",
+    "search": "烤乳扇",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/84dce77e875f11e6a9a10242ac110002_529w_400h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_prov_082": {
+    "name": "西双版纳傣味香茅草烤罗非鱼",
+    "search": "香茅草烤鱼",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/8871374d604043449a3718a5116d3b9b_6720w_4480h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_083": {
+    "name": "腾冲传统大救驾炒饵块",
+    "search": "大救驾",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/75d329d48e064627bfe00e9894a577fa_1080w_1438h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_084": {
+    "name": "云南红河哈尼蘸水白斩土鸡",
+    "search": "哈尼蘸水鸡",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/c804f82daffc4863b091ff43e10a6c99_1000w_750h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_085": {
+    "name": "云南经典下饭招牌黑三剁",
+    "search": "黑三剁",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/f575e5053e234e429e469ec0805a430e_1280w_856h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_prov_086": {
+    "name": "云南酸甜清爽家常红三剁",
+    "search": "红三剁",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/e602abb8eb274fdb869bdfdc7b16b1df_1080w_864h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_087": {
+    "name": "云南鲜薄荷爆炒鲜嫩牛肉",
+    "search": "薄荷炒牛肉",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/534f25f52cb74516a7fe755dd4d04e3f_1440w_1080h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_088": {
+    "name": "宣威火腿炒春嫩青蚕豆",
+    "search": "火腿炒蚕豆",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/2c7c3ed0654a11e7947d0242ac110002_1280w_1024h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_089": {
+    "name": "云南皱皮椒炒洋芋厚片",
+    "search": "皱皮椒炒洋芋",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/43933b7386424a6d8a1cc88dc23cd737_1280w_1238h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_090": {
+    "name": "云南苦菜炒酸菜肉末",
+    "search": "苦菜炒肉沫",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/8af0546ca02a46b0afb1a4b552cb3dfe_1080w_1920h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_091": {
+    "name": "昆明农家老奶洋芋焦香版",
+    "search": "老奶洋芋",
+    "region": "云南",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/50bc3a1ef27c4cbb861e6bfde7b57294_2560w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_092": {
+    "name": "贵州农家折耳根炒烟熏腊肉",
+    "search": "折耳根炒腊肉",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/05e9ae2e59a44884a2a52e268e27ad07_1328w_1242h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_093": {
+    "name": "贵州家常糟辣椒炒土鸡蛋",
+    "search": "糟辣椒炒蛋",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/b70106e33bce4baa834401850b5c7403_750w_600h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_094": {
+    "name": "贵州特色糊辣椒爆炒猪板筋",
+    "search": "爆炒板筋",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/2d37228a83e841498bfacd61ea31c4b8_2092w_1674h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_095": {
+    "name": "贵州酸豇豆肉末爆炒野山椒",
+    "search": "酸豇豆炒肉末",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/f228ee5686fe11e6b87c0242ac110003_640w_426h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_prov_096": {
+    "name": "贵州盐菜炒五花肉末焦香碎",
+    "search": "盐菜炒肉末",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/ab7f17e917124e0d91dc4acae17307fe_1000w_750h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_097": {
+    "name": "贵阳现炸豆腐圆子灌酸辣汁",
+    "search": "豆腐圆子",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/aee1220cbf9d428e8879c7ab7f37330c_800w_532h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_098": {
+    "name": "贵阳传统丝娃娃配时蔬丝",
+    "search": "丝娃娃",
+    "region": "贵州",
+    "sub": "dianqian",
+    "photoUrl": "https://i2.chuimg.com/b6d4d1528a6511e6a9a10242ac110002_3264w_2448h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_099": {
+    "name": "山西正宗传统名菜过油肉",
+    "search": "山西过油肉",
+    "region": "山西",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/f488d3b338bc4d889865d368ed0c3fc9_973w_946h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_100": {
+    "name": "平遥传统冠云五香牛肉块",
+    "search": "平遥牛肉",
+    "region": "山西",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/ebafb2f707e5468c94cbb4e181a64b2e_698w_804h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_prov_101": {
+    "name": "定襄传统名席土豆蒸肉",
+    "search": "定襄蒸肉",
+    "region": "山西",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/3de9b050874011e6b87c0242ac110003_500w_637h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_102": {
+    "name": "开封传统黄河鲤鱼焙面",
+    "search": "鲤鱼焙面",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/8b56370288ce11e6a9a10242ac110002_400w_246h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_103": {
+    "name": "洛阳水席头牌牡丹燕菜",
+    "search": "牡丹燕菜",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/803e9e0a872e11e6a9a10242ac110002_539w_434h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_prov_104": {
+    "name": "河南道口传统世传五香烧鸡",
+    "search": "道口烧鸡",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/83e2b4b4882911e6a9a10242ac110002_640w_640h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_105": {
+    "name": "信阳传统固始大铁锅地锅鸡",
+    "search": "固始地锅鸡",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/7e357397f5314629ace249355f3d526f_3024w_3024h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_106": {
+    "name": "天津老字号金黄带鳞罾蹦鲤鱼",
+    "search": "罾蹦鲤鱼",
+    "region": "天津",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/27acc52b59284003af545add7915755f_1920w_1080h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_prov_107": {
+    "name": "天津传统名菜八大碗老爆三",
+    "search": "天津老爆三",
+    "region": "天津",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/998d98b251694d359adfaec4261deb98_1500w_1124h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_108": {
+    "name": "天津传统八大碗之红烧独面筋",
+    "search": "独面筋",
+    "region": "天津",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/a72901f28a6e11e6a9a10242ac110002_2048w_1627h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_109": {
+    "name": "山西五台山野山台蘑炒肉片",
+    "search": "台蘑炒肉片",
+    "region": "山西",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/908aafb2f7ed11e6bc9d0242ac110002_1560w_2080h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_110": {
+    "name": "山西正宗宁化府陈醋溜土豆丝",
+    "search": "醋溜土豆丝",
+    "region": "山西",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/d262faefc467487e8f3b8aee7ea08045_1909w_1125h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_prov_111": {
+    "name": "山西大葱花蒜薹炒黄牛里脊",
+    "search": "葱爆牛肉",
+    "region": "山西",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/4ace35a8a72911e6947d0242ac110002_1275w_850h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_prov_112": {
+    "name": "山西传统尖椒大火爆炒干豆腐",
+    "search": "尖椒干豆腐",
+    "region": "山西",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/620a300198004b04a7389b77f6d889a4_861w_861h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_113": {
+    "name": "河南五花肉豆角传统蒸卤面",
+    "search": "河南蒸卤面",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/44801f4ffcf9465399bd03292f0f0be9_3024w_4032h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_114": {
+    "name": "河南传统十三香鸡蛋炒红薯凉粉",
+    "search": "炒凉粉",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/d5193c95296a4e0984aa197d58ddc1d3_874w_699h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_115": {
+    "name": "河南荆芥大蒜汁凉拌嫩黄瓜",
+    "search": "荆芥拌黄瓜",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/95f2caa10f374b66a803dd3f41afa06e_1088w_1632h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_116": {
+    "name": "河南农家蒜苔炒五花肉丝",
+    "search": "蒜苔炒肉丝",
+    "region": "河南",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/5d8a7138878611e6b87c0242ac110003_616w_616h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_117": {
+    "name": "保定传统槐茂甜面酱炒肉丝",
+    "search": "京酱肉丝",
+    "region": "河北",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/66a79c4686ff11e6a9a10242ac110002_412w_550h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_prov_118": {
+    "name": "河北正定传统热切丸子炒青蒜",
+    "search": "热切丸子",
+    "region": "河北",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/6a05558db4344407857e491ff6e27cd7_744w_992h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_119": {
+    "name": "唐山传统小火炉棋子烧饼夹肉",
+    "search": "棋子烧饼",
+    "region": "河北",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/2dc7013ee7a611e6947d0242ac110002_1280w_960h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_prov_120": {
+    "name": "天津正宗纯绿豆面煎饼馃子",
+    "search": "天津煎饼果子",
+    "region": "天津",
+    "sub": "zhongyuan",
+    "photoUrl": "https://i2.chuimg.com/9932636c3e564e73bc31b63f591b0594_750w_600h.jpg",
+    "candidatesCount": 18
+  }
+}

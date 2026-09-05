@@ -1,0 +1,1725 @@
+/* ==========================================================================
+   🍲 咕嘟食谱 - Apple 轻奢极简设计系统 (Apple Light Luxury Culinary Design)
+   调性：超细致毛玻璃、苹果级留白与字体层级、细腻灰阶、暖金微光点缀
+   ========================================================================== */
+
+:root {
+  /* 苹果轻奢色盘 */
+  --bg-page: #F5F5F7;
+  --bg-card: #FFFFFF;
+  --bg-subtle: rgba(0, 0, 0, 0.035);
+  --bg-hover: rgba(0, 0, 0, 0.06);
+  --bg-glass: rgba(255, 255, 255, 0.84);
+
+  --text-main: #1D1D1F;
+  --text-secondary: #6E6E73;
+  --text-muted: #86868B;
+  --text-white: #FFFFFF;
+
+  /* 优雅点缀色 (钛金琥珀与经典红蓝与活力橙) */
+  --primary-color: #FF6B35;
+  --primary-color-hover: #F0551E;
+  --apple-accent: #B06830;
+  --apple-accent-light: rgba(176, 104, 48, 0.08);
+  --apple-blue: #0071E3;
+  --apple-green: #34C759;
+  --apple-green-light: rgba(52, 199, 89, 0.12);
+
+  /* 边框与精致微阴影 */
+  --border-color: rgba(0, 0, 0, 0.07);
+  --border-light: rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.03);
+  --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.04);
+  --shadow-hover: 0 12px 36px rgba(0, 0, 0, 0.08);
+  --shadow-dock: 0 12px 40px rgba(0, 0, 0, 0.14);
+
+  /* 圆角与过渡动画 */
+  --radius-xs: 8px;
+  --radius-sm: 12px;
+  --radius-md: 18px;
+  --radius-lg: 24px;
+  --radius-full: 9999px;
+
+  --transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  --sat: env(safe-area-inset-top, 0px);
+  --sab: env(safe-area-inset-bottom, 0px);
+}
+
+/* 基础重置 */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-tap-highlight-color: transparent;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+  background-color: var(--bg-page);
+  color: var(--text-main);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  padding-bottom: 110px;
+  letter-spacing: -0.01em;
+}
+
+.app-container {
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* 顶部常驻导航栏 (Apple 标准轻奢，移除非必需毛玻璃保流畅) */
+.header-bar {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(245, 245, 247, 0.98);
+  border-bottom: 0.5px solid var(--border-color);
+  padding-top: max(var(--sat), 14px);
+  padding-bottom: 12px;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+}
+
+.brand-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.brand-icon {
+  width: 38px;
+  height: 38px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 3px 10px rgba(255, 107, 53, 0.25);
+  display: block;
+}
+
+.header-action-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--text-main);
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  position: relative;
+}
+
+.header-action-btn:hover {
+  background: var(--bg-page);
+  transform: translateY(-1px);
+}
+
+.header-fav-count {
+  background: #FF6B35;
+  color: #FFF;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+}
+
+.brand-text h1 {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.brand-text .slogan {
+  font-size: 11px;
+  color: var(--text-muted);
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+
+.header-actions {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+/* Apple 胶囊按钮 */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 8px 16px;
+  border-radius: var(--radius-full);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+  border: 1px solid transparent;
+  outline: none;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.btn-primary {
+  background: var(--text-main);
+  color: var(--text-white);
+}
+.btn-primary:hover {
+  background: #000000;
+  transform: translateY(-1px);
+}
+
+.btn-outline {
+  background: #FFFFFF;
+  color: var(--text-main);
+  border-color: var(--border-color);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.02);
+}
+.btn-outline:hover {
+  background: var(--bg-hover);
+  border-color: rgba(0, 0, 0, 0.12);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: var(--text-secondary);
+}
+.btn-ghost:hover {
+  background: var(--bg-subtle);
+  color: var(--text-main);
+}
+
+.btn-sm {
+  padding: 6px 13px;
+  font-size: 12px;
+}
+
+/* 顶部极简搜索栏 */
+.search-section {
+  margin: 20px 0 16px;
+}
+
+.search-input-wrapper {
+  position: relative;
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+.search-input {
+  width: 100%;
+  height: 46px;
+  padding: 0 20px 0 44px;
+  border-radius: var(--radius-full);
+  border: 0.5px solid var(--border-color);
+  background: #FFFFFF;
+  font-size: 14px;
+  color: var(--text-main);
+  outline: none;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+
+.search-input:focus {
+  border-color: var(--apple-accent);
+  box-shadow: 0 0 0 3px var(--apple-accent-light);
+}
+
+.search-icon {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--text-muted);
+  font-size: 16px;
+  pointer-events: none;
+}
+
+/* 节令食俗横幅 (Apple 极简白底卡片) */
+.season-banner {
+  margin: 0 0 18px;
+  padding: 16px 20px;
+  border-radius: var(--radius-md);
+  background: #FFFFFF;
+  border: 0.5px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.season-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.season-solar-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.solar-pill {
+  padding: 3px 10px;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  color: var(--apple-accent);
+  font-size: 11.5px;
+  font-weight: 600;
+  border: 0.5px solid var(--border-light);
+}
+
+.solar-name {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+}
+
+.season-switches {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg-subtle);
+  padding: 3px;
+  border-radius: var(--radius-full);
+}
+
+.season-tab {
+  padding: 4px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--text-secondary);
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.season-tab.active {
+  background: #FFFFFF;
+  color: var(--text-main);
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+}
+
+.season-quote {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 12px;
+}
+
+.season-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.season-btn-main {
+  background: var(--bg-card);
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.season-btn-main:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.season-btn-main.active {
+  background: var(--primary-color) !important;
+  color: #FFFFFF !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.35);
+}
+
+.season-btn-shuffle {
+  background: var(--bg-card);
+  color: var(--text-main);
+  border: 1px solid var(--border-color);
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.season-btn-shuffle:hover {
+  background: #FFF5F0;
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.season-btn-shuffle:active {
+  transform: scale(0.96);
+}
+
+.season-btn-shuffle .shuffle-icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.season-btn-shuffle:active .shuffle-icon {
+  transform: rotate(180deg);
+}
+
+.season-fish-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--bg-card);
+  padding: 5px 12px;
+  border-radius: var(--radius-full);
+  font-size: 12px;
+  color: var(--text-secondary);
+  border: 1px solid var(--border-color);
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.season-fish-tag:hover {
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+}
+
+.season-fish-tag.active {
+  background: var(--primary-color) !important;
+  color: #FFFFFF !important;
+  border-color: var(--primary-color) !important;
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.35);
+}
+
+.season-fish-tag.active .tag-badge {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* 分类导航 Tabs (Apple 分段滑块 Capsule 样式) */
+.category-tabs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 4px 0 14px;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+}
+.category-tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.cat-tab {
+  flex-shrink: 0;
+  padding: 7px 16px;
+  font-size: 13px;
+  font-weight: 500;
+  border-radius: var(--radius-full);
+  background: transparent;
+  color: var(--text-secondary);
+  border: 1px solid transparent;
+  transition: var(--transition);
+  cursor: pointer;
+}
+.cat-tab:hover {
+  color: var(--text-main);
+  background: var(--bg-subtle);
+}
+.cat-tab.active {
+  background: #FFFFFF;
+  color: var(--text-main);
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+  border-color: var(--border-light);
+}
+
+/* 二级细分过滤器 */
+.sub-filter-bar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  overflow-x: auto;
+  padding-bottom: 14px;
+  scrollbar-width: none;
+}
+.sub-filter-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.sub-chip, .sub-pill {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  border: 0.5px solid var(--border-color);
+  font-size: 12px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  white-space: nowrap;
+  writing-mode: horizontal-tb;
+  transition: var(--transition);
+  box-shadow: var(--shadow-sm);
+}
+.sub-chip:hover, .sub-pill:hover {
+  border-color: rgba(0, 0, 0, 0.15);
+}
+.sub-chip.active, .sub-pill.active {
+  background: var(--text-main);
+  color: #FFFFFF;
+  border-color: var(--text-main);
+}
+
+/* 食谱网格流 */
+.recipe-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+/* 食谱卡片 (Apple 极简轻奢圆角，GPU隔离加速与4:3全景餐盘画幅) */
+.recipe-card {
+  contain: content;
+  background: var(--bg-card);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  border: 0.5px solid var(--border-color);
+  box-shadow: var(--shadow-card);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.recipe-card:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-hover);
+}
+
+.card-media,
+.card-img-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: #E5E5EA;
+}
+
+.card-media img,
+.card-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center center;
+  display: block;
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.recipe-card:hover .card-media img,
+.recipe-card:hover .card-img {
+  transform: scale(1.03);
+}
+
+.card-tag-pill {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  color: var(--text-main);
+  font-size: 11px;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card-quick-add {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(12px);
+  color: var(--text-main);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+  font-weight: 600;
+  border: none;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+  transition: var(--transition);
+  z-index: 2;
+}
+.card-quick-add:hover {
+  background: var(--text-main);
+  color: #fff;
+  transform: scale(1.08);
+}
+.card-quick-add.in-cart {
+  background: var(--apple-green);
+  color: #FFFFFF;
+}
+
+.card-body {
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.card-title {
+  font-size: 15px;
+  font-weight: 700;
+  color: var(--text-main);
+  line-height: 1.35;
+  margin-bottom: 4px;
+  letter-spacing: -0.01em;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-subtitle {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.45;
+  margin-bottom: 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.card-meta-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: auto;
+  padding-top: 8px;
+  border-top: 0.5px solid var(--border-light);
+}
+
+.card-meta-row .score {
+  color: var(--apple-accent);
+  font-weight: 700;
+}
+
+/* ==========================================================================
+   标准 iOS 底部生态 Tab 栏 (Standard iOS Ecosystem Tab Bar)
+   ========================================================================== */
+.ios-tab-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 120;
+  background: #FFFFFF;
+  border-top: 0.5px solid rgba(0, 0, 0, 0.12);
+  padding-bottom: max(var(--sab), 8px);
+  box-shadow: 0 -1px 8px rgba(0, 0, 0, 0.04);
+}
+
+.ios-tab-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 50px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.ios-tab-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 3px 0;
+  gap: 2px;
+  color: #8E8E93;
+  transition: color 0.15s ease, transform 0.15s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.ios-tab-btn:active {
+  transform: scale(0.92);
+}
+
+.ios-tab-btn.active {
+  color: var(--apple-accent);
+}
+
+.ios-tab-icon {
+  font-size: 21px;
+  line-height: 1;
+}
+
+.ios-tab-label {
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.ios-tab-btn.active .ios-tab-label {
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.ios-tab-btn .cart-count-badge {
+  position: absolute;
+  top: 1px;
+  right: 50%;
+  margin-right: -24px;
+}
+
+/* 列表底部分页加载指示器 */
+.load-more-container {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 24px 0 20px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+.load-more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 24px;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  border: 0.5px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+.load-more-btn:hover {
+  background: var(--bg-hover);
+  color: var(--text-main);
+}
+
+.cart-count-badge {
+  background: #FF3B30;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
+  margin-left: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 18px;
+  height: 18px;
+  line-height: 1;
+}
+
+/* 浮动菜单托盘 */
+.cart-tray {
+  display: none; /* 已被轻奢底部坞取代 */
+}
+
+/* ==========================================================================
+   微信买菜清单与好友分工领菜弹窗 (Apple 极简设计)
+   ========================================================================== */
+.ios-segmented-control {
+  display: flex;
+  background: var(--bg-subtle);
+  padding: 3px;
+  border-radius: var(--radius-full);
+  gap: 4px;
+}
+
+.ios-segment-btn {
+  flex: 1;
+  padding: 8px 12px;
+  border-radius: var(--radius-full);
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  font-size: 13px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.ios-segment-btn.active {
+  background: #FFFFFF;
+  color: var(--text-main);
+  font-weight: 600;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.ios-servings-picker {
+  display: flex;
+  background: var(--bg-subtle);
+  padding: 2px;
+  border-radius: var(--radius-full);
+  gap: 2px;
+}
+
+.ios-serv-btn {
+  padding: 3px 10px;
+  font-size: 12px;
+  border-radius: var(--radius-full);
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+.ios-serv-btn.active {
+  background: #FFFFFF;
+  color: var(--text-main);
+  font-weight: 600;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+.ios-list-group {
+  background: #FFFFFF;
+  border: 0.5px solid var(--border-color);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.ios-group-title {
+  padding: 12px 16px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-secondary);
+  background: var(--bg-page);
+  border-bottom: 0.5px solid var(--border-color);
+}
+
+.ios-check-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border-bottom: 0.5px solid var(--border-light);
+  cursor: pointer;
+  transition: var(--transition);
+}
+.ios-check-row:last-child {
+  border-bottom: none;
+}
+.ios-check-row:hover {
+  background: var(--bg-hover);
+}
+
+.ios-check-indicator {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 1.5px solid #C7C7CC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  flex-shrink: 0;
+  transition: var(--transition);
+}
+
+.ios-checkmark {
+  color: transparent;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.ios-check-row.checked .ios-check-indicator {
+  background: var(--apple-green);
+  border-color: var(--apple-green);
+}
+.ios-check-row.checked .ios-checkmark {
+  color: #fff;
+}
+.ios-check-row.checked .ios-item-name {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
+.ios-check-info {
+  flex: 1;
+}
+.ios-item-name {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+.ios-sub-info {
+  font-size: 12px;
+  color: var(--apple-accent);
+  font-weight: normal;
+}
+.ios-item-source {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+.ios-item-amount {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--apple-accent);
+}
+
+/* 好友分工领菜卡片 */
+.ios-claim-banner {
+  background: var(--apple-accent-light);
+  color: var(--apple-accent);
+  padding: 12px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  line-height: 1.5;
+  margin-bottom: 14px;
+}
+
+.ios-claim-box {
+  background: #FFFFFF;
+  border: 0.5px solid var(--border-color);
+  border-radius: var(--radius-md);
+  padding: 14px 16px;
+  box-shadow: var(--shadow-sm);
+}
+
+.ios-claim-box-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.ios-claim-title-area {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex: 1;
+}
+
+.ios-claim-icon {
+  font-size: 24px;
+}
+
+.ios-claim-group-name {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 3px;
+}
+
+.ios-claim-desc {
+  font-size: 12px;
+  color: var(--text-secondary);
+  line-height: 1.4;
+}
+
+.ios-claim-btn {
+  padding: 7px 16px;
+  border-radius: var(--radius-full);
+  background: var(--text-main);
+  color: #FFFFFF;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: var(--transition);
+}
+.ios-claim-btn.claimed {
+  background: var(--apple-green);
+}
+
+.ios-btn-apple-primary {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 13px 20px;
+  border-radius: var(--radius-full);
+  background: #1D1D1F;
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.ios-btn-apple-primary:hover {
+  background: #000000;
+  transform: translateY(-1px);
+}
+
+.ios-btn-apple-secondary {
+  padding: 13px 20px;
+  border-radius: var(--radius-full);
+  background: var(--bg-subtle);
+  color: var(--text-main);
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  cursor: pointer;
+}
+
+/* 弹窗通用系统 */
+.modal-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.25s ease, visibility 0.25s ease;
+}
+
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+#detailModal {
+  z-index: 300 !important;
+}
+
+.modal-box {
+  background: #FFFFFF;
+  border-radius: var(--radius-lg);
+  max-width: 680px;
+  width: 100%;
+  max-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  box-shadow: var(--shadow-hover);
+  transform: scale(0.96);
+  transition: transform 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.modal-overlay.active .modal-box {
+  transform: scale(1);
+}
+
+.modal-header {
+  padding: 16px 20px;
+  border-bottom: 0.5px solid var(--border-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFFFFF;
+}
+
+.modal-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+}
+
+.modal-close {
+  background: var(--bg-subtle);
+  border: none;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  min-height: 36px;
+  border-radius: 50%;
+  font-size: 20px;
+  color: var(--text-secondary);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+  transition: var(--transition);
+  touch-action: manipulation;
+}
+.modal-close:hover {
+  background: var(--bg-hover);
+  color: var(--text-main);
+}
+
+.modal-body {
+  padding: 20px;
+  overflow-y: auto;
+  flex: 1;
+}
+
+/* 详情弹窗 */
+.detail-banner-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--radius-md);
+  object-fit: cover;
+  object-position: center center;
+  margin-bottom: 16px;
+  background: #E5E5EA;
+  display: block;
+}
+
+.detail-title {
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 6px;
+  letter-spacing: -0.02em;
+}
+
+.detail-desc {
+  font-size: 13.5px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+  margin-bottom: 16px;
+}
+
+.servings-controller {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background: var(--bg-subtle);
+  border-radius: var(--radius-sm);
+  margin-bottom: 20px;
+}
+
+.ing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.ing-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 14px;
+  background: var(--bg-page);
+  border-radius: var(--radius-sm);
+  border: 0.5px solid var(--border-light);
+  font-size: 13px;
+}
+
+.ing-name {
+  font-weight: 600;
+  color: var(--text-main);
+}
+.ing-amount {
+  color: var(--apple-accent);
+  font-weight: 600;
+}
+
+.steps-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.step-card {
+  padding: 14px 16px;
+  border-radius: var(--radius-sm);
+  background: var(--bg-page);
+  border: 0.5px solid var(--border-light);
+}
+
+.step-num {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.step-text {
+  font-size: 13px;
+  color: var(--text-secondary);
+  line-height: 1.6;
+}
+
+.step-tip {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: var(--radius-xs);
+  background: #FFF9E6;
+  border: 0.5px solid #FFE58F;
+  font-size: 12px;
+  color: #874D00;
+  line-height: 1.4;
+}
+
+.modal-action-bar {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+/* 冰箱清库弹窗 */
+.fridge-tag-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+.fridge-chip {
+  padding: 6px 14px;
+  border-radius: var(--radius-full);
+  background: #FFFFFF;
+  border: 0.5px solid var(--border-color);
+  font-size: 13px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+.fridge-chip.selected {
+  background: var(--text-main);
+  color: #fff;
+  border-color: var(--text-main);
+}
+
+/* 大字烹饪工作台 */
+.cooking-mode-overlay {
+  position: fixed;
+  inset: 0;
+  background: #000000;
+  color: #FFFFFF;
+  z-index: 300;
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--transition);
+}
+.cooking-mode-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.cook-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cook-step-title {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #FFF;
+}
+.cook-step-text {
+  font-size: 20px;
+  line-height: 1.7;
+  color: #D1D1D6;
+  margin-bottom: 24px;
+}
+.cook-timer-display {
+  font-size: 52px;
+  font-family: -apple-system, monospace;
+  font-weight: 700;
+  color: #FF9500;
+  margin: 16px 0;
+}
+
+/* 响应式适配 */
+@media (max-width: 768px) {
+  .recipe-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+  .app-container {
+    padding: 0 14px;
+  }
+  .card-body {
+    padding: 10px 12px;
+  }
+  .card-title {
+    font-size: 14px;
+  }
+  .ios-dock-item {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 480px) {
+  .modal-box {
+    border-radius: var(--radius-md);
+  }
+  .modal-body {
+    padding: 16px;
+  }
+  .header-actions .btn {
+    padding: 6px 10px;
+    font-size: 11.5px;
+  }
+}
+
+/* 🎲 今天吃什么 · 智能合菜/组餐生成器 */
+.meal-planner-entry {
+  background: linear-gradient(135deg, rgba(255, 107, 53, 0.08) 0%, rgba(255, 149, 0, 0.12) 100%);
+  border: 1.5px solid rgba(255, 107, 53, 0.25);
+  border-radius: var(--radius-lg);
+  padding: 14px 18px;
+  margin-bottom: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 2px 10px rgba(255, 107, 53, 0.06);
+}
+
+.meal-planner-entry:hover {
+  transform: translateY(-1px);
+  border-color: var(--primary-color);
+  box-shadow: 0 4px 16px rgba(255, 107, 53, 0.15);
+}
+
+.meal-planner-entry-left {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.meal-planner-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--primary-color);
+  color: #FFFFFF;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 12px;
+  width: fit-content;
+}
+
+.meal-planner-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--text-main);
+  letter-spacing: -0.01em;
+}
+
+.meal-planner-sub {
+  font-size: 12px;
+  color: var(--text-secondary);
+}
+
+.meal-planner-btn {
+  background: var(--primary-color);
+  color: #FFFFFF;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.3);
+  transition: transform 0.2s ease;
+  white-space: nowrap;
+}
+
+.meal-planner-btn:active {
+  transform: scale(0.96);
+}
+
+/* 组餐规格胶囊 */
+.spec-selector {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 16px;
+  overflow-x: auto;
+  padding-bottom: 4px;
+}
+
+.spec-pill {
+  flex: 1;
+  min-width: 80px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px;
+}
+
+.spec-pill.active {
+  background: rgba(255, 107, 53, 0.08);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 700;
+  box-shadow: 0 2px 8px rgba(255, 107, 53, 0.15);
+}
+
+.spec-pill-title {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.spec-pill-desc {
+  font-size: 10.5px;
+  color: var(--text-muted);
+}
+
+/* 偏好筛选小项 */
+.preference-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--bg-subtle);
+  padding: 10px 14px;
+  border-radius: var(--radius-md);
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+
+/* 组餐菜品卡片列表 */
+.meal-dishes-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.meal-dish-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-md);
+  transition: all 0.2s ease;
+}
+
+.meal-dish-row:hover {
+  border-color: var(--primary-color);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.meal-dish-thumb {
+  width: 60px;
+  height: 60px;
+  border-radius: var(--radius-sm);
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.meal-dish-meta {
+  flex: 1;
+  min-width: 0;
+}
+
+.meal-dish-name {
+  font-size: 14.5px;
+  font-weight: 700;
+  color: var(--text-main);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 3px;
+}
+
+.meal-dish-tags {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 11px;
+}
+
+.meal-role-badge {
+  background: rgba(255, 107, 53, 0.1);
+  color: var(--primary-color);
+  padding: 1px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.meal-dish-swap-btn {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 16px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.2s ease;
+  flex-shrink: 0;
+}
+
+.meal-dish-swap-btn:hover {
+  background: var(--primary-color);
+  color: #FFFFFF;
+  border-color: var(--primary-color);
+}
+
+/* ==========================================================================
+   🏢 商业化升级样式系统 (Commercial Grade Component Styles)
+   ========================================================================== */
+
+/* 卡片收藏爱心按钮 */
+.card-fav-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  z-index: 5;
+}
+
+.card-fav-btn:hover {
+  transform: scale(1.15);
+  background: #FFFFFF;
+}
+
+.card-fav-btn.is-fav {
+  background: #FFF1F0;
+  border-color: #FFA39E;
+  color: #F5222D;
+}
+
+.card-fav-btn.is-fav span {
+  filter: drop-shadow(0 1px 2px rgba(245, 34, 45, 0.3));
+}
+
+/* 微信买菜清单一键复制提示 Toast */
+.gudu-toast {
+  position: fixed;
+  top: 24px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-20px);
+  background: rgba(29, 29, 31, 0.94);
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border-radius: var(--radius-full);
+  font-size: 13.5px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  z-index: 10000;
+  opacity: 0;
+  pointer-events: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.gudu-toast.active {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* 烹饪工作台步骤顶部进度条 */
+.cook-progress-container {
+  width: 100%;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 2px;
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.cook-progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, #FF6B35, #FFAA00);
+  border-radius: 2px;
+  transition: width 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* 商业级品牌 Footer */
+.commercial-footer {
+  margin-top: 60px;
+  padding: 40px 20px 100px;
+  background: #FFFFFF;
+  border-top: 1px solid var(--border-color);
+  color: var(--text-secondary);
+  font-size: 12.5px;
+}
+
+.commercial-footer-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.footer-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-brand-icon {
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(255, 107, 53, 0.22);
+  display: block;
+}
+
+.footer-brand-title {
+  font-size: 16px;
+  font-weight: 800;
+  color: var(--text-main);
+  line-height: 1.2;
+}
+
+.footer-brand-slogan {
+  font-size: 11.5px;
+  color: var(--text-muted);
+}
+
+.footer-version-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-color);
+  padding: 4px 10px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+.footer-notice-box {
+  background: var(--bg-page);
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius-sm);
+  padding: 14px 16px;
+  line-height: 1.6;
+  font-size: 11.5px;
+}
+
+.footer-notice-box strong {
+  color: var(--text-main);
+}
+
+.footer-links-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  border-top: 1px solid var(--border-light);
+  padding-top: 16px;
+  font-size: 12px;
+}
+
+.footer-nav-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-nav-link {
+  color: var(--text-secondary);
+  text-decoration: none;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footer-nav-link:hover {
+  color: var(--primary-color);
+}
+
+.footer-copyright {
+  color: var(--text-muted);
+  font-size: 11.5px;
+}
+
+

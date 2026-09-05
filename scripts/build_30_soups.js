@@ -1,0 +1,1744 @@
+const fs = require('fs');
+const path = require('path');
+
+const photos = JSON.parse(fs.readFileSync(path.join(__dirname, 'soup_photos_found.json'), 'utf8'));
+
+const soups = [
+  {
+    id: "rec_soup_01",
+    name: "江南传统名汤腌笃鲜",
+    region: "江南/淮扬",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煨",
+    calories: 360,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "江南农家上好咸五花肉", amount: 200, unit: "g", type: "main", isCore: true, substitutes: ["金华火腿", "老腊肉"] },
+      { name: "新鲜黑猪前腿肉或五花肉", amount: 250, unit: "g", type: "main", isCore: true },
+      { name: "早春鲜竹笋或雷笋", amount: 300, unit: "g", type: "main", isCore: true, substitutes: ["冬笋", "扁尖"] },
+      { name: "传统手工薄百叶结", amount: 150, unit: "g", type: "secondary", isCore: false },
+      { name: "生姜厚片", amount: 20, unit: "g", type: "secondary", isCore: false },
+      { name: "香葱结", amount: 2, unit: "根", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "古越龙山绍兴花雕酒", baseAmount: 30, unit: "ml", amountText: "30ml", isPantryStaple: true },
+      { name: "白胡椒粉", baseAmount: 1, unit: "g", amountText: "1g", isPantryStaple: true },
+      { name: "优质矿泉水", baseAmount: 1800, unit: "ml", amountText: "1800ml(足量一次加满)", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 0.5, unit: "g", amountText: "少许(咸肉已有咸味，尝后再定)", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "咸肉去咸与鲜肉焯水",
+        instruction: "咸五花切麻将块，冷水浸泡30分钟析出部分盐分；鲜猪肉切同等大小块。两者冷水下锅，加姜片、花雕酒15ml，大火烧开撇净浮沫，捞出用温水洗净沥干。",
+        timerSeconds: 480,
+        chefTip: "咸肉若不提前浸泡焯水，整锅汤极易过咸发苦，温水洗肉可保持肉质松软。"
+      },
+      {
+        stepIndex: 2,
+        title: "鲜笋剥壳切滚刀与焯水去涩",
+        instruction: "春笋剥去外壳老根，斜切滚刀块。沸水锅加1茶匙盐，倒入春笋焯水3分钟除去草酸与涩味，捞出过凉水沥干。",
+        timerSeconds: 300,
+        chefTip: "鲜笋必须加淡盐水焯透，才能彻底去除生涩刮舌感，突出清甘脆嫩。"
+      },
+      {
+        stepIndex: 3,
+        title: "文火慢笃吊出乳白清香",
+        instruction: "砂锅注入1800ml纯净水，放入咸肉、鲜肉、葱结、姜片和剩余花雕酒。大火烧沸后保持中大火沸腾15分钟逼出肉脂乳化，随后转极小微沸火慢笃60分钟。",
+        timerSeconds: 4500,
+        chefTip: "先大火沸腾片刻才能冲出奶白底色，随后必须转文火慢‘笃’（微滚冒小泡），肉香自然沁透。"
+      },
+      {
+        stepIndex: 4,
+        title: "入笋与百叶结煨透合味",
+        instruction: "夹出软烂葱结，倒入焯好的春笋与百叶结，继续小火慢煨30分钟至百叶软糯吸足鲜汤。最后尝汤咸淡，视咸肉咸度决定是否补微量盐，撒白胡椒粉出锅。",
+        timerSeconds: 1800,
+        chefTip: "百叶结不可过早放入，否则久煮容易烂碎沉底糊锅。"
+      }
+    ],
+    tips: "江南俗语‘咸肉鲜肉与春笋，慢笃出鲜白如乳’，原汤切忌加味精鸡精，咸肉之陈香与鲜肉之鲜甜在春笋调和下已达至极鲜境界。",
+    tags: ["江南", "淮扬", "时令名汤", "咸鲜浓白", "文火慢笃", "老火滋补"]
+  },
+  {
+    id: "rec_soup_02",
+    name: "客家正宗胡椒猪肚鸡汤",
+    region: "广东/客家",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 420,
+    prepTimeMinutes: 30,
+    cookTimeMinutes: 120,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "新鲜优质猪肚", amount: 1, unit: "个(约600g)", type: "main", isCore: true },
+      { name: "广东清远走地土鸡", amount: 0.5, unit: "只(约600g)", type: "main", isCore: true, substitutes: ["三黄鸡", "竹丝鸡"] },
+      { name: "海南优质白胡椒粒", amount: 25, unit: "g", type: "main", isCore: true },
+      { name: "红枣去核", amount: 6, unit: "颗", type: "secondary", isCore: false },
+      { name: "宁夏枸杞", amount: 10, unit: "g", type: "secondary", isCore: false },
+      { name: "生姜切厚块拍扁", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "面粉与纯米白醋(洗猪肚用)", amount: 100, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "纯牛奶或淡奶(增稠提奶香)", baseAmount: 50, unit: "ml", amountText: "50ml", isPantryStaple: false },
+      { name: "广东米酒", baseAmount: 30, unit: "ml", amountText: "30ml", isPantryStaple: true },
+      { name: "优质矿泉水", baseAmount: 2200, unit: "ml", amountText: "2200ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 4, unit: "g", amountText: "4g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "面粉白醋彻底洗净猪肚",
+        instruction: "猪肚翻面割除多余黄油脂膜，加两大勺面粉、2勺白醋反复抓揉搓洗出粘液，清水冲净，再重复一次至毫无异味，焯水5分钟后捞出切粗条（或整只包鸡）。",
+        timerSeconds: 600,
+        chefTip: "面粉吸附粘液、白醋去异味，切忌用碱水以免破坏猪肚脆嫩弹性。"
+      },
+      {
+        stepIndex: 2,
+        title: "炒香白胡椒碎激发出辛香",
+        instruction: "白胡椒粒用刀面压碎或石臼粗舂成碎颗粒。干锅无油小火翻炒白胡椒碎与拍姜块至香气扑鼻、微现焦斑。",
+        timerSeconds: 240,
+        chefTip: "胡椒必须用整粒压碎并干煸，粉状胡椒容易使汤浑浊发黑且香气单一。"
+      },
+      {
+        stepIndex: 3,
+        title: "土鸡焯水与入砂锅慢煲",
+        instruction: "土鸡斩块冷水焯烫冲净。大砂锅中加入2200ml沸水，下入猪肚条、炒香的白胡椒、生姜、米酒。大火煮沸后盖盖转小火慢煲70分钟至猪肚酥软。",
+        timerSeconds: 4200,
+        chefTip: "加沸水慢炖是汤汁乳白浓稠的秘密，中途切勿补充冷水。"
+      },
+      {
+        stepIndex: 4,
+        title: "下土鸡红枣收尾提白",
+        instruction: "加入鸡块、去核红枣，继续煲煮30分钟至鸡肉鲜嫩多汁。出锅前5分钟淋入50ml纯牛奶，撒入枸杞与食盐，关火焖5分钟即可盛出。",
+        timerSeconds: 1800,
+        chefTip: "土鸡后放可保持鸡肉滑嫩不柴，淋少许鲜奶使胡椒浓汤色如凝脂、口感醇厚无匹。"
+      }
+    ],
+    tips: "客家坐月子与秋冬暖身头牌神汤，第一碗先喝滚烫原汁胡椒汤，暖胃通气；第二碗吃爽脆猪肚与皮脆肉嫩土鸡，蘸沙姜酱油绝配。",
+    tags: ["客家", "广东", "胡椒暖胃", "奶白浓汤", "猪肚爽脆", "老火靓汤"]
+  },
+  {
+    id: "rec_soup_03",
+    name: "山东单县传统全羊汤",
+    region: "山东/鲁菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 380,
+    prepTimeMinutes: 25,
+    cookTimeMinutes: 150,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "青山羊棒骨与脊骨", amount: 500, unit: "g", type: "main", isCore: true },
+      { name: "新鲜带皮青山羊前腿肉", amount: 300, unit: "g", type: "main", isCore: true },
+      { name: "新鲜羊杂(肚、肺、心)", amount: 150, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜拍松", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "大葱白段", amount: 40, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "鲁派炖羊香料包(白芷、草果、良姜、花椒、肉桂)", baseAmount: 15, unit: "g", amountText: "15g(纱布袋紧包)", isPantryStaple: true },
+      { name: "熟羊油炸红油辣椒", baseAmount: 10, unit: "g", amountText: "佐餐自选", isPantryStaple: true },
+      { name: "精制食盐与现磨白胡椒粉", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true },
+      { name: "新鲜香菜碎与青蒜花", baseAmount: 20, unit: "g", amountText: "20g", isPantryStaple: true },
+      { name: "清水", baseAmount: 2500, unit: "ml", amountText: "2500ml", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "敲断大骨冷水彻夜浸泡去血水",
+        instruction: "羊大棒骨用刀背砸断露出骨髓，与羊肉、羊杂在清水中浸泡4小时，期间换水3次，直到肉色发白无残留血水，捞出彻底沥净。",
+        timerSeconds: 600,
+        chefTip: "单县羊肉汤‘汤白如奶’的核心在于敲断骨头出髓，且彻底泡去血水。"
+      },
+      {
+        stepIndex: 2,
+        title: "大火滚煮狂沸冲出白汤",
+        instruction: "大深锅注入2500ml冷水，放入羊大骨、葱段、姜块。大火烧开撇尽极细浮沫，放入香料包，保持大火翻滚沸腾猛熬40分钟，直到汤汁冲刷成纯白乳状。",
+        timerSeconds: 2400,
+        chefTip: "单县名师秘诀：‘大火出白汤，小火出清汤’，前期必须保持汤面翻滚让羊骨髓油脂与水彻底乳化。"
+      },
+      {
+        stepIndex: 3,
+        title: "下羊肉羊杂慢炖熟化捞出切片",
+        instruction: "转中火下入大块羊肉和羊杂，继续煨煮45分钟至羊肉用筷子可轻松穿透。捞出羊肉羊杂晾凉后切薄片备用，香料包捞出弃用。",
+        timerSeconds: 2700,
+        chefTip: "羊肉不可在锅中久煮至烂散，熟透立即捞出切片，肉质紧实耐嚼。"
+      },
+      {
+        stepIndex: 4,
+        title: "原汤滚烫冲碗调味",
+        instruction: "大碗底垫切好的羊肉、羊杂片，撒上香菜、青蒜花与适量盐、胡椒粉。滚沸的纯白原汤舀入碗中激出葱香，配吊炉烧饼趁热享用。",
+        timerSeconds: 300,
+        chefTip: "锅中原汤绝不提前加盐，吃时碗底放盐现冲，保证高汤永远醇白浓鲜。"
+      }
+    ],
+    tips: "被誉为‘中华第一汤’，色白如奶，水脂交融，鲜而不膻，香而不腻，烂而不糊。寒冬来一碗满口生津，周身通泰。",
+    tags: ["山东", "鲁菜", "非遗名汤", "全羊汤", "奶白浓汤", "秋冬滋补"]
+  },
+  {
+    id: "rec_soup_04",
+    name: "陕西关中水盆羊肉清汤",
+    region: "陕西/西北",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煨",
+    calories: 350,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 180,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "关中同州带膘羊肉或羊腩", amount: 400, unit: "g", type: "main", isCore: true },
+      { name: "羊脊骨或羊腿骨", amount: 400, unit: "g", type: "main", isCore: true },
+      { name: "老姜拍碎", amount: 25, unit: "g", type: "secondary", isCore: false },
+      { name: "传统粉丝(提前泡发)", amount: 80, unit: "g", type: "secondary", isCore: false },
+      { name: "新鲜香菜碎与青蒜末", amount: 30, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "关中水盆秘制香料包(小茴香重、花椒、草果、砂仁、良姜、白芷)", baseAmount: 20, unit: "g", amountText: "20g", isPantryStaple: true },
+      { name: "现磨优质花椒水与盐水", baseAmount: 15, unit: "ml", amountText: "15ml", isPantryStaple: true },
+      { name: "自制羊油辣子与油泼辣子", baseAmount: 10, unit: "g", amountText: "佐餐自调", isPantryStaple: true },
+      { name: "清水", baseAmount: 2600, unit: "ml", amountText: "2600ml", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "剔骨切块泡水漂洗",
+        instruction: "羊骨与羊腩肉冷水浸泡3小时漂去血水，中途换水。锅内加冷水下羊骨羊肉大火烧开，彻底撇净浮沫，肉捞出洗净。",
+        timerSeconds: 480,
+        chefTip: "关中水盆追求‘清亮见底、汤清肉烂’，彻底焯洗是保证清亮不浊的关键。"
+      },
+      {
+        stepIndex: 2,
+        title: "文火煨炖保持汤水清澈微沸",
+        instruction: "大汤锅入2600ml清水、羊骨、拍姜与密织香料包。大火烧开后立即转为‘菊花心’微沸小火，保持汤面不起大泡，慢煨2.5小时。",
+        timerSeconds: 9000,
+        chefTip: "绝不可用大火狂煮，始终微滚慢煨，油脂自然浮于表面，汤水清澈醇香。"
+      },
+      {
+        stepIndex: 3,
+        title: "肉熟捞起晾凉压紧切厚片",
+        instruction: "用筷子扎透羊肉无血水时捞出，用保鲜膜包紧微压冷却定型，然后顶刀切成长5厘米、厚2毫米的肉片备用。",
+        timerSeconds: 600,
+        chefTip: "冷却压实后再切，肉片齐整不散不烂，肥瘦相间。"
+      },
+      {
+        stepIndex: 4,
+        title: "滚汤烫粉浇肉撒葱蒜",
+        instruction: "碗中放泡发粉丝，用滚沸原汤反复烫透两次，铺上切好的羊肉片，撒青蒜末、香菜碎，舀入滚烫透亮的羊汤，滴入少许花椒水提神。",
+        timerSeconds: 240,
+        chefTip: "地道吃法配刚出炉热气腾腾的月牙烧饼，夹油泼辣子与鲜羊肉，一口肉夹馍一口清鲜热汤。"
+      }
+    ],
+    tips: "源自大秦古风，以渭南大荔、蒲城最负盛名。汤清肉嫩不腥不膻，清鲜醇和，空口喝原汤落胃如温泉浸润。",
+    tags: ["陕西", "西北", "水盆羊肉", "清澈原汤", "羊肉鲜美", "非遗风味"]
+  },
+  {
+    id: "rec_soup_05",
+    name: "四川简阳正宗羊肉汤",
+    region: "四川/川菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 410,
+    prepTimeMinutes: 25,
+    cookTimeMinutes: 120,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "简阳大耳羊肉与羊排", amount: 350, unit: "g", type: "main", isCore: true },
+      { name: "新鲜羊大骨与脊骨", amount: 400, unit: "g", type: "main", isCore: true },
+      { name: "鲜活小鲫鱼(吊汤灵魂)", amount: 1, unit: "条(约150g)", type: "main", isCore: true },
+      { name: "新鲜羊杂(羊肚、羊肠)", amount: 100, unit: "g", type: "secondary", isCore: false },
+      { name: "老生姜拍破", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "青蒜苗花与香菜", amount: 30, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "川味羊肉香料包(当归、陈皮、白芷、香叶、砂仁)", baseAmount: 12, unit: "g", amountText: "12g", isPantryStaple: true },
+      { name: "纯熟羊油或菜籽油(爆炒用)", baseAmount: 25, unit: "g", amountText: "25g", isPantryStaple: true },
+      { name: "纯粮高度白酒", baseAmount: 20, unit: "ml", amountText: "20ml", isPantryStaple: true },
+      { name: "精制食盐与白胡椒粉", baseAmount: 4, unit: "g", amountText: "4g", isPantryStaple: true },
+      { name: "川味腐乳与干辣椒面(自制蘸碟)", baseAmount: 20, unit: "g", amountText: "佐餐蘸水", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "鲫鱼煎透包纱布入高汤",
+        instruction: "鲜鲫鱼洗净吸干水分。热锅冷油下鲫鱼煎至两面焦黄起硬壳，淋入热水翻滚片刻装入细密纱布袋中封口备用。",
+        timerSeconds: 480,
+        chefTip: "‘鱼’加‘羊’合为‘鲜’！简阳正宗秘诀正是用鲫鱼同熬，使羊汤鲜度呈指数级爆发且汤浓白如雪。"
+      },
+      {
+        stepIndex: 2,
+        title: "羊骨吊汤与肉块焯熟切片",
+        instruction: "羊大骨敲断焯水，放入大锅加足量清水大火猛熬；羊肉羊杂同锅焯熟至八成熟捞出，切成薄片备用。",
+        timerSeconds: 1800,
+        chefTip: "大骨一直熬煮作为基础奶白高汤底。"
+      },
+      {
+        stepIndex: 3,
+        title: "熟羊油猛火爆炒肉片激香",
+        instruction: "铁锅烧热下熟羊油烧至冒烟，倒入老姜块、熟羊肉片、羊杂片大火爆炒出浓郁油香，烹入白酒去膻提香，炒至肉质微卷。",
+        timerSeconds: 240,
+        chefTip: "先炒后煲是简阳流派关键，油脂在高温爆炒下充分熟化，再遇滚汤即可瞬间乳化出稠厚脂香。"
+      },
+      {
+        stepIndex: 4,
+        title: "冲入滚烫骨汤与鲫鱼袋狂沸合鲜",
+        instruction: "将熬制滚沸的羊骨高汤猛力冲入炒肉锅中，投入鲫鱼纱布包与香料包，保持大火翻滚熬煮30分钟，关火前调入盐、白胡椒粉，撒青蒜苗出锅。",
+        timerSeconds: 1800,
+        chefTip: "配一碟红油豆腐乳、干辣椒面、香菜葱花蘸水，夹肉蘸食胜似神仙。"
+      }
+    ],
+    tips: "巴蜀冬至全民必吃名汤。羊肉软烂、羊杂脆爽、汤汁浓白如凝脂，鱼羊交融鲜爽甘冽，一口下肚通体发热。",
+    tags: ["四川", "川菜", "简阳羊肉汤", "鱼羊合鲜", "奶白浓汤", "冬至暖胃"]
+  },
+  {
+    id: "rec_soup_06",
+    name: "广东五指毛桃土茯苓煲猪骨汤",
+    region: "广东/广府",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 310,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "野生五指毛桃(南芪)", amount: 50, unit: "g", type: "main", isCore: true },
+      { name: "新鲜鲜土茯苓切块或干片", amount: 40, unit: "g", type: "main", isCore: true },
+      { name: "新鲜土猪脊骨或扇骨", amount: 400, unit: "g", type: "main", isCore: true, substitutes: ["排骨", "筒骨"] },
+      { name: "赤小豆与扁豆", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "无花果干", amount: 4, unit: "颗", type: "secondary", isCore: false },
+      { name: "老姜厚片", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "优质矿泉水", baseAmount: 2000, unit: "ml", amountText: "2000ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 3, unit: "g", amountText: "3g(出锅前放)", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "五指毛桃温水泡洗与赤小豆炒制",
+        instruction: "五指毛桃剪小段，温水洗净泥沙浸泡15分钟；赤小豆与白扁豆洗净入干锅微火慢炒5分钟除去寒气，使祛湿效果倍增。",
+        timerSeconds: 480,
+        chefTip: "好的五指毛桃具有极其浓郁天然的椰香，切勿用开水久泡以免香气挥发。"
+      },
+      {
+        stepIndex: 2,
+        title: "猪骨冷水焯水去血沫",
+        instruction: "猪脊骨砍块，冷水下锅加大葱姜片焯水5分钟，水沸撇净浮沫，捞出用温水洗净肉渣控干。",
+        timerSeconds: 360,
+        chefTip: "必须温水清洗骨头，保持肉质鲜美不收紧。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅文火深煲两小时",
+        instruction: "将洗净的猪骨、五指毛桃、土茯苓、炒扁豆赤小豆、无花果及姜片一起放入老砂锅，注入2000ml矿泉水。大火煮沸15分钟，转小火慢煲105分钟。",
+        timerSeconds: 7200,
+        chefTip: "老火煲汤火候宜柔和微沸，盖严砂锅盖锁住蒸汽香气。"
+      },
+      {
+        stepIndex: 4,
+        title: "落盐关火清润出锅",
+        instruction: "关火前5分钟揭盖调入3g精盐搅匀，关火静置片刻使油脂收敛，舀入汤碗享用带有淡雅椰奶香气的清润靓汤。",
+        timerSeconds: 300,
+        chefTip: "广东煲汤‘最后放盐’是铁律，过早放盐会促使肉蛋白凝固，汤水不够醇甜。"
+      }
+    ],
+    tips: "岭南湿热气候下最负盛名的传统健脾去湿第一汤。五指毛桃天然甘香浓郁似椰奶，土茯苓排湿毒除湿浊，男女老少皆宜。",
+    tags: ["广东", "广府", "五指毛桃", "健脾祛湿", "椰香浓郁", "老火靓汤"]
+  },
+  {
+    id: "rec_soup_07",
+    name: "顺德花胶鲜鲍乌鸡滋补汤",
+    region: "广东/顺德",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "炖",
+    calories: 340,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 150,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "已发制深海厚肉花胶(鱼胶)", amount: 120, unit: "g", type: "main", isCore: true },
+      { name: "新鲜活鲍鱼(去壳内脏刷净黑膜)", amount: 4, unit: "只(八头鲍)", type: "main", isCore: true },
+      { name: "江西泰和原种乌鸡", amount: 0.5, unit: "只(约500g)", type: "main", isCore: true },
+      { name: "金华火腿咸肉片", amount: 20, unit: "g", type: "secondary", isCore: false },
+      { name: "宁夏特级红枸杞与去核红枣", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜切厚片", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "优质花雕酒", baseAmount: 15, unit: "ml", amountText: "15ml", isPantryStaple: true },
+      { name: "矿泉水", baseAmount: 1800, unit: "ml", amountText: "1800ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2.5, unit: "g", amountText: "2.5g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "乌鸡与鲜鲍焯水洗净",
+        instruction: "乌鸡剁大块，鲜鲍鱼打十字花刀。冷水入锅加姜片、花雕酒大火烧沸焯水3分钟，撇清浮沫捞出温水洗净沥干。",
+        timerSeconds: 360,
+        chefTip: "鲍鱼黑膜与粘液必须用毛刷在流动水中刷净，否则汤色发灰有腥气。"
+      },
+      {
+        stepIndex: 2,
+        title: "花胶改刀适中厚块",
+        instruction: "泡发好的优质花胶厚切成3-4厘米大块，备好火腿片、红枣。",
+        timerSeconds: 180,
+        chefTip: "花胶块不宜切过小，炖透后胶质溶于汤中，肉质依然厚糯弹牙。"
+      },
+      {
+        stepIndex: 3,
+        title: "入隔水炖盅或砂锅文火慢炖",
+        instruction: "将乌鸡、火腿片、姜片、红枣放入大炖盅，注入纯净水，隔水蒸炖2小时（或砂锅小火慢煲）；最后30分钟加入花胶块与鲍鱼继续慢炖。",
+        timerSeconds: 7200,
+        chefTip: "花胶与鲍鱼不可过早久炖，后半程放入既能充分释放胶原，又避免胶肉炖融化渣。"
+      },
+      {
+        stepIndex: 4,
+        title: "撒枸杞落盐出锅",
+        instruction: "出锅前5分钟放入枸杞子，调入适量食盐搅匀融化，出锅趁热享用金黄透亮、粘唇挂齿的胶原浓汤。",
+        timerSeconds: 300,
+        chefTip: "汤汁微凉后表面凝结一层晶莹胶质皮，是花胶胶原饱满的最好证明。"
+      }
+    ],
+    tips: "顺德宴席与养生殿堂级滋补名汤。富含高纯度深海胶原蛋白与多种微量元素，汤呈琥珀金黄，醇香滑润，滋阴养颜无上佳品。",
+    tags: ["顺德", "广东", "花胶鲍鱼", "乌鸡养颜", "胶原浓汤", "名贵滋补"]
+  },
+  {
+    id: "rec_soup_08",
+    name: "广式经典苦瓜黄豆排骨汤",
+    region: "广东/广府",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 280,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 90,
+    difficulty: "简单",
+    portion: 2,
+    ingredients: [
+      { name: "鲜嫩雷州苦瓜或大顶苦瓜", amount: 1, unit: "根(约350g)", type: "main", isCore: true },
+      { name: "有机黄豆(提前冷水泡发2小时)", amount: 60, unit: "g", type: "main", isCore: true },
+      { name: "新鲜土猪精肋排或大骨", amount: 400, unit: "g", type: "main", isCore: true },
+      { name: "干蜜枣", amount: 2, unit: "颗", type: "secondary", isCore: false },
+      { name: "老姜厚片", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "矿泉水", baseAmount: 1800, unit: "ml", amountText: "1800ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "苦瓜挖净白瓤切大块",
+        instruction: "苦瓜对半切开，用金属勺用力刮尽内壁白色海绵棉絮层，斜切成约4厘米厚的滚刀大块，放入淡盐水浸泡10分钟后捞出沥水。",
+        timerSeconds: 360,
+        chefTip: "苦瓜极苦的源头在于瓜瓤白色黏膜，彻底刮除可保留清香微甘而祛除苦涩。"
+      },
+      {
+        stepIndex: 2,
+        title: "排骨焯水去血沫",
+        instruction: "排骨切块冷水入锅焯水，加姜片煮沸3分钟，撇清浮沫，捞出用温水冲净。",
+        timerSeconds: 300,
+        chefTip: "彻底去除骨渣血污，汤质方能清亮甘醇。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅先煲排骨黄豆出沙",
+        instruction: "砂锅加入1800ml清水，先放入焯好的排骨、泡发好的黄豆、蜜枣、姜片。大火煮沸后盖盖转文火煲煮50分钟，让黄豆煲至绵软出沙。",
+        timerSeconds: 3000,
+        chefTip: "黄豆先煲透出沙，汤水具有豆香甜润底蕴，能完美中和苦瓜的寒气。"
+      },
+      {
+        stepIndex: 4,
+        title: "下苦瓜慢煨合味清爽出锅",
+        instruction: "倒入苦瓜块，继续小火慢煲30分钟至苦瓜变软透绿。出锅前撒入精盐搅拌均匀关火即可。",
+        timerSeconds: 1800,
+        chefTip: "苦瓜不宜久炖超45分钟，保持翠软清甜口感最佳。"
+      }
+    ],
+    tips: "广东人在炎炎夏日与秋燥降火的‘续命汤’。先微苦后生津回甘，黄豆粉糯、排骨酥香，清热降火解暑腻之极品。",
+    tags: ["广东", "消暑名汤", "苦瓜黄豆", "清热降火", "生津回甘", "老火靓汤"]
+  },
+  {
+    id: "rec_soup_09",
+    name: "新会陈皮老鸭慢炖汤",
+    region: "广东/江门",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 320,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "正宗新会十年老陈皮", amount: 1, unit: "大瓣(约8g)", type: "main", isCore: true },
+      { name: "散养三年老麻鸭", amount: 0.5, unit: "只(约600g)", type: "main", isCore: true },
+      { name: "兰州无硫干百合", amount: 20, unit: "g", type: "secondary", isCore: false },
+      { name: "白莲子(去苦心)", amount: 20, unit: "g", type: "secondary", isCore: false },
+      { name: "生姜厚片", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "广东米酒", baseAmount: 20, unit: "ml", amountText: "20ml", isPantryStaple: true },
+      { name: "矿泉水", baseAmount: 2000, unit: "ml", amountText: "2000ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "陈皮温水泡软刮去白瓤",
+        instruction: "新会陈皮用温水浸泡15分钟至软，用小刀仔细刮去内层白色苦橘络，切细丝；莲子百合清洗沥干。",
+        timerSeconds: 300,
+        chefTip: "内层白瓤带有苦味，彻底刮净只留外皮油胞，陈皮香气醇厚清甜而不涩。"
+      },
+      {
+        stepIndex: 2,
+        title: "老鸭干煸去油脂与焯水",
+        instruction: "老麻鸭斩块，锅中不放油，放入鸭块与姜片中火干煸5分钟煸出多余皮下鸭油，烹入米酒翻炒，随后加热水烧沸捞出沥净。",
+        timerSeconds: 420,
+        chefTip: "老鸭皮下油脂丰厚，先干煸逼出腥臊鸭油，煲出的汤水清澄金亮、绝不油腻。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅文火深煲陈皮甘香",
+        instruction: "砂锅加2000ml清水，下入干煸好的老鸭块、刮净的陈皮丝、姜片。大火煮沸后转极小火慢煲90分钟至鸭肉软烂、陈皮精油充分释放。",
+        timerSeconds: 5400,
+        chefTip: "陈皮与老鸭互为经纬，老鸭肉滋阴，陈皮理气化痰，越煲越香醇。"
+      },
+      {
+        stepIndex: 4,
+        title: "入莲子百合收尾出锅",
+        instruction: "放入去心莲子与干百合，继续煲煮25分钟至莲子软粉。最后撒入精盐搅匀，盖盖熄火焖5分钟即可食用。",
+        timerSeconds: 1500,
+        chefTip: "百合莲子不宜过早放入，避免炖烂化渣造成汤底粘稠浑浊。"
+      }
+    ],
+    tips: "广东新会传世药膳。陈皮年份越久越温润回甘，鸭肉鲜醇，汤汁滑喉生津，秋冬化痰理气、清心润肺之经典佳作。",
+    tags: ["广东", "新会陈皮", "老鸭汤", "理气润肺", "醇香回甘", "老火靓汤"]
+  },
+  {
+    id: "rec_soup_10",
+    name: "云南野生菌竹荪汽锅土鸡",
+    region: "云南/滇菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "蒸",
+    calories: 290,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 180,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "云南武定壮阉母鸡或土乌鸡", amount: 500, unit: "g", type: "main", isCore: true },
+      { name: "织金特级竹荪(剪去头网泡发)", amount: 20, unit: "g", type: "main", isCore: true },
+      { name: "云南野生牛肝菌或羊肚菌", amount: 30, unit: "g", type: "main", isCore: true },
+      { name: "云南宣威火腿薄片", amount: 20, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜片与大葱结", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "云南草果拍破", baseAmount: 1, unit: "个", amountText: "1个(草果去籽)", isPantryStaple: true },
+      { name: "纯粮包谷酒或花雕酒", baseAmount: 10, unit: "ml", amountText: "10ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2, unit: "g", amountText: "2g(火腿已有鲜咸)", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "土鸡斩小块擦干血水",
+        instruction: "土鸡剁成2-3厘米的小块，用清水浸泡换水至毫无血水，用厨房纸彻底吸干表面水分，加少许酒、姜片抓匀腌制10分钟。",
+        timerSeconds: 300,
+        chefTip: "汽锅鸡锅内绝不加一滴水，纯靠底部蒸汽通过中心喷嘴上升冷凝为汤，鸡块水分必须擦干以保原汁纯净。"
+      },
+      {
+        stepIndex: 2,
+        title: "竹荪去异味与野生菌温润泡发",
+        instruction: "干竹荪剪去顶端菌盖密网和封闭底圈，淡盐水浸泡10分钟后彻底挤干水份切段；牛肝菌温水浸泡洗净沥干。",
+        timerSeconds: 420,
+        chefTip: "竹荪的网状密盖带有一股土腥味，剪掉后才能留下纯粹爽脆清甘。"
+      },
+      {
+        stepIndex: 3,
+        title: "建水紫陶汽锅码盘架水蒸馏",
+        instruction: "在建水紫陶汽锅底铺入火腿片、草果、姜片，放入鸡块与牛肝菌。将汽锅严密架在大口盛水蒸锅上，四周用湿布毛巾封严缝隙，大火让水沸腾蒸馏凝汽2.5小时。",
+        timerSeconds: 9000,
+        chefTip: "汽锅与蒸锅接缝处必须用湿毛巾塞严，防止蒸汽外泄，确保蒸汽全由中心管喷入汽锅化为金汤。"
+      },
+      {
+        stepIndex: 4,
+        title: "入竹荪再蒸半小时原汁出炉",
+        instruction: "揭开汽锅盖，见锅中已凝结出满锅金黄清澄鸡汤。放入竹荪段与少许盐，盖严再蒸20分钟，出炉端汽锅直接上桌享用神仙原露。",
+        timerSeconds: 1200,
+        chefTip: "纯由水蒸汽凝聚而成的鸡汤清澈见底，鸡肉骨肉脱离，鲜美令人震撼。"
+      }
+    ],
+    tips: "云南非遗烹饪奇迹。利用建水紫陶汽锅的气孔循环聚气凝露，不加一滴外水，原汁原味，鸡肉滑嫩酥烂，汤清肉白鲜透骨髓。",
+    tags: ["云南", "滇菜", "汽锅鸡", "蒸馏凝露", "不加一滴水", "神仙滋补"]
+  },
+  {
+    id: "rec_soup_11",
+    name: "云南松茸羊肚菌鲜鸡汤",
+    region: "云南/滇菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 310,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "香格里拉新鲜松茸或干松茸", amount: 4, unit: "朵(约80g)", type: "main", isCore: true },
+      { name: "野生特级羊肚菌", amount: 6, unit: "只", type: "main", isCore: true },
+      { name: "散养走地老母鸡", amount: 0.5, unit: "只(约600g)", type: "main", isCore: true },
+      { name: "红枣与枸杞", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜拍碎", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "优质矿泉水", baseAmount: 2000, unit: "ml", amountText: "2000ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "松茸陶瓷刀削皮与羊肚菌沉淀菌水",
+        instruction: "新鲜松茸用陶瓷刀轻轻刮去根部泥土，用湿棉布轻擦净表面切厚片；羊肚菌温水泡发30分钟，原菌水静置沉淀泥沙后过滤保留。",
+        timerSeconds: 480,
+        chefTip: "松茸切忌用自来水狂冲浸泡，否则珍贵的松茸醇香瞬间流失；羊肚菌的原浸泡水含极浓郁水溶鲜味素，必须滤入汤中。"
+      },
+      {
+        stepIndex: 2,
+        title: "土鸡焯水洗净油脂",
+        instruction: "老母鸡砍块，冷水焯透撇去浮沫，温水洗净捞出沥干。",
+        timerSeconds: 300,
+        chefTip: "母鸡焯水后剔除多余鸡油块，避免菌汤过度油腻掩盖菌菇清香。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅文火深煲土鸡与原菌汁",
+        instruction: "砂锅注入2000ml水与过滤后的羊肚菌原水，下入鸡肉、姜片、红枣。大火煮沸转小火慢煲75分钟，熬至汤色泛出淡金黄。",
+        timerSeconds: 4500,
+        chefTip: "老鸡慢熬出鲜底，菌水融于其中打下浓醇复合菌底。"
+      },
+      {
+        stepIndex: 4,
+        title: "下松茸片与羊肚菌释放巅峰鲜气",
+        instruction: "倒入羊肚菌与松茸厚片，继续文火慢煲30分钟。最后5分钟调入食盐与枸杞，汤汁瞬间溢满山野木本清芬。",
+        timerSeconds: 1800,
+        chefTip: "新鲜松茸不宜久煮超过35分钟，后放方能保留爽脆鲜嫩与独特菌香。"
+      }
+    ],
+    tips: "大自然的山野馈赠。顶级松茸之幽香与羊肚菌之浓郁层层交织，汤色金黄澄澈，入口醇润回甘，滋阴润肺，免疫力大补。",
+    tags: ["云南", "野生菌", "松茸羊肚菌", "鲜美至极", "滋补高汤", "老火靓汤"]
+  },
+  {
+    id: "rec_soup_12",
+    name: "广式响螺花胶老鸡汤",
+    region: "广东/潮汕",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 330,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 150,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "深海大响螺干片或鲜响螺肉", amount: 100, unit: "g", type: "main", isCore: true },
+      { name: "泡发黄玉花胶", amount: 100, unit: "g", type: "main", isCore: true },
+      { name: "老母鸡", amount: 0.5, unit: "只(约500g)", type: "main", isCore: true },
+      { name: "新鲜猪筒骨或瘦肉", amount: 200, unit: "g", type: "secondary", isCore: false },
+      { name: "枸杞与去核红枣", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜厚片", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "广东米酒", baseAmount: 15, unit: "ml", amountText: "15ml", isPantryStaple: true },
+      { name: "矿泉水", baseAmount: 2200, unit: "ml", amountText: "2200ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "响螺干片温水泡软剪块焯水",
+        instruction: "响螺片用温水浸泡4小时至软透，切大片。锅中加水、姜片、米酒，将螺片焯水3分钟捞出洗净去腥。",
+        timerSeconds: 300,
+        chefTip: "响螺片干度高，充分泡发并焯水，能彻底激发出深海螺肉的甜脆与甘芳。"
+      },
+      {
+        stepIndex: 2,
+        title: "老母鸡与猪骨焯透洗净",
+        instruction: "老母鸡、瘦肉斩块，冷水焯透洗净油脂与杂质。",
+        timerSeconds: 300,
+        chefTip: "加少许瘦肉可增加汤水的氨基酸鲜甜度，使海鲜与禽肉复合生鲜。"
+      },
+      {
+        stepIndex: 3,
+        title: "大火烧开转文火深煲两小时",
+        instruction: "砂锅注入2200ml清水，放入鸡块、瘦肉、响螺片、姜片、红枣。大火煮沸撇沫，转小火慢煲90分钟。",
+        timerSeconds: 5400,
+        chefTip: "响螺耐煮，久煲能使螺汁慢慢释放到鸡汤中形成标志性金红醇厚色泽。"
+      },
+      {
+        stepIndex: 4,
+        title: "入花胶收尾出胶",
+        instruction: "倒入切块的厚肉花胶，继续煲炖35分钟，出锅前放入枸杞与食盐，关火焖5分钟出锅享用粘唇胶原高汤。",
+        timerSeconds: 2100,
+        chefTip: "花胶后放能锁住口感，汤液微胶挂喉，螺肉脆弹筋道。"
+      }
+    ],
+    tips: "潮汕与港粤顶级私房养生汤。响螺肉滋阴补肾，花胶补充胶原，鸡肉甘香，汤水鲜甜黏唇，乃港粤富豪家宴之不传之秘。",
+    tags: ["潮汕", "广东", "响螺花胶", "深海海味", "滋阴胶原", "顶级老火汤"]
+  },
+  {
+    id: "rec_soup_13",
+    name: "贵州天麻枸杞炖乳鸽",
+    region: "贵州/黔菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "炖",
+    calories: 260,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "初生无腥乳鸽", amount: 1, unit: "只(约350g)", type: "main", isCore: true },
+      { name: "贵州大方天然天麻片", amount: 15, unit: "g", type: "main", isCore: true },
+      { name: "西洋参片或人参须", amount: 6, unit: "g", type: "secondary", isCore: false },
+      { name: "去核红枣与优质枸杞", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "生姜切厚片", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "纯粮黄酒或米酒", baseAmount: 10, unit: "ml", amountText: "10ml", isPantryStaple: true },
+      { name: "矿泉水", baseAmount: 1200, unit: "ml", amountText: "1200ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2, unit: "g", amountText: "2g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "乳鸽剖净斩半焯水",
+        instruction: "乳鸽洗净去除肺叶内脏及尾脂腺，对半剖开。冷水下锅加姜片、少许米酒焯水3分钟，撇清浮沫捞出冲净控干。",
+        timerSeconds: 300,
+        chefTip: "乳鸽尾部腺体必须彻底切除，骨细肉嫩无任何膻腥。"
+      },
+      {
+        stepIndex: 2,
+        title: "天麻温水浸软与药材清洗",
+        instruction: "天麻片温水浸泡20分钟软化；西洋参片、红枣洗净沥干。",
+        timerSeconds: 300,
+        chefTip: "天麻提前微润泡软，更容易在隔水慢炖中析出天麻素有效成分。"
+      },
+      {
+        stepIndex: 3,
+        title: "隔水原盅文火慢炖两小时",
+        instruction: "将乳鸽、天麻片、西洋参片、红枣、姜片置于紫砂或白瓷炖盅内，倒入1200ml矿泉水。盖严双层盅盖，放入沸水蒸锅中隔水小火文炖2小时。",
+        timerSeconds: 7200,
+        chefTip: "隔水慢炖原汁毫无挥发，鸽肉骨肉尽酥，药气不外泄。"
+      },
+      {
+        stepIndex: 4,
+        title: "加枸杞落盐出锅",
+        instruction: "揭开炖盅盖，撒入枸杞和精盐，再加盖虚蒸5分钟即可直接原盅上桌。",
+        timerSeconds: 300,
+        chefTip: "汤汁澄亮金黄如琥珀，入口清甘带参香，落肚暖融畅快。"
+      }
+    ],
+    tips: "‘一鸽胜九鸡’，配大方天麻与西洋参，平肝息风、通络止眩、补脑益气，是脑力劳动者与熬夜失眠者的回神补脑圣品。",
+    tags: ["贵州", "黔药名汤", "天麻乳鸽", "益气健脑", "隔水炖", "原盅清润"]
+  },
+  {
+    id: "rec_soup_14",
+    name: "砂锅天目湖白汤大鱼头",
+    region: "江南/江苏",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 320,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 60,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "野生大鳙鱼头(胖头鱼)", amount: 1, unit: "个(约1000g)", type: "main", isCore: true },
+      { name: "卤水老豆腐或嫩豆腐", amount: 200, unit: "g", type: "secondary", isCore: false },
+      { name: "春笋片或白玉菇", amount: 60, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜切厚片", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "大葱切段与香葱碎", amount: 30, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "优质菜籽油与纯猪油", baseAmount: 20, unit: "g", amountText: "20g(混合油更香白)", isPantryStaple: true },
+      { name: "纯粮绍兴黄酒", baseAmount: 20, unit: "ml", amountText: "20ml", isPantryStaple: true },
+      { name: "滚烫沸水", baseAmount: 2000, unit: "ml", amountText: "2000ml(必须滚沸水)", isPantryStaple: true },
+      { name: "现磨白胡椒粉与精盐", baseAmount: 4, unit: "g", amountText: "4g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "鱼头彻底刮净黑膜与去齿去鳃",
+        instruction: "大鱼头从下巴对半劈开但不切断，彻底刮净腹内黑膜、洗净血水，切除咽喉骨鱼齿，用厨房纸彻底吸干表面水分。",
+        timerSeconds: 360,
+        chefTip: "鱼头腥味的根源在鱼鳃、黑膜和咽喉齿，这三处去除干净，汤水只有纯粹鲜甜无一丝泥腥。"
+      },
+      {
+        stepIndex: 2,
+        title: "猪油混合热锅煎透鱼头两面",
+        instruction: "热锅下菜籽油与猪油烧热，下姜片爆香，放入鱼头中火慢煎3-4分钟至两面金黄微焦，烹入黄酒激出香气。",
+        timerSeconds: 300,
+        chefTip: "加一小勺猪油是汤色快速冲出雪白如牛奶的物理乳化催化剂。"
+      },
+      {
+        stepIndex: 3,
+        title: "倒入滚烫沸水大火狂滚沸腾20分钟",
+        instruction: "立即往锅中一次性注入2000ml刚烧开的滚烫沸水，盖上锅盖保持大火狂沸翻滚20分钟，汤色瞬间由黄转为乳白浓稠。",
+        timerSeconds: 1200,
+        chefTip: "必须是滚沸开水且全程大火！冷水会导致鱼肉收紧蛋白质无法乳化成白汤。"
+      },
+      {
+        stepIndex: 4,
+        title: "转砂锅入豆腐慢煨入味",
+        instruction: "将鱼头与奶白浓汤移入保温砂锅，放入切块老豆腐与笋片，转中火继续煨炖20分钟使豆腐布满蜂窝吸足鱼汤。调入盐与大量现磨白胡椒粉，撒葱花盛出。",
+        timerSeconds: 1200,
+        chefTip: "白胡椒粉与鱼头是绝配，既提神驱寒又衬托出极致鱼鲜。"
+      }
+    ],
+    tips: "江苏溧阳天目湖传世国宴大菜。汤色雪白如乳，汁浓如脂，肉质嫩滑，肥而不腻，豆腐吸饱鱼髓鲜汁更胜肉香。",
+    tags: ["江南", "江苏", "天目湖鱼头", "奶白鱼汤", "白胡椒提鲜", "家宴名汤"]
+  },
+  {
+    id: "rec_soup_15",
+    name: "传统当归生姜羊肉汤",
+    region: "中原/汉方",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 350,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 120,
+    difficulty: "简单",
+    portion: 2,
+    ingredients: [
+      { name: "带皮新鲜山羊肉或羊腩", amount: 400, unit: "g", type: "main", isCore: true },
+      { name: "甘肃岷县特级当归头切片", amount: 15, unit: "g", type: "main", isCore: true },
+      { name: "老生姜去皮切厚片", amount: 40, unit: "g", type: "main", isCore: true },
+      { name: "红枣去核", amount: 6, unit: "颗", type: "secondary", isCore: false },
+      { name: "大葱段", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "纯粮黄酒", baseAmount: 20, unit: "ml", amountText: "20ml", isPantryStaple: true },
+      { name: "矿泉水", baseAmount: 1800, unit: "ml", amountText: "1800ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "羊肉切大块漂洗焯水",
+        instruction: "新鲜羊肉切麻将块，冷水浸泡1小时漂净血水。冷水入锅加姜片、黄酒焯水烧开，撇清浮沫捞出冲净沥水。",
+        timerSeconds: 360,
+        chefTip: "羊肉漂净血水后焯透，汤水清澈不腥不膻。"
+      },
+      {
+        stepIndex: 2,
+        title: "药材洗净与生姜重用",
+        instruction: "当归片清水冲洗，生姜切大片用刀面微拍；红枣去核洗净。",
+        timerSeconds: 180,
+        chefTip: "方中当归生姜黄金比例相得益彰，老姜重用辛温发散，佐当归补血活血。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅文火深煨两小时",
+        instruction: "砂锅加入1800ml清水，放入羊肉块、当归片、大量姜片、葱段和红枣。大火烧开转文火慢炖100分钟至羊肉软烂酥糯。",
+        timerSeconds: 6000,
+        chefTip: "盖紧砂锅盖微火慢煨，让当归之特殊药香与羊肉脂香完全融合。"
+      },
+      {
+        stepIndex: 4,
+        title: "落盐出锅暖胃驱寒",
+        instruction: "捞出葱段，加入精盐3g搅匀，趁滚烫温热盛入汤碗，吃肉喝汤。",
+        timerSeconds: 240,
+        chefTip: "严冬手脚冰凉者趁热连饮，周身热流涌动，极驱寒气。"
+      }
+    ],
+    tips: "出自医圣张仲景《金匮要略》之千古名方。温中补虚、祛寒止痛，专治秋冬体寒畏冷、气血亏虚，堪称中华食疗之祖方。",
+    tags: ["经方药膳", "秋冬滋补", "当归羊肉", "温阳散寒", "千古名方", "老火靓汤"]
+  },
+  {
+    id: "rec_soup_16",
+    name: "河南信阳瓦罐炖老鸭汤",
+    region: "河南/豫菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煨",
+    calories: 310,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 150,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "河南信阳淮滨散养老麻鸭", amount: 0.5, unit: "只(约600g)", type: "main", isCore: true },
+      { name: "信阳生板栗(去壳)", amount: 150, unit: "g", type: "main", isCore: true },
+      { name: "河南山药或铁棍山药", amount: 150, unit: "g", type: "secondary", isCore: false },
+      { name: "红枣", amount: 5, unit: "颗", type: "secondary", isCore: false },
+      { name: "生姜切厚片", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "纯粮料酒", baseAmount: 20, unit: "ml", amountText: "20ml", isPantryStaple: true },
+      { name: "天然山泉水", baseAmount: 2000, unit: "ml", amountText: "2000ml", isPantryStaple: true },
+      { name: "精制食盐与白胡椒粒", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "老鸭干煸与焯水去腥",
+        instruction: "老鸭剁块，入铁锅不放油干煸出表面鸭脂，烹料酒翻炒出香后倒入热水焯烫，捞出洗净沥干。",
+        timerSeconds: 420,
+        chefTip: "信阳名厨经验：老鸭肉质紧实，干煸出油后炖出来的汤油亮却不腻口。"
+      },
+      {
+        stepIndex: 2,
+        title: "瓦罐入冷水文火慢煨两小时",
+        instruction: "将焯好的老鸭、姜片、少许白胡椒粒放入传统深底陶土瓦罐中，注入2000ml山泉水。炭火或文火慢煨90分钟至鸭肉初酥。",
+        timerSeconds: 5400,
+        chefTip: "土瓦罐透气不透水，受热极其均匀柔和，能把老鸭骨髓深处的鲜味彻底煨出来。"
+      },
+      {
+        stepIndex: 3,
+        title: "入信阳板栗与山药段慢煨入味",
+        instruction: "加入洗净的整颗信阳鲜板栗和切厚段的铁棍山药、红枣，继续小火慢煨40分钟，直到板栗粉糯甘甜、山药软糯滑口。",
+        timerSeconds: 2400,
+        chefTip: "板栗甜味融入鸭汤中，使整罐老鸭汤泛出淡甜回味，滋补健脾。"
+      },
+      {
+        stepIndex: 4,
+        title: "放盐调味原罐上桌",
+        instruction: "出锅前调入精盐搅匀，直接整只瓦罐端上餐桌，鸭肉酥脱，板栗甜糯，汤汁滚烫醇鲜。",
+        timerSeconds: 240,
+        chefTip: "原罐上桌保温极佳，一顿饭吃完汤水依然微烫。"
+      }
+    ],
+    tips: "信阳大别山传统名吃。老麻鸭滋阴养胃，板栗健脾补肾，瓦罐恒温煨炖骨酥肉烂，汤水鲜浓温润，极富中原泥土芬芳。",
+    tags: ["河南", "豫菜", "信阳老鸭", "瓦罐慢煨", "板栗鲜甜", "老火滋补"]
+  },
+  {
+    id: "rec_soup_17",
+    name: "客家正宗车前草黄豆煲猪横脷",
+    region: "广东/客家",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 260,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 90,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "鲜活优质猪横脷(猪脾脏)", amount: 1, unit: "条(约300g)", type: "main", isCore: true },
+      { name: "客家干车前草(清热药草)", amount: 30, unit: "g", type: "main", isCore: true },
+      { name: "有机黄豆(泡发洗净)", amount: 50, unit: "g", type: "main", isCore: true },
+      { name: "新鲜土猪脊骨或瘦肉", amount: 200, unit: "g", type: "secondary", isCore: false },
+      { name: "新会陈皮", amount: 1, unit: "角", type: "secondary", isCore: false },
+      { name: "老姜厚片", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "优质矿泉水", baseAmount: 1800, unit: "ml", amountText: "1800ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2.5, unit: "g", amountText: "2.5g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "猪横脷彻底去白脂白膜与焯水",
+        instruction: "猪横脷剔除包裹的白色油脂，切厚片。冷水下锅加姜片大火焯水3分钟撇尽浮沫，温水洗净沥干。",
+        timerSeconds: 300,
+        chefTip: "猪横脷背部白膜必须剔净，否则带腥杂味；焯水后肉质脆嫩不柴。"
+      },
+      {
+        stepIndex: 2,
+        title: "车前草泡洗去泥沙",
+        instruction: "车前草用流动清水多次漂洗干净泥沙沥干；陈皮泡软刮去白膜。",
+        timerSeconds: 240,
+        chefTip: "干草药容易带有浮尘泥沙，需反复漂洗两次。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅文火深煲90分钟",
+        instruction: "砂锅中加入1800ml水，放入猪横脷、瘦肉、车前草、黄豆、陈皮和姜片。大火煮沸转小火慢煲80分钟至黄豆粉烂、草药清香完全释出。",
+        timerSeconds: 4800,
+        chefTip: "加少许陈皮和黄豆，能完美化解草药的生凉感，增添甘润醇和。"
+      },
+      {
+        stepIndex: 4,
+        title: "调盐出锅清心降火",
+        instruction: "出锅前调入精盐搅匀即可盛出，汤色暗金清亮，入口清润回甘，毫不苦涩。",
+        timerSeconds: 180,
+        chefTip: "此汤清淡爽口，落肚极为舒服。"
+      }
+    ],
+    tips: "客家人家家户户皆知的降火清热神汤。车前草清热利湿降肝火，猪横脷健脾消食，是熬夜上火、咽痛长痘时最佳食疗方。",
+    tags: ["客家", "广东", "车前草", "猪横脷", "清热降火", "时令药膳"]
+  },
+  {
+    id: "rec_soup_18",
+    name: "淮扬神仙鸭子汤",
+    region: "江南/淮扬",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "炖",
+    calories: 340,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 150,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "江南优质肥嫩仔鸭或水鸭", amount: 0.5, unit: "只(约600g)", type: "main", isCore: true },
+      { name: "金华特级金字火腿厚片", amount: 30, unit: "g", type: "main", isCore: true },
+      { name: "太湖大干贝(淡水发软)", amount: 6, unit: "粒", type: "secondary", isCore: false },
+      { name: "冬笋片或水发香菇", amount: 50, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜切片与大葱白", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "陈年花雕酒(足量提神)", baseAmount: 40, unit: "ml", amountText: "40ml", isPantryStaple: true },
+      { name: "矿泉水", baseAmount: 1500, unit: "ml", amountText: "1500ml", isPantryStaple: true },
+      { name: "白胡椒粒微碎", baseAmount: 1, unit: "g", amountText: "1g", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 1, unit: "g", amountText: "1g(火腿干贝极鲜咸)", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "鸭子整块焯透洗净",
+        instruction: "仔鸭斩成大块，冷水焯透撇净浮沫，捞出用温水彻底冲去骨渣血沫。",
+        timerSeconds: 300,
+        chefTip: "大块鸭肉蒸炖受热均匀，肉汁锁在纤维中不会干柴。"
+      },
+      {
+        stepIndex: 2,
+        title: "大瓷钵码放火腿干贝冬笋",
+        instruction: "在深瓷钵底码入焯好鸭肉、火腿厚片、发好干贝、冬笋片与姜葱，注入足量花雕酒与白胡椒粒。",
+        timerSeconds: 240,
+        chefTip: "淮扬古法注重复合吊鲜，火腿之陈咸与干贝之海味将鸭肉鲜度推向神级境界。"
+      },
+      {
+        stepIndex: 3,
+        title: "古法密封双层皮纸隔水慢蒸两小时",
+        instruction: "倒入1500ml矿泉水，钵口覆耐热保鲜膜或棉皮纸严密封口。放入大蒸锅大火烧开转中火隔水蒸炖2.5小时至酥烂脱骨。",
+        timerSeconds: 9000,
+        chefTip: "封口隔水蒸是古人所谓的‘神仙蒸法’，香气原汁循环凝结在钵内，酥烂脱骨却形整不散。"
+      },
+      {
+        stepIndex: 4,
+        title: "揭膜撇去浮油调盐出锅",
+        instruction: "揭开封膜，撇去表面一层清金鸭油，尝汤咸淡补入微量盐搅匀，端钵上桌。",
+        timerSeconds: 240,
+        chefTip: "汤汁清澈见底色如琥珀，鸭肉用筷子一碰即骨肉分离，鲜醇绝伦。"
+      }
+    ],
+    tips: "孔府宴与淮扬官府传世名菜。相传蒸制时香气袅袅胜似仙界，故名‘神仙鸭子’。原汤蒸透无半点火气，鲜美醇厚至极。",
+    tags: ["淮扬", "江南", "官府菜", "神仙鸭子", "隔水密封炖", "极致醇鲜"]
+  },
+  {
+    id: "rec_soup_19",
+    name: "杭州西湖莼菜鲈鱼羹",
+    region: "江南/浙江",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "羹",
+    calories: 180,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 20,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "西湖特产鲜嫩莼菜", amount: 150, unit: "g", type: "main", isCore: true },
+      { name: "新鲜太湖活鲈鱼柳", amount: 150, unit: "g", type: "main", isCore: true },
+      { name: "熟金华火腿切极细丝", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "熟鸡脯肉切极细丝", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "蛋清", amount: 1, unit: "个", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "浓白高汤或鸡清汤", baseAmount: 1000, unit: "ml", amountText: "1000ml", isPantryStaple: true },
+      { name: "古越龙山绍兴花雕酒", baseAmount: 10, unit: "ml", amountText: "10ml", isPantryStaple: true },
+      { name: "太白粉水(极薄琉璃水淀粉)", baseAmount: 25, unit: "ml", amountText: "25ml", isPantryStaple: true },
+      { name: "精制食盐与白胡椒粉", baseAmount: 2, unit: "g", amountText: "2g", isPantryStaple: true },
+      { name: "纯正芝麻香油", baseAmount: 3, unit: "ml", amountText: "3ml", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "鲈鱼剔骨切银丝上浆",
+        instruction: "鲜鲈鱼去皮剔净细刺，顺纹切成细丝，加蛋清、少许盐、花雕酒、干淀粉轻轻抓匀上浆冷藏5分钟。",
+        timerSeconds: 300,
+        chefTip: "鲈鱼肉极嫩，轻抓上浆能在滑入热汤时瞬间锁水，柔嫩如豆腐。"
+      },
+      {
+        stepIndex: 2,
+        title: "莼菜沸水微烫激脆捞起",
+        instruction: "莼菜清水漂净胶质杂质，入沸水锅迅速汆烫5秒捞出过冷水，保持碧绿滑润。",
+        timerSeconds: 120,
+        chefTip: "莼菜表面带有一层天然果胶质透明粘液，不可久煮，微烫即可保持滑脆。"
+      },
+      {
+        stepIndex: 3,
+        title: "鸡清汤烧沸滑入三丝",
+        instruction: "锅中倒入1000ml上好鸡清汤烧开，下入火腿细丝、熟鸡丝煮出香气，接着改微小火将上浆鲈鱼丝轻推入汤中划散滑熟。",
+        timerSeconds: 180,
+        chefTip: "鱼丝下锅必须转小火轻推划散，鱼肉一变白立刻熟透，万不可猛火冲碎。"
+      },
+      {
+        stepIndex: 4,
+        title: "入莼菜勾薄琉璃芡淋香油",
+        instruction: "倒入烫好的碧绿莼菜，调入盐与白胡椒粉，淋入太白粉水勾成极其轻薄的‘米汤琉璃芡’，点几滴香油装入白瓷大汤碗。",
+        timerSeconds: 180,
+        chefTip: "羹汤芡汁宜薄不宜厚，犹如江南烟雨薄雾，清雅见底。"
+      }
+    ],
+    tips: "晋代张翰因思念家乡‘莼鲈之思’而辞官归里的千古名羹。莼菜嫩滑柔润，鲈鱼如雪如银，汤清味甘，江南水乡第一雅汤。",
+    tags: ["江南", "浙江", "莼鲈之思", "西湖莼菜", "清鲜名羹", "滑嫩生津"]
+  },
+  {
+    id: "rec_soup_20",
+    name: "广式原盅原汁椰子炖竹丝鸡",
+    region: "广东/广府",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "炖",
+    calories: 270,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "老椰子(带清甜椰子水)", amount: 2, unit: "个(打顶做原盅)", type: "main", isCore: true },
+      { name: "优质竹丝鸡(泰和乌鸡)", amount: 300, unit: "g", type: "main", isCore: true },
+      { name: "去核红枣与优质枸杞", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "干百合与白莲子", amount: 20, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜薄片", amount: 6, unit: "片", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "纯天然椰子水(椰内自带)", baseAmount: 600, unit: "ml", amountText: "600ml(绝不加自来水)", isPantryStaple: false },
+      { name: "精制食盐", baseAmount: 1.5, unit: "g", amountText: "1.5g(椰水清甜只需微量)", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "老椰子开盖倒出椰水",
+        instruction: "老椰子顶部用刀锯开直径约6厘米的圆盖做盅，倒出原盅清甜椰子水过滤杂质备用，椰肉内壁保留做天然慢炖容器。",
+        timerSeconds: 480,
+        chefTip: "选用老椰子炖汤椰香最足，椰水过滤后完全不混杂外水，极具原生态甘甜。"
+      },
+      {
+        stepIndex: 2,
+        title: "乌鸡斩小块焯水洗净",
+        instruction: "乌鸡剁成小块冷水焯水2分钟捞出洗净沥干。",
+        timerSeconds: 240,
+        chefTip: "鸡块剁小块才易装入椰盅，焯透后汤水彻底清澄透澈。"
+      },
+      {
+        stepIndex: 3,
+        title: "分装食材灌入椰水盖盖",
+        instruction: "将乌鸡块、百合、莲子、红枣片分装入两个椰盅内，将原汁椰子水灌回椰盅至九分满，盖上椰子原盖。",
+        timerSeconds: 300,
+        chefTip: "原盅椰水炖煮受热膨胀，倒九分满即可避免溢出。"
+      },
+      {
+        stepIndex: 4,
+        title: "大火隔水深炖两小时",
+        instruction: "将整颗椰盅放入蒸锅，水烧开后盖锅盖，中火隔水蒸炖100分钟。出锅前5分钟揭盖撒入枸杞与微量盐即可端出原盅享用。",
+        timerSeconds: 6000,
+        chefTip: "老椰肉在蒸炖中被鸡汤反渗透，肉香融入椰香，甚至可用小勺刮食内壁吸饱鸡汤的鲜嫩椰肉。"
+      }
+    ],
+    tips: "广式茶楼与私房靓汤代表作。天然椰子水甘冽清甜，与竹丝鸡滋阴养血完美交融，汤汁纯净如玉露，清甜润喉，唇齿留香。",
+    tags: ["广东", "广府", "原只椰子炖", "纯天然清甜", "竹丝乌鸡", "隔水名炖"]
+  },
+  {
+    id: "rec_soup_21",
+    name: "海底椰无花果百合瘦肉汤",
+    region: "广东/广府",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 230,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 90,
+    difficulty: "简单",
+    portion: 2,
+    ingredients: [
+      { name: "非洲干海底椰薄片", amount: 20, unit: "g", type: "main", isCore: true },
+      { name: "天然土耳其无花果干", amount: 5, unit: "颗", type: "main", isCore: true },
+      { name: "无硫兰州干百合", amount: 25, unit: "g", type: "main", isCore: true },
+      { name: "新鲜土猪梅头瘦肉", amount: 350, unit: "g", type: "main", isCore: true },
+      { name: "南北杏仁", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜片", amount: 10, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "矿泉水", baseAmount: 1800, unit: "ml", amountText: "1800ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2.5, unit: "g", amountText: "2.5g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "药材温水浸洗与无花果剪半",
+        instruction: "海底椰片、百合、南北杏温水清洗沥干；无花果对半剪开以便慢煲时糖分香气充分析出。",
+        timerSeconds: 300,
+        chefTip: "无花果剪开能大大加快果糖与氨基酸融进汤汁的速度，回甘极强。"
+      },
+      {
+        stepIndex: 2,
+        title: "梅肉切大块焯水洗净",
+        instruction: "梅头瘦肉切大厚块，冷水焯水撇尽浮沫，捞出温水冲净。",
+        timerSeconds: 240,
+        chefTip: "选梅花肉或腱子瘦肉，久煲不柴，汤清甜不泛油花。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅文火深煲90分钟",
+        instruction: "砂锅加入1800ml水，放入瘦肉块、海底椰片、无花果、百合、南北杏和姜片。大火煮沸后转小火文煲80分钟。",
+        timerSeconds: 4800,
+        chefTip: "小火慢煲让海底椰与百合的清润精髓慢慢浸透瘦肉。"
+      },
+      {
+        stepIndex: 4,
+        title: "落盐关火清润润喉",
+        instruction: "出锅前调入少许盐搅匀熄火，盛入汤碗享用清甜滋润、毫无油腻感的金黄清汤。",
+        timerSeconds: 180,
+        chefTip: "汤汁清凉润喉，喝完喉咙清爽回甘无比舒畅。"
+      }
+    ],
+    tips: "秋燥咳嗽与换季喉干的最佳滋润汤水。海底椰清热止咳，百合润肺安神，无花果甘甜生津，味道清香甜美，全家大人小孩皆爱喝。",
+    tags: ["广东", "秋燥必备", "海底椰百合", "清甜润喉", "无油清爽", "老火靓汤"]
+  },
+  {
+    id: "rec_soup_22",
+    name: "虫草花西洋参老鸽慢炖汤",
+    region: "广东/潮汕",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "炖",
+    calories: 270,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "初生嫩乳鸽", amount: 1, unit: "只(约350g)", type: "main", isCore: true },
+      { name: "优质金黄虫草花", amount: 30, unit: "g", type: "main", isCore: true },
+      { name: "加拿大西洋参片", amount: 8, unit: "g", type: "main", isCore: true },
+      { name: "土猪脊骨或瘦肉丁", amount: 100, unit: "g", type: "secondary", isCore: false },
+      { name: "宁夏枸杞与红枣", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜片", amount: 12, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "矿泉水", baseAmount: 1400, unit: "ml", amountText: "1400ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2, unit: "g", amountText: "2g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "乳鸽剖洗去腺焯水",
+        instruction: "乳鸽剖开洗净内脏与尾部腺体，冷水下锅加姜片焯烫3分钟，撇尽浮沫捞出温水洗净沥干。",
+        timerSeconds: 300,
+        chefTip: "乳鸽骨细肉嫩，彻底焯去血污保证隔水炖汤清澄如茶。"
+      },
+      {
+        stepIndex: 2,
+        title: "虫草花轻柔洗净",
+        instruction: "干虫草花冷水快速漂洗一次即可，切忌用力揉搓以免营养成分流失；西洋参片备好。",
+        timerSeconds: 180,
+        chefTip: "虫草花表面有丰富的金黄菌粉，过水即捞，其金黄天然色素能让汤色金黄瑰丽。"
+      },
+      {
+        stepIndex: 3,
+        title: "入隔水炖盅文火慢炖两小时",
+        instruction: "将乳鸽、瘦肉、虫草花、西洋参片、红枣、姜片置于陶瓷炖盅内，注入1400ml水，封严双层盅盖，隔水蒸炖2小时。",
+        timerSeconds: 7200,
+        chefTip: "隔水慢火蒸炖，西洋参的参皂苷与虫草花的多糖物质完全融汇入汤，香醇内敛。"
+      },
+      {
+        stepIndex: 4,
+        title: "撒入枸杞落盐出锅",
+        instruction: "出锅前5分钟放入枸杞和精盐，再盖盖蒸5分钟取出享用金澄滋养甘汤。",
+        timerSeconds: 300,
+        chefTip: "色泽金红诱人，甘润微带参香，落肚安神静气。"
+      }
+    ],
+    tips: "广东高端炖品经典组合。虫草花提升免疫，西洋参清火生津养阴，乳鸽大补元气，特别适合高压熬夜、阴虚盗汗之人群调养身心。",
+    tags: ["广东", "潮汕", "虫草花老鸽", "西洋参生津", "金黄原盅", "滋阴提神"]
+  },
+  {
+    id: "rec_soup_23",
+    name: "湖北蔡甸野莲藕慢煨筒子骨汤",
+    region: "湖北/楚菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煨",
+    calories: 390,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 180,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "湖北蔡甸特级九孔红花粉藕", amount: 600, unit: "g", type: "main", isCore: true },
+      { name: "新鲜土猪大筒子骨(砸断露骨髓)", amount: 500, unit: "g", type: "main", isCore: true },
+      { name: "生姜切厚块拍破", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "新鲜青葱段与葱花", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "天然纯猪油或熟菜籽油(炒姜爆香)", baseAmount: 10, unit: "g", amountText: "10g", isPantryStaple: true },
+      { name: "纯粮高度白酒", baseAmount: 15, unit: "ml", amountText: "15ml", isPantryStaple: true },
+      { name: "滚烫沸水", baseAmount: 2400, unit: "ml", amountText: "2400ml", isPantryStaple: true },
+      { name: "精制食盐与现磨白胡椒粉", baseAmount: 4, unit: "g", amountText: "4g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "蔡甸粉藕刀背滚刀拍块加盐腌制",
+        instruction: "蔡甸九孔粉藕刮去外皮，用刀背猛拍破后再切成不规则大滚刀块，撒入1茶匙食盐颠匀腌制10分钟。",
+        timerSeconds: 420,
+        chefTip: "楚菜泰斗秘诀：藕切忌用刀平切，必须‘滚刀拍块’使断面纤维断裂出浆，提前加盐腌制能锁住藕糖并使藕块煨出粉红拉丝神韵。"
+      },
+      {
+        stepIndex: 2,
+        title: "筒子骨敲断焯透",
+        instruction: "筒骨砸断露出骨髓，冷水加姜块、白酒焯水大沸5分钟，彻底除净血沫，捞出用温水洗净沥干。",
+        timerSeconds: 360,
+        chefTip: "必须敲断大骨露出骨髓，骨髓溶入汤中才能形成湖北藕汤独特的浓醇脂香。"
+      },
+      {
+        stepIndex: 3,
+        title: "入传统黑土砂吊子大火冲白转小火煨肉",
+        instruction: "砂锅热透抹少许猪油爆香拍姜，放入筒子骨翻炒几下，倒入2400ml滚沸开水！大火狂煮沸腾20分钟冲出白汤，转小火慢煨60分钟。",
+        timerSeconds: 4800,
+        chefTip: "先将筒骨熬透出浓白高汤，再下藕，保证骨肉酥香而汤底醇厚。"
+      },
+      {
+        stepIndex: 4,
+        title: "入粉藕继续文火慢煨90分钟至粉红拉丝",
+        instruction: "将腌过的藕块冲去表面盐分倒入砂锅，继续盖严砂锅盖小火深煨90分钟，直到藕块由白转为诱人粉红，入口一抿即化拉丝绵长。关火前放足白胡椒粉与盐，撒葱花盛出。",
+        timerSeconds: 5400,
+        chefTip: "煨足两小时半以上，藕中淀粉水解形成天然粉红微甘，汤浓如奶，骨髓吸食爽快淋漓。"
+      }
+    ],
+    tips: "楚乡千万家庭心中不可动摇的‘第一家乡味’。蔡甸粉藕粉糯拉丝、筒骨髓香浓郁，汤呈粉红浓稠，白胡椒辛辣醒脾，饮之满口留香。",
+    tags: ["湖北", "楚菜", "排骨藕汤", "蔡甸粉藕", "粉糯拉丝", "传世名汤"]
+  },
+  {
+    id: "rec_soup_24",
+    name: "福州海蚌煨清鸡汤",
+    region: "福建/闽菜",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煨",
+    calories: 210,
+    prepTimeMinutes: 20,
+    cookTimeMinutes: 40,
+    difficulty: "进阶",
+    portion: 2,
+    ingredients: [
+      { name: "福建长乐鲜活漳港海蚌(西施舌)", amount: 4, unit: "只(约400g)", type: "main", isCore: true },
+      { name: "土母鸡清澄吊制双脆高汤", amount: 1000, unit: "ml", type: "main", isCore: true },
+      { name: "极细熟金华火腿丝", amount: 10, unit: "g", type: "secondary", isCore: false },
+      { name: "现发大干贝丝", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老生姜丝", amount: 10, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "纯粮绍兴花雕酒", baseAmount: 15, unit: "ml", amountText: "15ml", isPantryStaple: true },
+      { name: "精制食盐与白胡椒粉", baseAmount: 2, unit: "g", amountText: "2g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "海蚌剖洗剔除泥沙片薄片",
+        instruction: "漳港海蚌剖壳洗净泥沙，剥离蚌肉，用刀沿边缘片成两片大而薄的蝴蝶蚌肉，用少许盐洗去粘液控干。",
+        timerSeconds: 360,
+        chefTip: "长乐海蚌肉质脆嫩极具弹性，刀工必须片得轻薄均匀，稍一受热即脆嫩生津。"
+      },
+      {
+        stepIndex: 2,
+        title: "海蚌肉沸水快速汆烫3秒定型",
+        instruction: "沸水锅中加少许花雕酒，蚌肉放入漏勺，浸入沸水中轻轻一烫3秒钟，蚌肉微卷立即捞出置入温热汤碗中。",
+        timerSeconds: 120,
+        chefTip: "闽菜大师火候秘诀：‘多一秒则老硬，欠一秒则带腥’，三秒出水脆嫩如玉笋。"
+      },
+      {
+        stepIndex: 3,
+        title: "老母鸡干贝高汤慢火澄清",
+        instruction: "老母鸡与干贝熬煮好之清高汤，用鸡茸轻轻吊清至清亮如开水，调入微量盐与白胡椒粉，大火烧至滚沸微滚。",
+        timerSeconds: 300,
+        chefTip: "高汤澄清透亮，滋味却深厚磅礴，正是‘淡中藏至鲜’的最高技法。"
+      },
+      {
+        stepIndex: 4,
+        title: "滚烫鸡汤现煨蚌肉出堂",
+        instruction: "将滚烫的鸡高汤如瀑布般从高处浇冲在烫好的海蚌片上，撒少许火腿丝与细姜丝激出香气，立即上桌趁热品尝。",
+        timerSeconds: 120,
+        chefTip: "利用滚烫清鸡汤的余温在碗中完成最后的‘煨透’，蚌肉脆嫩绝伦，鲜度冠绝华夏。"
+      }
+    ],
+    tips: "国宴名席与闽菜至尊无上神品。郁达夫赞叹‘此味只应天上有’，漳港海蚌脆如脆笋，鸡汤清冽鲜香，绝无一丝杂味，高雅至极。",
+    tags: ["福建", "闽菜", "国宴名菜", "漳港海蚌", "鸡汤煨蚌", "清鲜极致"]
+  },
+  {
+    id: "rec_soup_25",
+    name: "霸王花干罗汉果煲猪肺汤",
+    region: "广东/广府",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 250,
+    prepTimeMinutes: 25,
+    cookTimeMinutes: 120,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "肇庆特产干霸王花(剑花)", amount: 40, unit: "g", type: "main", isCore: true },
+      { name: "桂林天然罗汉果", amount: 0.5, unit: "个", type: "main", isCore: true },
+      { name: "新鲜健康猪肺(灌水洗白切厚块)", amount: 400, unit: "g", type: "main", isCore: true },
+      { name: "新鲜土猪脊骨或瘦肉", amount: 200, unit: "g", type: "secondary", isCore: false },
+      { name: "南北杏仁", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜厚片", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "纯粮料酒与白醋", baseAmount: 20, unit: "ml", amountText: "20ml", isPantryStaple: true },
+      { name: "矿泉水", baseAmount: 2200, unit: "ml", amountText: "2200ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "猪肺反复灌水拍洗至雪白并干锅干煸",
+        instruction: "猪肺喉管接自来水反复灌水膨胀挤压出血沫，重复5-6次至整只猪肺通体雪白，切厚大块。干铁锅不放油，下入猪肺大火炒净水分排出黏液后捞起冲洗。",
+        timerSeconds: 600,
+        chefTip: "猪肺必须‘洗白’且‘干煸’出泡沫，彻底杜绝异味与腥气，汤色才会清澄回甘。"
+      },
+      {
+        stepIndex: 2,
+        title: "霸王花温水泡发与罗汉果掰碎",
+        instruction: "干霸王花温水浸泡20分钟撕开冲洗干净杂质；半个罗汉果捏成小碎块；南北杏洗净。",
+        timerSeconds: 300,
+        chefTip: "半个罗汉果甜度已极足，切勿多放以免汤味过甜掩盖肉香。"
+      },
+      {
+        stepIndex: 3,
+        title: "猪骨焯水与所有食材入砂锅",
+        instruction: "猪骨焯透洗净。砂锅注入2200ml水，放入处理好的猪肺、猪骨、霸王花、罗汉果、南北杏及生姜。大火烧开撇去微沫，转小火慢煲100分钟。",
+        timerSeconds: 6000,
+        chefTip: "霸王花具有天然胶质感，慢火煲煮能让汤水带有一种极其顺滑的甘润稠度。"
+      },
+      {
+        stepIndex: 4,
+        title: "落盐关火清甜润喉",
+        instruction: "出锅前5分钟调入精盐搅匀，熄火出锅，猪肺软嫩弹牙，霸王花滑润，汤水深金甘香。",
+        timerSeconds: 300,
+        chefTip: "罗汉果的天然甜菊糖与猪肺霸王花融合，喝完喉头如涂蜜般清润。"
+      }
+    ],
+    tips: "老广清肺除燥的祖传秘汤。专治雾霾吸烟、咽痒干咳、肺燥咽痛，清肺化痰、理气生津，一碗下肚喉头通透甘润如甘露。",
+    tags: ["广东", "清肺利咽", "霸王花猪肺", "罗汉果回甘", "老火靓汤", "养生食疗"]
+  },
+  {
+    id: "rec_soup_26",
+    name: "菌皇羊肚菌排骨山药汤",
+    region: "江南/江浙",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 320,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 90,
+    difficulty: "简单",
+    portion: 2,
+    ingredients: [
+      { name: "野生特级羊肚菌", amount: 8, unit: "只", type: "main", isCore: true },
+      { name: "新鲜精选精肋排", amount: 400, unit: "g", type: "main", isCore: true },
+      { name: "河南焦作铁棍山药", amount: 200, unit: "g", type: "main", isCore: true },
+      { name: "宁夏枸杞与无核红枣", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜薄片", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "优质矿泉水", baseAmount: 1800, unit: "ml", amountText: "1800ml", isPantryStaple: true },
+      { name: "精制食盐与白胡椒粉", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "羊肚菌温润泡发留取黄金原液",
+        instruction: "羊肚菌用40度温水浸泡30分钟，轻轻旋转清洗褶皱泥沙捞出，泡发菌水沉淀后过滤留存。",
+        timerSeconds: 360,
+        chefTip: "羊肚菌原汁富含高浓度谷氨酸天然鲜味分子，融入汤中鲜度倍增。"
+      },
+      {
+        stepIndex: 2,
+        title: "精肋排焯水去浮沫",
+        instruction: "排骨切小段，冷水下锅加姜片大火烧沸焯水3分钟，撇清浮沫捞出温水洗净沥干。",
+        timerSeconds: 300,
+        chefTip: "排骨切段适中，温水洗净保持肉质嫩爽。"
+      },
+      {
+        stepIndex: 3,
+        title: "砂锅文火煲煮排骨与羊肚菌",
+        instruction: "砂锅注入1800ml清水和羊肚菌原水，下入排骨、羊肚菌、红枣和姜片。大火烧开转小火慢煲50分钟。",
+        timerSeconds: 3000,
+        chefTip: "羊肚菌与排骨先煲，菌香充分渗入骨髓中。"
+      },
+      {
+        stepIndex: 4,
+        title: "入铁棍山药慢炖至粉糯",
+        instruction: "铁棍山药去皮斜切厚滚刀块放入砂锅，继续小火慢煲25分钟至山药粉糯。出锅前加入枸杞、盐与微量白胡椒粉即可出锅。",
+        timerSeconds: 1500,
+        chefTip: "山药不宜过早削皮以防氧化变黑，入锅前现切即可保持玉白粉糯。"
+      }
+    ],
+    tips: "菌中之皇与健脾山药的黄金搭档。汤水鲜美回甘，排骨软烂脱骨，山药粉糯顺滑，健脾益胃补虚损，四季全龄滋养之极品。",
+    tags: ["江浙", "菌皇羊肚菌", "铁棍山药", "健脾养胃", "老火靓汤", "清润鲜醇"]
+  },
+  {
+    id: "rec_soup_27",
+    name: "台湾正宗胡麻油老姜米酒鸡汤",
+    region: "闽台/台湾",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 450,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 50,
+    difficulty: "中等",
+    portion: 2,
+    ingredients: [
+      { name: "散养走地仿土鸡", amount: 0.5, unit: "只(约600g)", type: "main", isCore: true },
+      { name: "台湾正宗冷压纯黑麻油", amount: 45, unit: "ml", type: "main", isCore: true },
+      { name: "带皮优质老姜(厚切片)", amount: 80, unit: "g", type: "main", isCore: true },
+      { name: "红枣与宁夏枸杞", amount: 15, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "台湾公卖局红标纯米酒", baseAmount: 350, unit: "ml", amountText: "350ml(可全酒或半酒)", isPantryStaple: true },
+      { name: "天然冰糖", baseAmount: 5, unit: "g", amountText: "5g(中和苦辛)", isPantryStaple: true },
+      { name: "清水", baseAmount: 600, unit: "ml", amountText: "600ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2, unit: "g", amountText: "2g", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "老姜切厚片与黑麻油低温煸透",
+        instruction: "老姜洗净切2毫米厚片。冷锅倒入黑麻油，放入大量姜片，全程小火慢慢煸炒至姜片边缘微卷、散发浓郁姜油复合焦香。",
+        timerSeconds: 420,
+        chefTip: "台湾名师关键：黑麻油绝不可大火爆烧否则会发苦发燥，必须小火耐心慢煸老姜至干瘪透香。"
+      },
+      {
+        stepIndex: 2,
+        title: "下土鸡块干煸至表皮微焦紧缩",
+        instruction: "将土鸡块倒入姜油锅中，改中大火翻炒5-6分钟，直至鸡皮收缩出油、表面微显金黄焦香。",
+        timerSeconds: 300,
+        chefTip: "鸡肉无需焯水，直接生炒能牢牢锁住鲜美肉汁并彻底吸收麻油姜香。"
+      },
+      {
+        stepIndex: 3,
+        title: "倾入纯米酒大火挥发烈性酒精",
+        instruction: "沿锅边豪迈淋入350ml纯米酒与600ml水、冰糖、红枣，大火烧开保持沸腾5分钟，让刺鼻酒精随蒸汽挥发，只留下浓郁酒香与米甜。",
+        timerSeconds: 360,
+        chefTip: "大火沸腾彻底蒸发酒精，汤水便只留甘甜醇香，即使酒量浅者也能畅饮。"
+      },
+      {
+        stepIndex: 4,
+        title: "转砂锅文火焖煨25分钟撒枸杞出锅",
+        instruction: "转入小砂锅盖盖中慢火煨炖25分钟至鸡肉酥嫩多汁。关火前下枸杞与微量盐，搅拌均匀即可端锅趁热享用。",
+        timerSeconds: 1500,
+        chefTip: "最后调盐不可重，凸显纯米酒与黑麻油天然的甘甜醇厚。"
+      }
+    ],
+    tips: "宝岛台湾秋冬进补与坐月子头牌圣品。黑麻油与老姜驱寒散湿，纯米酒活血通经，鸡肉紧实弹牙，汤水甘甜浓郁，一碗落肚全身发烫。",
+    tags: ["台湾", "闽台", "麻油鸡", "米酒香浓", "温阳暖身", "秋冬暖胃"]
+  },
+  {
+    id: "rec_soup_28",
+    name: "传统砂锅老豆腐炖海捕大虾汤",
+    region: "北方/齐鲁",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 280,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 30,
+    difficulty: "简单",
+    portion: 2,
+    ingredients: [
+      { name: "胶东新鲜海捕对虾或大基围虾", amount: 8, unit: "只(约250g)", type: "main", isCore: true },
+      { name: "传统传统盐卤老豆腐", amount: 350, unit: "g", type: "main", isCore: true },
+      { name: "胶东黄心大白菜嫩叶", amount: 150, unit: "g", type: "secondary", isCore: false },
+      { name: "生姜丝与大葱花", amount: 20, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "优质猪油或花生油", baseAmount: 15, unit: "g", amountText: "15g", isPantryStaple: true },
+      { name: "纯粮料酒", baseAmount: 10, unit: "ml", amountText: "10ml", isPantryStaple: true },
+      { name: "沸水", baseAmount: 1200, unit: "ml", amountText: "1200ml", isPantryStaple: true },
+      { name: "精制食盐与现磨白胡椒粉", baseAmount: 3, unit: "g", amountText: "3g", isPantryStaple: true },
+      { name: "纯正芝麻香油", baseAmount: 3, unit: "ml", amountText: "3ml", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "大虾剪枪挑虾线开背",
+        instruction: "大虾剪去虾枪虾须，剔除沙线，后背划一刀便于入味；老豆腐切1.5厘米厚方块；白菜手撕大片。",
+        timerSeconds: 300,
+        chefTip: "老豆腐切大厚块，耐炖不易碎，吸满虾油更加蜂窝入味。"
+      },
+      {
+        stepIndex: 2,
+        title: "煸炒虾头按压出红润虾油",
+        instruction: "热锅下猪油，放入大虾与葱姜丝，用锅铲轻轻按压虾头挤出浓郁红虾油，烹入料酒，煎至大虾两面通红出香。",
+        timerSeconds: 180,
+        chefTip: "按压虾头煸出天然红亮虾脑油，是整锅汤鲜甜浓郁、色泽金红的灵魂之笔。"
+      },
+      {
+        stepIndex: 3,
+        title: "注入沸水大火滚煮出金汤",
+        instruction: "往锅中倒入1200ml滚烫沸水，大火翻滚沸腾3分钟，红虾油与沸水瞬间乳化成鲜亮金白海鲜汤底。",
+        timerSeconds: 180,
+        chefTip: "加沸水大火滚煮，汤底浓白微红，鲜气腾腾。"
+      },
+      {
+        stepIndex: 4,
+        title: "入老豆腐白菜砂锅慢煨入味",
+        instruction: "将汤与虾倒入砂锅，铺入老豆腐与白菜叶，盖盖中小火慢煨15分钟至白菜塌软、豆腐吸饱汤汁。调入盐、胡椒粉与香油即可出锅。",
+        timerSeconds: 900,
+        chefTip: "豆腐孔洞吸满红润鲜甜虾汤，烫口多汁，比肉更鲜美。"
+      }
+    ],
+    tips: "北方海滨家常温润名汤。大虾鲜甜弹牙，老豆腐吸满浓浓海捕红虾油，白菜清甘多汁，做法快手却鲜味惊人。",
+    tags: ["北方", "胶东", "大虾炖豆腐", "红虾油鲜汤", "高蛋白高钙", "暖胃快手"]
+  },
+  {
+    id: "rec_soup_29",
+    name: "江南荠菜白玉豆腐黄鱼汤",
+    region: "江南/浙江",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "羹",
+    calories: 220,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 20,
+    difficulty: "简单",
+    portion: 2,
+    ingredients: [
+      { name: "东海新鲜小黄鱼柳", amount: 150, unit: "g", type: "main", isCore: true },
+      { name: "初春早嫩荠菜(焯烫切碎)", amount: 100, unit: "g", type: "main", isCore: true },
+      { name: "嫩豆腐切小方丁", amount: 150, unit: "g", type: "main", isCore: true },
+      { name: "春笋丝或香菇丁", amount: 30, unit: "g", type: "secondary", isCore: false },
+      { name: "老姜细丝", amount: 10, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "清鸡汤或骨汤", baseAmount: 1000, unit: "ml", amountText: "1000ml", isPantryStaple: true },
+      { name: "古越龙山绍兴花雕酒", baseAmount: 10, unit: "ml", amountText: "10ml", isPantryStaple: true },
+      { name: "太白粉水(轻微勾芡)", baseAmount: 20, unit: "ml", amountText: "20ml", isPantryStaple: true },
+      { name: "精制食盐与白胡椒粉", baseAmount: 2, unit: "g", amountText: "2g", isPantryStaple: true },
+      { name: "纯正芝麻香油", baseAmount: 3, unit: "ml", amountText: "3ml", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "小黄鱼剔骨切丁上浆",
+        instruction: "小黄鱼去鳞去皮剔净小刺，切成1厘米见方的小丁，加少许姜丝、料酒、盐、淀粉轻轻抓匀腌制。",
+        timerSeconds: 300,
+        chefTip: "黄鱼肉质细腻如蒜瓣，轻轻抓浆能锁住鱼肉鲜甜滑嫩。"
+      },
+      {
+        stepIndex: 2,
+        title: "荠菜焯烫切碎与豆腐切丁",
+        instruction: "新鲜荠菜洗净焯烫30秒过凉水挤干切碎末；嫩豆腐切成同等小丁焯烫除豆腥。",
+        timerSeconds: 240,
+        chefTip: "荠菜焯烫后过凉水能牢牢保持早春翠绿原色。"
+      },
+      {
+        stepIndex: 3,
+        title: "高汤烧沸下豆腐荠菜",
+        instruction: "锅中倒入1000ml高汤烧开，下入嫩豆腐丁、笋丝煮沸2分钟，随后倒入翠绿荠菜末搅匀。",
+        timerSeconds: 180,
+        chefTip: "碧绿荠菜与雪白豆腐交织，宛如春回大地翡翠白玉。"
+      },
+      {
+        stepIndex: 4,
+        title: "下黄鱼丁滑熟勾琉璃芡",
+        instruction: "改小火下入腌好的黄鱼丁轻推划散，鱼肉变白即熟（约1分钟），调入盐、白胡椒粉，淋入太白粉水勾极薄芡，点香油出锅。",
+        timerSeconds: 180,
+        chefTip: "黄鱼丁下锅切忌猛搅，轻推即熟，口感嫩如布丁。"
+      }
+    ],
+    tips: "江南早春第一口鲜。荠菜清香野趣，小黄鱼滑嫩鲜美，嫩豆腐如玉脂滑润，红白绿相映成趣，清鲜开胃解腻之极品生滚羹汤。",
+    tags: ["江南", "浙江", "荠菜黄鱼", "早春时鲜", "翡翠白玉", "快手清润"]
+  },
+  {
+    id: "rec_soup_30",
+    name: "竹荪羊肚菌玉米马蹄素鲜汤",
+    region: "江南/素食名膳",
+    cuisineCategory: "慢熬靓汤",
+    categoryType: "soup",
+    cookingMethod: "煲",
+    calories: 160,
+    prepTimeMinutes: 15,
+    cookTimeMinutes: 60,
+    difficulty: "简单",
+    portion: 2,
+    ingredients: [
+      { name: "优质织金竹荪(剪去头网泡发)", amount: 20, unit: "g", type: "main", isCore: true },
+      { name: "野生羊肚菌(温水泡发)", amount: 6, unit: "只", type: "main", isCore: true },
+      { name: "甜水果玉米切厚圆段", amount: 1, unit: "根(约250g)", type: "main", isCore: true },
+      { name: "新鲜桂林马蹄(去皮洗净)", amount: 6, unit: "颗", type: "main", isCore: true },
+      { name: "红枣与枸杞", amount: 15, unit: "g", type: "secondary", isCore: false },
+      { name: "老生姜片", amount: 10, unit: "g", type: "secondary", isCore: false }
+    ],
+    seasonings: [
+      { name: "天然纯净水与羊肚菌过滤原汤", baseAmount: 1800, unit: "ml", amountText: "1800ml", isPantryStaple: true },
+      { name: "精制食盐", baseAmount: 2.5, unit: "g", amountText: "2.5g(纯素鲜甜回甘)", isPantryStaple: true }
+    ],
+    steps: [
+      {
+        stepIndex: 1,
+        title: "竹荪去网去底与羊肚菌泡发",
+        instruction: "竹荪剪去头盖密网与根部白圈，淡盐水泡透切段；羊肚菌温水泡发30分钟，留取澄清的原泡发菌汁；马蹄削皮轻拍裂。",
+        timerSeconds: 360,
+        chefTip: "马蹄轻拍一下更易释放出如甘蔗般的清甜汁液。"
+      },
+      {
+        stepIndex: 2,
+        title: "玉米马蹄与羊肚菌文火先炖出鲜甜底",
+        instruction: "砂锅注入1800ml纯水与羊肚菌原汁，放入甜玉米段、马蹄块、羊肚菌、红枣及姜片。大火煮沸转小火慢炖40分钟。",
+        timerSeconds: 2400,
+        chefTip: "玉米中的天然糖分与马蹄的清热甘甜在羊肚菌激发下，不需一滴油肉已能炖出醇厚金亮素高汤底。"
+      },
+      {
+        stepIndex: 3,
+        title: "入竹荪继续慢煲15分钟",
+        instruction: "倒入处理好的爽脆竹荪段，继续小火慢炖15分钟，让竹荪吸饱玉米菌香原汁。",
+        timerSeconds: 900,
+        chefTip: "竹荪吸收素高汤后多孔海绵体饱含甘汁，咬下一口爆汁甘美。"
+      },
+      {
+        stepIndex: 4,
+        title: "撒枸杞落盐出锅",
+        instruction: "出锅前加入枸杞和精制食盐搅匀熄火。汤色如金色琥珀，毫无半点油星，清亮甘醇。",
+        timerSeconds: 180,
+        chefTip: "虽然纯素无油，但鲜甘顺喉胜过大鱼大肉，喝完身心通畅轻盈。"
+      }
+    ],
+    tips: "佛门素斋与现代健康养生殿堂级素高汤。竹荪脆爽，羊肚菌浓鲜，玉米马蹄沁人心脾的甘甜，无一滴油脂却鲜甜如饴，刮油减负、润燥清心。",
+    tags: ["素食名膳", "竹荪羊肚菌", "无油清甜", "玉米马蹄", "清心润燥", "素高汤"]
+  }
+];
+
+// Add photo URLs
+soups.forEach(s => {
+  if (photos[s.id] && photos[s.id].photoUrl) {
+    s.photoUrl = photos[s.id].photoUrl;
+    s.image = photos[s.id].photoUrl;
+  }
+});
+
+fs.writeFileSync(path.join(__dirname, 'new_30_soups.json'), JSON.stringify(soups, null, 2), 'utf8');
+console.log(`Successfully generated ${soups.length} authentic soup recipes in new_30_soups.json!`);

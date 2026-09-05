@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width: 1024px;
+    height: 1024px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    overflow: hidden;
+  }
+</style>
+</head>
+<body>
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- 背景：温柔奶杏色日系暖阳渐变 -->
+    <linearGradient id="bgGhibli" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFF5EB"/>
+      <stop offset="60%" stop-color="#FED7AA"/>
+      <stop offset="100%" stop-color="#FDBA74"/>
+    </linearGradient>
+
+    <!-- 原木餐桌质感 -->
+    <linearGradient id="tableGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E2B27E"/>
+      <stop offset="100%" stop-color="#BA8448"/>
+    </linearGradient>
+
+    <!-- 日式深釉陶瓷砂锅 (深蓝靛青/复古朱红) -->
+    <linearGradient id="potDonabe" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="70%" stop-color="#C2410C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </linearGradient>
+
+    <!-- 醇厚奶白浓郁高汤 -->
+    <radialGradient id="soupRich" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#FFFDF0"/>
+      <stop offset="60%" stop-color="#FDE68A"/>
+      <stop offset="100%" stop-color="#F59E0B"/>
+    </radialGradient>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#7C2D12" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- iOS App Icon 外框 (1024x1024) -->
+  <g filter="url(#cardShadow)">
+    <rect x="32" y="32" width="960" height="960" rx="240" fill="url(#bgGhibli)"/>
+  </g>
+
+  <!-- 温暖木桌台面 -->
+  <path d="M 32 720 Q 512 700 992 720 L 992 992 L 32 992 Z" fill="url(#tableGrad)"/>
+  <!-- 桌布格纹装饰 (小清新) -->
+  <line x1="32" y1="730" x2="992" y2="730" stroke="#FDE68A" stroke-width="6" stroke-dasharray="16 12" opacity="0.6"/>
+
+  <!-- 飘逸的吉卜力画风蒸汽 (飘出快乐的笑脸与星尘) -->
+  <g fill="none" stroke="#FFFFFF" stroke-linecap="round" opacity="0.95">
+    <path d="M 360 380 C 280 280, 360 160, 460 100" stroke-width="26"/>
+    <path d="M 520 340 C 580 240, 500 140, 520 60" stroke-width="32"/>
+    <path d="M 660 380 C 740 280, 680 160, 580 90" stroke-width="24"/>
+  </g>
+  <!-- 蒸汽顶端可爱的治愈小笑脸 -->
+  <circle cx="520" cy="50" r="28" fill="#FFFFFF"/>
+  <path d="M 510 46 Q 514 42 518 46" stroke="#C2410C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 522 46 Q 526 42 530 46" stroke="#C2410C" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 514 54 Q 520 60 526 54" stroke="#C2410C" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- 散落的微光治愈星尘 -->
+  <circle cx="320" cy="200" r="10" fill="#FBBF24"/>
+  <circle cx="420" cy="130" r="8" fill="#FFF"/>
+  <circle cx="680" cy="180" r="12" fill="#FBBF24"/>
+  <circle cx="780" cy="260" r="9" fill="#FFF"/>
+
+  <!-- 砂锅底座与深釉煲身 -->
+  <g>
+    <!-- 砂锅两耳 -->
+    <rect x="150" y="550" width="70" height="34" rx="17" fill="#7C2D12"/>
+    <rect x="804" y="550" width="70" height="34" rx="17" fill="#7C2D12"/>
+
+    <!-- 砂锅主体 -->
+    <path d="M 190 480 
+             C 170 750, 320 830, 512 830 
+             C 704 830, 854 750, 834 480 
+             Z" 
+          fill="url(#potDonabe)"/>
+
+    <!-- 砂锅釉面高光线条 (立体手绘质感) -->
+    <path d="M 230 520 C 215 690, 300 780, 440 810" stroke="#FB923C" stroke-width="12" fill="none" opacity="0.65" stroke-linecap="round"/>
+
+    <!-- 锅口金色浓汤 -->
+    <ellipse cx="512" cy="480" rx="310" ry="76" fill="#7C2D12"/>
+    <ellipse cx="512" cy="482" rx="290" ry="64" fill="url(#soupRich)"/>
+
+    <!-- 丰富治愈的日漫美食原料盛宴 -->
+    <!-- 十字花刀鲜香菇 -->
+    <circle cx="380" cy="470" r="38" fill="#854D0E"/>
+    <line x1="380" y1="440" x2="380" y2="500" stroke="#FEF08A" stroke-width="7" stroke-linecap="round"/>
+    <line x1="350" y1="470" x2="410" y2="470" stroke="#FEF08A" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- 鲜嫩小白菜心 -->
+    <path d="M 430 460 C 450 430, 490 435, 480 470 C 470 495, 440 485, 430 460 Z" fill="#84CC16"/>
+    <path d="M 455 455 C 470 440, 495 445, 490 475" fill="#4D7C0F"/>
+
+    <!-- 鸣门卷 (拉面经典粉白旋涡鱼板) -->
+    <circle cx="560" cy="465" r="32" fill="#FFFFFF"/>
+    <path d="M 560 452 A 13 13 0 0 1 570 468 A 7 7 0 0 1 558 468" fill="none" stroke="#F43F5E" stroke-width="7" stroke-linecap="round"/>
+
+    <!-- 鲜大虾仁红尾 -->
+    <path d="M 640 465 C 670 435, 710 455, 680 485 C 655 510, 625 490, 640 465 Z" fill="#F87171"/>
+    <path d="M 690 445 L 715 435 L 705 460" fill="#EF4444"/>
+
+    <!-- 咕嘟翻滚小气泡 -->
+    <circle cx="480" cy="505" r="10" fill="#FFFFFF" opacity="0.9"/>
+    <circle cx="515" cy="465" r="8" fill="#FFFFFF" opacity="0.85"/>
+    <circle cx="600" cy="500" r="12" fill="#FFFFFF" opacity="0.9"/>
+  </g>
+
+  <!-- 锅身上手绘温暖小脸 (眨眼比耶超级治愈) -->
+  <g transform="translate(512, 650)">
+    <!-- 眨眼 (左眼wink，右眼笑成弯月) -->
+    <path d="M -130 -15 L -90 10 L -130 35" fill="none" stroke="#FFF" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 90 20 C 105 -5, 135 -5, 150 20" fill="none" stroke="#FFF" stroke-width="12" stroke-linecap="round"/>
+
+    <!-- 脸蛋大红晕 -->
+    <ellipse cx="-110" cy="50" rx="34" ry="22" fill="#FF85A1" opacity="0.75"/>
+    <ellipse cx="120" cy="50" rx="34" ry="22" fill="#FF85A1" opacity="0.75"/>
+
+    <!-- 开心大笑嘴 -->
+    <path d="M -30 25 Q 0 75 30 25 Z" fill="#FFFFFF"/>
+    <path d="M -15 48 Q 0 65 15 48 Z" fill="#FF4365"/>
+  </g>
+
+  <!-- 砂锅旁半掀起的大陶盖 -->
+  <g transform="translate(680, 360) rotate(28)">
+    <ellipse cx="0" cy="0" rx="140" ry="42" fill="#C2410C" stroke="#7C2D12" stroke-width="10"/>
+    <ellipse cx="0" cy="-6" rx="120" ry="32" fill="#EA580C"/>
+    <!-- 盖顶把手圆珠 -->
+    <circle cx="0" cy="-45" r="26" fill="#FBBF24"/>
+    <circle cx="-6" cy="-52" r="8" fill="#FFF"/>
+  </g>
+
+</svg>
+</body>
+</html>

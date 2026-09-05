@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+  <title>咕嘟食谱 - 全风味智能食谱与买菜清单</title>
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="唯有美食与爱不可辜负。涵盖中华34省地道家常、国宴名席、面食大观、日韩泰式与西餐料理，支持四季时令日历、智能冰箱反向查菜与微信买菜清单合并。">
+  <meta name="theme-color" content="#C26D35">
+  
+  <!-- PWA 支持 -->
+  <link rel="manifest" href="./manifest.json">
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="咕嘟食谱">
+
+  <!-- 高阶极简生活志设计系统 -->
+  <link rel="stylesheet" href="./css/index.css?v=2.8">
+</head>
+<body>
+
+  <!-- 顶部常驻极简导航 -->
+  <!-- 顶部常驻极简导航 (标准 iOS 风格，无冗余重复按钮) -->
+  <header class="header-bar">
+    <div class="app-container header-content">
+      <div class="brand-logo" onclick="window.scrollTo({top:0, behavior:'smooth'})">
+        <img class="brand-icon" src="./icons/icon-192.png" alt="咕嘟食谱">
+        <div class="brand-text">
+          <h1>咕嘟食谱</h1>
+          <span class="slogan">旬味寻真 · 四季风物</span>
+        </div>
+      </div>
+      <div style="display:flex; align-items:center; gap:8px;">
+        <button class="header-action-btn" id="btnHeaderFav" onclick="App.showFavorites()" title="查看我收藏的菜品">
+          <span>❤️ 收藏</span>
+          <span class="header-fav-count" id="headerFavCount" style="display:none;">0</span>
+        </button>
+        <button class="header-action-btn" id="btnHeaderAbout" onclick="App.openAboutModal('about')" title="关于与设置">
+          <span>⚙️ 关于</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-container">
+
+    <!-- 顶部极简搜索栏 -->
+    <section class="search-section">
+      <div class="search-input-wrapper">
+        <span class="search-icon">🔍</span>
+        <input 
+          type="text" 
+          id="searchInput" 
+          class="search-input" 
+          placeholder="搜菜名、食材、省份（江西/广西/陕西）、日料、泰餐、西餐、面食点心..."
+          autocomplete="off"
+        >
+      </div>
+    </section>
+
+    <!-- 🎲 今天吃什么 · 智能合菜/组餐生成器入口 -->
+    <div class="meal-planner-entry" onclick="MealPlanner.openModal()">
+      <div class="meal-planner-entry-left">
+        <span class="meal-planner-badge">🎲 治愈选择困难</span>
+        <span class="meal-planner-title">今天吃什么？智能合菜助手</span>
+        <span class="meal-planner-sub">三菜一汤 · 四菜一汤 · 荤素均衡 · 顺应节令当令推荐</span>
+      </div>
+      <button class="meal-planner-btn">
+        <span>⚡ 智能组餐</span>
+        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M9 18l6-6-6-6"/></svg>
+      </button>
+    </div>
+
+    <!-- 节令食俗与时令日历 (极简白底，点击即看联动) -->
+    <section class="season-banner" id="seasonBanner" aria-label="四季时令推荐"></section>
+
+    <!-- 分类导航 Tabs (涵盖全中华、慢熬靓汤、面食大观、日韩料理、泰式西餐等) -->
+    <nav class="category-tabs" aria-label="菜品大类">
+      <button class="cat-tab active" data-cat="all" onclick="App.setCategory('all')">精选全部</button>
+      <button class="cat-tab" data-cat="regional" onclick="App.setCategory('regional')">中华各省</button>
+      <button class="cat-tab" data-cat="soup" onclick="App.setCategory('soup')">🥣 慢熬靓汤</button>
+      <button class="cat-tab" data-cat="noodle" onclick="App.setCategory('noodle')">🍜 面食主食</button>
+      <button class="cat-tab" data-cat="seafood" onclick="App.setCategory('seafood')">沿海海鲜</button>
+      <button class="cat-tab" data-cat="dessert" onclick="App.setCategory('dessert')">🍹 饮品甜品</button>
+      <button class="cat-tab" data-cat="fatloss" onclick="App.setCategory('fatloss')">减脂轻食</button>
+      <button class="cat-tab" data-cat="grand" onclick="App.setCategory('grand')">国宴硬席</button>
+      <button class="cat-tab" data-cat="drinks" onclick="App.setCategory('drinks')">微醺下酒</button>
+      <button class="cat-tab" data-cat="japanese" onclick="App.setCategory('japanese')">日式料理</button>
+      <button class="cat-tab" data-cat="korean" onclick="App.setCategory('korean')">韩式料理</button>
+      <button class="cat-tab" data-cat="thai" onclick="App.setCategory('thai')">泰式风味</button>
+      <button class="cat-tab" data-cat="western" onclick="App.setCategory('western')">西餐牛排</button>
+    </nav>
+
+    <!-- 二级细分过滤器 (Sub-filter) -->
+    <section class="sub-filter-bar" id="subFilterBar"></section>
+
+    <!-- 菜谱数量与列表提示 -->
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:14px; font-size:13px; color:var(--text-secondary);">
+      <span id="recipeCountLabel">正在载入海量菜谱...</span>
+      <span style="font-size:12px; color:var(--text-muted);">✨ 点击卡片看保姆级图文做法与避坑Tips</span>
+    </div>
+
+    <!-- 高清美食大图流网格 -->
+    <section class="recipe-grid" id="recipeGrid" aria-label="精选食谱列表"></section>
+
+    <!-- 商业级品牌 Footer -->
+    <footer class="commercial-footer">
+      <div class="commercial-footer-inner">
+        <div class="footer-top-row">
+          <div class="footer-brand">
+            <img class="footer-brand-icon" src="./icons/icon-192.png" alt="咕嘟食谱">
+            <div>
+              <div class="footer-brand-title">咕嘟食谱 Gudu Recipes</div>
+              <div class="footer-brand-slogan">旬味寻真 · 四季风物 · 全风味智能食谱与买菜清单</div>
+            </div>
+          </div>
+          <div class="footer-version-tag">
+            <span>✨ v3.5.0 商业稳定版</span>
+          </div>
+        </div>
+        <div class="footer-notice-box">
+          <p><strong>⚠️ 厨房安全与免责声明：</strong>烹饪时请全程注意明火、防烫防油溅及电器使用安全；生熟食材刀具与砧板务必分开使用。本应用提供之食疗调理与时令养生建议仅供家庭日常烹饪参考，不作为专业医疗或营养诊疗凭据。</p>
+        </div>
+        <div class="footer-links-row">
+          <div class="footer-nav-links">
+            <a class="footer-nav-link" onclick="App.openAboutModal('about')">关于咕嘟</a>
+            <a class="footer-nav-link" onclick="App.openAboutModal('privacy')">隐私政策</a>
+            <a class="footer-nav-link" onclick="App.openAboutModal('terms')">服务协议</a>
+            <a class="footer-nav-link" onclick="App.clearLocalCache()">清理缓存</a>
+            <a class="footer-nav-link" onclick="App.openAboutModal('feedback')">意见反馈</a>
+          </div>
+          <div class="footer-copyright">
+            © 2026 咕嘟食谱团队 版权所有 · All Rights Reserved
+          </div>
+        </div>
+      </div>
+    </footer>
+
+  </main>
+
+  <!-- 浮动三菜一汤/买菜组合托盘 (Cart Tray) -->
+  <div class="cart-tray" id="cartTray">
+    <div class="cart-info" style="display:flex; align-items:center; gap:10px;">
+      <div class="cart-badge" id="cartCountBadge">0</div>
+      <div>
+        <h4 style="font-size:13px; font-weight:700;">今日做饭菜单</h4>
+        <p id="cartDesc" style="font-size:11px; color:#CCC;">已添加菜品</p>
+      </div>
+    </div>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <button class="btn btn-primary btn-sm" onclick="ShareService.openCartChecklist()">
+        🛒 合并采购单
+      </button>
+      <button class="btn btn-ghost btn-sm" style="color:#FFF;" onclick="ShareService.clearCart()">
+        清空
+      </button>
+    </div>
+  </div>
+
+  <!-- 菜谱详情弹窗 (Detail Modal) -->
+  <div class="modal-overlay" id="detailModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <span class="modal-title">🍲 菜谱精细指南</span>
+        <button class="modal-close" onclick="document.getElementById('detailModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body" id="detailModalBody"></div>
+    </div>
+  </div>
+
+  <!-- 微信智能采购清单落地页弹窗 (Shopping Checklist Modal) -->
+  <div class="modal-overlay" id="checklistModal">
+    <div class="modal-box share-checklist-box">
+      <div class="modal-header">
+        <span class="modal-title">🛒 微信买菜清单 · 好友分工领菜</span>
+        <button class="modal-close" onclick="document.getElementById('checklistModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body" id="checklistModalBody"></div>
+    </div>
+  </div>
+
+  <!-- Apple 风格轻奢买菜长图海报弹窗 (Poster Modal) -->
+  <div class="modal-overlay" id="posterModal">
+    <div class="modal-box" style="max-width: 480px; text-align: center;">
+      <div class="modal-header">
+        <span class="modal-title">📸 微信好友聚餐买菜协同海报</span>
+        <button class="modal-close" onclick="document.getElementById('posterModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body" id="posterModalBody" style="padding: 16px;">
+        <div id="posterImgWrap" style="margin-bottom: 14px;"></div>
+        <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 16px;">
+          💡 <strong>长按上方海报图片</strong> 即可直接发送给微信好友，或保存到手机相册！
+        </p>
+        <div style="display: flex; gap: 10px;">
+          <button class="ios-btn-apple-primary" style="flex: 1;" onclick="ShareService.downloadPoster()">
+            📥 保存海报图片
+          </button>
+          <button class="ios-btn-apple-secondary" onclick="document.getElementById('posterModal').classList.remove('active')">
+            关闭
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 🎲 今天吃什么 · 智能合菜/组餐弹窗 (Meal Planner Modal) -->
+  <div class="modal-overlay" id="mealPlannerModal">
+    <div class="modal-box" style="max-width: 580px;">
+      <div class="modal-header">
+        <span class="modal-title">🎲 今天吃什么 · 智能合菜助手</span>
+        <button class="modal-close" onclick="document.getElementById('mealPlannerModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body" id="mealPlannerModalBody">
+        <!-- 规格选择 -->
+        <div class="spec-selector" id="mealSpecSelector">
+          <div class="spec-pill active" data-spec="3_1" onclick="MealPlanner.setSpec('3_1')">
+            <span class="spec-pill-title">🍲 三菜一汤</span>
+            <span class="spec-pill-desc">2-3人标准标配</span>
+          </div>
+          <div class="spec-pill" data-spec="4_1" onclick="MealPlanner.setSpec('4_1')">
+            <span class="spec-pill-title">🍱 四菜一汤</span>
+            <span class="spec-pill-desc">3-5人丰盛家宴</span>
+          </div>
+          <div class="spec-pill" data-spec="2_1" onclick="MealPlanner.setSpec('2_1')">
+            <span class="spec-pill-title">🥗 两菜一汤</span>
+            <span class="spec-pill-desc">1-2人快手小餐</span>
+          </div>
+          <div class="spec-pill" data-spec="fatloss" onclick="MealPlanner.setSpec('fatloss')">
+            <span class="spec-pill-title">🥑 减脂轻食</span>
+            <span class="spec-pill-desc">低卡刮油高蛋白</span>
+          </div>
+        </div>
+
+        <!-- 偏好设置 -->
+        <div class="preference-bar">
+          <label style="display:flex; align-items:center; gap:6px; cursor:pointer; font-weight:600; color:var(--text-main);">
+            <input type="checkbox" id="preferSeasonCheck" checked onchange="MealPlanner.generate(false)" style="accent-color:var(--primary-color); width:16px; height:16px;">
+            <span>🍂 顺应当前节令优先（选用当季生鲜）</span>
+          </label>
+          <select id="mealFlavorSelect" onchange="MealPlanner.generate(false)" style="padding:4px 8px; border-radius:6px; border:1px solid var(--border-color); font-size:12px; background:var(--bg-card); color:var(--text-main);">
+            <option value="all">任意风味混搭</option>
+            <option value="homestyle">家常清淡不辣</option>
+            <option value="spicy">鲜辣浓郁下饭</option>
+            <option value="cantonese">粤式清补养生</option>
+            <option value="intl">异国特色风味</option>
+          </select>
+        </div>
+
+        <!-- 菜品列表容器 -->
+        <div class="meal-dishes-grid" id="mealDishesGrid">
+          <!-- 动态渲染菜品卡片 -->
+        </div>
+
+        <!-- 底部大操作按钮 -->
+        <div style="display:flex; gap:10px;">
+          <button class="btn btn-outline" style="flex:1; padding:12px; font-weight:600;" onclick="MealPlanner.generate(true)">
+            🎲 全部换一组
+          </button>
+          <button class="btn btn-primary" style="flex:1.5; padding:12px; font-weight:700;" onclick="MealPlanner.exportToCart()">
+            🛒 一键导入买菜清单
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 冰箱清库存·反向查菜弹窗 (Fridge Modal) -->
+  <div class="modal-overlay" id="fridgeModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <span class="modal-title">🧊 冰箱清库存·智能反向查菜</span>
+        <button class="modal-close" onclick="document.getElementById('fridgeModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body">
+        
+        <!-- 手动输入任意冰箱食材 -->
+        <div style="margin-bottom: 16px;">
+          <label style="display:block; font-size:13px; font-weight:700; color:var(--text-main); margin-bottom:6px;">
+            ✍️ 手动输入冰箱现有食材 (输入回车即刻匹配)：
+          </label>
+          <div style="display:flex; gap:8px;">
+            <input 
+              type="text" 
+              id="fridgeCustomInput" 
+              class="search-input" 
+              style="height:42px; padding:0 14px; border-radius:8px;" 
+              placeholder="输入如：山药、冬瓜、牛里脊、青椒、野山菌..."
+            >
+            <button class="btn btn-primary" onclick="App.addFridgeInputIngredient()">
+              添加食材
+            </button>
+          </div>
+        </div>
+
+        <div class="fridge-selector">
+          <div class="fridge-group">
+            <h4 style="font-size:13px; font-weight:700; color:var(--text-secondary); margin-bottom:8px;">
+              💡 常见常备食材 (点击快速勾选/取消)：
+            </h4>
+            <div class="fridge-tags" id="fridgeTagsContainer" style="display:flex; flex-wrap:wrap; gap:6px;"></div>
+          </div>
+        </div>
+
+        <div class="fridge-results" style="margin-top:20px; border-top:1px solid var(--border-color); padding-top:16px;">
+          <h4 style="font-size: 14px; font-weight: 800; margin-bottom: 12px; color: var(--text-main);">
+            🍳 匹配出的可做菜谱：
+          </h4>
+          <div id="fridgeResultsContainer"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 用户上传私房菜谱弹窗 (UGC Modal) -->
+  <div class="modal-overlay" id="createRecipeModal">
+    <div class="modal-box">
+      <div class="modal-header">
+        <span class="modal-title">✍️ 记录与分享我的独门私房菜</span>
+        <button class="modal-close" onclick="document.getElementById('createRecipeModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form onsubmit="App.submitUgcRecipe(event)">
+          <div style="margin-bottom: 14px;">
+            <label style="display:block; font-size:13px; font-weight:700; margin-bottom:4px;">菜品名称 *</label>
+            <input type="text" id="ugcName" class="search-input" style="height:40px; padding-left:14px; border-radius:8px;" placeholder="如：妈妈秘制红烧肉、酸辣手撕包菜" required>
+          </div>
+          <div style="display:flex; gap:12px; margin-bottom: 14px;">
+            <div style="flex:1;">
+              <label style="display:block; font-size:13px; font-weight:700; margin-bottom:4px;">所属风味省份/菜系</label>
+              <input type="text" id="ugcRegion" class="search-input" style="height:40px; padding-left:14px; border-radius:8px;" placeholder="如：江西/四川/日式/民间私房">
+            </div>
+            <div style="flex:1;">
+              <label style="display:block; font-size:13px; font-weight:700; margin-bottom:4px;">你的大厨署名</label>
+              <input type="text" id="ugcAuthor" class="search-input" style="height:40px; padding-left:14px; border-radius:8px;" placeholder="如：张大厨/小林妈妈">
+            </div>
+          </div>
+          <div style="margin-bottom: 14px;">
+            <label style="display:block; font-size:13px; font-weight:700; margin-bottom:4px;">一句话特色描述</label>
+            <input type="text" id="ugcSubtitle" class="search-input" style="height:40px; padding-left:14px; border-radius:8px;" placeholder="如：肥而不腻，不用一滴水，汤汁拌饭绝了">
+          </div>
+          <div style="margin-bottom: 14px;">
+            <label style="display:block; font-size:13px; font-weight:700; margin-bottom:4px;">食材与用量 (若输入新食材系统将自动扩充入库) *</label>
+            <textarea id="ugcIngredients" class="search-input" style="height:80px; padding:10px 14px; border-radius:8px;" placeholder="格式示例：五花肉 500克, 鹌鹑蛋 10个, 老冰糖 20克" required></textarea>
+          </div>
+          <div style="margin-bottom: 18px;">
+            <label style="display:block; font-size:13px; font-weight:700; margin-bottom:4px;">分步烹饪步骤 (一行一步) *</label>
+            <textarea id="ugcSteps" class="search-input" style="height:100px; padding:10px 14px; border-radius:8px;" placeholder="步骤1：五花肉切麻将块冷水下锅焯透&#10;步骤2：小火炒出焦糖色糖色倒入肉块上色&#10;步骤3：加入生抽老抽微火慢焖40分钟收浓汁" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width:100%;">
+            🚀 立即发布并生成微信分享
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- 手机安装指引弹窗 (Install Modal) -->
+  <div class="modal-overlay" id="installModal">
+    <div class="modal-box" style="max-width: 500px;">
+      <div class="modal-header">
+        <span class="modal-title">📱 安装「咕嘟食谱」到你的手机</span>
+        <button class="modal-close" onclick="document.getElementById('installModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body" style="text-align: center;">
+        <div style="font-size: 40px; margin-bottom: 6px;">🍲</div>
+        <h3 style="font-size: 17px; font-weight: 800; margin-bottom: 6px;">像原生 App 一样随时在手机使用</h3>
+        <p style="font-size: 13px; color: var(--text-secondary); margin-bottom: 14px;">
+          直接在手机浏览器中即可添加到桌面，秒变原生独立 App，免去应用商店繁琐下载！
+        </p>
+
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; background: #fff; padding: 14px; border-radius: 14px; border: 1px solid var(--border-color); margin-bottom: 16px; box-shadow: var(--shadow-sm);">
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=160x160&data=http%3A%2F%2F192.168.1.56%3A8080" alt="手机扫码直接安装" style="width: 150px; height: 150px; border-radius: 8px; margin-bottom: 8px;" onerror="this.style.display='none'">
+          <div style="font-size: 13px; font-weight: 700; color: var(--text-main); margin-bottom: 4px;">
+            手机连上同一 Wi-Fi，用微信/相机扫码即开
+          </div>
+          <div style="font-size: 12px; color: var(--primary-red); font-weight: 600; word-break: break-all;">
+            或手机浏览器直接输入网址：<br>
+            <span style="user-select: all; text-decoration: underline;">http://192.168.1.56:8080</span>
+          </div>
+        </div>
+
+        <div style="background: var(--bg-page); border: 1px solid var(--border-color); border-radius: var(--radius-sm); padding: 12px 14px; margin-bottom: 14px; text-align: left;">
+          <h4 style="font-size: 13px; font-weight: 700; color: var(--primary-red); margin-bottom: 4px;">📲 手机快捷安装两步法：</h4>
+          <ol style="font-size: 12px; color: var(--text-main); line-height: 1.8; padding-left: 18px;">
+            <li><strong>苹果手机 (iPhone Safari)</strong>：点击底部中间的 <strong>【分享按钮 ⎋】</strong>，往下滑找到并选择 <strong>【添加到主屏幕 ⊞】</strong>。</li>
+            <li><strong>安卓手机 (华为/小米/OPPO/微信/Chrome)</strong>：点击右上角 <strong>【三个点 ⋮】</strong>，选择 <strong>【添加到桌面】</strong> 或 <strong>【安装应用】</strong>。</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 全屏大字防油污烹饪工作台 (Cooking Workstation Overlay) -->
+  <div class="cooking-mode-overlay" id="cookingModeOverlay">
+    <div style="display:flex; align-items:center; justify-content:space-between; padding-bottom:14px; border-bottom:1px solid rgba(255,255,255,0.15);">
+      <div style="font-size:18px; font-weight:800; color:var(--primary-red);" id="cookHeaderTitle">👨‍🍳 咕嘟防油污大字烹饪台</div>
+      <div style="font-size:13px; color:#AAA;" id="cookStepIndicator">第 1 步 / 共 3 步</div>
+      <button class="btn btn-outline btn-sm" style="color:#FFF; border-color:rgba(255,255,255,0.3); background:transparent;" onclick="App.closeCookingMode()">
+        退出工作台
+      </button>
+    </div>
+    <div class="cook-progress-container">
+      <div class="cook-progress-bar" id="cookProgressBar" style="width: 20%;"></div>
+    </div>
+    <div class="cook-body">
+      <h2 class="cook-step-title" id="cookStepTitle">步骤加载中...</h2>
+      <p class="cook-step-text" id="cookStepText"></p>
+      <div class="cook-timer-display" id="cookTimerDisplay" style="display:none;">00:00</div>
+      <div id="cookTipBox" style="display:none; padding:12px 18px; border-radius:8px; background:rgba(250,77,50,0.15); border:1px solid rgba(250,77,50,0.3); color:#FFC0B2; font-size:15px;"></div>
+    </div>
+    <div style="display:flex; align-items:center; justify-content:space-between; padding-top:16px; border-top:1px solid rgba(255,255,255,0.15);">
+      <button class="btn btn-outline" style="padding:14px 32px; font-size:16px; background:rgba(255,255,255,0.1); color:#FFF; border:none;" onclick="App.prevCookingStep()">
+        👈 上一步
+      </button>
+      <button class="btn btn-primary" style="padding:14px 32px; font-size:16px;" onclick="App.nextCookingStep()">
+        下一步 👉
+      </button>
+    </div>
+  </div>
+
+  <!-- 标准 iOS 底部生态 Tab 栏 (Standard iOS Tab Bar) -->
+  <nav class="ios-tab-bar" aria-label="iOS底部导航栏">
+    <div class="ios-tab-inner">
+      <button class="ios-tab-btn active" id="tabHome" onclick="App.switchTab('home')">
+        <span class="ios-tab-icon">🍲</span>
+        <span class="ios-tab-label">精选食谱</span>
+      </button>
+      <button class="ios-tab-btn" id="tabFridge" onclick="App.switchTab('fridge')">
+        <span class="ios-tab-icon">🧊</span>
+        <span class="ios-tab-label">智能清库</span>
+      </button>
+      <button class="ios-tab-btn" id="tabCart" onclick="App.switchTab('cart')">
+        <span class="ios-tab-icon">🛒</span>
+        <span class="ios-tab-label">买菜清单</span>
+        <span class="cart-count-badge" id="tabCartBadge" style="display:none;">0</span>
+      </button>
+      <button class="ios-tab-btn" id="tabCreate" onclick="App.switchTab('create')">
+        <span class="ios-tab-icon">✍️</span>
+        <span class="ios-tab-label">传菜谱</span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- 商业关于与设置中心弹窗 (About Modal) -->
+  <div class="modal-overlay" id="aboutModal">
+    <div class="modal-box" style="max-width: 520px;">
+      <div class="modal-header">
+        <span class="modal-title" id="aboutModalTitle">🍲 关于咕嘟食谱</span>
+        <button class="modal-close" onclick="document.getElementById('aboutModal').classList.remove('active')">&times;</button>
+      </div>
+      <div class="modal-body" id="aboutModalBody" style="line-height:1.7; font-size:13.5px; color:var(--text-main); padding:20px;">
+      </div>
+    </div>
+  </div>
+
+  <!-- 全局轻提示 Toast -->
+  <div class="gudu-toast" id="commercialToast"></div>
+
+  <!-- 脚本加载 -->
+  <script src="./js/data/seasons.js?v=3.5"></script>
+  <script src="./js/data/ingredients.js?v=3.5"></script>
+  <script src="./js/data/recipes.js?v=3.5"></script>
+  <script src="./js/share.js?v=3.5"></script>
+  <script src="./js/app.js?v=3.5"></script>
+</body>
+</html>

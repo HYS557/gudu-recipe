@@ -1,0 +1,562 @@
+{
+  "rec_congee_01": {
+    "name": "经典传统老火皮蛋瘦肉生滚粥",
+    "search": "皮蛋瘦肉粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/ecb4b5d04e5241d9b535bef5bda18b6f_1170w_1170h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_congee_02": {
+    "name": "窝蛋滑嫩生滚牛肉香米粥",
+    "search": "窝蛋牛肉粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/e8e7a9eb40ca497596306f12858755fa_2560w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_03": {
+    "name": "香菇滑鸡生滚金牌香米粥",
+    "search": "香菇滑鸡粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/6b39d20583d349f2a5753ed10231d998_1242w_1656h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_04": {
+    "name": "传统广府状元及第生滚粥",
+    "search": "及第粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/7e1257aa873011e6b87c0242ac110003_459w_690h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_congee_05": {
+    "name": "西关老字号正宗艇仔名粥",
+    "search": "艇仔粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/134b42519dea4f4491853af2c4709fdd_1050w_700h.jpg",
+    "candidatesCount": 16
+  },
+  "rec_congee_06": {
+    "name": "顺德拆鱼骨香煎鲜滑鱼茸粥",
+    "search": "拆鱼粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/a5a9682e6ad011e7bc9d0242ac110002_2322w_3483h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_07": {
+    "name": "清甜菜心粒肉碎生滚明火粥",
+    "search": "菜心粒肉碎粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/4cd93a69c2404bb3a04f7de248874a0f_1920w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_08": {
+    "name": "鲜嫩猪肝枸杞叶养血生滚粥",
+    "search": "猪肝枸杞叶粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/b820a825db514c8b8ba34388b8256d05_1080w_864h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_09": {
+    "name": "咸鸭蛋黄水瓜肉片生滚粥",
+    "search": "水瓜肉片粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/cda3a26a885711e6b87c0242ac110003_650w_650h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_10": {
+    "name": "芥菜丝鲜肉片生滚清润粥",
+    "search": "芥菜瘦肉粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/b396fb8f966c43c1b7b6549adf34d947_1280w_1186h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_11": {
+    "name": "鲜滑鲩鱼片生姜丝生滚粥",
+    "search": "鱼片粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/8caf9e92cadb4d8894529f8e562d5128_2560w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_12": {
+    "name": "猪腰麦穗花刀生滚补虚粥",
+    "search": "猪腰粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/9fd83820877e11e6a9a10242ac110002_2733w_1994h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_13": {
+    "name": "手打马蹄鲜猪肉丸浓香晨粥",
+    "search": "肉丸粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/3454c852bb5d416aaa56d76dee4a0913_2560w_2560h.jpg",
+    "candidatesCount": 14
+  },
+  "rec_congee_14": {
+    "name": "咸鸡生姜丝砂锅温补生滚粥",
+    "search": "咸鸡粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/cd66e4bf384f4fc887de50bc1ad778aa_1694w_1126h.jpg",
+    "candidatesCount": 15
+  },
+  "rec_congee_15": {
+    "name": "鲜鸽脯肉末枸杞子温润粥",
+    "search": "乳鸽粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/aa9f30e88ac011e6b87c0242ac110003_857w_640h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_16": {
+    "name": "润燥鲜鸭血嫩豆腐碎生滚粥",
+    "search": "鸭血粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/b573d1f0882111e6b87c0242ac110003_752w_503h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_17": {
+    "name": "鲜粉肠白灼生姜丝生滚粥",
+    "search": "生滚粉肠粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/03e8cbba89fd11e6b87c0242ac110003_1082w_1440h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_18": {
+    "name": "铁棍淮山药排骨浓稠香米粥",
+    "search": "山药排骨粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/e57f41d8b782469cbcdafa276f50d597_378w_317h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_19": {
+    "name": "顺德水牛初乳甜润水牛奶粥",
+    "search": "水牛奶生滚粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/35fc2190883d11e6a9a10242ac110002_640w_640h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_20": {
+    "name": "顺德明火慢熬开花大米白粥",
+    "search": "明火白粥",
+    "group": "广府生滚",
+    "photoUrl": "https://i2.chuimg.com/69eaebb8877e11e6b87c0242ac110003_700w_525h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_21": {
+    "name": "潮汕正宗膏蟹鲜虾砂锅粥",
+    "search": "膏蟹鲜虾砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/4310a01074c448b58663c5d0a96e0343_1242w_1656h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_22": {
+    "name": "潮汕瑶柱干贝基围虾砂锅粥",
+    "search": "干贝鲜虾砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/e83bbf75d05c42e0811b7a2cccf7e8ef_1920w_1440h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_23": {
+    "name": "沿海肥美生蚝白贝海鲜砂锅粥",
+    "search": "生蚝海鲜粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/663ae4f28b8211e6b87c0242ac110003_1080w_1440h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_24": {
+    "name": "鲜活黄鳝生姜丝保温砂锅粥",
+    "search": "黄鳝砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/51ac1e8036dc4433a451d9a9d9b7b349_1080w_1920h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_25": {
+    "name": "鲜活鲍鱼鲜虾海皇滋补砂锅粥",
+    "search": "鲍鱼鲜虾粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/c73fcacff81c4718ae547ffc33369050_1280w_1024h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_26": {
+    "name": "鲜带子瑶柱鲜鱿双拼砂锅粥",
+    "search": "海鲜带子粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/6f0d7f48a1ff4aa292e861951d326510_720w_480h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_27": {
+    "name": "海参鲜虾深海砂锅御品稠粥",
+    "search": "海参大虾粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/738fa60e88aa11e6b87c0242ac110003_1280w_960h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_28": {
+    "name": "鲜活花蛤冬菜生滚清甜砂锅粥",
+    "search": "花蛤砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/009659364a7e4869b2c7f6baf55944a0_750w_750h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_29": {
+    "name": "深海墨鱼须鲜虾脆爽砂锅粥",
+    "search": "鱿鱼虾砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/10e60858892811e6b87c0242ac110003_650w_650h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_30": {
+    "name": "潮汕九肚鱼生滚入口即化砂锅粥",
+    "search": "豆腐鱼砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/5b0fc4539c82464dac79f5a4e8253cb9_800w_534h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_31": {
+    "name": "沿海海虾皮白菜心生滚海味粥",
+    "search": "虾皮白菜粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/5c3925da8aac11e6a9a10242ac110002_2044w_2048h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_32": {
+    "name": "鲜甜海鲈鱼片砂锅生滚白汤粥",
+    "search": "鲈鱼片砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/73cf54fd73014e83a27aeb378840fda0_4032w_3024h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_33": {
+    "name": "象拔蚌鲜片砂锅生滚脆甜海鲜粥",
+    "search": "象拔蚌海鲜粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/98f26c0c7a2f4bd5af0e5ae5426dcc53_1280w_960h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_34": {
+    "name": "大蛏子皇芹菜粒砂锅鲜滚稠粥",
+    "search": "蛏子砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/4cec9efef4454544906b4e88eac47c0c_1280w_1023h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_35": {
+    "name": "鲜活泥鳅老姜枸杞砂锅温阳粥",
+    "search": "泥鳅砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/f4b39a5186b640778bf6d3a9e662a5ad_2880w_2160h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_36": {
+    "name": "浓香鲍汁螺片生鲜砂锅咸鲜粥",
+    "search": "螺片砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/d0bad7a007ca4cefade15891cf6a19e1_1500w_1124h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_37": {
+    "name": "手打虾滑鲜贝双鲜生滚砂锅粥",
+    "search": "虾滑鲜贝砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/ce7b378078eb4a7ba5df4aeb9a7bb89c_1920w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_38": {
+    "name": "青蟹冬笋干贝砂锅节令鲜粥",
+    "search": "青蟹冬笋粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/71e43412ab184c6889de92503027a369_1080w_608h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_39": {
+    "name": "鲜虾滑蛋丝砂锅儿童补钙粥",
+    "search": "鲜虾滑蛋粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/20bf3fadd0b044d38ce79382eaeb9398_960w_1280h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_40": {
+    "name": "潮汕老菜脯鲜肉干贝砂锅古早粥",
+    "search": "老菜脯砂锅粥",
+    "group": "潮汕海鲜",
+    "photoUrl": "https://i2.chuimg.com/c756e35244534184a430933db6f4674c_1242w_1660h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_41": {
+    "name": "金陵经典民国滋补美龄粥",
+    "search": "美龄粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/2cc21d7c34414692a45921b4ecd536b2_480w_384h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_42": {
+    "name": "金黄小米山药红枣健脾养胃粥",
+    "search": "小米山药红枣粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/14d393992c6d4a62a563aa4f69894158_3024w_4032h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_43": {
+    "name": "传统经典腊八八宝滋补甜粥",
+    "search": "腊八八宝粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/132ac88678414ec3b21ca73bb13d2a3e_968w_726h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_44": {
+    "name": "补气养血红豆红枣花生黑米粥",
+    "search": "红豆黑米粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/d26fdfe718564cf798ce22f5ca504c9b_1080w_864h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_45": {
+    "name": "润肺安神银耳百合雪梨莲子羹粥",
+    "search": "银耳百合雪梨粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/60bbb09e4c6f40cc8b95f78fa7ea64e9_780w_1040h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_46": {
+    "name": "黑芝麻核桃黑豆黑米乌发滋补粥",
+    "search": "黑芝麻黑豆黑米粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/3bbc0ce8882011e6a9a10242ac110002_650w_432h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_47": {
+    "name": "芡实茯苓薏米赤小豆健脾去湿粥",
+    "search": "红豆薏米芡实粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/95721b4af69c49019f77556c8dab2525_1184w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_48": {
+    "name": "老南瓜燕麦高纤低卡刮油暖粥",
+    "search": "南瓜燕麦粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/da96d691d5eb46d395fb754faa23021f_1080w_771h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_49": {
+    "name": "桂圆枸杞莲子安神红枣糯米粥",
+    "search": "桂圆红枣莲子粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/487e2efa23314c1e8a5c57e756d7725b_1280w_961h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_50": {
+    "name": "绿豆百合薄荷盛夏清热解暑清粥",
+    "search": "绿豆百合粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/44972d5686ff11e6b87c0242ac110003_461w_690h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_51": {
+    "name": "糙米胚芽苦荞降糖高纤健康粥",
+    "search": "苦荞糙米胚芽粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/ce68ad348a1a11e6b87c0242ac110003_2322w_4128h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_52": {
+    "name": "黄芪党参红枣乌鸡药膳滋补温粥",
+    "search": "黄芪乌鸡药膳粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/4cd70c348b8c11e6a9a10242ac110002_1440w_1080h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_53": {
+    "name": "当归生姜红糖羊肉暖宫驱寒冬粥",
+    "search": "当归羊肉生姜粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/9269a6b2bbd94048b7ee5afda3e75248_721w_466h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_54": {
+    "name": "桂花糖芋头红豆沙温润秋蜜粥",
+    "search": "糖芋头红豆粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/660c70bcd1a041879e15312b0ea4fd8e_1080w_1345h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_55": {
+    "name": "莲子心绿豆清心安神败火夏粥",
+    "search": "莲子绿豆清火粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/8511382d2a044f62b75f378b20082bcd_474w_851h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_56": {
+    "name": "麦仁红薯老南瓜粗粮农家甜粥",
+    "search": "麦仁红薯南瓜粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/2848b6d88ed14cda8082cd5cf9058da5_2560w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_57": {
+    "name": "葛根粉山药百合清润健脾稠粥",
+    "search": "葛根山药百合粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/0e37f2088e2145b6b097c9297a352283_2268w_4032h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_58": {
+    "name": "茯苓白术炒薏仁祛湿温脾养生粥",
+    "search": "茯苓薏仁健脾粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/f36ab366bc804ed7a77e9628c62c887c_1280w_1024h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_59": {
+    "name": "玉米糁高粱米北方地道黄金棒子面粥",
+    "search": "玉米糁黄金粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/35cf438268d942f8b9407d71f1e4aff2_947w_732h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_60": {
+    "name": "紫薯芋头西米露清甜养颜温粥",
+    "search": "紫薯芋头西米露粥",
+    "group": "五谷药膳",
+    "photoUrl": "https://i2.chuimg.com/153b3a94873a11e6b87c0242ac110003_360w_240h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_61": {
+    "name": "厦门老字号经典卤鸭肉米粥",
+    "search": "厦门鸭肉粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/c37fd9fc25d24391bb80491d2dc18881_480w_384h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_62": {
+    "name": "闽南泉州高汤干贝海蛎咸稀饭",
+    "search": "泉州海蛎干贝咸粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/6c915189caf246d89c9c37ebbaf58d3b_684w_912h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_63": {
+    "name": "河南开封八宝牛肉五香咸稠粥",
+    "search": "牛肉咸粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/3d9fe97372044885a1c1a3412609503b_1080w_864h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_64": {
+    "name": "老北京地道油茶面茶麻酱芝麻盐粥",
+    "search": "老北京面茶",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/4e62c0fa875b11e6b87c0242ac110003_3072w_2304h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_65": {
+    "name": "山东临沂牛羊肉糊嘟糁汤稠粥",
+    "search": "临沂糁汤肉粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/14c11d1802d6475db824b6d68d0469e9_2687w_2560h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_66": {
+    "name": "上海荠菜冬笋鲜肉黄豆咸香菜粥",
+    "search": "上海青菜咸肉粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/1f9bdb13644346058bd19f1d2452159f_1536w_2048h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_67": {
+    "name": "苏州清香荷叶莲子鸡头米夏令粥",
+    "search": "鸡头米莲子荷叶粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/9cd355ec8ba211e6a9a10242ac110002_680w_510h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_68": {
+    "name": "四川香辣牛肉末皮蛋特色风味粥",
+    "search": "香辣牛肉皮蛋粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/e4e685c9ffc747feab93ac14a7661bb0_864w_1152h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_69": {
+    "name": "东北大碴子红小豆柴火铁锅稠粘粥",
+    "search": "东北大碴子红豆粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/3a8694f209ad11e6aacbb82a72e00100.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_70": {
+    "name": "陕北延安糜子米红枣稠饭米汤",
+    "search": "陕北糜子米红枣稠饭",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/e3d97bc47c3b48aeaba43ca08de535af_1280w_1706h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_71": {
+    "name": "云南松茸鲜火腿生滚山珍香米粥",
+    "search": "松茸火腿香米粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/6cbd46652b984871aa3c7137f013b0ea_3008w_2000h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_72": {
+    "name": "贵州苗家酸汤鲜鱼片开胃生滚粥",
+    "search": "酸汤鱼片生滚粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/4ec91fa69d6b4539a9055d517b25c23b_1920w_1080h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_73": {
+    "name": "台湾地瓜白米香甜古早味稀饭",
+    "search": "地瓜白米稀饭",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/3356f4335d494539a6af815abbfc672e_1280w_960h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_74": {
+    "name": "黄金甜玉米粒鲜虾碎菜儿童长高粥",
+    "search": "玉米鲜虾碎菜粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/d1fdc591ce3e4fc48af16704b3d5baa3_1280w_1023h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_75": {
+    "name": "银鱼碎菠菜嫩豆腐泥婴幼辅食补钙粥",
+    "search": "银鱼菠菜豆腐辅食粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/58f9602fc4c6497cb28d51174c107332_2304w_1536h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_76": {
+    "name": "苹果胡萝卜肉泥开胃健脾消食儿童粥",
+    "search": "苹果胡萝卜猪肉粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/1e8f262d28db452793dfd74624b0bc0a_2732w_2560h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_77": {
+    "name": "鸡胸肉芦笋荷兰豆高蛋白低卡减脂粥",
+    "search": "鸡胸肉芦笋减脂粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/cd36cb6ebdd345f0b45e151a544c15dd_4032w_2688h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_78": {
+    "name": "魔芋燕麦奇亚籽低GI高饱腹刮油轻体粥",
+    "search": "奇亚籽燕麦魔芋粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/85e6b46579f24494bbd6508e281f9cbf_3024w_3024h.jpg",
+    "candidatesCount": 17
+  },
+  "rec_congee_79": {
+    "name": "荷叶冬瓜生滚里脊去水肿排毒轻润粥",
+    "search": "冬瓜荷叶瘦肉粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/0d61eec0ff8c43a790e35433991ca382_640w_640h.jpg",
+    "candidatesCount": 18
+  },
+  "rec_congee_80": {
+    "name": "白萝卜丝生姜鲜肉丝化痰止咳暖身粥",
+    "search": "萝卜丝生姜瘦肉粥",
+    "group": "地标调理",
+    "photoUrl": "https://i2.chuimg.com/911b6232ae0a4df2be06d41fd9d80de5_1280w_1023h.jpg",
+    "candidatesCount": 18
+  }
+}
