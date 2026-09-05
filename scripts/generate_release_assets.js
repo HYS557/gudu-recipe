@@ -12,16 +12,17 @@ if (!fs.existsSync(huashuDir)) {
   fs.mkdirSync(huashuDir, { recursive: true });
 }
 
-const localIp = '192.168.1.56';
-const localPort = 8080;
-const localDownloadUrl = `http://${localIp}:${localPort}/download.html`;
-const localApkUrl = `http://${localIp}:${localPort}/gudu-recipe.apk`;
+// 24小时全球永久公网免开电脑地址
+const publicWebUrl = 'https://hys557.github.io/gudu-recipe/';
+const publicDownloadUrl = 'https://hys557.github.io/gudu-recipe/download.html';
+const publicApkUrl = 'https://github.com/HYS557/gudu-recipe/releases/download/v3.5.0/gudu-recipe.apk';
 
 // =============================================================================
-// 1. 生成桌面【话术文件夹】内的苹果安装文案及全套分享话术
+// 1. 生成桌面【话术文件夹】内的苹果安装文案及全套微信分享话术
 // =============================================================================
 const appleGuideContent = `================================================================================
-           🍲《咕嘟食谱》苹果 iPhone / iPad 专属安装指南与微信分享话术
+       🍲《咕嘟食谱》苹果 iPhone / iPad 全球公网专属安装指南与微信分享话术
+                  【免开电脑 · 24小时随时随地直接安装使用】
 ================================================================================
 
 【为什么苹果用户不用下载大安装包？】
@@ -37,9 +38,9 @@ const appleGuideContent = `=====================================================
 嗨！给你安利一个我最近在用的宝藏做菜神器「咕嘟食谱」🍲
 涵盖中华34省地道家常、慢熬靓汤、减脂餐和面食大观，还能智能查冰箱剩菜、一键把买菜清单同步微信！
 
-👉 苹果手机极速安装只要2步（无需下载大安装包）：
-1. 用 Safari 浏览器打开这个链接：
-   ${localDownloadUrl}
+👉 苹果手机极速安装只要2步（无需下载大安装包，随时可用）：
+1. 用 Safari 浏览器点开这个链接：
+   ${publicWebUrl}
 2. 点击屏幕底部中间的【分享按钮 ⎋】，往下滑选择【添加到主屏幕 ⊞】。
 
 搞定！你手机桌面上就会多出一个超萌的「猫猫大厨」图标，点开就是全屏独立 App，断网也能看，赶紧试试看今晚做啥好吃的！😋
@@ -49,26 +50,30 @@ const appleGuideContent = `=====================================================
 --------------------------------------------------------------------------------
 
 唯有美食与爱不可辜负！🍲
-整理了好久的私房做菜神器《咕嘟食谱》终于打包好了～
+整理了好久的私房做菜神器《咕嘟食谱》终于正式上线了～
 从国宴名菜到老火靓汤，甚至连你家冰箱还剩两根葱都能反向查出拿手好菜，再也不用为“今天吃什么”发愁了！
 
 📱 苹果 iPhone 用户安装：
-点击链接在 Safari 打开 -> 点底部分享 -> 选择【添加到主屏幕】即可在桌面生成独立 App！
-🔗 安装链接：${localDownloadUrl}
+点击链接在 Safari 打开 -> 点底部分享 ⎋ -> 选择【添加到主屏幕 ⊞】即可在桌面生成独立 App！
+🔗 公网安装链接：${publicWebUrl}
 
-🤖 安卓用户直接安装：
-直接扫码或向我索取安装包（APK），几秒钟就能装好。
+🤖 安卓用户极速下载：
+直接扫桌面的二维码，或打开安装页面一键下载官方安装包（APK）：
+🔗 下载页面：${publicDownloadUrl}
+
 做饭从此不翻车，快来一起咕嘟咕嘟吧！👨‍🍳
 
 --------------------------------------------------------------------------------
-💡【公网云端长久部署建议（免开电脑）】
+🌐【重要公网链接汇总清单（24小时全球在线，免开电脑）】
 --------------------------------------------------------------------------------
-上述链接为当前局域网极速直连地址（手机与电脑连接同一 Wi-Fi 时秒开秒装）。
-如果您希望以后无论走到哪里、任何外网朋友随时随地都能安装：
-只需将本项目文件夹上传至任何免费静态托管平台（如 Vercel、Cloudflare Pages 或腾讯云/阿里云对象存储）：
-1. 免费开通 Vercel 或 Cloudflare Pages；
-2. 关联文件夹后会自动生成一个永久有效的 https://gudu-recipe.vercel.app 域名；
-3. 将上述话术中的链接替换为该域名，全国各地的苹果用户即可随时随地添加到手机主屏幕！
+1. 苹果用户免安装独立 App 链接：
+   ${publicWebUrl}
+
+2. 全平台（苹果/安卓）综合自适应下载落地页：
+   ${publicDownloadUrl}
+
+3. 安卓 APK 官方直接下载直链：
+   ${publicApkUrl}
 
 ================================================================================
 `;
@@ -83,13 +88,13 @@ console.log(`[Success] 苹果用户安装话术(Markdown)已保存在: ${huashuM
 
 
 // =============================================================================
-// 2. 生成桌面【咕嘟食谱_安卓安装二维码.png】（商业级精装发布海报卡）
+// 2. 生成桌面【咕嘟食谱_安卓安装二维码.png】（全国公网 24 小时随时随地扫码可用）
 // =============================================================================
 async function generateQrPoster() {
-  console.log('🎨 正在生成安卓安装高精度二维码...');
+  console.log('🎨 正在生成安卓安装高精度公网二维码...');
 
   // 生成纯二维码的 Data URL (高容错率以容纳中央 Logo)
-  const qrDataUrl = await QRCode.toDataURL(localDownloadUrl, {
+  const qrDataUrl = await QRCode.toDataURL(publicDownloadUrl, {
     errorCorrectionLevel: 'H',
     margin: 2,
     width: 500,
@@ -238,7 +243,7 @@ async function generateQrPoster() {
 </head>
 <body>
   <div class="card">
-    <div class="top-badge">🌟 官方正式版 · 极速扫码安装</div>
+    <div class="top-badge">🌟 全国公网随时随地 · 扫码极速安装</div>
 
     <div class="header-row">
       <img class="app-logo" src="${catIconSrc}" alt="咕嘟食谱">
@@ -258,7 +263,7 @@ async function generateQrPoster() {
     </div>
 
     <div class="scan-desc">
-      安卓手机扫码即刻下载安装包 (APK) · 苹果手机扫码支持一秒添加到主屏幕
+      24小时免开电脑 · 安卓手机扫码直接下载 APK · 苹果手机一秒添加到主屏幕
     </div>
 
     <div class="feature-pills">
@@ -269,7 +274,7 @@ async function generateQrPoster() {
     </div>
 
     <div class="footer-hint">
-      局域网服务地址: ${localDownloadUrl}
+      永久公网服务: ${publicDownloadUrl}
     </div>
   </div>
 </body>

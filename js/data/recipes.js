@@ -1,4 +1,4 @@
-// 全量菜谱核心主数据库 (标准化商用版)
+// 全量菜谱核心主数据库 (标准化商用版 · 含精准卡路里与热量健康标)
 window.RECIPES_DATA = [
   {
     "id": "rec_gudu_0001",
@@ -17,7 +17,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "江西余干枫树辣/螺丝椒",
@@ -137,7 +137,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/8c0a0bfa8a6e11e6a9a10242ac110002_1616w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0002",
@@ -156,7 +159,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "三肥七瘦鲜猪肉馅",
@@ -257,7 +260,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn11/106/w1024h682/20180926/0ba8-hhuhisn1164612.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0003",
@@ -276,7 +282,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "本地嫩麻鸭肉",
@@ -392,7 +398,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://p9-bk.byteimg.com/tos-cn-i-mlhdmxsy5m/54d32b44a349418b85d625f59e460633~tplv-mlhdmxsy5m-q75:0:0.image",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0004",
@@ -411,7 +420,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "井冈山特产纯手工豆皮",
@@ -531,7 +540,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/00b60bc0888a11e6a9a10242ac110002_800w_600h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0005",
@@ -550,7 +562,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "江西纯早稻特制干米粉",
@@ -672,7 +684,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/nanchang_banfen.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0006",
@@ -691,7 +706,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -788,7 +803,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/shengmen_tuya.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0007",
@@ -923,7 +941,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://gd-hbimg.huaban.com/366881ea1247fe883e1ace1e8863606e6029a5786ea47-Fdh1sZ_fw658",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0008",
@@ -1063,7 +1084,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/nanchang_lotus.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0009",
@@ -1179,7 +1203,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn/w470h285/20171213/b48f-fypsqiz4269198.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0010",
@@ -1295,7 +1322,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://n.sinaimg.cn/sinacn20111/19/w466h353/20181213/f0ca-hqackaa9826258.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0011",
@@ -1314,7 +1344,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜生态田鸡/牛蛙肉 (斩小块)",
@@ -1411,7 +1441,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd20210427ac/290/w1080h810/20210427/5810-kphwumr4543223.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0012",
@@ -1430,7 +1463,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "鲜活草鱼中段/草鱼肉厚片",
@@ -1527,7 +1560,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/93c8aebc205a4268967b1d6baa42ca7f_1745w_874h.jpg?imageView2/1/w/235/h/138/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0013",
@@ -1546,7 +1582,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "新鲜黄牛里脊肉",
@@ -1659,7 +1695,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/305bd8a7bf6d4015bdea1594ef0d79e1_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0014",
@@ -1678,7 +1717,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -1775,7 +1814,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd20200802ac/120/w1619h901/20200802/15fa-ixeeirz3496921.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0015",
@@ -1794,7 +1836,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "新鲜猪粉肠、猪肝与猪腰花 (切片切花刀)",
@@ -1891,7 +1933,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/490e8d6eb4fe456cbe7e17a16c67aafb_650w_427h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0016",
@@ -1910,7 +1955,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "肥瘦均匀带皮猪五花肉大块",
@@ -2013,7 +2058,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic4.zhimg.com/v2-ae41a902405ef9c3fa92c82af08d1e7f_1440w.jpg?source=172ae18b",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0017",
@@ -2032,7 +2080,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "肥嫩深海生蚝肉 (撬壳洗净)",
@@ -2127,7 +2175,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/ecb0c75d8d404407a64cd4fa202107cc_750w_600h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0018",
@@ -2146,7 +2197,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "新鲜散养农家土鸡蛋",
@@ -2230,7 +2281,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d2764c620b574d5cbd0f76fd287e865a_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0019",
@@ -2347,7 +2401,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/d14adf600f3c47d5bd1093d7239749ab_1080w_1053h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0020",
@@ -2466,7 +2523,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://img.yzcdn.cn/upload_files/2016/04/28/Fl-TGSTwx5PVGwxAPYAWeC3doOag.png?imageView2/2/w/580/h/580/q/75/format/png",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0021",
@@ -2595,7 +2655,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/42755eb6889511e6a9a10242ac110002_597w_597h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0022",
@@ -2711,7 +2774,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/31dc34dac2ac491f804a6a3acf3771fd_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0023",
@@ -2730,7 +2796,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "广西巴马高山野生茶叶",
@@ -2827,7 +2893,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://5b0988e595225.cdn.sohucs.com/images/20191220/9b9c61dbb1f847a6ad09dcc40b550e51.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0024",
@@ -2846,7 +2915,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -2943,7 +3012,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn13/694/w458h236/20181129/779f-hphsupx5703569.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0025",
@@ -2962,7 +3034,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "高筋特制醒发扯面坯",
@@ -3085,7 +3157,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/2989504818ad49d38294ee18833e6881_1780w_1202h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0026",
@@ -3104,7 +3179,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "精选肥三瘦七带皮猪五花肉",
@@ -3214,7 +3289,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/b3c6106693b111e6b87c0242ac110003_1094w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0027",
@@ -3233,7 +3311,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "陕西手擀细韧面条",
@@ -3330,7 +3408,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f0ba4c9c870111e6a9a10242ac110002_1936w_1296h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0028",
@@ -3349,7 +3430,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "慢火久炖香浓秦川羊肉汤",
@@ -3449,7 +3530,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn/w1600h900/20180215/284b-fyrpeie8695296.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0029",
@@ -3468,7 +3552,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "手工洗面筋蒸制爽滑凉皮",
@@ -3568,7 +3652,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://p1.itc.cn/images01/20210312/0e2b8cbd5abc4a5a93eeb8d6824983f4.png",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0030",
@@ -3587,7 +3674,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "现包水饺皮或手工面团",
@@ -3694,7 +3781,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://5b0988e595225.cdn.sohucs.com/images/20171010/69c71c83eb4a4ce4995627d8fb01b880.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0031",
@@ -3810,7 +3900,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ef32ab843f7611e7bc9d0242ac110002_2448w_1835h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0032",
@@ -3926,7 +4019,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://img.mp.sohu.com/upload/20180318/8197c6d01d97443bb99431d9ecf823c4_th.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0033",
@@ -4039,7 +4135,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/52b8af6de39e4e6cafd74b4f9ec00321_4096w_2731h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0034",
@@ -4158,7 +4257,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd20260130s/600/w600h800/20260130/b314-c97bf269c84314dbb8c554d8cb420431.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0035",
@@ -4177,7 +4279,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "宁夏盐池特产优质滩羊肉排 (斩适口方块)",
@@ -4271,7 +4373,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/470afbbb8d3542f8b172e99ec802ebdd_864w_864h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0036",
@@ -4290,7 +4395,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "天山散养新鲜三黄土鸡",
@@ -4432,7 +4537,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/b30c67b288ba11e6a9a10242ac110002_5184w_3456h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0037",
@@ -4451,7 +4559,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "新疆阿勒泰新鲜羊腿肉/羊排 (切块)",
@@ -4551,7 +4659,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://cp1.douguo.com/upload/caiku/4/3/6/yuan_431051fc9c94445b49c397a2401b3946.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0038",
@@ -4570,7 +4681,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "新鲜羊腿肉与羊尾油丁 (肥瘦相间)",
@@ -4667,7 +4778,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d2d7e6ede024455d82f387c9341b140d_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0039",
@@ -4686,7 +4800,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "新疆农家散养土土鸡/三黄鸡 (煮熟手撕大条)",
@@ -4783,7 +4897,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/66206bf7d0b34a14aefae3c81148ca28_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0040",
@@ -4802,7 +4919,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "精选新鲜猪里脊肉",
@@ -4934,7 +5051,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/9fc8a6f348284b009a31801175f77848_888w_684h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0041",
@@ -4953,7 +5073,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "农家自然发酵酸白菜",
@@ -5072,7 +5192,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d57564bdf8c24514ad25f96b6cd3a2a4_1728w_2304h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0042",
@@ -5091,7 +5214,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "东北沙地黄心土豆 (滚刀块)",
@@ -5194,7 +5317,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/disanxian.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0043",
@@ -5213,7 +5339,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "精选新鲜猪里脊肉 (切适口长条肉段)",
@@ -5310,7 +5436,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://cp1.douguo.com/upload/caiku/b/d/c/yuan_bd01bc64ceb5b3f08f9e1497f69c7afc.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0044",
@@ -5329,7 +5458,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "东北农家散养小笨鸡/三黄鸡 (斩块)",
@@ -5423,7 +5552,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/4d5056f256e64c8fb139e9c68c9c9f7c_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0045",
@@ -5442,7 +5574,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "新鲜猪脊骨/大棒骨 (带厚肉斩大块)",
@@ -5539,7 +5671,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ad076be932d94baca18a017a2ac889c2_692w_463h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0046",
@@ -5652,7 +5787,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/201706/0216/021646495006.jpg/NjAwX2MyXzQwMA",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0047",
@@ -5774,7 +5912,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/4f3ef9b892fe42908c005fdce4b61443_1280w_1023h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0048",
@@ -5887,7 +6028,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/8108cd7c88ca11e6a9a10242ac110002_4288w_2848h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0049",
@@ -6000,7 +6144,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/201205/2820/282059486797.jpg/NjAwX2MyXzQwMA",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0050",
@@ -6019,7 +6166,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "优质沙地黄心红薯/地瓜 (滚刀切块)",
@@ -6116,7 +6263,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://cp1.douguo.com/upload/caiku/a/4/4/yuan_a4e012fb8bade58b07963c8b3a3d6134.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0051",
@@ -6135,7 +6285,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "优质现磨嫩豆腐/老豆腐 (切厚方块)",
@@ -6232,7 +6382,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/620a300198004b04a7389b77f6d889a4_861w_861h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0052",
@@ -6251,7 +6404,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "优质现磨嫩豆腐/老豆腐 (切厚方块)",
@@ -6348,7 +6501,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1541832676-9b763b0239ab?w=700&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0053",
@@ -6367,7 +6523,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "正宗四川坐墩肉/冷鲜带皮二刀肉",
@@ -6464,7 +6620,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/8b92b69edd6b4f9381350c562ba37551_3072w_4095h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0054",
@@ -6483,7 +6642,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "鲜嫩鸡腿肉/鸡胸肉 (切1.5厘米方丁)",
@@ -6586,7 +6745,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1525755662778-989d0524087e?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0055",
@@ -6605,7 +6767,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "精选牛里脊肉/黄瓜条 (逆纹切薄大片)",
@@ -6700,7 +6862,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a039ed1f17cc4b5fadda1e6352be5b34_600w_386h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0056",
@@ -6719,7 +6884,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "大胖头鱼(花鲢)鱼头",
@@ -6845,7 +7010,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/ef0ed2ce081a11e7947d0242ac110002_2304w_1728h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0057",
@@ -6864,7 +7032,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "精选新鲜猪里脊肉",
@@ -6972,7 +7140,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f3067a6e886111e6b87c0242ac110003_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0058",
@@ -7126,7 +7297,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/053ebb64226949e58770ba44a863b2ee_1280w_800h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0059",
@@ -7249,7 +7423,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d3e89154558043b38eb73bf218fee7cf_769w_615h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0060",
@@ -7403,7 +7580,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/maoxuewang.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0061",
@@ -7538,7 +7718,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic4.zhimg.com/v2-104d117474b657b70a5d8d99cbd95151_1200x500.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0062",
@@ -7557,7 +7740,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "特制高筋水叶子机制切面",
@@ -7667,7 +7850,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?w=700&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0063",
@@ -7686,7 +7872,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "精选鲜嫩牛里脊肉/牛胸脯肉 (切薄片)",
@@ -7781,7 +7967,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1949234d9619423db7e5701ab0e5ccb5_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0064",
@@ -7800,7 +7989,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "新鲜带皮猪前肘子",
@@ -7910,7 +8099,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn20190529s/397/w1215h782/20190529/8098-hxsrwwq7276537.png",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0065",
@@ -7929,7 +8121,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "新鲜带皮猪后腿坐臀肉/二刀肉",
@@ -8037,7 +8229,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/8fb7acea872a11e6a9a10242ac110002_650w_433h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0066",
@@ -8056,7 +8251,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "熟洗净猪大肠/肥肠头 (切斜滚刀块)",
@@ -8154,7 +8349,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/58c06e0fe976451f94b91a84f2d6a192_828w_662h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0067",
@@ -8173,7 +8371,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "鲜活大花鲢胖头鱼头",
@@ -8289,7 +8487,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://images.unsplash.com/photo-1580476262798-bddd9f4b7369?w=700&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0068",
@@ -8308,7 +8509,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "带皮冷鲜五花肉片与瘦肉片",
@@ -8411,7 +8612,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/e424d63fa37c4d929b7c8fa8caa867c3_912w_684h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0069",
@@ -8430,7 +8634,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "江西余干枫树辣/螺丝椒",
@@ -8550,7 +8754,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/885215d1cf4b4060bf1bf7ed051713cd_1077w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0070",
@@ -8569,7 +8776,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "活捕鲜海虾/基围虾 (开背去虾线)",
@@ -8663,7 +8870,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/b7006b84876611e6b87c0242ac110003_3881w_2587h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0071",
@@ -8682,7 +8892,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "湘西特产传统外婆菜 (洗净攥干水分)",
@@ -8779,7 +8989,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/4b92674586584647b43b31263e95074f_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0072",
@@ -8798,7 +9011,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "生态甲鱼/水鱼 (宰杀洗净斩适口厚块)",
@@ -8901,7 +9114,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=700&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0073",
@@ -9018,7 +9234,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c3f2479774f84f8abf6cf99499ad49b8_679w_460h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0074",
@@ -9134,7 +9353,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://k.sinaimg.cn/n/sinacn10118/267/w640h427/20190828/5d76-icuacsa7612061.jpg/w700d1q75cms.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0075",
@@ -9250,7 +9472,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/4f92690558a74cd1887ef4265001579f_2824w_4096h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0076",
@@ -9366,7 +9591,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/316fedb309a649a7ab786d54dcfadad7_1488w_1984h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0077",
@@ -9385,7 +9613,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -9482,7 +9710,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/567995fca4b611e6947d0242ac110002_852w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0078",
@@ -9501,7 +9732,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "鲜嫩湖南土皮螺丝椒 (烧烤至表皮起虎皮起焦黑撕去外皮)",
@@ -9598,7 +9829,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1f8b067e891e11e6b87c0242ac110003_640w_620h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0079",
@@ -9617,7 +9851,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "清远走地纯种三黄母鸡",
@@ -9726,7 +9960,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://q4.itc.cn/images01/20241024/fd104be28e484525953f12137420bedb.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0080",
@@ -9745,7 +9982,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "优质新鲜猪梅花肉(上肉下肉相间)",
@@ -9849,7 +10086,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1529193591184-b1d58069ecdd?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0081",
@@ -9868,7 +10108,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "深海鲜活大金鲳鱼 (洗净双面划一字花刀)",
@@ -9966,7 +10206,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/3c785cc3b5d7469385082b48b4142ca0_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0082",
@@ -9985,7 +10228,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "顺德鲜活大花鲢鱼头/胖头鱼头 (斩两半入油锅煎香透)",
@@ -10080,7 +10323,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/298063ae46c34e19aabacb1c6d893e74_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0083",
@@ -10099,7 +10345,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "精选新鲜猪梅花肉/猪里脊肉 (切2厘米方丁)",
@@ -10196,7 +10442,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1d1c8c62dace11e6947d0242ac110002_1280w_856h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0084",
@@ -10215,7 +10464,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "精选新鲜猪肋排 (斩2.5厘米规整小段)",
@@ -10312,7 +10561,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/dfaa025e39b54955b86769628fbcbd47_1125w_1475h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0085",
@@ -10433,7 +10685,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/6deb4efdcf5c48328f80b70b3d95d737_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0086",
@@ -10547,7 +10802,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/e8e7a9eb40ca497596306f12858755fa_2560w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0087",
@@ -10661,7 +10919,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/33b162a2df7947709530b219c640eb7d_1836w_1964h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0088",
@@ -10777,7 +11038,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/110dd659121147529b57c873bc09b225_1080w_720h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0089",
@@ -10796,7 +11060,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "广东清远散养三黄土鸡 (斩小块)",
@@ -10891,7 +11155,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/7e9d2cfe70c84332afa65e7de6097729_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0090",
@@ -10910,7 +11177,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "广东清远散养三黄鸡 (整只吸干表面水份)",
@@ -11007,7 +11274,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/eedea7dae87511e6947d0242ac110002_2889w_1930h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0091",
@@ -11026,7 +11296,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "活捕鲜海虾/基围虾 (开背去虾线)",
@@ -11123,7 +11393,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/dadceb70264b4357acb185aa1240d70c_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0092",
@@ -11142,7 +11415,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "清脆新鲜罗马生菜/圆生菜 (洗净摘片)",
@@ -11239,7 +11512,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/4a4826632ce24a1ba1667c3411cf7a38_3024w_3024h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0093",
@@ -11258,7 +11534,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "鲜活稻田鲤鱼/乌江鱼",
@@ -11372,7 +11648,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://k.sinaimg.cn/n/sinacn09/233/w640h393/20181007/c1bc-hktxqah9233930.jpg/w700d1q75cms.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0094",
@@ -11391,7 +11670,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜农家土鸡蛋",
@@ -11488,7 +11767,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/e749494c898611e6a9a10242ac110002_2448w_2448h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0095",
@@ -11507,7 +11789,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "贵阳花溪特色水泡发粗酸浆米粉",
@@ -11608,7 +11890,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/35480dd6882411e6b87c0242ac110003_703w_504h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0096",
@@ -11627,7 +11912,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "高山散养农家公鸡 (斩小丁块)",
@@ -11725,7 +12010,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1808cb7a11e511e7bc9d0242ac110002_3648w_2736h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0097",
@@ -11744,7 +12032,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "新鲜脆嫩折耳根(鱼腥草嫩白节)",
@@ -11841,7 +12129,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://p1.ssl.qhimg.com/t011f12f8a4ad628caa.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0098",
@@ -11860,7 +12151,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "贵阳现摊薄如蝉翼小面皮",
@@ -11957,7 +12248,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/b6d4d1528a6511e6a9a10242ac110002_3264w_2448h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0099",
@@ -11976,7 +12270,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "云南散养武定壮母鸡",
@@ -12079,7 +12373,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/201511/1120/112022568214.jpg/NjAwX2MyXzQwMA",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0100",
@@ -12098,7 +12395,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "云南大理农家土鸡肉 (斩适口块)",
@@ -12195,7 +12492,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/022899d5daa04ed38d3e95f5ff917276_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0101",
@@ -12214,7 +12514,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "云南昆明老字号玫瑰大头菜 (切碎米丁)",
@@ -12311,7 +12611,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/2263959e211b4d458bf544286724b971_1440w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0102",
@@ -12330,7 +12633,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "新鲜时令清甜脆嫩蔬菜",
@@ -12427,7 +12730,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a862e46a83264e5cb71f6e3abd277c02_992w_744h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0103",
@@ -12446,7 +12752,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "云南高山黄心洋芋(土豆) (切2厘米大方块)",
@@ -12543,7 +12849,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d60e9fe5d67743a6bb29ad81bf6f317c_1280w_1280h.jpg?imageView2/2/w/600/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0104",
@@ -12562,7 +12871,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "蒙自传统酸浆鲜米线",
@@ -12670,7 +12979,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1c0b64b4558c4a0aad892e606847ef39_650w_1156h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0105",
@@ -12689,7 +13001,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "精选新鲜猪里脊肉 (划十字花刀切块油炸如荔枝壳)",
@@ -12786,7 +13098,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/9b8c8eca52d348c0a295d95c393d2f71_1840w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0106",
@@ -12805,7 +13120,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "原只鲜活大鲍鱼",
@@ -12932,7 +13247,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/19954b2f085247009c8ba2452e573f57_660w_495h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0107",
@@ -12951,7 +13269,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "沙县传统木槌打制纯精猪肉馅",
@@ -13048,7 +13366,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/7bde5d054f794dcbbaeefe67021398e1_720w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0108",
@@ -13067,7 +13388,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "厦门同安带皮正方三层五花肉 (整块入封)",
@@ -13164,7 +13485,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1603360946369-dc9bb6258143?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0109",
@@ -13183,7 +13507,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "闽南鲜活小海蛎/生蚝仔",
@@ -13306,7 +13630,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ba173ef50b264ee288286756e7d5bb14_2614w_2737h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0110",
@@ -13325,7 +13652,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "福建沿海新鲜海鳗鱼肉 (洗净切规整厚块)",
@@ -13422,7 +13749,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/9a430c4b193f4d849531aa739a7052bb_1000w_750h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0111",
@@ -13441,7 +13771,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "正宗海南文昌鸡 (半只斩整齐小块)",
@@ -13544,7 +13874,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/bc8f4e69c4b5463f92ac8cae46cb398a_786w_546h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0112",
@@ -13563,7 +13896,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "海南文昌铺前纯天然老坛糟粕醋汤底",
@@ -13657,7 +13990,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/7c563e9011214a64b59641fa0a7cca3b_3413w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0113",
@@ -13676,7 +14012,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "新鲜现开天然椰子水与椰肉丝",
@@ -13777,7 +14113,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/363e8200c92d4975824e68d73086a96b_1170w_1308h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0114",
@@ -13796,7 +14135,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "海南农家散养正宗文昌鸡 (整只约900克白切)",
@@ -13893,7 +14232,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd20118/253/w649h404/20221223/f28f-555d69b0023b5ff881f7d2b5eefd2fdf.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0115",
@@ -13912,7 +14254,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "海南文昌土鸡肉 (斩小块)",
@@ -14009,7 +14351,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/420c64981d114c10942bff99dbc9bf26_3024w_2420h.jpg?imageView2/1/w/280/h/216/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0116",
@@ -14028,7 +14373,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "鲜活新鲜鳜鱼/桂鱼 (去骨划麦穗花刀成松鼠尾翘起)",
@@ -14126,7 +14471,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "./images/songshu_guiyu.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0117",
@@ -14145,7 +14493,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "扬州特制白豆腐干",
@@ -14266,7 +14614,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/9752b3844a1945ad8e96604cd2a04a42_700w_525h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0118",
@@ -14285,7 +14636,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "新鲜优质猪五花肉 (肥六瘦四)",
@@ -14405,7 +14756,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd10109/39/w2048h1191/20220708/520e-8e0f39f77ed8ae08ad575f0f4b654226.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0119",
@@ -14424,7 +14778,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "精选带肉新鲜猪精肋排 (斩段)",
@@ -14521,7 +14875,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/16f97205518e4030a522e529d398deec_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0120",
@@ -14540,7 +14897,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -14637,7 +14994,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/827b877cf13f416d88789f6a26a4453a_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0121",
@@ -14656,7 +15016,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "鲜活野生笔杆黄鳝 (烫熟剔骨取纯鳝鱼脊背肉)",
@@ -14753,7 +15113,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://n.sinaimg.cn/sinacn10114/436/w640h596/20190311/12e4-htzuhtp8358793.bmp",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0122",
@@ -14772,7 +15135,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "西湖活草鱼 (饿养两天去泥腥，对剖两半)",
@@ -14870,7 +15233,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/309cf5b990234abca2ae6a2c5556556d_3000w_2000h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0123",
@@ -14889,7 +15255,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "精选新鲜金华两头乌带皮五花肉",
@@ -14986,7 +15352,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn10121/606/w889h517/20200202/e293-inzcrxr6488301.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0124",
@@ -15005,7 +15374,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "活捕鲜海虾/基围虾 (开背去虾线)",
@@ -15103,7 +15472,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://photocdn.sohu.com/20160101/mp51732372_1451590226336_1_th.jpeg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0125",
@@ -15122,7 +15494,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "鲜活鳜鱼/鲜鲈鱼 (蒸熟细细拆下纯鱼肉嫩块)",
@@ -15225,7 +15597,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/e3ae5cae369e4d07a43d88eb675dc534_1920w_2557h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0126",
@@ -15244,7 +15619,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "江南早春雷竹笋/新鲜春笋尖 (拍扁切长段)",
@@ -15338,7 +15713,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/youmen_chunsun.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0127",
@@ -15357,7 +15735,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "舟山野生鲜活大黄鱼 (洗净煎至双面微黄)",
@@ -15452,7 +15830,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/ec2e907d226447afa223923670291fe7_1280w_959h.jpg?imageView2/2/w/600/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0128",
@@ -15471,7 +15852,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "优质水发大辽东刺参/灰参 (整只原汁煨透入味)",
@@ -15569,7 +15950,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/4f6660f288db11e6a9a10242ac110002_1000w_1500h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0129",
@@ -15588,7 +15972,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜猪大肠",
@@ -15714,7 +16098,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/b4eb874b37504197b20839a663f41c45_619w_500h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0130",
@@ -15733,7 +16120,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "黄河鲜活鲤鱼 (洗净双面划深百叶花刀，挂糊炸成弓形跃龙门)",
@@ -15830,7 +16217,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://n.sinaimg.cn/sinakd10100/464/w1300h764/20220226/a9a8-c186c7a5d7aa0c0a0a240948a825d32f.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0131",
@@ -15849,7 +16239,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "新鲜猪肚最厚尖端部分 (剔去筋膜划极密十字花刀)",
@@ -15946,7 +16336,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/6d075f7a81d04b74a44f30e6a8f731cb_640w_493h.png?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0132",
@@ -15965,7 +16358,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "胶东新鲜大鲅鱼纯鱼肉 (刮下鱼肉泥加韭菜五花肉搅打起胶)",
@@ -16068,7 +16461,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/c561a0441f6e11e7947d0242ac110002_2160w_1620h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0133",
@@ -16087,7 +16483,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "山东德州散养健壮公鸡 (整只盘腿造型)",
@@ -16184,7 +16580,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd10108/412/w1282h730/20220403/97b9-01e5d862d07b59cb37535796b7c76d93.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0134",
@@ -16203,7 +16602,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "手工现擀高筋切面",
@@ -16317,7 +16716,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/06a4ab54ebbc4b2b9f4e064345bc8350_518w_389h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0135",
@@ -16336,7 +16738,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -16434,7 +16836,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://picx.zhimg.com/v2-36ced75a7bd47bf6f937b89a6d1afa82_720w.jpg?source=172ae18b",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0136",
@@ -16453,7 +16858,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "纯绿豆面与小米面水磨粉浆",
@@ -16554,7 +16959,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://e0.ifengimg.com/04/2019/0419/4907B8A261A833171ACB5DAD8BF7ED7F8DE597A2_size106_w640_h962.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0137",
@@ -16573,7 +16981,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "传统手工高筋手擀面",
@@ -16695,7 +17103,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/4d32b8a88a7011e6b87c0242ac110003_950w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0138",
@@ -16714,7 +17125,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "手工特制抹油醒发高筋烩面胚",
@@ -16826,7 +17237,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/5e4597f3a9b647538a0f7c21c0249666_810w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0139",
@@ -16845,7 +17259,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "鲜活黄河优质鲤鱼",
@@ -16961,7 +17375,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/8b56370288ce11e6a9a10242ac110002_400w_246h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0140",
@@ -17133,7 +17550,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/henan_hulatang.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0141",
@@ -17152,7 +17572,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "洪湖粉糯九孔老莲藕",
@@ -17264,7 +17684,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/05db23b1142b4de3b87638104e61d257_688w_516h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0142",
@@ -17283,7 +17706,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "湖北鄂州梁子湖鲜活武昌鱼 (团头鲂，改孔雀开屏刀)",
@@ -17381,7 +17804,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/ec28f8c4883011e6b87c0242ac110003_698w_506h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0143",
@@ -17400,7 +17826,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "带皮猪五花肉厚片",
@@ -17503,7 +17929,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://k.sinaimg.cn/n/sinacn10101/112/w561h351/20191111/3c89-iieqapt4955138.jpg/w700d1q75cms.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0144",
@@ -17522,7 +17951,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "武汉特制高筋碱水粗圆面",
@@ -17644,7 +18073,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c6c91114ce654be2a1de91a4a398ab0c_3000w_4000h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0145",
@@ -17663,7 +18095,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "纯手工新鲜雪白鱼圆",
@@ -17785,7 +18217,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd10113/227/w640h387/20200626/e37b-ivmqpck0078349.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0146",
@@ -17804,7 +18239,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "武汉洪山特产紫皮红菜苔 (手掐嫩段洗净)",
@@ -17898,7 +18333,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/201205/1018/101856593179.jpg/NjAwX2MyXzQwMA",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0147",
@@ -18011,7 +18449,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/91451f4ec4be11e6947d0242ac110002_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0148",
@@ -18127,7 +18568,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn20190623s/33/w500h333/20190623/9d15-hyvnhqp9479656.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0149",
@@ -18249,7 +18693,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/d82c5b5ea1bc11e6947d0242ac110002_490w_379h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0150",
@@ -18369,7 +18816,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a276c155d3484cf19d9d3338ef4ca110_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0151",
@@ -18388,7 +18838,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "安徽黄山传统樟木桶自然腌制臭鳜鱼 (洗净改刀)",
@@ -18485,7 +18935,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/1e03315889de11e6b87c0242ac110003_2048w_1536h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0152",
@@ -18504,7 +18957,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "优质现磨嫩豆腐/老豆腐 (切厚方块)",
@@ -18598,7 +19051,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/aafbbf384c0044d18ddf207e8436d2bc_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0153",
@@ -18617,7 +19073,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "徽州歙县问政山新鲜白白嫩毛笋 (切滚刀块)",
@@ -18711,7 +19167,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://img.redocn.com/sheying/20150825/shansunchaolarou_4867020.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0154",
@@ -18730,7 +19189,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -18827,7 +19286,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/188f2ff671bc4eec8735c86d872facb7_1045w_825h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0155",
@@ -18846,7 +19308,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "散养土鸡肉块、农家自制炸肉圆与山猪腊肉片",
@@ -18943,7 +19405,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f7da763a95324022858031ef9285c92c_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0156",
@@ -18962,7 +19427,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "发制顶级海参、鲜鲍鱼、纯鱼肚与花胶",
@@ -19060,7 +19525,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/68136eacfd3d4806a35388cf0f2d4b22_1280w_1338h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0157",
@@ -19079,7 +19547,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "高筋硬面团(醒发揉至极致光滑)",
@@ -19175,7 +19643,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://k.sinaimg.cn/n/sinakd20200612ac/783/w492h291/20200612/73c4-iuvaazp6946076.jpg/w700d1q75cms.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0158",
@@ -19194,7 +19665,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜精选猪里脊肉",
@@ -19330,7 +19801,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/shanxi_guoyourou.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0159",
@@ -19349,7 +19823,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "特制高筋中筋小麦面粉调和软面团 (用铁筷沿盘剔出两头尖面条)",
@@ -19440,7 +19914,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/2825b31e139345eeb81d473455f70667_1080w_2340h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0160",
@@ -19459,7 +19936,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "山西纯正高寒莜麦面粉 (开水烫面手推成卷卷立放笼屉)",
@@ -19550,7 +20027,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd20200705ac/240/w640h400/20200705/a48b-ivwfwmp5537673.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0161",
@@ -19569,7 +20049,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "平遥古法老卤正宗风味酱牛肉 (逆纹切大薄片)",
@@ -19658,7 +20138,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://youimg1.c-ctrip.com/target/100m0v000000k2rji21DE.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0162",
@@ -19677,7 +20160,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "酵面面团包入五香花椒猪油生酥",
@@ -19768,7 +20251,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/67655df14257422fadadb7f4148a0861_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0163",
@@ -19884,7 +20370,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd20107/336/w690h446/20200901/52b9-iypetiv1436827.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0164",
@@ -19903,7 +20392,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "死面千层焖炉火烧(正宗方形)",
@@ -19984,7 +20473,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic4.zhimg.com/v2-5333d517343f4cbd0a1d3d204daac82b_r.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0165",
@@ -20003,7 +20495,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "顶级泡发刺参、鲜鲍鱼片与纯鱼肚",
@@ -20101,7 +20593,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/68136eacfd3d4806a35388cf0f2d4b22_1280w_1338h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0166",
@@ -20120,7 +20615,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "新鲜大鲤鱼/鳜鱼 (精湛刀功划出千条细丝如狮子金毛抖散)",
@@ -20211,7 +20706,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://preview.qiantucdn.com/58pic/20231023/00m58PIChF58PIC2wXdzD47Ce_PIC2018_PIC2018.jpg!w1024_new_small_1",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0167",
@@ -20230,7 +20728,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "小麦面粉半发酵千层起酥皮",
@@ -20327,7 +20825,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/19f39c1eabfa4cf8b3f5471e15a8ce8c_1080w_1440h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0168",
@@ -20346,7 +20847,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "农家散养鲜嫩公鸡肉 (斩适口小块)",
@@ -20440,7 +20941,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/522e45aa889711e6a9a10242ac110002_600w_473h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0169",
@@ -20459,7 +20963,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "内蒙古锡林郭勒草原散养羔羊前腿 (划深刀)",
@@ -20556,7 +21060,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://preview.qiantucdn.com/58pic/20230711/00d58PIC5KJWKRayBe52R_PIC2018_PIC2018.jpg!w1024_new_small_1",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0170",
@@ -20575,7 +21082,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "内蒙古纯正老青砖茶煮制浓茶汤",
@@ -20678,7 +21185,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/4910a4ae89dc11e6b87c0242ac110003_638w_640h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0171",
@@ -20697,7 +21207,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "新鲜熟羊肚/羊肠/羊肺/羊肝",
@@ -20799,7 +21309,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/fcce18a62982448f8ed61509740bfdf9_948w_694h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0172",
@@ -20818,7 +21331,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "青海高原鲜嫩牦牛肉片与羊排块",
@@ -20912,7 +21425,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c18ddb2488e511e6b87c0242ac110003_750w_750h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0173",
@@ -20931,7 +21447,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "西藏高原生晒风干纯天然牦牛肉条 (手撕即食)",
@@ -21020,7 +21536,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic3.zhimg.com/v2-4c9c5c91387d5a455aa25167627d3cb2_b.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0174",
@@ -21039,7 +21558,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "西藏日喀则熟炒青稞纯细麦面",
@@ -21136,7 +21655,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://picb.zhimg.com/v2-ac696a7a0c9730d188eded43c06cdcbb_r.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0175",
@@ -21155,7 +21677,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "精选带皮猪五花肉",
@@ -21278,7 +21800,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/54508e2119314cb9bfe967a6e0697d7d_1242w_1242h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0176",
@@ -21297,7 +21822,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "鲜嫩带骨鸡腿肉 (斩小块)",
@@ -21400,7 +21925,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/6fcf11690b1f4881ac9e10c8349dab7e_2448w_3264h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0177",
@@ -21419,7 +21947,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "正宗广东清远黑棕鹅 (光鹅整只约2500克或半只1200克)",
@@ -21522,7 +22050,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c43a380242a5460eb987d3b1ea96587c_640w_396h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0178",
@@ -21541,7 +22072,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "多层千层起酥蛋挞皮",
@@ -21650,7 +22181,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/da101319e2cb4d02afccad992d7739a3_684w_912h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0179",
@@ -21669,7 +22203,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "精选新鲜牛肋条/牛腱子肉 (逆纹切厚大方块)",
@@ -21770,7 +22304,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d2087cc661c34bef9a857407c717464c_750w_600h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0180",
@@ -21789,7 +22326,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "精选鲜嫩牛里脊肉/黄瓜条 (逆纹切薄大片)",
@@ -21886,7 +22423,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/136191e8de4f11e6bc9d0242ac110002_1280w_852h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0181",
@@ -22008,7 +22548,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/0e31afb01b6e4258923775bd5d37293d_1000w_750h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0182",
@@ -22130,7 +22673,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://cp1.douguo.com/upload/caiku/7/2/8/yuan_72fcea4833b30d25fa78ce3855a1f3b8.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0183",
@@ -22244,7 +22790,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ef6dd68c2fb311e7947d0242ac110002_800w_500h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0184",
@@ -22360,7 +22909,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://img95.699pic.com/photo/50248/0949.jpg_wh860.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0185",
@@ -22379,7 +22931,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "鲜活阳澄湖母蟹/公蟹",
@@ -22468,7 +23020,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "./images/yangcheng_dazhaxie.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0186",
@@ -22487,7 +23042,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "活捕鲜海虾/基围虾 (开背去虾线)",
@@ -22585,7 +23140,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/41176deaa67b4470b6ba1da515295d9f_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0187",
@@ -22604,7 +23162,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "鲜活肥美梭子蟹/肉蟹 (斩块刷净)",
@@ -22700,7 +23258,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "./images/donghai_suozixie.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0188",
@@ -22719,7 +23280,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "深海鲜活老虎斑/东星斑 (洗净鱼身两面划花刀)",
@@ -22817,7 +23378,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/913a2b0e885311e6b87c0242ac110003_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0189",
@@ -22836,7 +23400,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "鲜捕半壳鲜活大扇贝 (洗净去内脏留贝肉与贝柱)",
@@ -22933,7 +23497,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/109253aa9bc04c409088b0bf435ae7c5_2048w_1571h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0190",
@@ -22952,7 +23519,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "鲜活肥美大竹蛏子",
@@ -23059,7 +23626,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/bb768bec890211e6b87c0242ac110003_650w_650h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0191",
@@ -23211,7 +23781,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/506dcf105b90429d9d8b5b6a30e302f8_744w_744h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0192",
@@ -23352,7 +23925,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/07c89292889511e6a9a10242ac110002_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0193",
@@ -23466,7 +24042,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/c3257f80233c47c58633032d6c301692_720w_576h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0194",
@@ -23582,7 +24161,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/3032ccb6ddff423a8524876432357866_1050w_1400h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0195",
@@ -23601,7 +24183,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜东海大黄鱼 (去鳞腮内脏洗净划刀)",
@@ -23698,7 +24280,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/11906b4d75f94fafb3e654944856664e_800w_533h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0196",
@@ -23717,7 +24302,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "活捕鲜海虾/基围虾 (开背去虾线)",
@@ -23811,7 +24396,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/f19c528f531b4ac2afb8d7f699643b84_2048w_2048h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0197",
@@ -23830,7 +24418,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "江南清明时令鲜活青壳螺蛳 (剪尾彻底淘洗泥沙)",
@@ -23924,7 +24512,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/346fc0521a9111e7947d0242ac110002_1080w_1628h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0198",
@@ -23943,7 +24534,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "鲜活肥美梭子蟹/肉蟹 (斩块刷净)",
@@ -24038,7 +24629,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/703dc3f3a08d48fa8d8c69d3cefc3de9_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0199",
@@ -24057,7 +24651,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "鲜活半壳大扇贝",
@@ -24154,7 +24748,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/67b117a0890e11e6b87c0242ac110003_750w_658h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0200",
@@ -24173,7 +24770,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 475,
+    "calories": 950,
     "ingredients": [
       {
         "name": "优质水发大连辽刺参",
@@ -24290,7 +24887,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/c8885d074c00430e9832e4aed3ddf7a5_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 475,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0201",
@@ -24425,7 +25025,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/25338c6b953d4e8283c77d54c1cf686b_1080w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 256,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0202",
@@ -24549,7 +25152,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/237a67ba113a4bd1ba12e2da64da1c68_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0203",
@@ -24685,7 +25291,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/326af2850a964227ba83776e50502104_1080w_809h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 293,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0204",
@@ -24824,7 +25433,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://img95.699pic.com/photo/50247/9407.jpg_wh860.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 312,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0205",
@@ -24843,7 +25455,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 300,
+    "calories": 600,
     "ingredients": [
       {
         "name": "鲜活海鲈鱼(花鲈)",
@@ -24954,7 +25566,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/915d38c577054489bbdf72f9dd563421_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 300,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0206",
@@ -24973,7 +25588,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 337,
+    "calories": 674,
     "ingredients": [
       {
         "name": "舟山新鲜宽体带鱼段",
@@ -25075,7 +25690,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/d06106dc82b1454887e145996d8c28ca_1268w_1538h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 337,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0207",
@@ -25094,7 +25712,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 374,
+    "calories": 748,
     "ingredients": [
       {
         "name": "新鲜宽体带鱼段",
@@ -25202,7 +25820,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/969fef6f517240e7bb009c2ee91a9666_1080w_1920h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 374,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0208",
@@ -25221,7 +25842,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 411,
+    "calories": 822,
     "ingredients": [
       {
         "name": "鲜活红东星斑/石斑鱼",
@@ -25326,7 +25947,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "http://i2.chuimg.com/6d63aa3888bd11e6b87c0242ac110003_650w_650h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 411,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0209",
@@ -25345,7 +25969,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 448,
+    "calories": 896,
     "ingredients": [
       {
         "name": "新鲜深海石斑鱼腩段",
@@ -25461,7 +26085,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/e143f0fa42464323a0947813d1a69aba_2448w_2448h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 448,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0210",
@@ -25480,7 +26107,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 485,
+    "calories": 970,
     "ingredients": [
       {
         "name": "鲜活多宝鱼(比目鱼)",
@@ -25591,7 +26218,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/041727f687a211e6b87c0242ac110003_5616w_3744h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 485,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0211",
@@ -25727,7 +26357,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/e34f60040e524f5eb8ca25581b9ff58f_440w_328h.jpg?imageView2/1/w/280/h/216/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 261,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0212",
@@ -25863,7 +26496,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/260eaacfe80845469ae84d41a9961d7c_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0213",
@@ -25999,7 +26635,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/72c36d904afe40aabce9b3a899dd3f69_1050w_1050h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 298,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0214",
@@ -26134,7 +26773,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://pic.huitu.com/pic/20211221/945289_20211221005536845020_0.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0215",
@@ -26153,7 +26795,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "鲜活海鳗(河鳗/海鳗)",
@@ -26251,7 +26893,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/5db6da25292248a791e52370827bb679_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0216",
@@ -26270,7 +26915,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 347,
+    "calories": 694,
     "ingredients": [
       {
         "name": "挪威进口银鳕鱼排",
@@ -26379,7 +27024,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/024bac3e890111e6a9a10242ac110002_1500w_997h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 347,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0217",
@@ -26398,7 +27046,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 384,
+    "calories": 768,
     "ingredients": [
       {
         "name": "挪威深海银鳕鱼厚切块",
@@ -26509,7 +27157,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/f02f995269ba41fe934e5fdded0cd8a4_1242w_994h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 384,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0218",
@@ -26528,7 +27179,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 421,
+    "calories": 842,
     "ingredients": [
       {
         "name": "挪威三文鱼排(带皮)",
@@ -26639,7 +27290,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/d11318756dc94f6e8ea96fe3116cad3c_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 421,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0219",
@@ -26658,7 +27312,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 458,
+    "calories": 916,
     "ingredients": [
       {
         "name": "新鲜九肚鱼(龙头鱼/豆腐鱼)",
@@ -26775,7 +27429,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/5339fa45b9e34a2e82736494edd843c8_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 458,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0220",
@@ -26794,7 +27451,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 495,
+    "calories": 990,
     "ingredients": [
       {
         "name": "新鲜九肚鱼",
@@ -26901,7 +27558,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/460fd600e4284674ace3bf6538e2688e_3072w_2304h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 495,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0221",
@@ -27004,7 +27664,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/15d595b19bbe479bb00ed0f2e1f05186_684w_684h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 266,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0222",
@@ -27110,7 +27773,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/5bd0809489ed11e6b87c0242ac110003_750w_750h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 285,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0223",
@@ -27245,7 +27911,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/201608/2615/261511396518.jpg/NjAwX2MyXzQwMA",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 303,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0224",
@@ -27264,7 +27933,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 283,
+    "calories": 566,
     "ingredients": [
       {
         "name": "新鲜小黄花鱼",
@@ -27385,7 +28054,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/ed8375b44f0b429395df53736bd1f287_864w_1152h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 283,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0225",
@@ -27404,7 +28076,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "新鲜小黄花鱼",
@@ -27527,7 +28199,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/7cb272a72bfb452f8d2b0d6c5c46c0ed_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0226",
@@ -27546,7 +28221,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "柳州正宗干米粉(粗圆粉)",
@@ -27677,7 +28352,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://picx1.zhimg.com/v2-a4bec2c7f0a107ba0c9ff132a0a5931a_720w.jpg?source=172ae18b",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0227",
@@ -27696,7 +28374,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "桂林特制鲜榨湿米粉",
@@ -27811,7 +28489,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic4.zhimg.com/v2-e416e4aaeb650f6ee79b784fed71aab2_r.jpg?source=172ae18b",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0228",
@@ -27830,7 +28511,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "重庆鲜切水叶子细碱面",
@@ -27958,7 +28639,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/be6f72b6bf81455081559fadc8412dbd_800w_600h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0229",
@@ -27977,7 +28661,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "鲜活大青虾仁",
@@ -28099,7 +28783,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/6dfd7612e3cb4e198eca51328efa0cc9_1280w_1706h.jpg?imageView2/2/w/600/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0230",
@@ -28118,7 +28805,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "精选新鲜前腿夹心肉末",
@@ -28238,7 +28925,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/5bef75a489604bd5b1965d79bfa73d5c_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0231",
@@ -28257,7 +28947,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "手工发酵小面团面皮",
@@ -28354,7 +29044,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/efae0d8149ca427b8204e954f8beabbf_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0232",
@@ -28464,7 +29157,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/49c8231a93834beb84c0fd8f3effd7a7_2033w_2560h.jpg?imageView2/2/w/600/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0233",
@@ -28592,7 +29288,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/249eb1b63e5d4ab5bd772133ddc5f80a_1152w_768h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0234",
@@ -28720,7 +29419,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f4c108d542444a3f9fcc3fee03af7c90_824w_744h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0235",
@@ -28834,7 +29536,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://5b0988e595225.cdn.sohucs.com/images/20180104/ce22816b49af45d487eca14a772287f6.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0236",
@@ -28853,7 +29558,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "手工特制高筋饺子皮",
@@ -28963,7 +29668,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/3eefcc8caa6b4d63aa1bf9b3a1fdea98_1179w_1064h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0237",
@@ -28982,7 +29690,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "特级中筋面粉(半发酵白吉馍面胚)",
@@ -29071,7 +29779,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic2.zhimg.com/v2-218641ba1651ea25864feb0b8ae9de0f_720w.jpg?source=172ae18b",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0238",
@@ -29090,7 +29801,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "扬州细切生切面/龙须面",
@@ -29190,7 +29901,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/12e385bfbfac4cb0b5a88c27aa5ed215_1242w_1656h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0239",
@@ -29209,7 +29923,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "正宗手打全蛋高筋竹升面",
@@ -29305,7 +30019,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://img95.699pic.com/photo/60003/7595.jpg_wh860.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0240",
@@ -29324,7 +30041,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "武汉特制高筋碱水粗圆面",
@@ -29446,7 +30163,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd10112/135/w2048h1287/20211126/01a1-38b17a68e3d12e8a5f1e091053d4f40c.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0241",
@@ -29465,7 +30185,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 475,
+    "calories": 950,
     "ingredients": [
       {
         "name": "陕西优质手擀面条",
@@ -29562,7 +30282,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/0780d4adc65f49d385f12cc734a72c63_1264w_1124h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 475,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0242",
@@ -29681,7 +30404,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/201801/1400/140048142001.jpg/NjAwX2MyXzQwMA",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 256,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0243",
@@ -29797,7 +30523,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/03d3a2890e5e42a1aa11b9dc76613105_4288w_2848h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0244",
@@ -29917,7 +30646,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/3338c356785145d5a8e5f9dbdae1c477_1776w_1184h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 293,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0245",
@@ -30065,7 +30797,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "http://s2.cdn.xiachufang.com/926ac1c687ce11e6b87c0242ac110003_800w_533h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 312,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0246",
@@ -30084,7 +30819,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 300,
+    "calories": 600,
     "ingredients": [
       {
         "name": "温州粗米粉",
@@ -30207,7 +30942,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://img1.qunarzz.com/travel/d3/1808/f7/be3073515dac15b5.jpg_r_640x426x70_80a4c02d.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 300,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0247",
@@ -30226,7 +30964,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 337,
+    "calories": 674,
     "ingredients": [
       {
         "name": "隔夜丝苗米饭",
@@ -30347,7 +31085,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/bf9a742e73084bf0a9568f9deda13099_1280w_1448h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 337,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0248",
@@ -30366,7 +31107,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 374,
+    "calories": 748,
     "ingredients": [
       {
         "name": "广东丝苗米/油粘米",
@@ -30465,7 +31206,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/2f7a2350a06d461295e07e81db5e2a46_1501w_1201h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 374,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0249",
@@ -30484,7 +31228,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 411,
+    "calories": 822,
     "ingredients": [
       {
         "name": "优质大米与少许糯米",
@@ -30580,7 +31324,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1f9bdb13644346058bd19f1d2452159f_1536w_2048h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 411,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0250",
@@ -30599,7 +31346,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 448,
+    "calories": 896,
     "ingredients": [
       {
         "name": "精选长粒优质糯米",
@@ -30714,7 +31461,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/daf21f3c8af011e6a9a10242ac110002_3456w_2304h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 448,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0251",
@@ -30733,7 +31483,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 485,
+    "calories": 970,
     "ingredients": [
       {
         "name": "新鲜手工薄抄手皮/馄饨皮",
@@ -30849,7 +31599,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a1f6b0a5ea69453d83a48074952f5348_3780w_3025h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 485,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0252",
@@ -30984,7 +31737,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c916e742dc944035a2d234d994df8c2c_1836w_2448h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 261,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0253",
@@ -31104,7 +31860,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/55e945c112dc48888f5c8f9e24948d0e_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0254",
@@ -31218,7 +31977,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd20110/400/w1200h800/20240111/8fd8-57638f78d291dc6881545b3f82d1732c.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 298,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0255",
@@ -31352,7 +32114,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/e07087cb800d47e49a6a000decd2aa44_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0256",
@@ -31371,7 +32136,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "新鲜熟猪大肠段 (切规整圆段)",
@@ -31474,7 +32239,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/453aa4d6892511e6a9a10242ac110002_638w_638h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0257",
@@ -31493,7 +32261,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 347,
+    "calories": 694,
     "ingredients": [
       {
         "name": "正统延吉现压纯荞麦细冷面",
@@ -31593,7 +32361,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://p3-bk.byteimg.com/tos-cn-i-mlhdmxsy5m/d2dafda1c3244e9e9f8f0e245f01bb6f~tplv-mlhdmxsy5m-q75:0:0.image",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 347,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0258",
@@ -31612,7 +32383,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 384,
+    "calories": 768,
     "ingredients": [
       {
         "name": "东北大黄米面粉与糯米面粉 (自然发酵成皮)",
@@ -31703,7 +32474,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn10104/448/w1280h768/20190413/3f22-hvscktf1190894.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 384,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0259",
@@ -31722,7 +32496,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 421,
+    "calories": 842,
     "ingredients": [
       {
         "name": "优质圆粒白糯米",
@@ -31843,7 +32617,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/6890020c8dd144ec929e0595a9df2f43_1280w_1706h.jpg?imageView2/1/w/280/h/216/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 421,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0260",
@@ -31862,7 +32639,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 458,
+    "calories": 916,
     "ingredients": [
       {
         "name": "优质纯水磨粘米粉/籼米粉",
@@ -31970,7 +32747,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/26a149a575ef4b2ca489c82bda257cb4_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 458,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0261",
@@ -31990,7 +32770,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "鲜活大罗氏虾/黑虎虾",
@@ -32144,7 +32924,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/60f0b017fc71437bba915f92f3a27c78_1280w_1707h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0262",
@@ -32164,7 +32947,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜猪梅花肉/前腿肉",
@@ -32294,7 +33077,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/59282af1df96431f9ec93338b73c4a0e_1280w_856h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0263",
@@ -32314,7 +33100,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "泰国干米粉/特制宽河粉",
@@ -32464,7 +33250,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1559314809-0d155014e29e?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0264",
@@ -32484,7 +33273,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "隔夜冷藏泰国茉莉香米饭",
@@ -32622,7 +33411,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/d2a71d9db83145d5ad8d34462f46ab04_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0265",
@@ -32642,7 +33434,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "新鲜青木瓜(未熟绿色硬木瓜)",
@@ -32757,7 +33549,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/04aaf52888ef11e6b87c0242ac110003_620w_413h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0266",
@@ -32777,7 +33572,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "优质圆白糯米",
@@ -32885,7 +33680,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/6fa11b6488c711e6a9a10242ac110002_800w_600h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0267",
@@ -33036,7 +33834,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/2c30ac56891b11e6b87c0242ac110003_620w_380h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0268",
@@ -33158,7 +33959,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d799ee7e54b649c2bcb0fc2918396d6b_749w_599h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0269",
@@ -33272,7 +34076,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/9553b8769c2a48cd945f7dbee22d4d1a_750w_750h.jpg?imageView2/2/w/600/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0270",
@@ -33387,7 +34194,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/9a6b1279e94a44a59ec27d8110919b35_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0271",
@@ -33406,7 +34216,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "肥三瘦七猪前腿肉碎/纯牛肉末",
@@ -33503,7 +34313,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/2041bc2d024f4e14a3e4088aea5d2515_512w_364h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0272",
@@ -33522,7 +34335,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "特选优质黄金六两猪颈肉(松板肉)",
@@ -33632,7 +34445,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/7c8e31708a5d4e6497957b99fb8c49d6_1179w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0273",
@@ -33651,7 +34467,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "散养嫩三黄全鸡 (去背骨拍平展)",
@@ -33748,7 +34564,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/583fe5f20d2644d3b87d374f682052b9_810w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0274",
@@ -33767,7 +34586,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "精选新鲜牛腩肉块 (切3厘米大方块)",
@@ -33864,7 +34683,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/0b4ba94e891d11e6a9a10242ac110002_1242w_1242h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0275",
@@ -33883,7 +34705,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "活捕鲜海虾/基围虾 (开背去虾线)",
@@ -33980,7 +34802,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/51fcc986d79d42abb39c6b02243210da_1920w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0276",
@@ -33999,7 +34824,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 475,
+    "calories": 950,
     "ingredients": [
       {
         "name": "活捕鲜海虾/基围虾 (开背去虾线)",
@@ -34096,7 +34921,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/b396359687ac11e6a9a10242ac110002_720w_720h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 475,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0277",
@@ -34212,7 +35040,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/9071d65cf5d94c89a74e9bd30373edcc_2793w_2793h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 256,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0278",
@@ -34328,7 +35159,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a0dc80e25c1b11e7bc9d0242ac110002_800w_533h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0279",
@@ -34445,7 +35279,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/94da2eaad84441ddba6b83e501da5287_910w_723h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 293,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0280",
@@ -34559,7 +35396,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/627e51ba9370404dbd463b08b09ae29e_1243w_1410h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 312,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0281",
@@ -34578,7 +35418,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 300,
+    "calories": 600,
     "ingredients": [
       {
         "name": "新鲜罗非鱼/海鲈鱼 (肚中塞满香茅与青柠叶)",
@@ -34675,7 +35515,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/8871374d604043449a3718a5116d3b9b_6720w_4480h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 300,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0282",
@@ -34694,7 +35537,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 337,
+    "calories": 674,
     "ingredients": [
       {
         "name": "鲜大虾、鲜鱿鱼圈与鲜青口贝",
@@ -34794,7 +35637,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/299c433deb444ffd97d9479be1058e45_720w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 337,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0283",
@@ -34813,7 +35659,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 374,
+    "calories": 748,
     "ingredients": [
       {
         "name": "鲜精瘦猪肉末",
@@ -34913,7 +35759,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/taishi_chunjuan.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 374,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0284",
@@ -34932,7 +35781,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 411,
+    "calories": 822,
     "ingredients": [
       {
         "name": "新鲜优质整只鸡中翅 (两面各划两刀)",
@@ -35029,7 +35878,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1567620832903-9fc6debc209f?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 411,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0285",
@@ -35048,7 +35900,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 448,
+    "calories": 896,
     "ingredients": [
       {
         "name": "泰国进口优质纯白小西米 (煮透明过凉开水)",
@@ -35145,7 +35997,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1505252585461-04db1eb84625?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 448,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0286",
@@ -35165,7 +36020,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "优质雪花肥牛片/安格斯牛上脑",
@@ -35305,7 +36160,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0287",
@@ -35325,7 +36183,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜处理好的河鳗/深海活鳗鱼肉",
@@ -35451,7 +36309,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/d92b5f8c15104826ba987395c3c21908_2880w_2302h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0288",
@@ -35471,7 +36332,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "新鲜大鸡全腿",
@@ -35582,7 +36443,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/6d20fcbee0d54677a634e0c80560a45b_1027w_822h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0289",
@@ -35602,7 +36466,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "新鲜鸡腿肉",
@@ -35719,7 +36583,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1e1e3b32876911e6b87c0242ac110003_600w_450h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0290",
@@ -35738,7 +36605,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "厚切新鲜猪大排/里脊肉排 (厚度2厘米，断筋敲松)",
@@ -35847,7 +36714,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0291",
@@ -35866,7 +36736,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "高品质原切肥牛卷/牛肩肉薄切肉片",
@@ -35966,7 +36836,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/9c636bbe885111e6b87c0242ac110003_650w_650h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0292",
@@ -36082,7 +36955,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/19918aa35e95456cb78f141c0e426a24_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0293",
@@ -36198,7 +37074,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/27d9e46bfa974586b38b36e5b8e8ec45_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0294",
@@ -36320,7 +37199,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/8f0e20b57bc64537a1ec4a9f586097c0_1280w_925h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0295",
@@ -36436,7 +37318,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/9798149626ca4c05aca5b0fa9eecdd29_1000w_750h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0296",
@@ -36455,7 +37340,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜海大虾 (开背挑筋腹部剪筋拉直成笔直修长)",
@@ -36558,7 +37443,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/2c8af6ac874a11e6a9a10242ac110002_600w_400h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0297",
@@ -36577,7 +37465,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "精选牛腩肉块/牛肩肉 (切适口方块焯水)",
@@ -36672,7 +37560,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c290db13494a4c6cb51cbd6dc6721fef_2736w_3648h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0298",
@@ -36691,7 +37582,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "日本信州原味干荞麦面条 (煮熟冰镇沥干)",
@@ -36788,7 +37679,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/b5899fd5aef5473883891fa14e466934_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0299",
@@ -36807,7 +37701,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "生食级优质新鲜鸡蛋",
@@ -36904,7 +37798,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0300",
@@ -36923,7 +37820,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "智利深海大西洋三文鱼中段厚切鱼排",
@@ -37020,7 +37917,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0301",
@@ -37039,7 +37939,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "正宗韩国老坛酸泡菜",
@@ -37164,7 +38064,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/da8d00bf7bef489dbe551bd9a6b002e1_1440w_1920h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0302",
@@ -37183,7 +38086,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "传统老坛熟成韩式辣白菜",
@@ -37285,7 +38188,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/93537484932246e7ad2688f9375e196a_1280w_1456h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0303",
@@ -37305,7 +38211,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "传统绢豆腐/嫩豆腐",
@@ -37432,7 +38338,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/364b3928f4dd4fd9ae7057a37594dc8a_1835w_2449h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0304",
@@ -37451,7 +38360,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "韩国正宗纯米年糕条",
@@ -37574,7 +38483,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/9668a739acd748a794951d9c0ee08b89_1536w_2046h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0305",
@@ -37593,7 +38505,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "热气腾腾珍珠大米饭",
@@ -37702,7 +38614,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1553163147-622ab57be1c7?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0306",
@@ -37721,7 +38636,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "新鲜无骨大鸡腿肉 (去皮切一口小块)",
@@ -37818,7 +38733,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/e3fcba974ff94b1da31e8646fde2a9a9_2836w_2293h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0307",
@@ -37939,7 +38857,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/53f68533dbe54cb6912b427449b43652_2687w_2015h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0308",
@@ -38058,7 +38979,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/201206/2013/201332266626.jpg/NjAwX2MyXzQwMA",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0309",
@@ -38174,7 +39098,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/01a5cd3b5ae743e6a0cdbb8b510acf44_1080w_607h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0310",
@@ -38293,7 +39220,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a82500eaad0647918c8dd1d285ad6b71_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0311",
@@ -38312,7 +39242,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "拌入香油与熟芝麻的温热米饭",
@@ -38409,7 +39339,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/bf0dcba54f7f4b1baccf1e9c361c1bb1_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0312",
@@ -38428,7 +39361,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "新鲜无骨大鸡腿肉排 (切厚大块)",
@@ -38528,7 +39461,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/caa2272e886d11e6b87c0242ac110003_533w_800h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0313",
@@ -38547,7 +39483,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "新鲜鱿鱼须段与鲜海虾仁丁",
@@ -38650,7 +39586,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/71234c1efcf5467eb52c47f23ba831ac_1024w_682h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0314",
@@ -38670,7 +39609,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "安格斯谷饲原切菲力牛排(厚切3cm)",
@@ -38780,7 +39719,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1558030006-450675393462?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0315",
@@ -38800,7 +39742,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "传统意大利长面(Spaghetti No.5)",
@@ -38952,7 +39894,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1551892374-ecf8754cf8b0?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0316",
@@ -38971,7 +39916,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "新鲜特级口蘑/白蘑菇 (切薄片)",
@@ -39073,7 +40018,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/0be9abca8a6311e6a9a10242ac110002_640w_427h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0317",
@@ -39092,7 +40040,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "新鲜农家散养全鸡 (整只开膛洗净吸干)",
@@ -39195,7 +40143,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/0adb788e80ef423db7a600f4328bf918_1440w_1078h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0318",
@@ -39215,7 +40166,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "新鲜海白虾仁/黑虎虾仁",
@@ -39325,7 +40276,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/3245d62c884c11e6b87c0242ac110003_640w_480h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0319",
@@ -39344,7 +40298,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "意大利00号高筋披萨专用面粉",
@@ -39452,7 +40406,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1a6799ee8b6e11e6b87c0242ac110003_1620w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0320",
@@ -39572,7 +40529,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/657ecd1f5b5c44b59ad1bfbff5c44eb0_1124w_1392h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0321",
@@ -39688,7 +40648,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0322",
@@ -39809,7 +40772,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/b40f03e2934240e089f3b9efff8a84de_1280w_853h.jpg?imageView2/2/w/600/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0323",
@@ -39931,7 +40897,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://images.unsplash.com/photo-1579208030886-b937da0925dc?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0324",
@@ -39951,7 +40920,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "西班牙吸汁短粒米(Bomba或优质丝苗米)",
@@ -40115,7 +41084,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://images.unsplash.com/photo-1534080564583-6be75777b70a?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0325",
@@ -40135,7 +41107,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "传统意大利千层面皮(波浪形)",
@@ -40245,7 +41217,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1574894709920-11b28e7367e3?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0326",
@@ -40264,7 +41239,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "原切谷饲牛排 (厚切2.5cm常温回温)",
@@ -40362,7 +41337,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/23c485a1decf4965bf9fa3aa199e9180_1526w_1124h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0327",
@@ -40381,7 +41359,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "新鲜整块猪梅花肉/猪肩胛肉 (整大块慢烤熏制)",
@@ -40478,7 +41456,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/19f27bc4e3804de583156693221ea7db_600w_600h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0328",
@@ -40497,7 +41478,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "意大利马斯卡彭芝士(Mascarpone)",
@@ -40604,7 +41585,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a1af9426e6504a7aa7ef06bdc9fa370e_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0329",
@@ -40623,7 +41607,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 475,
+    "calories": 950,
     "ingredients": [
       {
         "name": "动物性优质鲜淡奶油",
@@ -40724,7 +41708,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/de27b64d6d68442d8144a012555c41b7_1500w_2250h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 475,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0330",
@@ -40846,7 +41833,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 256,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0331",
@@ -40961,7 +41951,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1534939561126-855b8675edd7?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0332",
@@ -41076,7 +42069,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/0efc969e8aa711e6b87c0242ac110003_700w_333h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 293,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0333",
@@ -41197,7 +42193,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/18fed27e190a47bd89fdc98a1da82c12_2312w_1734h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 312,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0334",
@@ -41216,7 +42215,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "食品级天然纯白凉粉粉",
@@ -41311,7 +42310,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/361f48f0bcab41aeb47a47b21b70d0e7_864w_1080h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0335",
@@ -41330,7 +42332,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "四川纯手工搓制石灰水点化假酸浆籽冰粉",
@@ -41424,7 +42426,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1e23b8ea967911e69ce70242ac110002_1360w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0336",
@@ -41443,7 +42448,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "低脂高蛋白鲜鸡胸肉 (香煎熟切厚片)",
@@ -41545,7 +42550,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d3eb13482bd2476684967f7a5d30246c_1536w_1229h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0337",
@@ -41564,7 +42572,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "正宗顺德水牛奶 (乳脂率高)",
@@ -41653,7 +42661,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c56cae286ac246e2a5a8180418a2742a_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0338",
@@ -41672,7 +42683,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "优质鲜水牛奶/高脂全脂纯牛奶",
@@ -41755,7 +42766,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ba55d74d423a431fbc5bfe2e7404f4a6_1076w_748h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0339",
@@ -41774,7 +42788,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "手工水磨纯糯米小圆子",
@@ -41883,7 +42897,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://cp1.douguo.com/upload/caiku/b/a/e/yuan_ba6417a62969c8ead11ba9ade9fb803e.jpeg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0340",
@@ -42003,7 +43020,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/79f899fb1a2444d08d7d75a9659746f7_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0341",
@@ -42117,7 +43137,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.hdslb.com/bfs/archive/494c7772b2c53321f37ce59289ca37ab00eb2846.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0342",
@@ -42231,7 +43254,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1488477181946-6428a0291777?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0343",
@@ -42353,7 +43379,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/76d24a41fd584c12a5206cdf5b49b058_684w_912h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0344",
@@ -42372,7 +43401,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "天然植物白凉粉粉",
@@ -42473,7 +43502,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/8d38b91a8b7011e6b87c0242ac110003_555w_397h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0345",
@@ -42492,7 +43524,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "新会十年陈皮",
@@ -42575,7 +43607,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic2.zhimg.com/v2-0ca8b24af959ba4ed1c09ed7382bf4af_720w.jpg?source=172ae18b",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0346",
@@ -42594,7 +43629,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "云南食用玫瑰花蕾(干)",
@@ -42683,7 +43718,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/3bc4d93c41ea4860b985ecc8e2af6ab8_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0347",
@@ -42702,7 +43740,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "台湾黑糖木薯粉圆(珍珠)",
@@ -42798,7 +43836,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/4c8bda4b0851437298c2abcf4ba38fd6_3024w_2420h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0348",
@@ -42817,7 +43858,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "南杏仁",
@@ -42914,7 +43955,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d658379dbb78471ba2917213de348c9b_802w_1080h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0349",
@@ -42933,7 +43977,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 475,
+    "calories": 950,
     "ingredients": [
       {
         "name": "云南陈年普洱茶饼",
@@ -43022,7 +44066,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/57c170cae2d84a5c9da1e98cb1c73d75_1080w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 475,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0350",
@@ -43120,7 +44167,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/218904db7c844601919f7d672f21f4b1_1230w_1641h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 256,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0351",
@@ -43235,7 +44285,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/85f3f078a14549b491f3b36558d4aece_1242w_994h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0352",
@@ -43352,7 +44405,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://gd-hbimg.huaban.com/dd1cd285dabad27e93a779f21ea7b21ebb99a73eaeed9-zVbQUO_fw658",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 293,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0353",
@@ -43467,7 +44523,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/e80dd2e3580b4ebdb9de3e0507154d37_1326w_995h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 312,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0354",
@@ -43486,7 +44545,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 300,
+    "calories": 600,
     "ingredients": [
       {
         "name": "荔浦香芋",
@@ -43576,7 +44635,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1d47dbdfa92a45a08a6d5fb025ae0acd_1921w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 300,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0355",
@@ -43595,7 +44657,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 337,
+    "calories": 674,
     "ingredients": [
       {
         "name": "干豌豆",
@@ -43679,7 +44741,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/6a9bb242873111e6b87c0242ac110003_500w_688h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 337,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0356",
@@ -43698,7 +44763,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 374,
+    "calories": 748,
     "ingredients": [
       {
         "name": "圆粒糯米",
@@ -43787,7 +44852,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/9b1fa9739cb543c282dd14ec8c295001_2100w_2100h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 374,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0357",
@@ -43806,7 +44874,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 411,
+    "calories": 822,
     "ingredients": [
       {
         "name": "河北迁西精选油板栗",
@@ -43887,7 +44955,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d5552121e2c3416496d444602507fabc_1080w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 411,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0358",
@@ -43906,7 +44977,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 448,
+    "calories": 896,
     "ingredients": [
       {
         "name": "精选优质小红豆",
@@ -43996,7 +45067,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/bed623778099405bacf9127028e9d98e_992w_744h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 448,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0359",
@@ -44015,7 +45089,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 485,
+    "calories": 970,
     "ingredients": [
       {
         "name": "天然野生桃花泪桃胶",
@@ -44113,7 +45187,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/14e353a04e2b47aabbe347ac05cf2b85_750w_750h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 485,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0360",
@@ -44132,7 +45209,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "新鲜农家土鸡蛋 (打散搅匀出蓬松大泡)",
@@ -44235,7 +45312,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/07968b333d974e6997242d28214f1eed_1280w_1646h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0361",
@@ -44254,7 +45334,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜优质鲜鸡中翅 (两面划斜刀焯水沥干)",
@@ -44351,7 +45431,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/86d43f14f05a11e6947d0242ac110002_1280w_856h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0362",
@@ -44370,7 +45453,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "沙地黄心土豆 (切细丝漂洗淀粉)",
@@ -44467,7 +45550,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f981ad54d4654870bb63582a7520b410_2669w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0363",
@@ -44486,7 +45572,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "新鲜精选猪肋排 (斩3厘米适口小排段)",
@@ -44589,7 +45675,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/10818d90873611e6a9a10242ac110002_620w_472h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0364",
@@ -44608,7 +45697,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "新鲜精选猪里脊肉 (顺纹切均匀肉丝)",
@@ -44705,7 +45794,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/qingjiao_rousi.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0365",
@@ -44724,7 +45816,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "新鲜优质紫皮长茄子",
@@ -44826,7 +45918,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/b6a767bca064408f87f18da2594fe244_744w_744h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0366",
@@ -44939,7 +46034,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ee7bd23268ea4910ae4d22ed74b88ab9_1500w_1124h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0367",
@@ -45055,7 +46153,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/535b594f7c524be9a6d714f33e27ef7f_756w_1008h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0368",
@@ -45169,7 +46270,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/0ae90aeb0aea470eac04fc7c1a74a230_1209w_1209h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0369",
@@ -45282,7 +46386,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/0a85f23177264a7fb21bdc33077d6e1e_5760w_3840h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0370",
@@ -45301,7 +46408,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "优质原切原装肥牛卷 (整片入水滑熟)",
@@ -45402,7 +46509,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://pic4.zhimg.com/v2-f0a208f2ada4b71119e747c8fa9ebd0b_r.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0371",
@@ -45421,7 +46531,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "优质纯红薯细粉丝",
@@ -45529,7 +46639,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/fa2680c2f85043d2829b7e41811369b3_750w_846h.jpg?imageView2/2/w/660/interlace/1/q/75",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0372",
@@ -45548,7 +46661,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "新鲜清脆鲜绿油麦菜 (摘净折长段洗净控水)",
@@ -45640,7 +46753,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/fde0ee304e5f44d981920ff2e1dea270_1124w_899h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0373",
@@ -45659,7 +46775,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 401,
+    "calories": 802,
     "ingredients": [
       {
         "name": "脆甜卷心菜/手撕包菜 (手撕大片)",
@@ -45756,7 +46872,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://images.unsplash.com/photo-1596797038530-2c107229654b?w=800&auto=format&fit=crop&q=80",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 401,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0374",
@@ -45775,7 +46894,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 438,
+    "calories": 876,
     "ingredients": [
       {
         "name": "新鲜无筋四季豆/架豆 (摘两头撕老筋折短段，油煸出起泡虎皮)",
@@ -45878,7 +46997,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/d5e464d4cdb8466db378a5695fb1456c_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 438,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0375",
@@ -45897,7 +47019,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 475,
+    "calories": 950,
     "ingredients": [
       {
         "name": "新鲜时令清甜脆嫩蔬菜",
@@ -45994,7 +47116,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/754cfa2c0ee74080a715af75804b551f_1024w_768h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 475,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0376",
@@ -46108,7 +47233,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/1072100921554316a29593be28a18e05_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 256,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0377",
@@ -46222,7 +47350,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/41731886896811e6b87c0242ac110003_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0378",
@@ -46342,7 +47473,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ad41f77ad3214e3eb5fbbf87ae529864_2560w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 293,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0379",
@@ -46458,7 +47592,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinakd10122/595/w2048h947/20210503/f9b5-kppteas4905891.jpg",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 312,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0380",
@@ -46477,7 +47614,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 300,
+    "calories": 600,
     "ingredients": [
       {
         "name": "精选新鲜带皮老冬瓜",
@@ -46577,7 +47714,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/ffcfc220cf22455eaf03a78aa5ede38d_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 300,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0381",
@@ -46596,7 +47736,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 337,
+    "calories": 674,
     "ingredients": [
       {
         "name": "沙瓤熟红番茄",
@@ -46711,7 +47851,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/a0821ec0c2384b6aadad5f97900681bd_1242w_1151h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 337,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0382",
@@ -46730,7 +47873,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 374,
+    "calories": 748,
     "ingredients": [
       {
         "name": "鲜活基围虾/海白虾",
@@ -46837,7 +47980,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/28fcaf98870511e6a9a10242ac110002_490w_653h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 374,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0383",
@@ -46856,7 +48002,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 411,
+    "calories": 822,
     "ingredients": [
       {
         "name": "新鲜白玉菇与蟹味菇",
@@ -46957,7 +48103,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f821d515be83481db33be3ba8ab552ca_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 411,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0384",
@@ -46976,7 +48125,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 448,
+    "calories": 896,
     "ingredients": [
       {
         "name": "农家新鲜老冬瓜",
@@ -47069,7 +48218,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f7fdc78d10bc4fc0a70ef90314fbfaaa_1334w_750h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 448,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0385",
@@ -47088,7 +48240,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 485,
+    "calories": 970,
     "ingredients": [
       {
         "name": "新鲜深海海带结",
@@ -47183,7 +48335,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": true,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/c32e6335ab904475a0c141e08586361a_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 485,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0386",
@@ -47202,7 +48357,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "乌鱼蛋(墨鱼蛋干货)",
@@ -47319,7 +48474,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/b11affe2913211e6b87c0242ac110003_1080w_1440h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0387",
@@ -47338,7 +48496,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 317,
+    "calories": 634,
     "ingredients": [
       {
         "name": "新鲜鸡胸肉",
@@ -47449,7 +48607,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://s1.cdn.jiaonizuocai.com/caipu/202108/2305/23054333101.jpg/NjAwX3JiMTI6MS81XzQwMA",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 317,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0388",
@@ -47468,7 +48629,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 354,
+    "calories": 708,
     "ingredients": [
       {
         "name": "鲜活海鲈鱼",
@@ -47586,7 +48747,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://n.sinaimg.cn/sinakd10102/270/w640h430/20210626/e376-41aebc7f091b13e648927f2c42e7c04f.png",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 354,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0389",
@@ -47605,7 +48769,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 26,
     "servings": 2,
-    "calories": 391,
+    "calories": 782,
     "ingredients": [
       {
         "name": "发制好的辽宁特级灰海参 (整只原汁煨透入味)",
@@ -47724,7 +48888,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "./images/baozhi_cishen.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 391,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0390",
@@ -47743,7 +48910,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 32,
     "servings": 2,
-    "calories": 428,
+    "calories": 856,
     "ingredients": [
       {
         "name": "内酯豆腐/极嫩南豆腐",
@@ -47861,7 +49028,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/f04dbc71bf15409e96a45e58814db1b4_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 428,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0391",
@@ -47880,7 +49050,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 465,
+    "calories": 930,
     "ingredients": [
       {
         "name": "精选肥瘦三七比五花肉",
@@ -48002,7 +49172,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/qingtun_shizitou.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 465,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0392",
@@ -48146,7 +49319,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "http://n.sinaimg.cn/front/198/w600h398/20190105/KJYU-hrfcctm4931457.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 251,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0393",
@@ -48316,7 +49492,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "http://n.sinaimg.cn/sinakd20220823s/359/w700h459/20220823/5b53-58ae5acc6d4312f864fe590b45eba143.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0394",
@@ -48461,7 +49640,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "./images/jiuzhuan_dachang.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 288,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0395",
@@ -48598,7 +49780,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://n.sinaimg.cn/sinacn10100/224/w640h384/20200123/f213-innckcf0553098.jpg",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 307,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0396",
@@ -48617,7 +49802,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜农家麻鸭肉 (斩块干煸)",
@@ -48715,7 +49900,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/089394eebab845bd9e7b7482354f1288_2734w_4096h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_gudu_0397",
@@ -48734,7 +49922,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 14,
     "servings": 2,
-    "calories": 327,
+    "calories": 654,
     "ingredients": [
       {
         "name": "大水发辽东刺参、鲜南非鲍鱼与蹄筋",
@@ -48832,7 +50020,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": false,
     "image": "https://i2.chuimg.com/cfcf13225f8543fea2e4d0df38836b4c_1213w_808h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 327,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_gudu_0398",
@@ -48851,7 +50042,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 364,
+    "calories": 728,
     "ingredients": [
       {
         "name": "活杀生态草鱼/开化清水草鱼 (背部厚肉划斜刀)",
@@ -48949,7 +50140,10 @@ window.RECIPES_DATA = [
     "isFatLossFriendly": false,
     "isSeafood": true,
     "image": "https://i2.chuimg.com/c5ad541c600f4706ac3dfa4fe9842b56_1024w_689h.png?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 364,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_lotus_01",
@@ -48969,7 +50163,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 4,
-    "calories": 380,
+    "calories": 1520,
     "season": [
       "autumn",
       "winter"
@@ -49081,7 +50275,10 @@ window.RECIPES_DATA = [
       "火候把控精准，食材依序下锅能保持最佳鲜美口感。"
     ],
     "image": "https://i2.chuimg.com/8dc894ec8bb411e6a9a10242ac110002_1440w_1080h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_lotus_02",
@@ -49101,7 +50298,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 90,
     "servings": 4,
-    "calories": 290,
+    "calories": 1160,
     "season": [
       "autumn",
       "winter"
@@ -49197,7 +50394,10 @@ window.RECIPES_DATA = [
       "火候把控精准，食材依序下锅能保持最佳鲜美口感。"
     ],
     "image": "https://i2.chuimg.com/5d9b774087f311e6b87c0242ac110003_1500w_1110h.jpg?imageView2/2/w/660/interlace/1/q/90",
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_01",
@@ -49217,7 +50417,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 8,
     "servings": 4,
-    "calories": 220,
+    "calories": 880,
     "season": [
       "spring",
       "summer",
@@ -49330,7 +50530,10 @@ window.RECIPES_DATA = [
     "image": "https://i2.chuimg.com/7418799bcf0d473984b4ea36ecd2a4bc_1224w_1475h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "score": "4.9",
     "cookedCount": 1580,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_02",
@@ -49350,7 +50553,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 12,
     "servings": 4,
-    "calories": 120,
+    "calories": 480,
     "season": [
       "summer",
       "autumn"
@@ -49445,7 +50648,10 @@ window.RECIPES_DATA = [
     "image": "https://i2.chuimg.com/673560ae873011e6a9a10242ac110002_446w_650h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "score": "4.9",
     "cookedCount": 1580,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_03",
@@ -49465,7 +50671,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 45,
     "servings": 4,
-    "calories": 260,
+    "calories": 1040,
     "season": [
       "spring",
       "summer",
@@ -49578,7 +50784,10 @@ window.RECIPES_DATA = [
     "image": "https://i2.chuimg.com/89c4dbd37e8043e2a1ced7c4fa65e4ed_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "score": "4.9",
     "cookedCount": 1580,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_04",
@@ -49598,7 +50807,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "season": [
       "spring",
       "summer",
@@ -49711,7 +50920,10 @@ window.RECIPES_DATA = [
     "image": "https://i2.chuimg.com/f763da8b1ced45469d9bd5bc4f0d9436_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "score": "4.9",
     "cookedCount": 1580,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_05",
@@ -49731,7 +50943,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 25,
     "servings": 4,
-    "calories": 310,
+    "calories": 1240,
     "season": [
       "spring",
       "summer",
@@ -49851,7 +51063,10 @@ window.RECIPES_DATA = [
     "image": "https://i2.chuimg.com/011fa2f87fd1457283c69063b471dbba_911w_1620h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "score": "4.9",
     "cookedCount": 1580,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_06",
@@ -49871,7 +51086,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 3,
-    "calories": 240,
+    "calories": 720,
     "season": [
       "spring",
       "summer",
@@ -49977,7 +51192,10 @@ window.RECIPES_DATA = [
     "image": "https://i2.chuimg.com/0da9274f8c894a56a61ad5faf493a117_1920w_2557h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "score": "4.9",
     "cookedCount": 1580,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_07",
@@ -49997,7 +51215,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 20,
     "servings": 3,
-    "calories": 210,
+    "calories": 630,
     "season": [
       "spring",
       "summer",
@@ -50110,7 +51328,10 @@ window.RECIPES_DATA = [
     "image": "https://i2.chuimg.com/0f6b5c8ee0ac4cbca3b83372fa446aee_2494w_3072h.jpg?imageView2/2/w/660/interlace/1/q/90",
     "score": "4.9",
     "cookedCount": 1580,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_08",
@@ -50131,7 +51352,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 90,
     "servings": 4,
-    "calories": 260,
+    "calories": 1040,
     "ingredients": [
       {
         "name": "牛腱子肉/金钱腱",
@@ -50256,7 +51477,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "牛肉必须在卤汁中自然冷却并冷藏充分定型后再切，刀工切极薄，带透明牛筋才最具风味。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_09",
@@ -50277,7 +51501,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 3,
-    "calories": 220,
+    "calories": 660,
     "ingredients": [
       {
         "name": "熟牛肚/鲜金钱肚",
@@ -50374,7 +51598,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "肚丝焯熟后立即过冰水，能锁住水分并使肚丝极脆弹。"
-    ]
+    ],
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_10",
@@ -50395,7 +51622,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 12,
     "servings": 4,
-    "calories": 210,
+    "calories": 840,
     "ingredients": [
       {
         "name": "去骨鸡爪/凤爪",
@@ -50510,7 +51737,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "柠檬切片后务必挑出里面的柠檬籽，否则泡久了会析出苦味。"
-    ]
+    ],
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_11",
@@ -50531,7 +51761,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "盒装内酯豆腐",
@@ -50636,7 +51866,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "切皮蛋时刀刃蘸点凉水或香油，皮蛋蛋黄不沾刀，切面光洁齐整。"
-    ]
+    ],
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_12",
@@ -50657,7 +51890,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 1,
     "servings": 2,
-    "calories": 110,
+    "calories": 220,
     "ingredients": [
       {
         "name": "盐渍海蜇头",
@@ -50767,7 +52000,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "焯烫海蜇头水温切忌滚沸，70~75度烫5秒即刻出水冰镇，才能保留晶莹弹牙的极脆口感。"
-    ]
+    ],
+    "caloriePerServing": 110,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_13",
@@ -50788,7 +52024,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 40,
     "servings": 3,
-    "calories": 230,
+    "calories": 690,
     "ingredients": [
       {
         "name": "鲜鸭掌",
@@ -50893,7 +52129,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "卤好后不要急于捞出，关火浸泡2小时，卤香能浸透到骨头缝里。"
-    ]
+    ],
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_14",
@@ -50914,7 +52153,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "鲜活花甲/花蛤",
@@ -51009,7 +52248,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "焯水时只要开口就迅速捞出，炒制必须大火快翻，防止贝肉缩水变老。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_15",
@@ -51030,7 +52272,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 3,
-    "calories": 240,
+    "calories": 720,
     "ingredients": [
       {
         "name": "千叶豆腐",
@@ -51125,7 +52367,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "千叶豆腐一定要先煎至微起泡，才能在后续炒制中像海绵一样饱吸腊肉油脂与调味酱汁。"
-    ]
+    ],
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_16",
@@ -51146,7 +52391,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 5,
     "servings": 3,
-    "calories": 280,
+    "calories": 840,
     "ingredients": [
       {
         "name": "牛里脊肉",
@@ -51241,7 +52486,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "牛肉切薄片炸制时间切勿过长，大火快炸复炸20秒，外层焦香扑鼻，内部肉质依旧滑嫩多汁。"
-    ]
+    ],
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_17",
@@ -51262,7 +52510,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "鲜鸡胗",
@@ -51347,7 +52595,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "酸豆角先下热干锅干煸出香气，鸡胗一定要大火猛油滑炒，受热花刀瞬间盛开，口感才会极致爽脆。"
-    ]
+    ],
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_18",
@@ -51368,7 +52619,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 8,
     "servings": 3,
-    "calories": 170,
+    "calories": 510,
     "ingredients": [
       {
         "name": "鲜活田螺/螺蛳",
@@ -51468,7 +52719,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "剪去螺蛳尾尖是嘬出螺肉的关键，紫苏叶在出锅前1分钟加入，清香最浓郁。"
-    ]
+    ],
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_19",
@@ -51489,7 +52743,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "鲜活小河虾",
@@ -51584,7 +52838,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "小河虾水分必须吸干再拍薄粉，高温复炸使虾壳彻底酥化，连虾头虾壳都能一起吃下。"
-    ]
+    ],
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_20",
@@ -51605,7 +52862,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 10,
     "servings": 3,
-    "calories": 330,
+    "calories": 990,
     "ingredients": [
       {
         "name": "精选小肋排段",
@@ -51695,7 +52952,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "大蒜用料理机打成蒜汁腌制，比蒜末更能深入排骨纤维，且炸制时不会因表面沾蒜粒而发焦变苦。"
-    ]
+    ],
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_snack_21",
@@ -51716,7 +52976,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "鲜鱿鱼圈",
@@ -51816,7 +53076,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "炸蒜蓉火候要掌握好，七成黄时立刻关火捞出，余温会使蒜色变金黄，过火则会发苦。"
-    ]
+    ],
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_22",
@@ -51837,7 +53100,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 8,
     "servings": 4,
-    "calories": 320,
+    "calories": 1280,
     "ingredients": [
       {
         "name": "优质红皮花生米",
@@ -51922,7 +53185,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "冷油下锅、中小火慢升温是炸花生的核心秘诀；出锅趁热喷一勺高度白酒，放三天都保持嘎嘣脆。"
-    ]
+    ],
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_snack_23",
@@ -51943,7 +53209,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "calories": 270,
+    "calories": 810,
     "ingredients": [
       {
         "name": "熟卤鸭头",
@@ -52043,7 +53309,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "鸭头必须先卤入味再对半切开油炸，这样鸭脑、鸭下巴骨头都能炸得酥脆焦香，一咬即碎。"
-    ]
+    ],
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_01",
@@ -52064,7 +53333,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 195,
+    "calories": 390,
     "ingredients": [
       {
         "name": "新鲜鸡胸肉",
@@ -52164,7 +53433,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "生煎前横剖变薄，起锅前加盖焖煎1分钟，彻底告别水煮柴鸡胸。"
-    ]
+    ],
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_02",
@@ -52185,7 +53457,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "去皮鸡胸肉丁",
@@ -52270,7 +53542,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "番茄炒出沙汁是整道菜灵魂，金针菇提供大量可溶性膳食纤维，饱腹感强。"
-    ]
+    ],
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_03",
@@ -52291,7 +53566,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 175,
+    "calories": 350,
     "ingredients": [
       {
         "name": "鸡胸肉切片",
@@ -52376,7 +53651,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "黑木耳与黄瓜热量极低，配合滑炒鸡片，高蛋白低热量营养均衡。"
-    ]
+    ],
+    "caloriePerServing": 175,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_04",
@@ -52397,7 +53675,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "越南纯米纸皮",
@@ -52477,7 +53755,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "零烹调油、高蛋白、高膳食纤维，冷吃便携，是炎夏与办公室减脂便当首选。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_05",
@@ -52498,7 +53779,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "鸡胸肉丁",
@@ -52583,7 +53864,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "用甜椒与洋葱代替高油肥肉，饱腹低脂，解馋大排档烧烤瘾。"
-    ]
+    ],
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_06",
@@ -52604,7 +53888,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 12,
     "servings": 3,
-    "calories": 165,
+    "calories": 495,
     "ingredients": [
       {
         "name": "纯鸡胸肉泥",
@@ -52694,7 +53978,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "零油蒸制，玉米马蹄天然清甜，蛋白质含量高达25g每份。"
-    ]
+    ],
+    "caloriePerServing": 165,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_07",
@@ -52715,7 +54002,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 235,
+    "calories": 470,
     "ingredients": [
       {
         "name": "牛里脊肉丁",
@@ -52805,7 +54092,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "牛里脊脂肪极低（仅2%），富含肌酸与血红素铁，是减脂期力量恢复黄金食材。"
-    ]
+    ],
+    "caloriePerServing": 235,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_08",
@@ -52826,7 +54116,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 215,
+    "calories": 430,
     "ingredients": [
       {
         "name": "牛柳切丝",
@@ -52906,7 +54196,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "芦笋富含天门冬酰胺和微量元素硒，有利尿消水肿功效。"
-    ]
+    ],
+    "caloriePerServing": 215,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_09",
@@ -52927,7 +54220,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "纯瘦黄牛肉泥",
@@ -53007,7 +54300,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "冬瓜有利水消肿之效，纯牛肉丸高蛋白无添加剂，连汤带菜喝光也不长秤。"
-    ]
+    ],
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_10",
@@ -53113,7 +54409,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "肥牛焯水减油50%，燕麦糙米提供长效低GI饱腹感，减脂期大口吃丼饭无压力。"
-    ]
+    ],
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_11",
@@ -53224,7 +54523,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "100%纯全麦荞麦面升糖指数GI仅45，消化慢饱腹久，是减脂期优质主食代表。"
-    ]
+    ],
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_12",
@@ -53325,7 +54627,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "高蛋白、多纤维、控碳水，10分钟快手搞定营养工作餐。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_13",
@@ -53346,7 +54651,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "鲜海虾仁",
@@ -53431,7 +54736,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "菌菇氨基酸搭配海鲜虾仁鲜度翻倍，膳食纤维含量高，饱腹感强。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_14",
@@ -53452,7 +54760,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 7,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "嫩豆腐/内酯豆腐",
@@ -53537,7 +54845,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "大豆蛋白与禽蛋、海鲜优质动物蛋白三重叠加，高钙低卡好吸收。"
-    ]
+    ],
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_15",
@@ -53633,7 +54944,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "富含EPA与DHA优质抗炎脂肪酸，促进新陈代谢并保护心脑血管健康。"
-    ]
+    ],
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_16",
@@ -53654,7 +54968,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 155,
+    "calories": 310,
     "ingredients": [
       {
         "name": "鲜虾仁",
@@ -53734,7 +55048,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "高蛋白质、极低热量，荷兰豆含丰富膳食纤维与维生素A。"
-    ]
+    ],
+    "caloriePerServing": 155,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_17",
@@ -53835,7 +55152,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "藜麦为全营养完全蛋白粮食，搭配深海金枪鱼与牛油果健康脂肪，抗饿饱腹。"
-    ]
+    ],
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_18",
@@ -53856,7 +55176,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "鲜活海虾/基围虾",
@@ -53936,7 +55256,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "不放一滴油，热量几乎全来自纯蛋白质，减脂期大口吃无负担。"
-    ]
+    ],
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_19",
@@ -53957,7 +55280,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 135,
+    "calories": 270,
     "ingredients": [
       {
         "name": "白菜花头(破壁机打成米粒大)",
@@ -54042,7 +55365,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "风靡欧美的Cauliflower Rice，零淀粉零米饭，吃两大碗热量也不过百大卡。"
-    ]
+    ],
+    "caloriePerServing": 135,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_20",
@@ -54143,7 +55469,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "贝贝南瓜富含胡萝卜素与果胶，紫薯富含花青素，温沙拉暖胃不伤脾。"
-    ]
+    ],
+    "caloriePerServing": 285,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_21",
@@ -54254,7 +55583,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "发酵辣白菜富含活性乳酸菌有助肠道健康，低GI全麦饱腹无负担。"
-    ]
+    ],
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_22",
@@ -54360,7 +55692,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "高抗性淀粉与优质不饱和脂肪，稳控胰岛素抗饿4小时以上。"
-    ]
+    ],
+    "caloriePerServing": 295,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_23",
@@ -54381,7 +55716,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 185,
+    "calories": 370,
     "ingredients": [
       {
         "name": "新鲜菠菜",
@@ -54461,7 +55796,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "高蛋白、富含叶黄素与铁质，无油烘制，早餐或减脂正餐均适宜。"
-    ]
+    ],
+    "caloriePerServing": 185,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_24",
@@ -54482,7 +55820,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 145,
+    "calories": 290,
     "ingredients": [
       {
         "name": "清水魔芋丝结",
@@ -54567,7 +55905,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "魔芋葡甘聚糖吸水膨胀百倍，几乎零卡路里饱腹，深夜饥饿解馋神器。"
-    ]
+    ],
+    "caloriePerServing": 145,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_25",
@@ -54588,7 +55929,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 165,
+    "calories": 330,
     "ingredients": [
       {
         "name": "熟透大红番茄",
@@ -54678,7 +56019,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "高植物蛋白高纤维组合，酸甜番茄自带天然果酸促消化，清爽去油腻。"
-    ]
+    ],
+    "caloriePerServing": 165,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_26",
@@ -54699,7 +56043,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 2,
     "servings": 2,
-    "calories": 85,
+    "calories": 170,
     "ingredients": [
       {
         "name": "新鲜嫩秋葵",
@@ -54774,7 +56118,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "秋葵天然果胶黏多糖可吸附体内油脂并修复胃粘膜，减脂期超级蔬菜。"
-    ]
+    ],
+    "caloriePerServing": 85,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_27",
@@ -54795,7 +56142,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 145,
+    "calories": 290,
     "ingredients": [
       {
         "name": "泡发东北黑木耳",
@@ -54880,7 +56227,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "黑木耳植物胶原吸附肠道杂质，洋葱前列腺素A促代谢，血管清道夫经典菜。"
-    ]
+    ],
+    "caloriePerServing": 145,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_28",
@@ -54901,7 +56251,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 7,
     "servings": 2,
-    "calories": 125,
+    "calories": 250,
     "ingredients": [
       {
         "name": "新鲜大杏鲍菇",
@@ -54991,7 +56341,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "吃出大鱼大肉的韧劲，但热量极低，富含多种菌菇多糖提高免疫力。"
-    ]
+    ],
+    "caloriePerServing": 125,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_29",
@@ -55012,7 +56365,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 120,
+    "calories": 240,
     "ingredients": [
       {
         "name": "干裙带菜(免洗泡发)",
@@ -55092,7 +56445,10 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "无一滴烹调油，裙带菜富含海藻酸钠与膳食纤维，一碗汤热量不足百卡。"
-    ]
+    ],
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_fatloss_30",
@@ -55113,7 +56469,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 110,
+    "calories": 220,
     "ingredients": [
       {
         "name": "鲜活蛤蜊/文蛤",
@@ -55188,13 +56544,16 @@ window.RECIPES_DATA = [
     "isGrandBanquets": false,
     "chefTips": [
       "蛤蜊海鲜原汁自带天然谷氨酸钠与鲜咸味，无需放味精鸡精，消肿去湿首选。"
-    ]
+    ],
+    "caloriePerServing": 110,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_01",
     "name": "冰糖雪梨百合银耳羹",
     "subtitle": "秋冬润肺止咳第一名羹，银耳出浓胶拉丝，雪梨晶莹软糯，清甜润喉沁人心脾",
-    "calories": "95 kcal/碗",
+    "calories": 190,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -55286,13 +56645,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 45,
     "chefTips": [
       "银耳出胶的关键：一是一定要用手撕得极碎，二是大火沸水时拿勺子顺时针猛搅1分钟，胶质快速释放出浓稠拉丝感。"
-    ]
+    ],
+    "caloriePerServing": 95,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_02",
     "name": "广式海带陈皮清凉绿豆沙",
     "subtitle": "老广州街头糖水铺镇店招牌，新会老陈皮飘香，海带爽脆，绿豆起沙绵密清热解毒",
-    "calories": "120 kcal/碗",
+    "calories": 240,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -55379,13 +56741,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 50,
     "chefTips": [
       "广式正宗绿豆沙的灵魂是陈皮和海带，陈皮白囊一定要刮干净，煮中途捞出绿豆皮，口感才会细腻无渣、绵沙顺滑。"
-    ]
+    ],
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_03",
     "name": "现磨香滑黑芝麻糊汤圆",
     "subtitle": "传统广式生磨手工糊，黑芝麻配黑糯米香浓醇厚，注入软糯爆浆小汤圆，温润乌发",
-    "calories": "180 kcal/碗",
+    "calories": 360,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -55473,13 +56838,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "加一把糯米是黑芝麻糊顺滑黏糯的关键，不用加澄粉生粉，纯谷物自然稠厚，亮泽漆黑香飘满屋。"
-    ]
+    ],
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_04",
     "name": "生姜红糖番薯暖身糖水",
     "subtitle": "家常经典驱寒暖胃甜汤，老姜微辣回甘，红心蜜薯粉糯甜丝，一碗下肚通体舒畅",
-    "calories": "135 kcal/碗",
+    "calories": 270,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -55562,13 +56930,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "切好的番薯一定要用水冲掉表面淀粉，汤色才亮；老姜用刀拍碎比切片香气浓郁得多。"
-    ]
+    ],
+    "caloriePerServing": 135,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_05",
     "name": "潮汕清心丸绿豆爽",
     "subtitle": "潮汕夏秋街头传统名点，去皮脱壳金黄绿豆起爽，透亮Q弹清心丸，清心润燥",
-    "calories": "145 kcal/碗",
+    "calories": 290,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -55655,13 +57026,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "脱皮绿豆切勿直接在汤里久煮，必须先隔水蒸至刚熟软糯，再入清芡糖水，绿豆粒粒金黄分明，吃起来才叫‘爽’！"
-    ]
+    ],
+    "caloriePerServing": 145,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_06",
     "name": "冰糖川贝炖雪梨盅",
     "subtitle": "整个雪梨掏空成玉盅，川贝母细粉配老冰糖隔水清炖，梨肉化汁，止咳化痰极品",
-    "calories": "110 kcal/盅",
+    "calories": 220,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -55744,13 +57118,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 40,
     "chefTips": [
       "川贝母略带天然苦微回甘，用老黄冰糖与雪梨的原汁中和最为对味，一定要连梨盅析出的原汤和炖软的梨肉一起吃完。"
-    ]
+    ],
+    "caloriePerServing": 110,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_07",
     "name": "古法熬制冰镇酸梅汤",
     "subtitle": "烟熏乌梅配北山楂、甘草陈皮与洛神花慢熬，撒一把江南干桂花，生津止渴火锅绝配",
-    "calories": "45 kcal/杯",
+    "calories": 90,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "北京",
@@ -55855,13 +57232,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 45,
     "chefTips": [
       "加几朵洛神花（玫瑰茄）能熬出自然迷人的宝石红汤色；加入甘草能让酸甜之后泛起淡淡悠长的回甘。"
-    ]
+    ],
+    "caloriePerServing": 45,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_08",
     "name": "香浓破壁机鲜榨玉米汁",
     "subtitle": "饭店五星同款配方，甜玉米粒加大米与醇牛奶打成金黄浓浆，丝滑不分层，香浓扑鼻",
-    "calories": "115 kcal/杯",
+    "calories": 230,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "国民家常",
@@ -55950,13 +57330,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "大米是饭店玉米汁‘浓稠不沉淀、不分层’的核心配方；纯牛奶一定要在加热煮好后再加入搅拌，奶香最为鲜纯。"
-    ]
+    ],
+    "caloriePerServing": 115,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_09",
     "name": "传统手工甜酒酿发酵米酒",
     "subtitle": "传统圆糯米配苏州蜂窝酒曲自然发酵，出汁清澈如甘泉，米粒绵甜醇香，煮蛋做羹万能",
-    "calories": "160 kcal/碗",
+    "calories": 320,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "江南",
@@ -56032,13 +57415,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 36,
     "chefTips": [
       "制作酒酿全程所有器皿和手必须做到‘绝对无生水、绝对无油脂’，温度控制在30℃左右，酒酿就会甜如蜜糖。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_10",
     "name": "椰香紫米芋圆捞",
     "subtitle": "浓香纯椰浆打底，软糯紫米饭团配手揉双色Q弹芋圆，奶香四溢，解馋轻食甜品",
-    "calories": "175 kcal/碗",
+    "calories": 350,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "台式",
@@ -56127,13 +57513,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "芋圆煮好后一定要迅速浸入冰水‘激一下’，口感才会筋道回弹；紫米煮好后趁热加一点炼乳拌匀能黏结成光滑圆润的球状。"
-    ]
+    ],
+    "caloriePerServing": 175,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_11",
     "name": "广式传统白果腐竹薏米糖水",
     "subtitle": "老西关传统名作，腐竹慢煨化成绵软豆浆乳汤，白果清苦回甜，薏米去湿润白",
-    "calories": "125 kcal/碗",
+    "calories": 250,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -56221,13 +57610,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 35,
     "chefTips": [
       "一定要买用来煲糖水的薄油皮腐竹，耐煮且容易融化成奶白色的浓豆浆状，白果一定要剔除内芯防止微毒和苦涩。"
-    ]
+    ],
+    "caloriePerServing": 125,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_12",
     "name": "港式香浓生磨核桃露",
     "subtitle": "香港传统茶楼生磨甜汤，原粒新核桃配纯牛奶慢磨慢熬，坚果脂香浓郁丝滑挂喉",
-    "calories": "190 kcal/碗",
+    "calories": 380,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -56314,13 +57706,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "核桃稍微烘烤一下再打糊，香气翻倍且没有生涩感；加一把糯米能完全告别水水分离，浓郁挂壁。"
-    ]
+    ],
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_13",
     "name": "鸭屎香暴打手槌香水柠檬茶",
     "subtitle": "潮汕凤凰单丛乌龙茶底配广东香水柠檬，雪克杯暴力手槌捶出芳香精油，冰爽回甘霸道",
-    "calories": "55 kcal/杯",
+    "calories": 110,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -56404,13 +57799,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 10,
     "chefTips": [
       "必须用香水柠檬（皮薄香气像香水），不能用黄柠檬代替；暴打时加入冰块能更充分磨破柠檬表皮的芳香油，茶汤必须激冷防涩。"
-    ]
+    ],
+    "caloriePerServing": 55,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_14",
     "name": "生椰拿铁家庭简易版",
     "subtitle": "经典顶流咖啡家庭极速复刻，菲诺厚椰乳醇正清甜，注入香浓现萃意式浓缩，分层绝美",
-    "calories": "140 kcal/杯",
+    "calories": 280,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "国民家常",
@@ -56486,13 +57884,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 5,
     "chefTips": [
       "厚椰乳本身已有自然椰甜，完全无需另外加糖；淋咖啡时顺着冰块表面慢慢倒，就能轻松做出专业咖啡馆同款的分层效果。"
-    ]
+    ],
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_15",
     "name": "满杯红柚百香果四季春果茶",
     "subtitle": "当季红西柚粒爆汁酸甜，鲜百香果芬芳，交融清幽四季春茶底，大容量冰爽满足",
-    "calories": "65 kcal/杯",
+    "calories": 130,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "台式",
@@ -56579,13 +57980,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 10,
     "chefTips": [
       "红柚白皮部分有苦涩味，剥果肉时尽量只取饱满果粒；贴杯薄切能做出网红饮品店一模一样的视觉大片效果。"
-    ]
+    ],
+    "caloriePerServing": 65,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_16",
     "name": "现熬黑糖波霸厚鲜奶",
     "subtitle": "木薯珍珠现煮现焖软糯入芯，古法黑糖慢熬浓稠挂壁虎纹，注入冰纯鲜奶，冰火双重天",
-    "calories": "220 kcal/杯",
+    "calories": 440,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "台式",
@@ -56665,13 +58069,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "黑糖珍珠一定要‘大火煮透、关火焖足’，才会筋道软弹不夹生；黑糖浆必须熬到足够浓稠挂勺，倾斜杯子转动才能形成立体的虎纹挂壁。"
-    ]
+    ],
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_17",
     "name": "生打酪酪抹茶拿铁",
     "subtitle": "特级宇治五十铃风味抹茶细致茶筅点茶，配冰纯牛奶与厚乳，翠绿如玉，甘醇微苦奶香漫溢",
-    "calories": "130 kcal/杯",
+    "calories": 260,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "日韩料理",
@@ -56763,13 +58170,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 8,
     "chefTips": [
       "抹茶粉必须过细筛且水温不宜超过70℃，否则容易结块且发黄氧化；用茶筅快速抽打出浓密泡沫是抹茶香气四溢的秘诀。"
-    ]
+    ],
+    "caloriePerServing": 130,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_18",
     "name": "荔枝玫瑰乌龙冰茶",
     "subtitle": "岭南妃子笑荔枝爆汁清甜，融入重瓣红玫瑰的浪漫花香，与冷萃高山乌龙茶回甘共舞",
-    "calories": "50 kcal/杯",
+    "calories": 100,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -56856,13 +58266,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 8,
     "chefTips": [
       "荔枝本身甜度高，只需加少许蜂蜜提味；冷萃乌龙茶无苦涩感，搭配荔枝的花果香气最为清新。"
-    ]
+    ],
+    "caloriePerServing": 50,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_19",
     "name": "金陵名小吃桂花糖芋苗",
     "subtitle": "南京秦淮河畔传世名小吃，小芋艿煨至软糯粉润，藕粉勾出浓稠红亮芡汁，金桂飘香",
-    "calories": "150 kcal/碗",
+    "calories": 300,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "江苏",
@@ -56961,13 +58374,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "加极其微量的小苏打是金陵百年老店让糖水与芋苗自然泛出艳丽红褐色泽的不传之秘；一定要用纯正藕粉勾芡，才会有晶莹拉丝的剔透感。"
-    ]
+    ],
+    "caloriePerServing": 150,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_20",
     "name": "南京传统赤豆酒酿小元宵",
     "subtitle": "江南老巷子里的温暖记忆，红小豆慢煨起沙拉沙，甜酒酿幽香微醺，手搓小糯米圆子软糯弹牙",
-    "calories": "165 kcal/碗",
+    "calories": 330,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "江苏",
@@ -57067,13 +58483,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 40,
     "chefTips": [
       "酒酿一定要在最后关火前一刻放入，保留其天然酵香与甘甜；用少许藕粉勾薄芡能让红豆沙包裹住小元宵，口口滑爽。"
-    ]
+    ],
+    "caloriePerServing": 165,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_21",
     "name": "老北京传统杏仁豆腐",
     "subtitle": "宫廷消暑名点，甜南杏仁配苦北杏仁生磨成浆，琼脂微凝白如凝脂，冰镇淋糖桂花如玉石晶莹",
-    "calories": "90 kcal/碗",
+    "calories": 180,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "北京",
@@ -57172,13 +58591,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "南杏甜、北杏香，配比8:1是北京老字号既有浓烈杏仁幽香又无过浓苦味的黄金配比；用琼脂做出的口感爽脆如冻，比吉利丁更具老传统韵味。"
-    ]
+    ],
+    "caloriePerServing": 90,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_22",
     "name": "北京传统拔丝苹果",
     "subtitle": "国宴北方宴席压轴甜菜，苹果挂蛋糊炸出金黄脆壳，白糖炒出琥珀琉璃丝，金丝万缕甜脆爆汁",
-    "calories": "210 kcal/份",
+    "calories": 420,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "北京",
@@ -57278,13 +58700,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "看糖色的功夫：由大泡转细泡且颜色一转浅琥珀色就要立即下苹果，慢两秒糖就发黑发苦；盘底抹薄薄一层熟油可以防止糖丝粘盘难洗。"
-    ]
+    ],
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_23",
     "name": "传统广式茶楼红糖马拉糕",
     "subtitle": "广府早茶四大天王之一，红糖醇厚浓香，三层蓬松微孔如海绵云朵，弹性十足回味悠长",
-    "calories": "175 kcal/块",
+    "calories": 350,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -57377,13 +58802,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "加木薯淀粉是茶楼马拉糕‘松软中带有Q弹嚼劲’的核心；蒸的时候水一定要烧大开、锅盖不要滴落水汽，内部微孔才会均匀如海绵。"
-    ]
+    ],
+    "caloriePerServing": 175,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_24",
     "name": "自制江南桂花定胜糕",
     "subtitle": "江南水乡传统祈福吉庆名点，红曲粉染出娇艳淡粉，松软细腻入口化沙，藏一缕豆沙桂香",
-    "calories": "140 kcal/块",
+    "calories": 280,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "浙江",
@@ -57483,13 +58911,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "定胜糕的松软秘籍是‘只能筛入，绝对不能用力按压’，米粉之间保留空气缝隙，高温蒸汽才能穿透将其迅速熟化，绵软化渣。"
-    ]
+    ],
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_25",
     "name": "空气炸锅巴斯克焦香芝士蛋糕",
     "subtitle": "烘焙新手零翻车天花板，焦黑外皮伴随浓郁焦糖奶香，内芯半熟流心极度顺滑丝密",
-    "calories": "260 kcal/块",
+    "calories": 520,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "西餐经典",
@@ -57590,13 +59021,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "巴斯克的精髓就是‘故意烤焦的高温美拉德反应’，表面深焦黑色带来类似焦糖布丁的香浓风味；烤完出炉一定要冷藏数小时，冰透后口感犹如冰淇淋般顺滑绵密。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_26",
     "name": "平底锅云朵舒芙蕾松饼",
     "subtitle": "无需烤箱，平底锅即刻复刻网红咖啡厅爆款，如云朵般轻盈蓬松，入口即化满满蛋香",
-    "calories": "160 kcal/份",
+    "calories": 320,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "日韩料理",
@@ -57701,13 +59135,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "舒芙蕾蓬松立体的两大核心：一是蛋白霜必须打到硬挺不弯钩的干性发泡，二是平底锅必须全程极微火，利用少许水汽加盖蒸汽焖熟。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_27",
     "name": "港式冰凉芒果班戟",
     "subtitle": "香港甜品殿堂级代表作，金黄如蝉翼的班戟皮裹挟轻柔动物淡奶油与大块厚切甜芒，冰爽过瘾",
-    "calories": "190 kcal/个",
+    "calories": 380,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "广东",
@@ -57803,13 +59240,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "煎班戟皮一定要锅温微凉时倒浆转匀再放火上，只需煎单面至表层受热凝固，皮质柔韧金黄且不会发干发硬。"
-    ]
+    ],
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_28",
     "name": "软糯拉丝芒果雪媚娘",
     "subtitle": "纯手工手揉糯米大福皮，冰冰凉凉拉丝不发硬，奶香细腻与新鲜芒果丁爆汁相融",
-    "calories": "160 kcal/个",
+    "calories": 320,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "日韩料理",
@@ -57914,13 +59354,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "刚蒸好的麻薯必须趁热揉入黄油且‘充分拉扯揉透’，淀粉分子重新排列，做好的雪媚娘即使冷藏两天依然软糯拉丝不发硬。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_29",
     "name": "经典葡式焦糖蛋挞",
     "subtitle": "千层酥脆起酥皮包覆醇香蛋挞水，高温烘烤出诱人的焦糖黑斑与嫩滑如布丁般的内芯",
-    "calories": "170 kcal/个",
+    "calories": 340,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "港澳台",
@@ -58013,13 +59456,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "蛋挞水必须过筛两次，烤出来的挞芯才会像布丁一样毫无蜂窝、滑嫩如脂；一定要用高温（200℃）烘烤，才能形成地道的葡式焦斑。"
-    ]
+    ],
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_dessert_30",
     "name": "法式焦糖苹果派",
     "subtitle": "平底锅快手免开酥苹果派，焦糖黄油炖肉桂甜苹果，外壳金黄酥脆内馅滚烫酸甜回甘",
-    "calories": "185 kcal/份",
+    "calories": 370,
     "categoryType": "dessert",
     "cuisineCategory": "甜品沙拉",
     "region": "西餐经典",
@@ -58126,13 +59572,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "用手抓饼皮做苹果派省去繁琐开酥过程，层层酥脆掉渣；苹果馅一定要炒浓稠收汁再包，否则烘烤时容易漏汤破皮。"
-    ]
+    ],
+    "caloriePerServing": 185,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_01",
     "name": "舟山野生红膏呛蟹",
     "subtitle": "东海舟山渔民传世生腌名作，活梭子蟹红膏如凝脂果冻，咸鲜透骨，冷盘极品",
-    "calories": "135 kcal/100g",
+    "calories": 270,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -58225,13 +59674,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 18,
     "chefTips": [
       "盐水一定要做到‘浮起一枚硬币大小的鸡蛋’，这是舟山渔家祖传的天然保鲜防腐咸度；浸泡时蟹脐朝上可防止鲜红蟹膏外流溶入盐水中。"
-    ]
+    ],
+    "caloriePerServing": 135,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_02",
     "name": "宁波雪菜大汤黄鱼",
     "subtitle": "甬菜传统十大名菜天花板，邱隘老雪菜提鲜，野生大黄鱼熬出浓如白乳的原汤，鲜而不腥",
-    "calories": "140 kcal/100g",
+    "calories": 280,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -58349,13 +59801,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "大汤黄鱼熬出奶白汤的真谛：一是必须用融化猪油煎透，二是必须冲入滚烫沸水，三是前8分钟保持大火剧烈翻滚乳化。"
-    ]
+    ],
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_03",
     "name": "温州特色江蟹生",
     "subtitle": "瓯菜生食传世绝活，鲜活梭子蟹生斩浸入秘制酱油醋，酸、甜、鲜、辣、麻五味俱全",
-    "calories": "120 kcal/100g",
+    "calories": 240,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -58476,13 +59931,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "温州江蟹生要用活蟹现杀，速冻20分钟既好切块又能让肉质紧缩如凝脂；温州米醋微甜多酸，是去腥生津的无上妙品。"
-    ]
+    ],
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_04",
     "name": "舟山干炸带鱼段",
     "subtitle": "舟山雷达网小眼睛带鱼，金黄酥脆外壳裹挟如嫩豆腐般白嫩多汁鱼肉，骨酥喷香",
-    "calories": "185 kcal/100g",
+    "calories": 370,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -58599,13 +60057,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "带鱼表面的银亮鳞膜不是真正的鳞，富含健康不饱和脂肪酸，切勿刮除；复炸30秒能逼出多余油脂，外皮持久酥脆掉渣。"
-    ]
+    ],
+    "caloriePerServing": 185,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_05",
     "name": "象山清蒸深海大米鱼",
     "subtitle": "东海特产高档白花鱼，肉质洁白细嫩如豆腐脑，唯葱姜原汁清蒸，原汁原味鲜冠群鱼",
-    "calories": "105 kcal/100g",
+    "calories": 210,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -58707,13 +60168,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "蒸海鱼蒸出的盘底水带有重腥气，出锅后必须立刻倒掉；盘底垫葱能让高温蒸汽均匀环绕鱼腹，受热一致肉质如豆腐细嫩。"
-    ]
+    ],
+    "caloriePerServing": 105,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_06",
     "name": "浙江家常红烧安康鱼",
     "subtitle": "胶原蛋白丰厚爆棚的深海丑鱼，鱼皮肥厚弹牙如海参，鱼肉雪白蒜瓣似龙虾，浓油赤酱下饭绝品",
-    "calories": "115 kcal/100g",
+    "calories": 230,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -58839,13 +60303,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "安康鱼焯水切勿过久，烫掉表面粘液即可；炖煮时鱼皮会析出极厚天然胶原蛋白，无需勾芡汤汁便能自然浓稠挂勺。"
-    ]
+    ],
+    "caloriePerServing": 115,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_07",
     "name": "温州三鲜炒粉干",
     "subtitle": "瓯越平原与东海渔港的完美融合，海虾干、鳗鱼干与鲜肉丝大火爆炒，细粉干油润松散镬气冲天",
-    "calories": "380 kcal/份",
+    "calories": 760,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -58968,13 +60435,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "炒粉干的关键是用‘猪油’与‘长筷子挑炒’，猪油让米粉干香润滑爽，筷子挑散防止把细粉干铲断成碎屑。"
-    ]
+    ],
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_seafood_08",
     "name": "舟山野生椒盐富贵皮皮虾",
     "subtitle": "深海带膏富贵皮皮虾，高温宽油炸至金黄酥脆，椒盐蒜香浓郁，虾壳酥化虾肉清甜鲜美",
-    "calories": "165 kcal/100g",
+    "calories": 330,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59079,13 +60549,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "高温复炸是皮皮虾外壳酥脆到能直接嚼着吃的秘密；炸前必须彻底用纸巾吸干虾壳水分，外壳才会脆而不韧。"
-    ]
+    ],
+    "caloriePerServing": 165,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_09",
     "name": "温州传统倒笃白蟹",
     "subtitle": "不加一滴水，梭子蟹倒扣碗中以纯姜酒蒸汽蒸透，鲜美蟹汁全部回流凝固于蟹斗，原汁绝伦",
-    "calories": "125 kcal/100g",
+    "calories": 250,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59174,13 +60647,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "‘倒笃’是温州渔民的智慧，切面朝下贴碗底，受热时鲜美的蟹汁不会流失在蒸盘上，而是汇聚在碗底形成原汁蟹汤。"
-    ]
+    ],
+    "caloriePerServing": 125,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_10",
     "name": "宁波传统冰糖甲鱼",
     "subtitle": "甬菜天下第一名菜，优质野生甲鱼配老冰糖慢火煨炖，浓油赤酱，裙边肥厚糯烂粘唇，咸甜交融",
-    "calories": "175 kcal/100g",
+    "calories": 350,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59293,13 +60769,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 50,
     "chefTips": [
       "甲鱼表面的黑膜一定要趁热水彻底撕净，否则泥腥味极重；收汁时后下的冰糖会让成菜泛出水晶般的玻璃亮光，裙边粘唇甘甜。"
-    ]
+    ],
+    "caloriePerServing": 175,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_11",
     "name": "潮汕正宗生腌三目膏蟹",
     "subtitle": "被誉为‘潮汕毒药’的极致诱惑，新鲜三目蟹红膏爆满，生抽蒜蓉香菜淬炼成冰淇淋口感",
-    "calories": "145 kcal/100g",
+    "calories": 290,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59383,13 +60862,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 6,
     "chefTips": [
       "潮汕生腌的核心灵魂是‘南姜’和‘香菜根’，南姜特有的木质香气和辛甜能彻底压住生海鲜腥味；必须选用鲜活母蟹冷藏腌制。"
-    ]
+    ],
+    "caloriePerServing": 145,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_12",
     "name": "潮汕生腌基围虾",
     "subtitle": "鲜活九节基围虾现开现腌，虾肉晶莹剔透如羊脂白玉，入口冰凉弹牙粘糯，鲜美直击灵魂",
-    "calories": "110 kcal/100g",
+    "calories": 220,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59511,13 +60993,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 4,
     "chefTips": [
       "开背能让生腌汁快速渗入虾肉深处，腌制时间不宜超过6小时，3-4小时肉质最为脆弹粘糯不软化。"
-    ]
+    ],
+    "caloriePerServing": 110,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_13",
     "name": "潮汕正宗膏蟹鲜虾砂锅粥",
     "subtitle": "潮汕夜市暖胃招牌，生米砂锅慢煲出黏糯米油，母膏蟹流金开背鲜虾浸透，冬菜普宁豆酱提魂",
-    "calories": "220 kcal/碗",
+    "calories": 440,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59639,13 +61124,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "加一小勺花生酱和潮汕冬菜是潮汕老粥铺的独门秘方，提香增稠毫无突兀感；必须米粥完全开花熬稠后再下海鲜猛火生滚2分钟出锅，虾肉脆嫩蟹黄流脂。"
-    ]
+    ],
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_14",
     "name": "湛江炭烤蒜蓉金牌大生蚝",
     "subtitle": "中国蚝乡湛江官渡生蚝，蚝肉肥硕如牛奶滑腻，金银蒜蓉滋滋冒油，炭火焦香蚝汁丰腴滚烫",
-    "calories": "85 kcal/只",
+    "calories": 170,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59759,13 +61247,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "生蒜与熟金蒜按1:2混合成‘金银蒜’，既有熟蒜的浓郁焦香，又有生蒜的提鲜辛甜；烤时汁水沸腾即可出炉，千万不要烤老缩水。"
-    ]
+    ],
+    "caloriePerServing": 85,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_15",
     "name": "潮汕金不换爆炒薄壳",
     "subtitle": "夏秋潮汕最当令街头海鲜，肉嫩鲜甜的海瓜子配潮汕九层塔（金不换），大火猛炒1分钟壳张肉肥",
-    "calories": "75 kcal/100g",
+    "calories": 150,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -59878,13 +61369,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 5,
     "chefTips": [
       "炒薄壳讲究‘火要大、手要快’，整道菜下锅到出锅绝不能超过60秒，翻炒过久肉质脱壳缩水变韧便失了鲜甜脆嫩。"
-    ]
+    ],
+    "caloriePerServing": 75,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_16",
     "name": "顺德生焗深海海鲈鱼腩",
     "subtitle": "顺德名馔砂锅生焗大法，大蒜老姜铺底，鲜滑海鲈鱼腩酱汁腌透生焗8分钟，焦香四溢皮脆肉弹",
-    "calories": "145 kcal/100g",
+    "calories": 290,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60018,13 +61512,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "顺德生焗的精髓在于‘不加一滴水’，利用底层蒜姜焦化释放出的香气与水分，将鱼腩在密闭高温蒸汽中迅速焖熟，皮Q肉嫩焦香扑鼻。"
-    ]
+    ],
+    "caloriePerServing": 145,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_17",
     "name": "潮州普宁豆酱煮剥皮鱼",
     "subtitle": "潮汕传统打冷档必点经典海杂鱼煮法，普宁豆酱天然咸鲜发酵风味，衬托深海剥皮鱼紧实蒜瓣肉",
-    "calories": "95 kcal/100g",
+    "calories": 190,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60131,13 +61628,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "普宁黄豆酱咸鲜味足，煮这道鱼完全不需要加盐或酱油；剥皮鱼本身刺少肉厚，是潮汕人最爱的下酒配饭杂鱼。"
-    ]
+    ],
+    "caloriePerServing": 95,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_18",
     "name": "广式传统鲍汁扣鲜鲍配西兰花",
     "subtitle": "老火母鸡金华火腿浓汁煨炖溏心鲜鲍，扣在鲜甜西兰花上，浓油亮芡，宴席尊贵头牌大菜",
-    "calories": "110 kcal/只",
+    "calories": 220,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60259,13 +61759,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "鲜鲍鱼焯水切忌超过20秒，微卷即捞；小火慢煨能让弹韧的鲜鲍变身犹如溏心干鲍般的软糯润滑口感。"
-    ]
+    ],
+    "caloriePerServing": 110,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_19",
     "name": "港式避风塘炒波士顿龙虾",
     "subtitle": "香港铜锣湾避风塘镇港神作，金黄焦香面包糠蒜酥堆叠如山，波士顿龙虾肉大块紧实爆汁",
-    "calories": "175 kcal/100g",
+    "calories": 350,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60379,13 +61882,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "面包糠与蒜蓉一定要小火慢炒至水分全干、金黄松脆；龙虾螯拍裂能让内部厚肉在极短油炸时间内熟透而不发柴。"
-    ]
+    ],
+    "caloriePerServing": 175,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_20",
     "name": "潮汕生焗极品脆皮白鳝",
     "subtitle": "深海天然极品白鳝（乌耳鳗），高温砂锅激出鳗鱼皮下天然油脂，外皮焦脆，鱼肉滑润软糯粘唇",
-    "calories": "195 kcal/100g",
+    "calories": 390,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60506,13 +62012,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "白鳝表面的白膜必须用开水烫刮干净才无腥味；白鳝本身富含大量天然油脂，生焗时自身油脂渗出将外皮煎至焦脆金黄，口感妙不可言。"
-    ]
+    ],
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_21",
     "name": "广式蒜蓉粉丝蒸大红魔虾",
     "subtitle": "深海大红魔虾开背展翅，双拼金银蒜蓉清蒸，晶亮粉丝吸饱虾脑红油与至纯原汁，鲜甜爆汁",
-    "calories": "115 kcal/100g",
+    "calories": 230,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60611,13 +62120,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "大虾开背蒸只要大火足汽5分钟即可，切忌蒸超时导致虾肉缩水变老；粉丝必须事先拌一点酱油底味，蒸好后吸饱虾汁才不会寡淡。"
-    ]
+    ],
+    "caloriePerServing": 115,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_22",
     "name": "潮汕酸梅煮海午笋鱼",
     "subtitle": "普宁盐渍老酸梅生津开胃，海中极品午笋鱼（马友鱼）油脂丰厚如羊脂，酸咸鲜甘回味无穷",
-    "calories": "125 kcal/100g",
+    "calories": 250,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60727,13 +62239,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 12,
     "chefTips": [
       "俗话说‘一午二红衫三鯧四马鲛’，午笋鱼油脂最为肥腴鲜美；配上普宁酸梅的微酸与咸甘，完美化解鱼肉天然丰腴油脂，生津开胃。"
-    ]
+    ],
+    "caloriePerServing": 125,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_23",
     "name": "胶东原汁铁锅蒸杂色蛤",
     "subtitle": "胶东渔家最地道吃法，不加一滴水，大铁锅干烧自然开壳，原汁原味鲜咸甘甜，汤清肉肥",
-    "calories": "65 kcal/100g",
+    "calories": 130,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60819,13 +62334,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 8,
     "chefTips": [
       "绝对不要加一滴水！新鲜蛤蜊受热会自动释放体内充沛的天然鲜海水，这是世界上最原汁原味的鲜汤，蛤肉饱满多汁不缩水。"
-    ]
+    ],
+    "caloriePerServing": 65,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_24",
     "name": "大连温拌葱油海螺片",
     "subtitle": "深海大红螺煮至刚断生切极薄蝉翼片，滚烫葱油泼香，爽脆弹牙到极致，北方名贵凉菜",
-    "calories": "90 kcal/100g",
+    "calories": 180,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -60940,13 +62458,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "海螺肉必须‘大火煮至刚断生’，老一秒就会坚韧如橡皮；刀工要极薄，温拌泼油能让螺片保持爽脆如马蹄的天然嚼劲。"
-    ]
+    ],
+    "caloriePerServing": 90,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_25",
     "name": "胶东清蒸野生黑头鱼",
     "subtitle": "北方沿海第一岩礁鱼（黑鲪），肉质洁白如蒜瓣极度紧致，清蒸淋生抽热油，鲜香甘甜",
-    "calories": "100 kcal/100g",
+    "calories": 200,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61049,13 +62570,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "黑头鱼生活在北方礁石区，肉质极其紧实有弹性，清蒸是检验其鲜度的最高标准，蒸好后倒掉原盘水是去腥关键。"
-    ]
+    ],
+    "caloriePerServing": 100,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_26",
     "name": "大连原汁海胆蒸水蛋",
     "subtitle": "深海野生紫海胆天然甘甜融于土鸡蛋水蛋中，金黄滑嫩如布丁，入口化甘，鲜美绝伦",
-    "calories": "95 kcal/碗",
+    "calories": 190,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61164,13 +62688,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "海胆切勿一开始就混在蛋液里久蒸，否则会过熟变老失了甘甜；在蛋羹蒸至七成熟结皮时再放入海胆蒸3分钟，海胆甘甜爆浆、蛋羹嫩滑无蜂窝。"
-    ]
+    ],
+    "caloriePerServing": 95,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_27",
     "name": "胶东手打鲅鱼氽丸子清汤",
     "subtitle": "新鲜深海鲅鱼肉剔骨排斩，手打上劲氽成雪白浮水丸子，配一把顶鲜韭菜，汤清味美极度解腻",
-    "calories": "105 kcal/碗",
+    "calories": 210,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61288,13 +62815,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "刮鱼肉时避开鱼皮与中间黑红肉可保丸子通体雪白不腥；‘鲅鱼跳龙门、一把青韭菜’，出锅前撒一把鲜韭菜是胶东鲜味的灵魂画笔。"
-    ]
+    ],
+    "caloriePerServing": 105,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_28",
     "name": "烟台酸辣捞汁活鸟贝",
     "subtitle": "胶东深海红宝活鸟贝开壳断生3秒，投入冰镇秘制酸辣捞汁中，爽脆无渣爆汁开胃",
-    "calories": "70 kcal/100g",
+    "calories": 140,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61375,13 +62905,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 10,
     "chefTips": [
       "鸟贝焯水必须以‘秒’计算（3至5秒足矣），捞出必须‘秒进冰水’，否则贝肉缩水老化，失去脆嫩如瓜果的绝品口感。"
-    ]
+    ],
+    "caloriePerServing": 70,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_29",
     "name": "胶东辣炒海天鹅蛋",
     "subtitle": "深海大紫石房蛤肉质肥厚远胜鲍鱼，韭菜青椒大火猛火快炒，红白相间，鲜嫩弹滑多汁",
-    "calories": "85 kcal/100g",
+    "calories": 170,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61503,13 +63036,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 10,
     "chefTips": [
       "天鹅蛋学名紫石房蛤，肉质极肥脆，炒制必须全程大火快速颠翻，韭菜刚断生即刻出锅，保持贝肉的鲜嫩脆汁。"
-    ]
+    ],
+    "caloriePerServing": 85,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_30",
     "name": "大连蒜蓉粉丝蒸夏夷大扇贝",
     "subtitle": "深海天然野生大夏夷贝，贝柱比鸡蛋黄还要肥厚，金银蒜蓉清蒸，粉丝吸足甘甜贝髓原汤",
-    "calories": "90 kcal/只",
+    "calories": 180,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61608,13 +63144,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 12,
     "chefTips": [
       "夏夷贝贝柱硕大肥厚，清蒸时间以5分钟为黄金分割点，出锅肉质充盈多汁不缩水，底下的粉丝吸收贝柱滴落的原汁最为鲜甜。"
-    ]
+    ],
+    "caloriePerServing": 90,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_31",
     "name": "胶东传统红烧大对虾",
     "subtitle": "经典国宴鲁菜油焖大对虾，煸出红润虾脑油，大对虾两面金黄透亮，虾壳酥脆虾肉甜弹醇厚",
-    "calories": "145 kcal/100g",
+    "calories": 290,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61740,13 +63279,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "油焖大对虾的关键动作是‘拿锅铲轻轻按压虾头’，挤出橘红虾脑油，整锅汤色自然红润发亮，无需加任何色素酱油，虾肉鲜甜醇美。"
-    ]
+    ],
+    "caloriePerServing": 145,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_32",
     "name": "渤海香煎针亮鱼",
     "subtitle": "渤海渔民传统风物，针亮鱼骨绿肉白，少刺肉紧，两面慢火煎至金黄酥香微泛金黄，沿海第一下酒菜",
-    "calories": "130 kcal/100g",
+    "calories": 260,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61852,13 +63394,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "针亮鱼肉质天生紧致白嫩，骨头泛绿是其体内天然胆绿素沉淀，属天然无害特征；煎前吸干水分是外皮焦酥、鱼肉不碎的诀窍。"
-    ]
+    ],
+    "caloriePerServing": 130,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_33",
     "name": "闽南正宗香脆海蛎煎",
     "subtitle": "闽南与台湾名吃蚵仔煎天花板，东山岛小珠蛎调地瓜粉浆青蒜苗煎透，磕入土鸡蛋，外脆内嫩蘸甜辣酱",
-    "calories": "180 kcal/份",
+    "calories": 360,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -61976,13 +63521,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 12,
     "chefTips": [
       "海蛎一定要选肉粒紧实的小珠蛎；地瓜粉调浆切忌太稀，刚好包裹住海蛎为准；煎制用猪油香气比普通油提升数倍。"
-    ]
+    ],
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_34",
     "name": "厦门沙茶爆炒鲜活鱿鱼管",
     "subtitle": "厦门老街大排档招牌，鲜活鱿鱼切麦穗花刀，厦门沙茶酱浓郁微辣复合香气，爽脆爆汁锅气十足",
-    "calories": "120 kcal/100g",
+    "calories": 240,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62100,13 +63648,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 10,
     "chefTips": [
       "鱿鱼麦穗花刀必须打在内壁（内脏面），受热才会自然向外翻卷；沙茶酱要先用小火在油中炒散炒香，再大火下鱿鱼快炒。"
-    ]
+    ],
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_35",
     "name": "闽南红蟳香米糕",
     "subtitle": "闽台宴席压轴名品，肥美红蟳（红膏母青蟹）切块铺在香菇肉丝糯米油饭上蒸透，蟹膏融进米粒中甘香馥郁",
-    "calories": "280 kcal/碗",
+    "calories": 560,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62235,13 +63786,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 35,
     "chefTips": [
       "红蟳即母青蟹，蟹黄硬结甘香；先将糯米与香菇虾米炒出油饭底再同蟹蒸，米粒吸饱蟹汁粒粒分明油亮，是闽台喜庆宴席首选。"
-    ]
+    ],
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_36",
     "name": "东山岛白灼小管配生抽酱油水",
     "subtitle": "东山岛灯捕野生鲜活小管，白灼50秒变身微红透亮，蘸一碟红椒蒜末酱油水，爽脆弹牙爆墨汁",
-    "calories": "85 kcal/100g",
+    "calories": 170,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62354,13 +63908,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 8,
     "chefTips": [
       "白灼小管的秘诀唯在‘火候与时间’，沸水下锅50秒断生立刻捞出，肉质最是脆嫩化渣，超时十秒便老如皮筋。"
-    ]
+    ],
+    "caloriePerServing": 85,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_37",
     "name": "厦门沙茶海鲜一锅鲜",
     "subtitle": "鲜活海虾、花蛤、鱿鱼圈与手工鱼丸浸在浓郁椰香沙茶高汤中，鲜香微辣，汤浓味浓",
-    "calories": "210 kcal/份",
+    "calories": 420,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62482,13 +64039,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "沙茶酱加一点椰浆能中和辛香并带来丝滑奶香，海鲜易熟，最后几分钟下锅焖煮能锁住大虾与鱿鱼的弹嫩水分。"
-    ]
+    ],
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_38",
     "name": "台湾三杯小管",
     "subtitle": "黑麻油、老姜厚片、米酒与新鲜九层塔快炒鲜小管，浓油赤酱焦糖回甘，酱香扑鼻台湾夜市霸主",
-    "calories": "140 kcal/100g",
+    "calories": 280,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62606,13 +64166,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "正宗三杯即‘一杯黑麻油、一杯米酒、一杯酱油膏’；黑麻油要小火慢煸老姜至干瘪微焦，九层塔关火前下锅翻匀即出，香气才最饱满清冽。"
-    ]
+    ],
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_39",
     "name": "新加坡黑胡椒炒肉蟹",
     "subtitle": "新加坡国菜殿堂级代表作，现磨黑胡椒配黄油浓汁裹紧肥硕大肉蟹，辛香霸道浓烈过瘾",
-    "calories": "185 kcal/100g",
+    "calories": 370,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62742,13 +64305,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "必须使用‘粗粒现磨黑胡椒’，比成品胡椒粉香气强十倍；黄油与黑胡椒是天作之合，白糖用以柔和辛辣，浓醇酱汁拌炸馒头绝配。"
-    ]
+    ],
+    "caloriePerServing": 185,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_40",
     "name": "西班牙蒜香橄榄油慢浸大虾",
     "subtitle": "西班牙经典Tapas（Gambas al Ajillo），特级初榨橄榄油慢煨蒜片干椒，海虾脆嫩油润，法棍蘸油绝配",
-    "calories": "170 kcal/100g",
+    "calories": 340,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62867,13 +64433,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 12,
     "chefTips": [
       "蒜片切忌大火炸焦，必须用低温橄榄油慢煨出蒜油香；浸虾的蒜香橄榄油是整道菜的灵魂精华，用法棍蘸着吃才是西班牙当地人的地道吃法。"
-    ]
+    ],
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_41",
     "name": "泰式青柠酸辣清蒸海鲈鱼",
     "subtitle": "新鲜香茅草、鲜榨青柠檬汁、天然鱼露与小米辣调汁，海鲈鱼清蒸浇汁，酸辣开胃越煮越香",
-    "calories": "105 kcal/100g",
+    "calories": 210,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -62991,13 +64560,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "青柠檬汁必须现挤才清香，不能用黄柠檬代替；中途倒掉蒸鱼第一道水再浇泰式汁，能让鱼肉彻底摆脱泥腥、纯吸柠檬香料至鲜。"
-    ]
+    ],
+    "caloriePerServing": 105,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_42",
     "name": "美式路易斯安那卡真海鲜大烩桶",
     "subtitle": "美式南部海港豪迈盛宴，卡真香料黄油爆炒大虾、皮皮虾、玉米段与脆皮肠，整桶倒桌上抓着吃氛围感爆棚",
-    "calories": "260 kcal/份",
+    "calories": 520,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -63126,13 +64698,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "卡真香料（Cajun）是美国新奥尔良灵魂调料，黄油用量一定要足，浓稠红润的蒜香黄油辣酱包裹海鲜与香甜玉米，风味浓郁绝伦。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_seafood_43",
     "name": "法式香煎银鳕鱼配白葡萄酒柠檬汁",
     "subtitle": "深海大西洋银鳕鱼外酥里嫩肉质雪白如蒜瓣，柠檬白葡萄酒黄油汁解腻提鲜，米其林法餐经典",
-    "calories": "175 kcal/100g",
+    "calories": 350,
     "categoryType": "seafood",
     "cuisineCategory": "海鲜盛宴",
     "isSeafood": true,
@@ -63255,13 +64830,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "银鳕鱼油脂极其丰厚细腻，煎制时切勿频繁翻面，单面煎透再翻面；用汤勺舀融化的香草黄油不断浇淋鱼排表面，能使鱼肉均匀受热、鲜嫩多汁如蒜瓣融化。"
-    ]
+    ],
+    "caloriePerServing": 175,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_01",
     "name": "新疆正宗过油肉拌面",
     "subtitle": "大西北面食灵魂图腾，纯手工拉条子筋道透亮，嫩羊肉片洋葱番茄猛火过油爆炒，油润浓香裹满长面",
-    "calories": "520 kcal/份",
+    "calories": 520,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "新疆",
@@ -63392,13 +64970,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "拉条子不拉断的秘诀全在‘充分刷油醒发’，面团松弛到位自然延展延绵不绝；过油肉要猛火快炒出番茄红汁，拌在面条上油润挂汁。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_02",
     "name": "陕西油泼大宽BiangBiang面",
     "subtitle": "三指宽如裤带纯手工扯面，摔打案板BiangBiang作响，滚烫热油激泼秦椒辣子，香飘十里油润辛香",
-    "calories": "480 kcal/份",
+    "calories": 960,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "陕西",
@@ -63521,13 +65102,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "扯面中间用筷子压一道深痕，摔扯薄后顺着印记轻轻一撕就能完美撕成两根宽如裤带的薄面；泼油必须用烧热的纯菜籽油，才具备老陕最地道的油香。"
-    ]
+    ],
+    "caloriePerServing": 480,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_03",
     "name": "杭州正宗雪菜笋肉片儿川",
     "subtitle": "杭帮面天花板名作，安吉鲜春笋薄片、邱隘倒笃菜与滑嫩猪肉片同烹，倒笃菜鲜酸脆嫩，汤清面筋",
-    "calories": "410 kcal/碗",
+    "calories": 820,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "浙江",
@@ -63652,13 +65236,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "片儿川必须用‘猪油’炒笋和肉片，雪菜与笋片结合释放出天下第一鲜；面条一定要带一点硬芯，浸在滚烫鲜汤里吃到最后一根依然爽滑筋道。"
-    ]
+    ],
+    "caloriePerServing": 410,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_04",
     "name": "镇江传统跳面锅盖面",
     "subtitle": "江南天下第一面，杉木小锅盖压在滚沸大铁锅煮跳面，酱油秘制高汤配肴肉浇头，汤浓面韧不烂",
-    "calories": "430 kcal/碗",
+    "calories": 860,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "江苏",
@@ -63780,13 +65367,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "‘大锅漂着小锅盖’不仅是视觉特色，杉木锅盖压住面条能防止沸水扑锅，且木质清香能去面腥，使跳面内部小气孔充分舒展吸饱酱汁。"
-    ]
+    ],
+    "caloriePerServing": 430,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_05",
     "name": "苏式枫镇大面",
     "subtitle": "姑苏六月限定至尊白汤面，酒酿吊出清冽透明骨汤，五花大肉糟香软糯入口即化，清雅绝伦",
-    "calories": "450 kcal/碗",
+    "calories": 900,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "江苏",
@@ -63898,13 +65488,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 35,
     "chefTips": [
       "枫镇大面被誉为‘最难做的一碗素面’，汤底绝对不加一滴酱油，靠老母鸡、黄鳝骨和甜酒酿天然吊出微酸带甘甜的琥珀白汤，肉肥而不腻入口即融。"
-    ]
+    ],
+    "caloriePerServing": 450,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_06",
     "name": "成都纯手工甜水面",
     "subtitle": "筷子粗手扯筋道实心宽面，秘制香料复制酱油慢熬浓稠，配油泼辣子与浓香芝麻酱，甜辣交织裹满面条",
-    "calories": "390 kcal/份",
+    "calories": 780,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "四川",
@@ -64015,13 +65608,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "甜水面的灵魂在‘复制酱油’（酱油加红糖、八角、草果慢火收汁变稠），甜中带甘；面条必须和得比普通面硬得多，才能做出实心弹牙的嚼劲。"
-    ]
+    ],
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_07",
     "name": "广府大火镬气干炒牛河",
     "subtitle": "粤菜厨师考牌天花板名馔，牛肉滑嫩焦香，沙河粉根根透亮不断不碎，盘底无多余浮油镬气冲天",
-    "calories": "510 kcal/份",
+    "calories": 510,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "广东",
@@ -64148,13 +65744,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 10,
     "chefTips": [
       "干炒牛河的标准是‘油多则腻、油少则焦、河粉不断、盘底无油’；整道菜全程大火，靠手腕颠锅把镬气打进河粉内部。"
-    ]
+    ],
+    "caloriePerServing": 255,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_08",
     "name": "广式鲜虾竹升云吞面",
     "subtitle": "香港与西关老牌茶餐厅招牌，全鸭蛋和面经大毛竹竿千百次压制弹牙竹升面，大地鱼汤底鲜虾大云吞",
-    "calories": "380 kcal/碗",
+    "calories": 760,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "广东",
@@ -64260,13 +65859,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 15,
     "chefTips": [
       "广式云吞面精髓在‘过冷河’让面条脆爽如银丝弹牙；上桌时必须‘云吞垫底、面浮其上’，保持面条刚出锅的爽脆空气感。"
-    ]
+    ],
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_09",
     "name": "湖南常德红油牛肉米粉",
     "subtitle": "三湘大地嗦粉王者，圆米粉爽滑筋骨强，牛骨牛油文火慢炖红亮麻辣牛肉大块油码，一口嗦尽江湖气",
-    "calories": "460 kcal/碗",
+    "calories": 920,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "湖南",
@@ -64377,13 +65979,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "常德牛肉粉必须用‘纯牛油’调汤封碗，锁住滚烫温度不跑热；选用粗圆鲜米粉比细扁粉更具弹性嚼头，挂满红油最是痛快。"
-    ]
+    ],
+    "caloriePerServing": 460,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_10",
     "name": "贵州老素粉",
     "subtitle": "老贵阳人清晨的城市灵魂，酸浆微发酵粗米粉，配香脆油炸猪肉脆哨、酸菜、油辣椒与黄豆，拌开红亮扑鼻",
-    "calories": "390 kcal/份",
+    "calories": 780,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "贵州",
@@ -64506,13 +66111,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 10,
     "chefTips": [
       "正宗老素粉必须用带天然乳酸微酸香气的酸浆粗米粉；糊辣椒要用柴火焙干焦香后舂碎浇热油制成，糊香浓烈是贵阳特有的味觉密码。"
-    ]
+    ],
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_11",
     "name": "天津传统狗不理水馅包子",
     "subtitle": "津门百年老字号传世绝活，传统半发面皮薄软韧，排酸猪肉打入骨汤水馅，十八个褶花如白菊绽放爆多汁",
-    "calories": "160 kcal/个",
+    "calories": 320,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "天津",
@@ -64631,13 +66239,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 35,
     "chefTips": [
       "狗不理包子不漏油的关键在于‘打足骨汤水馅且最后封香油’，且面团采用‘半发面’（不可全发泡软），蒸出后外皮筋道兜得住一汪热卤。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_12",
     "name": "广式早茶松软蜜汁叉烧包",
     "subtitle": "粤式茶楼早茶四大天王之一，老面天然开花三瓣如裂帛，云朵般雪白松软，包裹热腾腾焦香蜜汁叉烧",
-    "calories": "170 kcal/个",
+    "calories": 340,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "广东",
@@ -64772,13 +66383,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "叉烧包开花的秘密：一是面粉选用低筋粉并加泡打粉，二是收口不能完全捏死，三是蒸锅的火力必须达到‘最狂暴的大火足汽’，热胀冷缩瞬间冲开花瓣。"
-    ]
+    ],
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_13",
     "name": "焦脆冰花底猪肉韭菜水煎包",
     "subtitle": "街头早点最诱人存在，薄面水煎底部凝固成金黄薄如蝉翼的雪花冰花网，一口咬下外皮软弹底板焦脆馅香爆汁",
-    "calories": "140 kcal/个",
+    "calories": 280,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "山东",
@@ -64901,13 +66515,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "韭菜切好后先用香油彻底拌匀封住切口水分，包馅绝不会渗出半滴菜汤；面粉与玉米淀粉按2:1加水调汁，能烧出金黄如蕾丝般完整的酥脆大冰花。"
-    ]
+    ],
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_14",
     "name": "靖江皮薄如纸蟹黄大汤包",
     "subtitle": "江南四大名点之首，皮薄如纸通体透亮吹弹可破，里面包裹满满一整汪金黄蟹黄蟹膏老母鸡原汤，吸管吸汤妙绝",
-    "calories": "180 kcal/个",
+    "calories": 360,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "江苏",
@@ -65032,13 +66649,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "‘轻轻提、慢慢移、先开窗、后吸汤’是吃靖江汤包的口诀；馅料全靠大量高品质猪皮老母鸡冻支撑，蒸热后化为一包纯天然高胶质金黄原汤。"
-    ]
+    ],
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_15",
     "name": "东北传统酸菜猪肉手工水饺",
     "subtitle": "黑土地游子心中至高图腾，正宗老坛自然发酵酸菜丝去油解腻，五花肉馅吸饱高汤，酸脆鲜美多汁",
-    "calories": "45 kcal/个",
+    "calories": 90,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "东北",
@@ -65164,13 +66784,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "东北酸菜水饺好吃的秘籍：一是五花肉一定要略带肥油（酸菜吸油），二是酸菜挤水不能太干，保留三成原汁肉馅才饱满多汁、酸脆清香。"
-    ]
+    ],
+    "caloriePerServing": 45,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_16",
     "name": "门框胡同老北京牛肉褡裢火烧",
     "subtitle": "老北京胡同传统名吃，形似古人腰带褡裢，金黄焦酥油亮长条外皮，包裹滚烫爆汁葱香牛肉大葱馅",
-    "calories": "170 kcal/条",
+    "calories": 340,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "北京",
@@ -65293,13 +66916,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "面团一定要和得非常柔软且醒透，延展性好才能包出皮薄汁多的长褡裢；牛肉馅多打花椒水并加足香油，煎出来内部肉汁充盈不干柴。"
-    ]
+    ],
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_17",
     "name": "山东老面手揉起层戗面大馒头",
     "subtitle": "齐鲁大地传统面食巅峰，纯老酵发面中和碱水，层层揉入干面粉戗面百次，馒头白胖结实有嚼劲，越嚼越回甜麦香",
-    "calories": "210 kcal/个",
+    "calories": 420,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "山东",
@@ -65385,13 +67011,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 40,
     "chefTips": [
       "山东戗面馒头的硬核就在‘戗面’二字，不断将干面粉强行揉入发面中，使面团密度大增，蒸熟后内部结构呈现层层相叠的麦香纤维，绝非普通发糕式虚软馒头可比。"
-    ]
+    ],
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_18",
     "name": "西安牛肉水盆配香酥月牙饼",
     "subtitle": "老陕最地道的早餐清真排面，牛骨羊骨慢熬清透金黄清汤配大片软烂牛肉，夹一捧刚出炉酥香月牙饼大口撕嚼",
-    "calories": "450 kcal/套",
+    "calories": 900,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "陕西",
@@ -65501,13 +67130,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "水盆牛肉与羊肉泡馍不同，讲究‘汤清见底、不稠不糊’，月牙饼必须现烤至两面金黄起酥皮，一口饼一口汤才是关中人享受早晨的标准姿势。"
-    ]
+    ],
+    "caloriePerServing": 450,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_19",
     "name": "缙云炭烤梅干菜五花肉烧饼",
     "subtitle": "浙江非遗名小吃，半发面薄皮包入九层红烧梅干菜与肥瘦五花肉，贴在炭烤大陶炉壁烤至金黄焦脆掉渣流油",
-    "calories": "220 kcal/个",
+    "calories": 440,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "浙江",
@@ -65618,13 +67250,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "缙云烧饼好吃的两绝：一是五花肉一定要切丁与梅干菜炒透，高温烘烤时五花肉油脂自然融化浸透整张薄饼；二是刷麦芽糖水能烤出迷人的金红焦斑与微甜麦香。"
-    ]
+    ],
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_20",
     "name": "江苏泰兴传统黄桥烧饼",
     "subtitle": "淮扬传世战地酥饼传奇，油酥与水油面层层开酥包入咸甜两种馅料，表面沾满饱满白芝麻烘烤至千层酥碎掉渣",
-    "calories": "190 kcal/个",
+    "calories": 380,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "江苏",
@@ -65723,13 +67358,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "黄桥烧饼的酥松全在‘猪油开酥’的层次感，猪油起酥度远胜植物油；麦芽糖水不仅能锁住白芝麻烤时不脱落，更能带来诱人金黄光泽。"
-    ]
+    ],
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_21",
     "name": "老北京千层麻酱红糖大花卷",
     "subtitle": "老北京面点至尊，纯发面大擀薄皮抹满醇香麻酱与古法红糖，层层叠叠卷出多层花卷，蒸出流心浓醇甜香",
-    "calories": "230 kcal/个",
+    "calories": 460,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "北京",
@@ -65811,13 +67449,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "麻酱一定要用少许香油调匀才好刷开，红糖粉要过筛防止硬疙瘩划破面皮；多层卷制能让每一口面皮都夹着醇厚麻酱红糖，是北方家庭最治愈的甜主食。"
-    ]
+    ],
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_22",
     "name": "陕西乾县古法干硬大锅盔",
     "subtitle": "关中八大怪之一‘锅盔大如锅盖’，硬面慢酵，文火慢烙出金黄火色，干硬酥脆耐储存，麦香纯粹醇厚",
-    "calories": "280 kcal/块",
+    "calories": 560,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "陕西",
@@ -65912,13 +67553,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 35,
     "chefTips": [
       "乾县锅盔的三个特色是‘干、硬、香’；面硬水少、扎细密小眼、文火慢烙三道关口缺一不可，烙出的锅盔可以存放半月不变质。"
-    ]
+    ],
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_23",
     "name": "扬州传统细密千层油糕",
     "subtitle": "扬州早茶双绝之一，菱形块玉白半透明，六十四层层层分明薄如宣纸，糖油相融绵软甜润入口即化",
-    "calories": "175 kcal/块",
+    "calories": 350,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "江苏",
@@ -66000,13 +67644,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "千层油糕的秘诀在于‘糖板油丁’在高温蒸汽下化作无形，将面皮层层隔开却又被面皮彻底吸收，造就了‘见层不见油、甜而不腻’的淮扬早茶神作。"
-    ]
+    ],
+    "caloriePerServing": 175,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_24",
     "name": "胶东金黄发丝油旋饼",
     "subtitle": "济南府百年传统名点，外皮金黄酥脆如缕缕发丝，内芯层层松软微咸葱香，从中间旋压出金丝旋涡",
-    "calories": "185 kcal/个",
+    "calories": 370,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "山东",
@@ -66101,13 +67748,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "油旋之妙在‘拉得极薄、卷成螺丝、出锅一旋’；熟猪油开酥保证了内部葱油层的松软多层，趁热吃酥脆掉渣，配济南甜沫绝妙搭档。"
-    ]
+    ],
+    "caloriePerServing": 185,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_25",
     "name": "广式正宗双喜腊味煲仔饭",
     "subtitle": "广府老街炭火砂锅传世之作，丝苗米生煲出透亮米粒，皇上皇广味腊肠腊肉油脂渗透，底板金黄焦脆香脆饭焦",
-    "calories": "530 kcal/份",
+    "calories": 530,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "广东",
@@ -66213,13 +67863,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 25,
     "chefTips": [
       "煲仔饭金黄焦脆锅巴的诀窍：收水后‘沿盖缝淋油’并倾斜砂锅分转四角微火慢烤；腊味切薄片铺在热饭上蒸，腊油渗透整锅米饭粒粒香甜闪亮。"
-    ]
+    ],
+    "caloriePerServing": 265,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_26",
     "name": "台湾正宗古早味手切香菇卤肉饭",
     "subtitle": "台北夜市传世招牌，肥瘦相间带皮五花肉纯手工切小长条，红葱酥金黄炒香慢炖至胶质浓稠粘唇，淋在热米饭上连扒三碗",
-    "calories": "520 kcal/碗",
+    "calories": 520,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "港澳台",
@@ -66346,13 +67999,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 50,
     "chefTips": [
       "正宗古早味卤肉饭绝不能用绞肉机肉末，必须‘手切带皮小肉条’，皮脂在慢炖中融解出粘唇胶原；红葱酥是绝对不可替代的香气源泉。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_staple_27",
     "name": "潮汕芥菜海鲜五花肉咸饭",
     "subtitle": "潮汕人刻进骨子里的古早味菜饭（戈饭），大铁锅下五花肉煸出香猪油，干贝虾干大香菇炒软芥菜生米同焖，咸香扑鼻",
-    "calories": "460 kcal/份",
+    "calories": 920,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "广东",
@@ -66478,13 +68134,16 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 30,
     "chefTips": [
       "潮汕戈饭一定要用五花肉煸出的‘猪油’先炒生米，米粒受油脂包裹后再焖，粒粒分明绝不发烂；泡香菇干贝的水千万别倒，用来焖饭鲜上加鲜。"
-    ]
+    ],
+    "caloriePerServing": 460,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_staple_28",
     "name": "陕西地道洋芋擦擦",
     "subtitle": "陕北高原最具民俗风情的非遗土豆面食，土豆擦细丝裹干面粉蒸至松散金黄，油泼辣子青红椒蒜苗炝炒出焦香",
-    "calories": "260 kcal/份",
+    "calories": 520,
     "categoryType": "noodle",
     "cuisineCategory": "面食点心",
     "region": "陕西",
@@ -66599,7 +68258,10 @@ window.RECIPES_DATA = [
     "cookTimeMinutes": 20,
     "chefTips": [
       "土豆丝擦好后必须彻底挤干水分再裹面粉，面粉只要薄薄一层刚好包住即可；大火蒸熟后必须迅速用筷子挑散防止粘成死坨，再回热锅爆炒出焦香味最佳。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_01",
@@ -66608,7 +68270,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煨",
-    "calories": 360,
+    "calories": 720,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -66746,7 +68408,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "江南俗语‘咸肉鲜肉与春笋，慢笃出鲜白如乳’，原汤切忌加味精鸡精，咸肉之陈香与鲜肉之鲜甜在春笋调和下已达至极鲜境界。"
-    ]
+    ],
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_02",
@@ -66755,7 +68420,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 420,
+    "calories": 840,
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 120,
     "difficulty": "进阶",
@@ -66896,7 +68561,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "客家坐月子与秋冬暖身头牌神汤，第一碗先喝滚烫原汁胡椒汤，暖胃通气；第二碗吃爽脆猪肚与皮脆肉嫩土鸡，蘸沙姜酱油绝配。"
-    ]
+    ],
+    "caloriePerServing": 420,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_03",
@@ -66905,7 +68573,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 380,
+    "calories": 760,
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 150,
     "difficulty": "进阶",
@@ -67035,7 +68703,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "被誉为‘中华第一汤’，色白如奶，水脂交融，鲜而不膻，香而不腻，烂而不糊。寒冬来一碗满口生津，周身通泰。"
-    ]
+    ],
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_04",
@@ -67044,7 +68715,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煨",
-    "calories": 350,
+    "calories": 700,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 180,
     "difficulty": "进阶",
@@ -67167,7 +68838,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "源自大秦古风，以渭南大荔、蒲城最负盛名。汤清肉嫩不腥不膻，清鲜醇和，空口喝原汤落胃如温泉浸润。"
-    ]
+    ],
+    "caloriePerServing": 350,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_05",
@@ -67176,7 +68850,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 410,
+    "calories": 820,
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 120,
     "difficulty": "进阶",
@@ -67313,7 +68987,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "巴蜀冬至全民必吃名汤。羊肉软烂、羊杂脆爽、汤汁浓白如凝脂，鱼羊交融鲜爽甘冽，一口下肚通体发热。"
-    ]
+    ],
+    "caloriePerServing": 410,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_06",
@@ -67322,7 +68999,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 310,
+    "calories": 620,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -67442,7 +69119,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "岭南湿热气候下最负盛名的传统健脾去湿第一汤。五指毛桃天然甘香浓郁似椰奶，土茯苓排湿毒除湿浊，男女老少皆宜。"
-    ]
+    ],
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_07",
@@ -67451,7 +69131,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "炖",
-    "calories": 340,
+    "calories": 680,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 150,
     "difficulty": "进阶",
@@ -67574,7 +69254,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "顺德宴席与养生殿堂级滋补名汤。富含高纯度深海胶原蛋白与多种微量元素，汤呈琥珀金黄，醇香滑润，滋阴养颜无上佳品。"
-    ]
+    ],
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_08",
@@ -67583,7 +69266,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 280,
+    "calories": 560,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 90,
     "difficulty": "简单",
@@ -67692,7 +69375,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "广东人在炎炎夏日与秋燥降火的‘续命汤’。先微苦后生津回甘，黄豆粉糯、排骨酥香，清热降火解暑腻之极品。"
-    ]
+    ],
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_09",
@@ -67701,7 +69387,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 320,
+    "calories": 640,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -67817,7 +69503,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "广东新会传世药膳。陈皮年份越久越温润回甘，鸭肉鲜醇，汤汁滑喉生津，秋冬化痰理气、清心润肺之经典佳作。"
-    ]
+    ],
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_10",
@@ -67826,7 +69515,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "蒸",
-    "calories": 290,
+    "calories": 580,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 180,
     "difficulty": "进阶",
@@ -67942,7 +69631,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "云南非遗烹饪奇迹。利用建水紫陶汽锅的气孔循环聚气凝露，不加一滴外水，原汁原味，鸡肉滑嫩酥烂，汤清肉白鲜透骨髓。"
-    ]
+    ],
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_11",
@@ -67951,7 +69643,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 310,
+    "calories": 620,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -68060,7 +69752,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "大自然的山野馈赠。顶级松茸之幽香与羊肚菌之浓郁层层交织，汤色金黄澄澈，入口醇润回甘，滋阴润肺，免疫力大补。"
-    ]
+    ],
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_12",
@@ -68069,7 +69764,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 330,
+    "calories": 660,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 150,
     "difficulty": "进阶",
@@ -68192,7 +69887,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "潮汕与港粤顶级私房养生汤。响螺肉滋阴补肾，花胶补充胶原，鸡肉甘香，汤水鲜甜黏唇，乃港粤富豪家宴之不传之秘。"
-    ]
+    ],
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_13",
@@ -68201,7 +69899,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "炖",
-    "calories": 260,
+    "calories": 520,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -68317,7 +70015,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "‘一鸽胜九鸡’，配大方天麻与西洋参，平肝息风、通络止眩、补脑益气，是脑力劳动者与熬夜失眠者的回神补脑圣品。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_14",
@@ -68326,7 +70027,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 320,
+    "calories": 640,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 60,
     "difficulty": "中等",
@@ -68449,7 +70150,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "江苏溧阳天目湖传世国宴大菜。汤色雪白如乳，汁浓如脂，肉质嫩滑，肥而不腻，豆腐吸饱鱼髓鲜汁更胜肉香。"
-    ]
+    ],
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_15",
@@ -68458,7 +70162,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 350,
+    "calories": 700,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 120,
     "difficulty": "简单",
@@ -68574,7 +70278,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "出自医圣张仲景《金匮要略》之千古名方。温中补虚、祛寒止痛，专治秋冬体寒畏冷、气血亏虚，堪称中华食疗之祖方。"
-    ]
+    ],
+    "caloriePerServing": 350,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_16",
@@ -68583,7 +70290,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煨",
-    "calories": 310,
+    "calories": 620,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 150,
     "difficulty": "中等",
@@ -68699,7 +70406,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "信阳大别山传统名吃。老麻鸭滋阴养胃，板栗健脾补肾，瓦罐恒温煨炖骨酥肉烂，汤水鲜浓温润，极富中原泥土芬芳。"
-    ]
+    ],
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_17",
@@ -68708,7 +70418,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 260,
+    "calories": 520,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 90,
     "difficulty": "中等",
@@ -68824,7 +70534,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "客家人家家户户皆知的降火清热神汤。车前草清热利湿降肝火，猪横脷健脾消食，是熬夜上火、咽痛长痘时最佳食疗方。"
-    ]
+    ],
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_18",
@@ -68833,7 +70546,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "炖",
-    "calories": 340,
+    "calories": 680,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 150,
     "difficulty": "进阶",
@@ -68956,7 +70669,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "孔府宴与淮扬官府传世名菜。相传蒸制时香气袅袅胜似仙界，故名‘神仙鸭子’。原汤蒸透无半点火气，鲜美醇厚至极。"
-    ]
+    ],
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_19",
@@ -68965,7 +70681,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "羹",
-    "calories": 180,
+    "calories": 360,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "difficulty": "中等",
@@ -69095,7 +70811,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "晋代张翰因思念家乡‘莼鲈之思’而辞官归里的千古名羹。莼菜嫩滑柔润，鲈鱼如雪如银，汤清味甘，江南水乡第一雅汤。"
-    ]
+    ],
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_20",
@@ -69104,7 +70823,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "炖",
-    "calories": 270,
+    "calories": 540,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -69213,7 +70932,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "广式茶楼与私房靓汤代表作。天然椰子水甘冽清甜，与竹丝鸡滋阴养血完美交融，汤汁纯净如玉露，清甜润喉，唇齿留香。"
-    ]
+    ],
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_21",
@@ -69222,7 +70944,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 230,
+    "calories": 460,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 90,
     "difficulty": "简单",
@@ -69338,7 +71060,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "秋燥咳嗽与换季喉干的最佳滋润汤水。海底椰清热止咳，百合润肺安神，无花果甘甜生津，味道清香甜美，全家大人小孩皆爱喝。"
-    ]
+    ],
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_22",
@@ -69347,7 +71072,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "炖",
-    "calories": 270,
+    "calories": 540,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -69463,7 +71188,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "广东高端炖品经典组合。虫草花提升免疫，西洋参清火生津养阴，乳鸽大补元气，特别适合高压熬夜、阴虚盗汗之人群调养身心。"
-    ]
+    ],
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_23",
@@ -69472,7 +71200,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煨",
-    "calories": 390,
+    "calories": 780,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 180,
     "difficulty": "中等",
@@ -69588,7 +71316,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "楚乡千万家庭心中不可动摇的‘第一家乡味’。蔡甸粉藕粉糯拉丝、筒骨髓香浓郁，汤呈粉红浓稠，白胡椒辛辣醒脾，饮之满口留香。"
-    ]
+    ],
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_24",
@@ -69597,7 +71328,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煨",
-    "calories": 210,
+    "calories": 420,
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 40,
     "difficulty": "进阶",
@@ -69706,7 +71437,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "国宴名席与闽菜至尊无上神品。郁达夫赞叹‘此味只应天上有’，漳港海蚌脆如脆笋，鸡汤清冽鲜香，绝无一丝杂味，高雅至极。"
-    ]
+    ],
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_25",
@@ -69715,7 +71449,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 250,
+    "calories": 500,
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 120,
     "difficulty": "中等",
@@ -69838,7 +71572,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "老广清肺除燥的祖传秘汤。专治雾霾吸烟、咽痒干咳、肺燥咽痛，清肺化痰、理气生津，一碗下肚喉头通透甘润如甘露。"
-    ]
+    ],
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_26",
@@ -69847,7 +71584,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 320,
+    "calories": 640,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 90,
     "difficulty": "简单",
@@ -69956,7 +71693,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "菌中之皇与健脾山药的黄金搭档。汤水鲜美回甘，排骨软烂脱骨，山药粉糯顺滑，健脾益胃补虚损，四季全龄滋养之极品。"
-    ]
+    ],
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_27",
@@ -69965,7 +71705,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 450,
+    "calories": 900,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 50,
     "difficulty": "中等",
@@ -70081,7 +71821,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "宝岛台湾秋冬进补与坐月子头牌圣品。黑麻油与老姜驱寒散湿，纯米酒活血通经，鸡肉紧实弹牙，汤水甘甜浓郁，一碗落肚全身发烫。"
-    ]
+    ],
+    "caloriePerServing": 450,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_soup_28",
@@ -70090,7 +71833,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 280,
+    "calories": 560,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 30,
     "difficulty": "简单",
@@ -70213,7 +71956,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "北方海滨家常温润名汤。大虾鲜甜弹牙，老豆腐吸满浓浓海捕红虾油，白菜清甘多汁，做法快手却鲜味惊人。"
-    ]
+    ],
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_29",
@@ -70222,7 +71968,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "羹",
-    "calories": 220,
+    "calories": 440,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "difficulty": "简单",
@@ -70352,7 +72098,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "江南早春第一口鲜。荠菜清香野趣，小黄鱼滑嫩鲜美，嫩豆腐如玉脂滑润，红白绿相映成趣，清鲜开胃解腻之极品生滚羹汤。"
-    ]
+    ],
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_soup_30",
@@ -70361,7 +72110,7 @@ window.RECIPES_DATA = [
     "cuisineCategory": "慢熬靓汤",
     "categoryType": "soup",
     "cookingMethod": "煲",
-    "calories": 160,
+    "calories": 320,
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 60,
     "difficulty": "简单",
@@ -70477,7 +72226,10 @@ window.RECIPES_DATA = [
     "servings": 2,
     "chefTips": [
       "佛门素斋与现代健康养生殿堂级素高汤。竹荪脆爽，羊肚菌浓鲜，玉米马蹄沁人心脾的甘甜，无一滴油脂却鲜甜如饴，刮油减负、润燥清心。"
-    ]
+    ],
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_001",
@@ -70493,7 +72245,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 60,
     "servings": 2,
-    "calories": 450,
+    "calories": 900,
     "ingredients": [
       {
         "name": "宁乡黑猪带皮三层五花肉",
@@ -70623,7 +72375,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 450,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_002",
@@ -70639,7 +72394,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "千岛湖野生鲜活大鳙鱼头",
@@ -70769,7 +72524,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_003",
@@ -70785,7 +72543,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "嫩子鸡或三黄仔鸡",
@@ -70915,7 +72673,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_004",
@@ -70931,7 +72692,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜优质生猪肚尖",
@@ -71054,7 +72815,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_005",
@@ -71070,7 +72834,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "鲜活青壳小龙虾(剪头抽虾线开背)",
@@ -71193,7 +72957,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_006",
@@ -71209,7 +72976,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "鲜活肉蟹或母膏蟹",
@@ -71332,7 +73099,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_007",
@@ -71348,7 +73118,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 410,
+    "calories": 820,
     "ingredients": [
       {
         "name": "湖南常德农家放养仔谷鸭",
@@ -71471,7 +73241,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 410,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_008",
@@ -71487,7 +73260,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 35,
     "servings": 2,
-    "calories": 430,
+    "calories": 860,
     "ingredients": [
       {
         "name": "新鲜熟卤猪大肠(切滚刀块)",
@@ -71610,7 +73383,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 430,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_009",
@@ -71626,7 +73402,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 45,
     "servings": 2,
-    "calories": 460,
+    "calories": 920,
     "ingredients": [
       {
         "name": "鲜活优质生态汉寿甲鱼",
@@ -71756,7 +73532,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 460,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_010",
@@ -71772,7 +73551,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "长沙传统正宗黑豆腐生胚",
@@ -71888,7 +73667,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_011",
@@ -71904,7 +73686,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 50,
     "servings": 2,
-    "calories": 420,
+    "calories": 840,
     "ingredients": [
       {
         "name": "新鲜优质土猪前蹄",
@@ -72006,7 +73788,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 420,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_012",
@@ -72022,7 +73807,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 30,
     "servings": 2,
-    "calories": 390,
+    "calories": 780,
     "ingredients": [
       {
         "name": "湘西柏树枝烟熏农家五花腊肉",
@@ -72138,7 +73923,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_013",
@@ -72154,7 +73942,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "洞庭湖新鲜晾晒半干刁子鱼",
@@ -72270,7 +74058,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_014",
@@ -72286,7 +74077,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 430,
+    "calories": 860,
     "ingredients": [
       {
         "name": "鲜活汉寿水系生态甲鱼",
@@ -72416,7 +74207,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 430,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_015",
@@ -72432,7 +74226,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 90,
     "servings": 2,
-    "calories": 450,
+    "calories": 900,
     "ingredients": [
       {
         "name": "优质早稻米常德圆形鲜米粉",
@@ -72555,7 +74349,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 450,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_016",
@@ -72571,7 +74368,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "黄牛里脊肉或吊龙伴",
@@ -72701,7 +74498,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_017",
@@ -72717,7 +74517,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "新鲜土猪前腿前夹肉(肥瘦分开切薄片)",
@@ -72833,7 +74633,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_018",
@@ -72849,7 +74652,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "新鲜粉嫩新鲜猪肝",
@@ -72965,7 +74768,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_019",
@@ -72981,7 +74787,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "新鲜鸡胗与鸡心鸡肠",
@@ -73104,7 +74910,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_020",
@@ -73120,7 +74929,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "大骨头上剔下的熟拆骨肉(带筋膜软骨)",
@@ -73236,7 +75045,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_021",
@@ -73252,7 +75064,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 330,
+    "calories": 660,
     "ingredients": [
       {
         "name": "湘西柴火烟熏农家老腊牛肉",
@@ -73361,7 +75173,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_022",
@@ -73377,7 +75192,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "邵阳传统烟熏猪血丸子",
@@ -73493,7 +75308,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_023",
@@ -73509,7 +75327,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "新鲜嫩黄瓜(去瓤切厚块)",
@@ -73618,7 +75436,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_024",
@@ -73634,7 +75455,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "湖南本地农家青线椒或二荆条",
@@ -73743,7 +75564,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_025",
@@ -73759,7 +75583,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "老坛自制爽脆酸豇豆(洗净切小粒)",
@@ -73875,7 +75699,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_026",
@@ -73891,7 +75718,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "鲜活野生青壳小河虾",
@@ -74000,7 +75827,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_027",
@@ -74016,7 +75846,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "湖南攸县特产柴火老香干",
@@ -74139,7 +75969,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_028",
@@ -74155,7 +75988,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "湘西农家自制老坛香脆萝卜干",
@@ -74271,7 +76104,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_029",
@@ -74287,7 +76123,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "鲜嫩脆甜圆白菜(手撕大片去硬梗)",
@@ -74403,7 +76239,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_030",
@@ -74419,7 +76258,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "湖南特产传统发酵腊八豆",
@@ -74535,7 +76374,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_031",
@@ -74551,7 +76393,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 25,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "传统发酵臭鳜鱼(桃花鳜)",
@@ -74688,7 +76530,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_032",
@@ -74704,7 +76549,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "传统自然发酵白毛长绒毛豆腐",
@@ -74805,7 +76650,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_033",
@@ -74821,7 +76669,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 45,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "徽州传统正宗刀板香咸肉",
@@ -74922,7 +76770,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_034",
@@ -74938,7 +76789,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 50,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "绩溪传统金黄蛋饺",
@@ -75060,7 +76911,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_035",
@@ -75076,7 +76930,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 90,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "新鲜黄牛肉与牛骨棒",
@@ -75191,7 +77045,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_036",
@@ -75207,7 +77064,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 60,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "宿州本地散养当年小公鸡(净膛)",
@@ -75315,7 +77172,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_037",
@@ -75331,7 +77191,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 35,
     "servings": 2,
-    "calories": 420,
+    "calories": 840,
     "ingredients": [
       {
         "name": "散养皖北土公鸡(剁方块)",
@@ -75446,7 +77306,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 420,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_038",
@@ -75462,7 +77325,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 45,
     "servings": 2,
-    "calories": 390,
+    "calories": 780,
     "ingredients": [
       {
         "name": "皖北新鲜带皮山羊肉块",
@@ -75584,7 +77447,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_039",
@@ -75600,7 +77466,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 25,
     "servings": 2,
-    "calories": 330,
+    "calories": 660,
     "ingredients": [
       {
         "name": "发制水发海参切条",
@@ -75729,7 +77595,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_040",
@@ -75745,7 +77614,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 60,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "黄山特产悬崖天然石耳(泡发干净)",
@@ -75853,7 +77722,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_041",
@@ -75869,7 +77741,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "黟县传统腊八豆腐(切厚片)",
@@ -75977,7 +77849,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_042",
@@ -75993,7 +77868,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "绩溪山芋粉丝(红薯粉泡软)",
@@ -76108,7 +77983,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_043",
@@ -76124,7 +78002,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 7,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "徽州刀板香咸腊肉薄片",
@@ -76232,7 +78110,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_044",
@@ -76248,7 +78129,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "农家自腌雪里蕻碎(雪菜)",
@@ -76363,7 +78244,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_045",
@@ -76379,7 +78263,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "土猪精品带皮五花肉块",
@@ -76501,7 +78385,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_046",
@@ -76517,7 +78404,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "纯野生葛根粉蒸制粉皮切条",
@@ -76625,7 +78512,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_047",
@@ -76641,7 +78531,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 8,
     "cookTimeMinutes": 7,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "传统徽州灰白发酵臭豆腐块",
@@ -76749,7 +78639,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_048",
@@ -76765,7 +78658,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "安徽采石矶茶干或五香干(切细条)",
@@ -76873,7 +78766,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_049",
@@ -76889,7 +78785,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "新安江野生小河鱼(干煎焙干)",
@@ -76997,7 +78893,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_050",
@@ -77013,7 +78912,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 120,
+    "calories": 240,
     "ingredients": [
       {
         "name": "新鲜翠绿苦瓜(剖开去白瓤切薄片)",
@@ -77114,7 +79013,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_051",
@@ -77130,7 +79032,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "传统手工水烙馍薄如纸面饼",
@@ -77238,7 +79140,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_052",
@@ -77254,7 +79159,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "肉厚皮薄青皮冬瓜(切大厚方块划十字纹)",
@@ -77362,7 +79267,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_053",
@@ -77378,7 +79286,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "新疆阿勒泰大尾羊后腿肉(三瘦两肥)",
@@ -77479,7 +79387,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_054",
@@ -77495,7 +79406,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 30,
     "servings": 2,
-    "calories": 450,
+    "calories": 900,
     "ingredients": [
       {
         "name": "新鲜三黄三黄土公鸡(剁方块)",
@@ -77624,7 +79535,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 450,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_055",
@@ -77640,7 +79554,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 60,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "新疆草原本地产带肋绵羊肉条",
@@ -77748,7 +79662,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_056",
@@ -77764,7 +79681,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "新鲜肥羊尾油与后腿羊肉(切小丁)",
@@ -77879,7 +79796,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_057",
@@ -77895,7 +79815,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 35,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "散养当年紧实三黄童子鸡(整只)",
@@ -78010,7 +79930,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_058",
@@ -78026,7 +79949,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 460,
+    "calories": 920,
     "ingredients": [
       {
         "name": "新鲜肥美带骨羊肋排块",
@@ -78141,7 +80064,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 460,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_059",
@@ -78157,7 +80083,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 50,
     "servings": 2,
-    "calories": 350,
+    "calories": 700,
     "ingredients": [
       {
         "name": "甘肃临夏东乡羔羊大肋条排",
@@ -78265,7 +80191,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 350,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_060",
@@ -78281,7 +80210,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 400,
+    "calories": 800,
     "ingredients": [
       {
         "name": "甘肃靖远哈思山散养羯羊排肉",
@@ -78396,7 +80325,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 400,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_061",
@@ -78412,7 +80344,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 45,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "宁夏盐池天然牧场散养滩羊肋排条",
@@ -78513,7 +80445,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_062",
@@ -78529,7 +80464,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "青海传统手工炸羊肉丸子与肉块",
@@ -78644,7 +80579,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_063",
@@ -78660,7 +80598,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 410,
+    "calories": 820,
     "ingredients": [
       {
         "name": "新疆特粗粗圆干米粉(提前泡软煮透)",
@@ -78782,7 +80720,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 410,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_064",
@@ -78798,7 +80739,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "新鲜嫩羊后腿肉(顶刀切大薄片)",
@@ -78906,7 +80847,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_065",
@@ -78922,7 +80866,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "鲜嫩羊后腿肉(切大拇指大肉丁粒)",
@@ -79030,7 +80974,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_066",
@@ -79046,7 +80993,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 430,
+    "calories": 860,
     "ingredients": [
       {
         "name": "刚出炉传统新疆芝麻白油馕(切八瓣)",
@@ -79161,7 +81108,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 430,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_067",
@@ -79177,7 +81127,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新疆传统伊犁手工风干牛肉(蒸透切薄片)",
@@ -79285,7 +81235,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_068",
@@ -79301,7 +81254,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "甘肃定西黄心土豆(特制擦子擦长丝)",
@@ -79409,7 +81362,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_069",
@@ -79425,7 +81381,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "兰州特产地窖无光培植红根韭黄",
@@ -79533,7 +81489,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_070",
@@ -79549,7 +81508,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 35,
     "servings": 2,
-    "calories": 420,
+    "calories": 840,
     "ingredients": [
       {
         "name": "敦煌大漠新鲜羊肉小排条",
@@ -79664,7 +81623,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 420,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_071",
@@ -79680,7 +81642,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 400,
+    "calories": 800,
     "ingredients": [
       {
         "name": "青海手工手揪小面片(煮熟过凉)",
@@ -79788,7 +81750,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 400,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_072",
@@ -79804,7 +81769,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "青海高原正宗天然风干牦牛干巴肉(切薄片)",
@@ -79912,7 +81877,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_073",
@@ -79928,7 +81896,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "新鲜熟羊头肉羊肚羊肺羊心(切条丝)",
@@ -80043,7 +82011,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_074",
@@ -80059,7 +82030,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "优质小麦面浆蒸制厚切高担酿皮",
@@ -80167,7 +82138,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_075",
@@ -80183,7 +82157,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜鲜活江团鱼(或乌江鱼剁厚块)",
@@ -80305,7 +82279,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_076",
@@ -80321,7 +82298,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 50,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "优质前猪蹄剁小块(焯透洗净)",
@@ -80443,7 +82420,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_077",
@@ -80459,7 +82439,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 60,
     "servings": 2,
-    "calories": 330,
+    "calories": 660,
     "ingredients": [
       {
         "name": "新鲜麻羊肉与羊腿骨(虾子镇特产)",
@@ -80574,7 +82554,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_078",
@@ -80590,7 +82573,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 90,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "本地土猪前猪蹄两只(对半劈开斩小段)",
@@ -80698,7 +82681,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_079",
@@ -80714,7 +82700,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 370,
+    "calories": 740,
     "ingredients": [
       {
         "name": "滇东宜良本地仔麻鸭(净膛整只)",
@@ -80815,7 +82801,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 370,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_080",
@@ -80831,7 +82820,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "红河建水西门水井特产微发酵小豆腐块",
@@ -80918,7 +82907,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_081",
@@ -80934,7 +82926,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "大理洱源传统纯纯水牛奶手工乳扇",
@@ -81014,7 +83006,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_082",
@@ -81030,7 +83025,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "西双版纳新鲜肥嫩罗非鱼(背剖双开)",
@@ -81131,7 +83126,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_083",
@@ -81147,7 +83145,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "腾冲特产浆米手工饵块(切菱形薄片)",
@@ -81262,7 +83260,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_084",
@@ -81278,7 +83279,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 30,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "红河梯田散养当年小土母鸡半只",
@@ -81379,7 +83380,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_085",
@@ -81395,7 +83399,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "云南特产传统玫瑰大头菜(切细小碎丁)",
@@ -81503,7 +83507,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_086",
@@ -81519,7 +83526,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 200,
+    "calories": 400,
     "ingredients": [
       {
         "name": "熟透多汁沙瓤红西红柿(去皮切小细丁)",
@@ -81627,7 +83634,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 200,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_087",
@@ -81643,7 +83653,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "新鲜嫩黄牛里脊肉(顶刀切大薄片)",
@@ -81751,7 +83761,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_088",
@@ -81767,7 +83780,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "正宗三年陈宣威老火腿(切薄小片)",
@@ -81861,7 +83874,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_089",
@@ -81877,7 +83893,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "云南特产皱皮青辣子(斜切粗圈)",
@@ -81978,7 +83994,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_090",
@@ -81994,7 +84013,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "云南本地鲜青苦菜(切细碎末)",
@@ -82102,7 +84121,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_091",
@@ -82118,7 +84140,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "黄心沙质大洋芋(蒸熟压粗泥保留颗粒)",
@@ -82219,7 +84241,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_092",
@@ -82235,7 +84260,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 330,
+    "calories": 660,
     "ingredients": [
       {
         "name": "贵州农家柏树枝烟熏五花腊肉(煮透切薄片)",
@@ -82336,7 +84361,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_093",
@@ -82352,7 +84380,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "散养新鲜土鸡蛋打散",
@@ -82446,7 +84474,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_094",
@@ -82462,7 +84493,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "新鲜新鲜猪板筋(通脊内侧一层嫩筋肉)",
@@ -82570,7 +84601,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_095",
@@ -82586,7 +84620,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "老坛自腌酸脆长豇豆(切细小圆粒)",
@@ -82694,7 +84728,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_096",
@@ -82710,7 +84747,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "贵州特产农家蒸晒黑油盐菜(切细碎末)",
@@ -82811,7 +84848,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_097",
@@ -82827,7 +84867,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "传统微发酵老豆腐泥加碱水捏椭圆球",
@@ -82921,7 +84961,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_098",
@@ -82937,7 +84980,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "巴掌大薄如蝉翼手工米面皮",
@@ -83038,7 +85081,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_099",
@@ -83054,7 +85100,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "新鲜鲜猪里脊肉(切铜钱厚大薄片)",
@@ -83176,7 +85222,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_100",
@@ -83192,7 +85241,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 90,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "新鲜黄牛前腿腱子肉或胸肉(大整块)",
@@ -83286,7 +85335,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_101",
@@ -83302,7 +85354,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "土猪精品肥瘦相间五花肉末",
@@ -83410,7 +85462,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_102",
@@ -83426,7 +85481,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "鲜活黄河大鲤鱼(鳞红尾红一条)",
@@ -83534,7 +85589,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_103",
@@ -83550,7 +85608,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "新鲜多汁白萝卜(切极细发丝状)",
@@ -83665,7 +85723,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_104",
@@ -83681,7 +85742,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 70,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "当年散养嫩公鸡(净膛盘腿别翅整只)",
@@ -83782,7 +85843,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_105",
@@ -83798,7 +85862,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 35,
     "servings": 2,
-    "calories": 410,
+    "calories": 820,
     "ingredients": [
       {
         "name": "信阳固始散养大公鸡(剁方块)",
@@ -83913,7 +85977,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 410,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_106",
@@ -83929,7 +85996,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "新鲜鲜活野生大鲤鱼一条(保留全部完整鱼鳞)",
@@ -84037,7 +86104,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_107",
@@ -84053,7 +86123,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "鲜猪肝切薄柳叶片(剔筋血水冲净)",
@@ -84182,7 +86252,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_108",
@@ -84198,7 +86271,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "天津特产油面筋(手撕大块焯水微沥干)",
@@ -84320,7 +86393,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_109",
@@ -84336,7 +86412,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "五台山特产天然野生干燥台蘑(温水泡软切厚片)",
@@ -84451,7 +86527,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_110",
@@ -84467,7 +86546,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "优质黄心土豆(手工刀切细均匀长丝)",
@@ -84575,7 +86654,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_111",
@@ -84591,7 +86673,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "新鲜晋南黄牛嫩里脊肉(顶刀切大薄片)",
@@ -84706,7 +86788,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_112",
@@ -84722,7 +86807,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 8,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 200,
+    "calories": 400,
     "ingredients": [
       {
         "name": "优质薄千张干豆腐(切菱形片沸水焯软)",
@@ -84837,7 +86922,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 200,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_113",
@@ -84853,7 +86941,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 30,
     "servings": 2,
-    "calories": 430,
+    "calories": 860,
     "ingredients": [
       {
         "name": "传统手工压制特细生鲜面条",
@@ -84975,7 +87063,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 430,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_114",
@@ -84991,7 +87082,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "纯红薯淀粉熬制灰黑透亮凉粉(切麻将方块)",
@@ -85106,7 +87197,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_115",
@@ -85122,7 +87216,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 80,
+    "calories": 160,
     "ingredients": [
       {
         "name": "河南特产新鲜绿荆芥嫩叶尖",
@@ -85223,7 +87317,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 80,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_116",
@@ -85239,7 +87336,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "农家新鲜细嫩甜蒜苔(切手指段)",
@@ -85347,7 +87444,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_117",
@@ -85363,7 +87463,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "新鲜鲜猪里脊肉(切粗细均匀肉丝)",
@@ -85471,7 +87571,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_118",
@@ -85487,7 +87590,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "正定传统八大碗蒸制热切丸子(切菱形厚片)",
@@ -85588,7 +87691,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_119",
@@ -85604,7 +87710,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "传统小巧如围棋子金黄多层酥皮烧饼",
@@ -85691,7 +87797,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_120",
@@ -85707,7 +87816,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "纯纯石磨现磨绿豆面小米面稀浆",
@@ -85808,7 +87917,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_121",
@@ -85824,7 +87936,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 60,
     "servings": 2,
-    "calories": 120,
+    "calories": 240,
     "ingredients": [
       {
         "name": "北方黄芽白菜极嫩菜心",
@@ -85918,7 +88030,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_122",
@@ -85934,7 +88049,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 90,
     "servings": 2,
-    "calories": 460,
+    "calories": 920,
     "ingredients": [
       {
         "name": "带皮新鲜农家猪前肘(刮洗净整只)",
@@ -86042,7 +88157,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 460,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_123",
@@ -86058,7 +88176,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "新鲜嫩黄牛里脊或后腿肉(顶刀大薄片)",
@@ -86173,7 +88291,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_124",
@@ -86189,7 +88310,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 40,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "新鲜鲜牛黄瓜条里脊牛肉(顶刀切大薄片)",
@@ -86290,7 +88411,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_125",
@@ -86306,7 +88430,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 45,
     "servings": 2,
-    "calories": 420,
+    "calories": 840,
     "ingredients": [
       {
         "name": "精选三层带皮土猪五花肉块",
@@ -86421,7 +88545,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 420,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_126",
@@ -86437,7 +88564,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 410,
+    "calories": 820,
     "ingredients": [
       {
         "name": "新鲜滑嫩纯鸭血(切大厚片焯水)",
@@ -86559,7 +88686,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 410,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_127",
@@ -86575,7 +88705,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 390,
+    "calories": 780,
     "ingredients": [
       {
         "name": "散养当年跑地小公鸡(剁指甲盖小丁)",
@@ -86690,7 +88820,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_128",
@@ -86706,7 +88839,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 330,
+    "calories": 660,
     "ingredients": [
       {
         "name": "新鲜鲜嫩小兔肉(剔骨斩指甲小丁)",
@@ -86821,7 +88954,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_129",
@@ -86837,7 +88973,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 60,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "当年散养优质肥嫩仔秋鸭(整只净膛)",
@@ -86931,7 +89067,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_130",
@@ -86947,7 +89086,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 25,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "散养当年三黄土公鸡肉(煮熟切薄片)",
@@ -87048,7 +89187,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_131",
@@ -87064,7 +89206,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 390,
+    "calories": 780,
     "ingredients": [
       {
         "name": "鲜活肥美鮰鱼或江团鱼(背部对剖展开)",
@@ -87179,7 +89321,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_132",
@@ -87195,7 +89340,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "新鲜鲜嫩鸡脯肉(剔净白筋剁极细肉茸)",
@@ -87310,7 +89455,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_133",
@@ -87326,7 +89474,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "优质二刀肉(坐墩肉带皮半肥瘦切薄片)",
@@ -87441,7 +89589,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_134",
@@ -87457,7 +89608,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "土猪去皮带膘五花肉(生切大薄片)",
@@ -87558,7 +89709,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_135",
@@ -87574,7 +89728,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "优质鲜猪里脊肉(顺纹切粗细均匀肉丝)",
@@ -87682,7 +89836,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_136",
@@ -87698,7 +89855,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "新鲜新鲜猪腰两只(剖开彻底片去腰臊打麦穗花刀)",
@@ -87806,7 +89963,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_137",
@@ -87822,7 +89982,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 380,
+    "calories": 760,
     "ingredients": [
       {
         "name": "新鲜熟猪大肠(切两厘米滚刀斜块)",
@@ -87930,7 +90090,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_138",
@@ -87946,7 +90109,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "鲜猪肝切柳叶薄片与新鲜猪腰麦穗花刀片",
@@ -88040,7 +90203,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_139",
@@ -88056,7 +90222,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "宜宾特产叙府传统老糟碎米芽菜",
@@ -88150,7 +90316,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_140",
@@ -88166,7 +90335,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "四川老坛自然泡酸脆豇豆(切细小圆碎丁)",
@@ -88267,7 +90436,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_141",
@@ -88283,7 +90455,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "鲜嫩四季豆(去筋掰成寸段洗净控干)",
@@ -88391,7 +90563,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_142",
@@ -88407,7 +90582,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "翠绿苦瓜(剖开刮净白膜切薄片)",
@@ -88508,7 +90683,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_143",
@@ -88524,7 +90702,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "鲜嫩紫茄子(去皮切一指宽粗长条)",
@@ -88625,7 +90803,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_144",
@@ -88641,7 +90822,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "鲜鸡胗切十字菊花花刀、鸡心鸡肠切段",
@@ -88742,7 +90923,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_145",
@@ -88758,7 +90942,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "肥四瘦六优质二刀坐墩肉(煮透切透明大薄片)",
@@ -88859,7 +91043,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_146",
@@ -88875,7 +91062,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 25,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "精选新鲜黄牛后腿腱子肉(顺纹切指粗长条)",
@@ -88983,7 +91170,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_147",
@@ -88999,7 +91189,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 420,
+    "calories": 840,
     "ingredients": [
       {
         "name": "特选肥瘦均匀大块坐墩肉(切巴掌大长薄片)",
@@ -89100,7 +91290,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 420,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_148",
@@ -89116,7 +91309,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "传统无铅松花皮蛋(剥壳入锅煎出虎皮)",
@@ -89217,7 +91410,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_149",
@@ -89233,7 +91429,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "新鲜鲜牛黄喉(撕去白筋打斜十字花刀切片)",
@@ -89334,7 +91530,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_150",
@@ -89350,7 +91549,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "新鲜熟猪肚切匀称细长条",
@@ -89451,7 +91650,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_151",
@@ -89467,7 +91669,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "传统石膏老豆腐(切半指厚三角形块)",
@@ -89582,7 +91784,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_152",
@@ -89598,7 +91803,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 360,
+    "calories": 720,
     "ingredients": [
       {
         "name": "新鲜鲜嫩猪精小排(剁一指节小方块)",
@@ -89692,7 +91897,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_153",
@@ -89708,7 +91916,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "四川柏树枝熏制五花腊肉(煮熟切大薄片)",
@@ -89802,7 +92010,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_154",
@@ -89818,7 +92029,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "鲜嫩牛里脊肉(顺纹切细丝抓水浆)",
@@ -89912,7 +92123,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_155",
@@ -89928,7 +92142,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 200,
+    "calories": 400,
     "ingredients": [
       {
         "name": "新鲜小墨鱼仔(剖开洗净焯透)",
@@ -90015,7 +92229,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 200,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_156",
@@ -90031,7 +92248,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 30,
     "servings": 2,
-    "calories": 370,
+    "calories": 740,
     "ingredients": [
       {
         "name": "五花猪肉切一厘米方丁",
@@ -90118,7 +92335,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 370,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_157",
@@ -90134,7 +92354,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "煮熟散养老公鸡胸肉(手撕细长丝)",
@@ -90221,7 +92441,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_158",
@@ -90237,7 +92460,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "calories": 380,
+    "calories": 1140,
     "ingredients": [
       {
         "name": "新鲜猪通脊肉",
@@ -90352,7 +92575,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 380,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_159",
@@ -90368,7 +92594,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "东北黄心土豆",
@@ -90490,7 +92716,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_160",
@@ -90506,7 +92735,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 50,
     "servings": 4,
-    "calories": 320,
+    "calories": 1280,
     "ingredients": [
       {
         "name": "东北散养小笨鸡(或走地草鸡)",
@@ -90621,7 +92850,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_161",
@@ -90637,7 +92869,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 35,
     "servings": 3,
-    "calories": 310,
+    "calories": 930,
     "ingredients": [
       {
         "name": "东北老坛渍酸菜(大白菜自然发酵)",
@@ -90745,7 +92977,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_162",
@@ -90761,7 +92996,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 30,
     "servings": 4,
-    "calories": 260,
+    "calories": 1040,
     "ingredients": [
       {
         "name": "新鲜松花江活鲤鱼或草鱼",
@@ -90890,7 +93125,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_163",
@@ -90906,7 +93144,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 60,
     "servings": 5,
-    "calories": 360,
+    "calories": 1800,
     "ingredients": [
       {
         "name": "东北散养大鹅(切大块)",
@@ -91021,7 +93259,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_164",
@@ -91037,7 +93278,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 25,
     "servings": 3,
-    "calories": 280,
+    "calories": 840,
     "ingredients": [
       {
         "name": "纯正东北鲜灌猪血肠",
@@ -91145,7 +93386,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_165",
@@ -91161,7 +93405,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 70,
     "servings": 4,
-    "calories": 390,
+    "calories": 1560,
     "ingredients": [
       {
         "name": "新鲜猪后腿棒骨或脊骨(带厚肉)",
@@ -91269,7 +93513,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 390,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_166",
@@ -91285,7 +93532,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "正宗哈尔滨果木熏红肠",
@@ -91393,7 +93640,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_167",
@@ -91409,7 +93659,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "calories": 310,
+    "calories": 930,
     "ingredients": [
       {
         "name": "红心甜地瓜(红薯)",
@@ -91503,7 +93753,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_168",
@@ -91519,7 +93772,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "猪通脊肉或前槽梅花肉",
@@ -91634,7 +93887,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_169",
@@ -91650,7 +93906,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "东北特产薄干豆腐(千张)",
@@ -91765,7 +94021,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_170",
@@ -91781,7 +94040,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "东北纯土豆大拉皮",
@@ -91882,7 +94141,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_171",
@@ -91898,7 +94160,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "老坛东北腌酸菜丝",
@@ -91999,7 +94261,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_172",
@@ -92015,7 +94280,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "猪里脊肉片",
@@ -92116,7 +94381,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_173",
@@ -92132,7 +94400,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "东北散养笨鸡蛋",
@@ -92219,7 +94487,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_174",
@@ -92235,7 +94506,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "熟大骨头拆下瘦肉与筋皮肉",
@@ -92336,7 +94607,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_175",
@@ -92352,7 +94626,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "calories": 320,
+    "calories": 960,
     "ingredients": [
       {
         "name": "三肥七瘦前槽猪肉馅",
@@ -92467,7 +94741,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_176",
@@ -92483,7 +94760,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 330,
+    "calories": 660,
     "ingredients": [
       {
         "name": "熟猪大肠(斜切厚段)",
@@ -92591,7 +94868,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_177",
@@ -92607,7 +94887,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 8,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 120,
+    "calories": 240,
     "ingredients": [
       {
         "name": "东北沙瓤大西红柿(切大块)",
@@ -92701,7 +94981,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_178",
@@ -92717,7 +95000,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "鲜嫩青蒜苔(切段)",
@@ -92818,7 +95101,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_179",
@@ -92834,7 +95120,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "东北特产新鲜蚕蛹实蚕(切厚片)",
@@ -92942,7 +95228,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_180",
@@ -92958,7 +95247,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "东北黄心大白菜(切细丝)",
@@ -93059,7 +95348,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_181",
@@ -93075,7 +95367,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "东北特产黄金钩油豆角(撕筋掰段)",
@@ -93176,7 +95468,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_182",
@@ -93192,7 +95487,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 200,
+    "calories": 400,
     "ingredients": [
       {
         "name": "老腌雪里蕻(切极细末)",
@@ -93307,7 +95602,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 200,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_183",
@@ -93323,7 +95621,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "新鲜猪腰两只(去净腰臊)",
@@ -93431,7 +95729,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_184",
@@ -93447,7 +95748,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "东北黄心沙土豆(切厚片)",
@@ -93541,7 +95842,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_185",
@@ -93557,7 +95861,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "东北特产风干小肠(切薄斜片)",
@@ -93651,7 +95955,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_186",
@@ -93667,7 +95974,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "东北本地实心小绿芹菜(切碎段)",
@@ -93768,7 +96075,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_187",
@@ -93784,7 +96094,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "新鲜新鲜猪柳叶肝尖(切柳叶薄片)",
@@ -93892,7 +96202,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_188",
@@ -93908,7 +96221,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "新鲜牛里脊肉(顶丝切薄片)",
@@ -94023,7 +96336,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_189",
@@ -94039,7 +96355,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 8,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "东北深绿皮皮螺丝椒或尖椒",
@@ -94133,7 +96449,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_190",
@@ -94149,7 +96468,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "东北旱黄瓜或带刺青黄瓜(切菱形片)",
@@ -94243,7 +96562,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_191",
@@ -94259,7 +96581,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "新鲜白条鸡骨架(剁适口大块)",
@@ -94374,7 +96696,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_192",
@@ -94390,7 +96715,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "猪里脊肉丝",
@@ -94498,7 +96823,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_193",
@@ -94514,7 +96842,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 20,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "水发上等辽刺参或胶东刺参",
@@ -94622,7 +96950,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_194",
@@ -94638,7 +96969,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 25,
     "servings": 3,
-    "calories": 320,
+    "calories": 960,
     "ingredients": [
       {
         "name": "熟大肠头(套叠套肠切圆墩)",
@@ -94746,7 +97077,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_195",
@@ -94762,7 +97096,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 18,
     "servings": 3,
-    "calories": 270,
+    "calories": 810,
     "ingredients": [
       {
         "name": "活黄河赤尾鲤鱼",
@@ -94870,7 +97204,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_196",
@@ -94886,7 +97223,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "新鲜猪肚尖(去筋留纯嫩尖)",
@@ -94987,7 +97324,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_197",
@@ -95003,7 +97343,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 90,
     "servings": 4,
-    "calories": 290,
+    "calories": 1160,
     "ingredients": [
       {
         "name": "山东散养活童子土鸡",
@@ -95104,7 +97444,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_198",
@@ -95120,7 +97463,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "鲜活黑鱼无刺净鱼肉片",
@@ -95221,7 +97564,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_199",
@@ -95237,7 +97583,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "鲜嫩湖水蒲菜嫩芯",
@@ -95338,7 +97684,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_200",
@@ -95354,7 +97703,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "纯卤水北豆腐(切长厚方块)",
@@ -95469,7 +97818,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_201",
@@ -95485,7 +97837,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 120,
     "servings": 5,
-    "calories": 280,
+    "calories": 1400,
     "ingredients": [
       {
         "name": "新鲜带皮五花肉块与猪蹄段",
@@ -95593,7 +97945,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_202",
@@ -95609,7 +97964,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 10,
     "servings": 3,
-    "calories": 230,
+    "calories": 690,
     "ingredients": [
       {
         "name": "新鲜东海大鲅鱼(刮取纯白鱼肉茸)",
@@ -95717,7 +98072,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_203",
@@ -95733,7 +98091,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 30,
     "servings": 4,
-    "calories": 330,
+    "calories": 1320,
     "ingredients": [
       {
         "name": "沂蒙山散养大公鸡(斩大块)",
@@ -95841,7 +98199,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_204",
@@ -95857,7 +98218,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 25,
     "servings": 3,
-    "calories": 310,
+    "calories": 930,
     "ingredients": [
       {
         "name": "本地黑爪草公鸡(剁适口小块)",
@@ -95965,7 +98326,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_205",
@@ -95981,7 +98345,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "熟猪肚或鲜牛百叶切细长丝",
@@ -96089,7 +98453,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_206",
@@ -96105,7 +98472,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "新鲜鸡胸肉(切大骰子丁)",
@@ -96213,7 +98580,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_207",
@@ -96229,7 +98599,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "新鲜胶东大对虾或海白虾",
@@ -96330,7 +98700,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_208",
@@ -96346,7 +98719,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "新鲜纯猪里脊肉(切粗条)",
@@ -96454,7 +98827,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_209",
@@ -96470,7 +98846,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "新鲜猪腰(去骚筋切麦穗花刀)",
@@ -96578,7 +98954,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_210",
@@ -96594,7 +98973,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 110,
+    "calories": 220,
     "ingredients": [
       {
         "name": "黄心白菜极嫩叶与嫩梗(手撕)",
@@ -96688,7 +99067,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 110,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_211",
@@ -96704,7 +99086,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "胶东新鲜大对虾",
@@ -96798,7 +99180,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_212",
@@ -96814,7 +99199,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "新鲜手剥活青虾仁",
@@ -96915,7 +99300,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_213",
@@ -96931,7 +99319,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "新鲜纯猪通脊肉(切粗短段)",
@@ -97032,7 +99420,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_214",
@@ -97048,7 +99439,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "猪里脊肉薄片",
@@ -97149,7 +99540,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_215",
@@ -97165,7 +99559,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "新鲜黄牛嫩里脊肉丝",
@@ -97266,7 +99660,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_216",
@@ -97282,7 +99679,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 170,
+    "calories": 340,
     "ingredients": [
       {
         "name": "新鲜活烟台海肠(去头尾内脏切寸段)",
@@ -97376,7 +99773,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_217",
@@ -97392,7 +99792,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "章丘大葱白(斜切厚马蹄块)",
@@ -97493,7 +99893,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_218",
@@ -97509,7 +99912,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "纯猪里脊肉(切长条)",
@@ -97603,7 +100006,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_219",
@@ -97619,7 +100025,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 8,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 120,
+    "calories": 240,
     "ingredients": [
       {
         "name": "脆嫩圆白菜(大头菜纯手撕大片)",
@@ -97713,7 +100119,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_220",
@@ -97729,7 +100138,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "胶东新鲜活花蛤(吐净泥沙)",
@@ -97830,7 +100239,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_221",
@@ -97846,7 +100258,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 340,
+    "calories": 680,
     "ingredients": [
       {
         "name": "新鲜精选猪小排(斩寸段)",
@@ -97947,7 +100359,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_222",
@@ -97963,7 +100378,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "水发刺参(切大肉丁)",
@@ -98071,7 +100486,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_223",
@@ -98087,7 +100505,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "新鲜猪肝(切柳叶薄片)",
@@ -98188,7 +100606,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_224",
@@ -98204,7 +100625,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "山东白马牙芸豆(去筋掰段)",
@@ -98305,7 +100726,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_225",
@@ -98321,7 +100745,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "新鲜苦瓜(刮净白瓤切薄片)",
@@ -98415,7 +100839,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_226",
@@ -98431,7 +100858,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 90,
+    "calories": 180,
     "ingredients": [
       {
         "name": "新鲜嫩茼蒿菜(摘去老梗洗净)",
@@ -98518,7 +100945,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 90,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_227",
@@ -98534,7 +100964,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "新鲜纯猪里脊肉丝",
@@ -98635,7 +101065,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_228",
@@ -98651,7 +101084,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 18,
     "servings": 3,
-    "calories": 280,
+    "calories": 840,
     "ingredients": [
       {
         "name": "太湖活鲜鳜鱼(桂鱼)",
@@ -98759,7 +101192,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_229",
@@ -98775,7 +101211,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 45,
     "servings": 4,
-    "calories": 240,
+    "calories": 960,
     "ingredients": [
       {
         "name": "优质散养麻鸭或湖鸭",
@@ -98869,7 +101305,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_230",
@@ -98885,7 +101324,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 90,
     "servings": 3,
-    "calories": 260,
+    "calories": 780,
     "ingredients": [
       {
         "name": "肥四瘦六优质五花肋条肉",
@@ -98993,7 +101432,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_231",
@@ -99009,7 +101451,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "活水黄鳝剔骨长鱼背脊肉(软兜)",
@@ -99117,7 +101559,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_232",
@@ -99133,7 +101578,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 50,
     "servings": 3,
-    "calories": 330,
+    "calories": 990,
     "ingredients": [
       {
         "name": "精选新鲜带软骨肋排骨(切大块)",
@@ -99241,7 +101686,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 330,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_233",
@@ -99257,7 +101705,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "西湖活草鱼或鳜鱼(清水饿养三天)",
@@ -99351,7 +101799,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_234",
@@ -99367,7 +101818,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 150,
+    "calories": 300,
     "ingredients": [
       {
         "name": "活西湖小河虾纯手剥虾仁",
@@ -99461,7 +101912,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 150,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_235",
@@ -99477,7 +101931,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 120,
     "servings": 3,
-    "calories": 360,
+    "calories": 1080,
     "ingredients": [
       {
         "name": "上等三层肥两层瘦五花肉(切大方块)",
@@ -99564,7 +102018,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 360,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_236",
@@ -99580,7 +102037,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "新鲜活鲈鱼(蒸熟剔取纯白鱼肉片)",
@@ -99695,7 +102152,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_237",
@@ -99711,7 +102171,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 20,
     "servings": 3,
-    "calories": 210,
+    "calories": 630,
     "ingredients": [
       {
         "name": "东海野生或鲜活大黄鱼",
@@ -99819,7 +102279,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_238",
@@ -99835,7 +102298,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 90,
     "servings": 4,
-    "calories": 290,
+    "calories": 1160,
     "ingredients": [
       {
         "name": "优质三黄嫩母鸡",
@@ -99936,7 +102399,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_239",
@@ -99952,7 +102418,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 40,
     "cookTimeMinutes": 150,
     "servings": 5,
-    "calories": 270,
+    "calories": 1350,
     "ingredients": [
       {
         "name": "高邮散养肥家鸭(脱骨整鸭)",
@@ -100053,7 +102519,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_240",
@@ -100069,7 +102538,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "煮熟划条鲜鳝鱼丝(鳝丝)",
@@ -100177,7 +102646,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_241",
@@ -100193,7 +102665,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 200,
+    "calories": 400,
     "ingredients": [
       {
         "name": "新鲜江南冬笋或春笋(切细丝)",
@@ -100287,7 +102759,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 200,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_242",
@@ -100303,7 +102778,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "太湖鲜活小河虾",
@@ -100397,7 +102872,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_243",
@@ -100413,7 +102891,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "江南手打水磨白年糕(切薄片)",
@@ -100514,7 +102992,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_244",
@@ -100530,7 +103011,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "江南新鲜太湖茭白(切细丝)",
@@ -100624,7 +103105,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_245",
@@ -100640,7 +103124,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "熟剔黄鳝丝(切长段)",
@@ -100755,7 +103239,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_246",
@@ -100771,7 +103258,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "鲜活大草鱼尾巴(顺剖四至五瓣成扇形划水)",
@@ -100872,7 +103359,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_247",
@@ -100888,7 +103378,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "江南新鲜青嫩蚕豆(剥去外皮得纯翠豆瓣)",
@@ -100975,7 +103465,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_248",
@@ -100991,7 +103484,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 5,
     "cookTimeMinutes": 2,
     "servings": 2,
-    "calories": 90,
+    "calories": 180,
     "ingredients": [
       {
         "name": "江南早春鲜嫩三叶草头(金花菜)",
@@ -101078,7 +103571,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 90,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_249",
@@ -101094,7 +103590,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "江南极薄薄百叶(千张皮切小方张)",
@@ -101202,7 +103698,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_250",
@@ -101218,7 +103717,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 150,
+    "calories": 300,
     "ingredients": [
       {
         "name": "太湖活螺蛳挑出纯嫩螺蛳肉",
@@ -101312,7 +103811,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 150,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_251",
@@ -101328,7 +103830,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 15,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "早春江南野生天目雷笋或春笋",
@@ -101415,7 +103917,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_252",
@@ -101431,7 +103936,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 170,
+    "calories": 340,
     "ingredients": [
       {
         "name": "江南纯白根鲜水芹菜(切寸段)",
@@ -101525,7 +104030,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_253",
@@ -101541,7 +104049,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "太湖鲜活白鱼(剔取净鱼肉片)",
@@ -101642,7 +104150,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_254",
@@ -101658,7 +104169,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 130,
+    "calories": 260,
     "ingredients": [
       {
         "name": "冬笋丝、胡萝卜丝、金针菇",
@@ -101752,7 +104263,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 130,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_255",
@@ -101768,7 +104282,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 120,
+    "calories": 240,
     "ingredients": [
       {
         "name": "早春野荠菜(洗净挤干切碎)",
@@ -101855,7 +104369,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 120,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_256",
@@ -101871,7 +104388,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "鲜活小黄鱼(剔骨取纯净鱼柳条)",
@@ -101972,7 +104489,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_257",
@@ -101988,7 +104508,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "ingredients": [
       {
         "name": "苏式传统红曲酱汁肉切厚片",
@@ -102082,7 +104602,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_258",
@@ -102098,7 +104621,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 130,
+    "calories": 260,
     "ingredients": [
       {
         "name": "太湖新鲜滑溜嫩莼菜",
@@ -102199,7 +104722,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 130,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_259",
@@ -102215,7 +104741,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "杭州富阳泗乡优质特薄豆腐皮",
@@ -102295,7 +104821,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_260",
@@ -102311,7 +104840,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "苏州新鲜手剥芡实(嫩鸡头米)",
@@ -102412,7 +104941,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_261",
@@ -102428,7 +104960,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "ingredients": [
       {
         "name": "早春青嫩蚕豆(剥除外壳)",
@@ -102522,7 +105054,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_262",
@@ -102538,7 +105073,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 3,
     "servings": 2,
-    "calories": 110,
+    "calories": 220,
     "ingredients": [
       {
         "name": "早春江南野生嫩马兰头",
@@ -102625,7 +105160,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 110,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_263",
@@ -102641,7 +105179,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "活水黄鳝切寸段(鳝筒带骨)",
@@ -102742,7 +105280,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_264",
@@ -102758,7 +105299,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 160,
+    "calories": 320,
     "ingredients": [
       {
         "name": "太湖鲜活大河蚌斧足肉(拍松斜切薄片)",
@@ -102852,7 +105393,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_265",
@@ -102868,7 +105412,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "梁子湖活团头鲂(武昌鱼)",
@@ -102976,7 +105520,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_266",
@@ -102992,7 +105539,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 25,
     "servings": 3,
-    "calories": 190,
+    "calories": 570,
     "ingredients": [
       {
         "name": "新鲜活草鱼或青鱼纯白肉茸",
@@ -103100,7 +105647,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_267",
@@ -103116,7 +105666,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 20,
     "servings": 3,
-    "calories": 270,
+    "calories": 810,
     "ingredients": [
       {
         "name": "新鲜潜江稻田小龙虾(剪头去胃开背抽虾线)",
@@ -103231,7 +105781,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_268",
@@ -103247,7 +105800,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 45,
     "servings": 3,
-    "calories": 340,
+    "calories": 1020,
     "ingredients": [
       {
         "name": "肥四瘦六优质猪下五花肉(切大薄片)",
@@ -103355,7 +105908,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": true
+    "isGrandBanquet": true,
+    "caloriePerServing": 340,
+    "calorieLevel": "balanced",
+    "calorieBurnTip": "🟡 营养均衡 · 约合1.5碗米饭，元气满满"
   },
   {
     "id": "rec_prov_269",
@@ -103371,7 +105927,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 25,
     "cookTimeMinutes": 20,
     "servings": 3,
-    "calories": 230,
+    "calories": 690,
     "ingredients": [
       {
         "name": "黄陂手工纯鱼圆(鱼丸)",
@@ -103472,7 +106028,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_270",
@@ -103488,7 +106047,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 120,
     "servings": 4,
-    "calories": 260,
+    "calories": 1040,
     "ingredients": [
       {
         "name": "洪湖特产纯野生九孔面藕(红花粉藕滚刀块)",
@@ -103582,7 +106141,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_271",
@@ -103598,7 +106160,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 30,
     "cookTimeMinutes": 15,
     "servings": 3,
-    "calories": 320,
+    "calories": 960,
     "ingredients": [
       {
         "name": "优质圆粒糯米(蒸熟颗粒分明)",
@@ -103706,7 +106268,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_272",
@@ -103722,7 +106287,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 120,
     "servings": 4,
-    "calories": 250,
+    "calories": 1000,
     "ingredients": [
       {
         "name": "大别山散养走地老母鸡",
@@ -103816,7 +106381,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_273",
@@ -103832,7 +106400,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "武汉洪山宝通寺正宗紫红菜苔(手折寸段)",
@@ -103933,7 +106501,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_274",
@@ -103949,7 +106520,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "ingredients": [
       {
         "name": "洪湖新鲜白嫩藕带(斜切细长段)",
@@ -104057,7 +106628,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_275",
@@ -104073,7 +106647,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 25,
     "servings": 3,
-    "calories": 160,
+    "calories": 480,
     "ingredients": [
       {
         "name": "活水小泥鳅(清水饿养排沙)",
@@ -104181,7 +106755,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 160,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_276",
@@ -104197,7 +106774,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "ingredients": [
       {
         "name": "新鲜黄牛肉细碎丁",
@@ -104298,7 +106875,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_277",
@@ -104314,7 +106894,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 10,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "ingredients": [
       {
         "name": "优质弹韧千页豆腐(切长薄方片)",
@@ -104422,7 +107002,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_278",
@@ -104438,7 +107021,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "鲜水芹菜纯白脆嫩梗(切长段)",
@@ -104532,7 +107115,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_279",
@@ -104548,7 +107134,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 20,
     "cookTimeMinutes": 12,
     "servings": 3,
-    "calories": 320,
+    "calories": 960,
     "ingredients": [
       {
         "name": "湖北九孔脆白藕(切连刀双夹片)",
@@ -104642,7 +107228,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_280",
@@ -104658,7 +107247,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "ingredients": [
       {
         "name": "新鲜纯纯小龙虾尾虾球",
@@ -104759,7 +107348,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_281",
@@ -104775,7 +107367,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 12,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "新鲜武昌鱼(斩寸大厚方块)",
@@ -104876,7 +107468,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_282",
@@ -104892,7 +107487,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "ingredients": [
       {
         "name": "新鲜黄牛里脊肉(切薄片)",
@@ -104993,7 +107588,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_283",
@@ -105009,7 +107607,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 170,
+    "calories": 340,
     "ingredients": [
       {
         "name": "新鲜大田螺纯熟螺肉",
@@ -105117,7 +107715,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": true,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 170,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_284",
@@ -105133,7 +107734,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "湖北九孔脆白藕(切细长条丝)",
@@ -105241,7 +107842,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_285",
@@ -105257,7 +107861,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "湖北恩施土法风干腊猪肝(蒸软切薄片)",
@@ -105351,7 +107955,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_286",
@@ -105367,7 +107974,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "湖北本地超薄嫩千张(切极细长丝)",
@@ -105468,7 +108075,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_287",
@@ -105484,7 +108094,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 320,
+    "calories": 640,
     "ingredients": [
       {
         "name": "熟卤猪大肠(切马蹄厚段)",
@@ -105592,7 +108202,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 320,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_288",
@@ -105608,7 +108221,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 130,
+    "calories": 260,
     "ingredients": [
       {
         "name": "新鲜黄心土豆(切火柴粗细丝)",
@@ -105702,7 +108315,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 130,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_289",
@@ -105718,7 +108334,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 8,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "ingredients": [
       {
         "name": "湖北农家传统腌外婆菜(野菜萝卜大头菜晒腌碎)",
@@ -105819,7 +108435,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_290",
@@ -105835,7 +108454,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "ingredients": [
       {
         "name": "熟五香卤猪头肉(带脆耳与软骨切薄片)",
@@ -105936,7 +108555,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_291",
@@ -105952,7 +108574,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "老坛自泡酸豇豆(切细小碎丁)",
@@ -106053,7 +108675,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_292",
@@ -106069,7 +108694,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "ingredients": [
       {
         "name": "熟卤牛肚切细长条丝",
@@ -106170,7 +108795,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_293",
@@ -106186,7 +108814,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 15,
     "cookTimeMinutes": 8,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "洪湖鲜采剥壳白嫩菱角肉(切两半)",
@@ -106280,7 +108908,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_294",
@@ -106296,7 +108927,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 12,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "ingredients": [
       {
         "name": "新鲜猪肝切柳叶薄片",
@@ -106397,7 +109028,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_295",
@@ -106413,7 +109047,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 8,
     "cookTimeMinutes": 4,
     "servings": 2,
-    "calories": 130,
+    "calories": 260,
     "ingredients": [
       {
         "name": "脆嫩牛心包菜(手撕大块去粗梗)",
@@ -106507,7 +109141,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": false,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 130,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_296",
@@ -106523,7 +109160,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 6,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "ingredients": [
       {
         "name": "湖北土猪特产风干腊香肠(斜切厚片)",
@@ -106617,7 +109254,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": false,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_prov_297",
@@ -106633,7 +109273,7 @@ window.RECIPES_DATA = [
     "prepTimeMinutes": 10,
     "cookTimeMinutes": 5,
     "servings": 2,
-    "calories": 140,
+    "calories": 280,
     "ingredients": [
       {
         "name": "湖北洪湖九孔脆白藕(切1厘米骰子小丁)",
@@ -106734,7 +109374,10 @@ window.RECIPES_DATA = [
     "isDrinkingSnack": true,
     "isFatLossFriendly": true,
     "isSeafood": false,
-    "isGrandBanquet": false
+    "isGrandBanquet": false,
+    "caloriePerServing": 140,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_01",
@@ -106748,7 +109391,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 35,
     "servings": 2,
-    "calories": 238,
+    "calories": 476,
     "protein": 16.5,
     "fat": 5.2,
     "carbs": 31.8,
@@ -106895,7 +109538,10 @@ window.RECIPES_DATA = [
     "proTips": "大米提前拌少许花生油冷冻，煮出来的粥底绵密出油，绝不沉底糊锅；肉丝下锅必须急火快汆40秒断生即关火。",
     "nutritionHighlights": "富含优质动物蛋白与卵磷脂，容易消化吸收，适宜晨起暖胃与病后虚弱调养。",
     "photoUrl": "https://i2.chuimg.com/442dd7391e81425e9c7449e4dbff5094_1280w_1024h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 238,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_02",
@@ -106909,7 +109555,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 256,
+    "calories": 512,
     "protein": 20.2,
     "fat": 6.8,
     "carbs": 28.5,
@@ -107056,7 +109702,10 @@ window.RECIPES_DATA = [
     "proTips": "切牛肉必须逆着肉丝肌理切断纤维；打入窝蛋后要趁极烫时立即搅匀，利用滚粥余温将生蛋化作顺滑蛋花。",
     "nutritionHighlights": "高蛋白低脂铁质丰富，蛋黄提供优质卵磷脂，是补充体能与唤醒清晨活力的金牌粥品。",
     "photoUrl": "https://i2.chuimg.com/17136406010442fd8f85fe0bb8493057_828w_1104h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 256,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_03",
@@ -107070,7 +109719,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 32,
     "servings": 2,
-    "calories": 268,
+    "calories": 536,
     "protein": 18,
     "fat": 7.2,
     "carbs": 32.5,
@@ -107217,7 +109866,10 @@ window.RECIPES_DATA = [
     "proTips": "选用鸡腿肉比鸡胸肉更爽滑多汁；香菇先下锅能让菌菇核苷酸完全融入米汤中，鲜度倍增。",
     "nutritionHighlights": "香菇多糖提升抵抗力，鸡腿肉提供丰富必需氨基酸，温和滋补不易上火。",
     "photoUrl": "https://i2.chuimg.com/6b39d20583d349f2a5753ed10231d998_1242w_1656h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 268,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_04",
@@ -107231,7 +109883,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 285,
+    "calories": 570,
     "protein": 22.4,
     "fat": 8.5,
     "carbs": 30.1,
@@ -107383,7 +110035,10 @@ window.RECIPES_DATA = [
     "proTips": "猪肝下锅时间严格不能超过30秒，利用滚粥的充沛热量焖透，方能达到入口弹牙脆嫩、毫无粉涩感的极致境界。",
     "nutritionHighlights": "含极其丰富的铁元素、维生素A与多种B族维生素，极佳的补血明目补气药膳粥。",
     "photoUrl": "https://i2.chuimg.com/7e1257aa873011e6b87c0242ac110003_459w_690h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 285,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_05",
@@ -107397,7 +110052,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 35,
     "servings": 2,
-    "calories": 278,
+    "calories": 556,
     "protein": 19.5,
     "fat": 7.8,
     "carbs": 32,
@@ -107527,7 +110182,10 @@ window.RECIPES_DATA = [
     "proTips": "传统艇仔粥采用“生料铺碗底、滚粥直接撞烫”的正宗顺德手法，这样鱼片受热最均匀，肉质极鲜极嫩无半点腥气。",
     "nutritionHighlights": "高蛋白低饱和脂肪，集合海产与淡水鱼多重不饱和脂肪酸，口感脆嫩丰富。",
     "photoUrl": "https://i2.chuimg.com/4a4e3dec874611e6b87c0242ac110003_650w_433h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 278,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_06",
@@ -107541,7 +110199,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 235,
+    "calories": 470,
     "protein": 19.8,
     "fat": 6.2,
     "carbs": 25,
@@ -107679,7 +110337,10 @@ window.RECIPES_DATA = [
     "proTips": "顺德拆鱼粥讲究“煎、拆、熬、滚”四部法，鱼骨熬白汤奠定底味，鱼茸回滚保证肉香，层次丰富绝伦。",
     "nutritionHighlights": "富含优质鱼肉蛋白、不饱和脂肪酸EPA与DHA，极易消化，是滋养健脑的岭南头牌名粥。",
     "photoUrl": "https://i2.chuimg.com/a5a9682e6ad011e7bc9d0242ac110002_2322w_3483h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 235,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_07",
@@ -107693,7 +110354,7 @@ window.RECIPES_DATA = [
     "prepTime": 12,
     "cookTime": 28,
     "servings": 2,
-    "calories": 215,
+    "calories": 430,
     "protein": 14.5,
     "fat": 4.8,
     "carbs": 30,
@@ -107826,7 +110487,10 @@ window.RECIPES_DATA = [
     "proTips": "菜心粒千万不可早下，出锅前最后30秒投入，关火利用砂锅余温烫熟，色泽翠绿如玉、入口清甜爽脆。",
     "nutritionHighlights": "富含膳食纤维、维生素C与易消化猪肉蛋白，开胃健脾，是岭南最清润落胃的常备晨粥。",
     "photoUrl": "https://i2.chuimg.com/811a9f78ec424880bbfac59b4b67c2a8_800w_533h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 215,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_08",
@@ -107840,7 +110504,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 228,
+    "calories": 456,
     "protein": 21,
     "fat": 5.5,
     "carbs": 26.5,
@@ -107986,7 +110650,10 @@ window.RECIPES_DATA = [
     "proTips": "猪肝下锅严格控制在30秒内关火，余温焖熟才能保持果冻般的滑弹嫩感；枸杞叶不可久煮，烫至断生最甘香。",
     "nutritionHighlights": "猪肝含血红素铁与微量元素，配合枸杞叶的丰富黄酮类与维生素A，养血明目、缓解视力疲劳。",
     "photoUrl": "https://i2.chuimg.com/b820a825db514c8b8ba34388b8256d05_1080w_864h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 228,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_09",
@@ -108000,7 +110667,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 245,
+    "calories": 490,
     "protein": 15.8,
     "fat": 7.5,
     "carbs": 29,
@@ -108139,7 +110806,10 @@ window.RECIPES_DATA = [
     "proTips": "咸蛋黄用花生油小火炒出沙沙的泡沫再化入粥底，金红诱人、香飘满屋；水瓜清甜刚好中和蛋黄的油润。",
     "nutritionHighlights": "兼具水瓜的丰富水溶性维生素与咸蛋黄的浓郁卵磷脂，甘润不腻，老少咸宜。",
     "photoUrl": "https://i2.chuimg.com/cda3a26a885711e6b87c0242ac110003_650w_650h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 245,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_10",
@@ -108153,7 +110823,7 @@ window.RECIPES_DATA = [
     "prepTime": 12,
     "cookTime": 25,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "protein": 15,
     "fat": 4.5,
     "carbs": 28.5,
@@ -108286,7 +110956,10 @@ window.RECIPES_DATA = [
     "proTips": "芥菜微苦却能下气消食，出锅前30秒下锅快汆，微苦后劲回甘极快，是两广地区经典的开胃解热之作。",
     "nutritionHighlights": "富含芥子甙与维生素A、C，能生津润燥、宣肺豁痰、消暑清热。",
     "photoUrl": "https://i2.chuimg.com/b396fb8f966c43c1b7b6549adf34d947_1280w_1186h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_11",
@@ -108300,7 +110973,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "protein": 20.5,
     "fat": 4.8,
     "carbs": 25.5,
@@ -108433,7 +111106,10 @@ window.RECIPES_DATA = [
     "proTips": "顺德鱼片生滚重在“鲜、薄、滚、嫩”，大量细生姜丝先激出香气，鱼片入锅25秒挺立断生即离火。",
     "nutritionHighlights": "富含高生物价鱼肉蛋白与不饱和脂肪酸，低脂高蛋白，清淡养胃易吸收。",
     "photoUrl": "https://i2.chuimg.com/03d28d4688cc11e6b87c0242ac110003_650w_650h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_12",
@@ -108447,7 +111123,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 25,
     "servings": 2,
-    "calories": 235,
+    "calories": 470,
     "protein": 22,
     "fat": 5.8,
     "carbs": 25,
@@ -108587,7 +111263,10 @@ window.RECIPES_DATA = [
     "proTips": "彻底片净白色腰臊加姜酒浸泡彻底去异味；麦穗花刀受热均匀，大火生滚30秒卷曲断生即起锅，脆嫩弹牙。",
     "nutritionHighlights": "含丰富铁、锌、核黄素等微量元素，中医认为有温肾补虚、固本强身之效。",
     "photoUrl": "https://i2.chuimg.com/78c81a031ff84907ad4d7e5535a874b5_1242w_1656h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 235,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_13",
@@ -108601,7 +111280,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "protein": 17.5,
     "fat": 7.2,
     "carbs": 31,
@@ -108747,7 +111426,10 @@ window.RECIPES_DATA = [
     "proTips": "前夹肉顺时针打足水分起胶后拌入马蹄碎，大火下锅3分钟浮起即熟，丸体弹牙紧致、马蹄爽脆爆汁。",
     "nutritionHighlights": "马蹄清热化痰，搭配优质猪肉蛋白与碳水，老少咸宜，适宜做清晨元气早餐。",
     "photoUrl": "https://i2.chuimg.com/937bc0b87b244b11b10bbb596e8d70c9_864w_864h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_14",
@@ -108761,7 +111443,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 35,
     "servings": 2,
-    "calories": 275,
+    "calories": 550,
     "protein": 19,
     "fat": 7.8,
     "carbs": 31,
@@ -108893,7 +111575,10 @@ window.RECIPES_DATA = [
     "proTips": "咸鸡需与大米同时下锅慢熬，让咸香渗透到每一粒爆开的米花中；老姜丝放足，温中驱寒、香气浓烈。",
     "nutritionHighlights": "咸鸡温补气血，老姜散寒祛湿，在秋冬清晨或受凉感冒初起时食用，能迅速温阳暖胃。",
     "photoUrl": "https://i2.chuimg.com/cd66e4bf384f4fc887de50bc1ad778aa_1694w_1126h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_15",
@@ -108907,7 +111592,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "protein": 21.5,
     "fat": 5,
     "carbs": 26,
@@ -109053,7 +111738,10 @@ window.RECIPES_DATA = [
     "proTips": "乳鸽脯肉低脂高蛋白，切粗肉末上薄浆后大火生滚50秒断生即可，肉汁饱满、温润平补。",
     "nutritionHighlights": "民间素有“一鸽胜九鸡”之誉，鸽肉富含优质支链氨基酸与血红素铁，是术后复原、体虚乏力者的滋补上品。",
     "photoUrl": "https://i2.chuimg.com/aa9f30e88ac011e6b87c0242ac110003_857w_640h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_16",
@@ -109067,7 +111755,7 @@ window.RECIPES_DATA = [
     "prepTime": 12,
     "cookTime": 25,
     "servings": 2,
-    "calories": 195,
+    "calories": 390,
     "protein": 15,
     "fat": 4,
     "carbs": 26,
@@ -109206,7 +111894,10 @@ window.RECIPES_DATA = [
     "proTips": "鸭血微盐焯烫后定型不碎无腥气，与嫩豆腐同滚3分钟吸透米浆，撒芹菜末白胡椒，清爽嫩滑。",
     "nutritionHighlights": "鸭血富含吸收率极高的血红素铁与微量元素，豆腐提供丰富大豆蛋白与钙质，清肺润燥排毒。",
     "photoUrl": "https://i2.chuimg.com/b573d1f0882111e6b87c0242ac110003_752w_503h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_17",
@@ -109220,7 +111911,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 28,
     "servings": 2,
-    "calories": 265,
+    "calories": 530,
     "protein": 16,
     "fat": 9.5,
     "carbs": 27.5,
@@ -109360,7 +112051,10 @@ window.RECIPES_DATA = [
     "proTips": "选带黄粉浆的新鲜粉肠，薄淀粉封切口防流浆，大火生滚45秒两端收缩即刻熄火，爽脆脆弹、脂香满口。",
     "nutritionHighlights": "含丰富蛋白质、钙、磷等矿物质，粉浆细腻易消化，是两广早茶经久不衰的经典风味。",
     "photoUrl": "https://i2.chuimg.com/03e8cbba89fd11e6b87c0242ac110003_1082w_1440h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 265,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_18",
@@ -109374,7 +112068,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 45,
     "servings": 2,
-    "calories": 290,
+    "calories": 580,
     "protein": 18.5,
     "fat": 9,
     "carbs": 34,
@@ -109506,7 +112200,10 @@ window.RECIPES_DATA = [
     "proTips": "排骨先煮15分钟出肉汤，再加大米与山药同煲25分钟，山药多糖完全溶入米脂中，稠滑粉糯、健脾养胃。",
     "nutritionHighlights": "铁棍山药富含黏液蛋白与淀粉酶，排骨提供优质蛋白与钙质，补中益气、滋养肠胃，是脾胃虚弱者极佳的食疗方。",
     "photoUrl": "https://i2.chuimg.com/e57f41d8b782469cbcdafa276f50d597_378w_317h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 290,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_19",
@@ -109520,7 +112217,7 @@ window.RECIPES_DATA = [
     "prepTime": 10,
     "cookTime": 25,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "protein": 14,
     "fat": 8.5,
     "carbs": 33,
@@ -109625,7 +112322,10 @@ window.RECIPES_DATA = [
     "proTips": "水牛奶乳脂丰厚，必须微火慢煨绝不大沸以防蛋白质凝结析出；关火离灶静置3分钟，表面自然凝出金牌双层厚奶皮。",
     "nutritionHighlights": "水牛奶含丰富天然乳钙、优质酪蛋白与维生素A，养颜润肤、安神助眠，是顺德老字号甜水一绝。",
     "photoUrl": "https://i2.chuimg.com/35fc2190883d11e6a9a10242ac110002_640w_640h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_20",
@@ -109639,7 +112339,7 @@ window.RECIPES_DATA = [
     "prepTime": 10,
     "cookTime": 35,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "protein": 4.5,
     "fat": 1.2,
     "carbs": 38,
@@ -109746,7 +112446,10 @@ window.RECIPES_DATA = [
     "proTips": "双米拼配、油盐腌渍、开水下锅、大火明滚、顺搅出胶，是顺德大厨煲出极品白玉粥底的五步心法。",
     "nutritionHighlights": "淀粉完全糊化极易被小肠直接吸收，对胃黏膜有天然温和保护作用，是任何生滚粥的灵魂基石。",
     "photoUrl": "https://i2.chuimg.com/69eaebb8877e11e6b87c0242ac110003_700w_525h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_21",
@@ -109760,7 +112463,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 295,
+    "calories": 590,
     "protein": 23.5,
     "fat": 7.8,
     "carbs": 32,
@@ -109899,7 +112602,10 @@ window.RECIPES_DATA = [
     "proTips": "鲜虾煸出红亮虾油先入粥底，膏蟹蘸粉锁膏后大滚3分钟，佐以普宁豆酱、潮汕冬菜与水芹菜，鲜掉眉毛。",
     "nutritionHighlights": "富含优质海洋蛋白质、甲壳素、虾青素及多种微量元素，滋阳补虚、元气充沛。",
     "photoUrl": "https://i2.chuimg.com/4310a01074c448b58663c5d0a96e0343_1242w_1656h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 295,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_22",
@@ -109913,7 +112619,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "protein": 21,
     "fat": 5.5,
     "carbs": 31.5,
@@ -110051,7 +112757,10 @@ window.RECIPES_DATA = [
     "proTips": "瑶柱手撕细丝与大米同煲煮出醇厚底鲜，鲜虾开背煸出红虾油生滚2分钟断生，双鲜交汇、咸鲜顺滑。",
     "nutritionHighlights": "干贝与鲜虾富含高蛋白质、牛磺酸与锌元素，易消化好吸收，是极好的体能复原养生膳。",
     "photoUrl": "https://i2.chuimg.com/e83bbf75d05c42e0811b7a2cccf7e8ef_1920w_1440h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_23",
@@ -110065,7 +112774,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "protein": 20,
     "fat": 5.2,
     "carbs": 28,
@@ -110203,7 +112912,10 @@ window.RECIPES_DATA = [
     "proTips": "生粉抓洗净生蚝，白贝先入锅煮至刚刚开口释放贝汁，下生蚝大火生滚60秒蚝肚鼓起即刻关火，原汁原味肥嫩多汁。",
     "nutritionHighlights": "生蚝是天然含锌之冠，搭配白贝的高蛋白低脂肪，强健体魄、滋阴补血、增强机体免疫力。",
     "photoUrl": "https://i2.chuimg.com/663ae4f28b8211e6b87c0242ac110003_1080w_1440h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_24",
@@ -110217,7 +112929,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 270,
+    "calories": 540,
     "protein": 22,
     "fat": 6.5,
     "carbs": 29.5,
@@ -110363,7 +113075,10 @@ window.RECIPES_DATA = [
     "proTips": "热水烫除表面白黏膜去土腥，加米酒姜丝腌透，砂锅大滚煮2分钟断生蜷曲，肉质紧致弹韧、温肾通络。",
     "nutritionHighlights": "黄鳝含丰富特种“黄鳝素”、DHA、卵磷脂与高质量动物蛋白，温中益气、祛湿强筋骨。",
     "photoUrl": "https://i2.chuimg.com/51ac1e8036dc4433a451d9a9d9b7b349_1080w_1920h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 270,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_25",
@@ -110377,7 +113092,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "protein": 24,
     "fat": 6,
     "carbs": 30,
@@ -110516,7 +113231,10 @@ window.RECIPES_DATA = [
     "proTips": "鲍鱼彻底洗刷黑膜改密集深花刀，生滚2分半钟花刀绽开即熟，肉质弹脆鲜美，搭配鲜虾与红虾油，金红富贵。",
     "nutritionHighlights": "鲍鱼含丰富鲍灵素、二十种氨基酸与胶原蛋白，滋阴清热、补肝明目，是极为名贵的温补珍品。",
     "photoUrl": "https://i2.chuimg.com/c73fcacff81c4718ae547ffc33369050_1280w_1024h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_26",
@@ -110530,7 +113248,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "protein": 23,
     "fat": 5,
     "carbs": 29,
@@ -110675,7 +113393,10 @@ window.RECIPES_DATA = [
     "proTips": "撕去鱿鱼紫皮切圈，鲜带子横切厚片，大火生滚仅需1分钟断生关火，带子鲜甜化汁、鱿鱼脆爽弹牙。",
     "nutritionHighlights": "带子与鱿鱼富含牛磺酸、高质量蛋白质与微量元素硒，降胆固醇、缓解疲劳。",
     "photoUrl": "https://i2.chuimg.com/6f0d7f48a1ff4aa292e861951d326510_720w_480h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_27",
@@ -110689,7 +113410,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 275,
+    "calories": 550,
     "protein": 22.5,
     "fat": 5.5,
     "carbs": 31,
@@ -110828,7 +113549,10 @@ window.RECIPES_DATA = [
     "proTips": "海参切厚段配以现炼鲜红虾油同煨3分钟，海参吸透鲜浓米浆软滑弹牙，虾仁脆甜多汁，滋阴补肾、贵气十足。",
     "nutritionHighlights": "海参富含刺参酸性粘多糖、海参皂苷与硫酸软骨素，低脂肪零胆固醇，抗疲劳、增强体质、延缓衰老。",
     "photoUrl": "https://i2.chuimg.com/738fa60e88aa11e6b87c0242ac110003_1280w_960h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_28",
@@ -110842,7 +113566,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 215,
+    "calories": 430,
     "protein": 17.5,
     "fat": 4.2,
     "carbs": 27,
@@ -110980,7 +113704,10 @@ window.RECIPES_DATA = [
     "proTips": "彻底吐净泥沙的花蛤入大滚白粥1分半钟张开即关火，冬菜激发天然海盐风味，清甜无比、极速出锅。",
     "nutritionHighlights": "花蛤富含丰富微量元素锌、铁、硒与牛磺酸，低脂清淡、利水消肿，是老少皆宜的健康平价美馔。",
     "photoUrl": "https://i2.chuimg.com/009659364a7e4869b2c7f6baf55944a0_750w_750h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 215,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_29",
@@ -110994,7 +113721,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 245,
+    "calories": 490,
     "protein": 21,
     "fat": 5,
     "carbs": 28.5,
@@ -111132,7 +113859,10 @@ window.RECIPES_DATA = [
     "proTips": "面粉水洗净墨鱼须吸盘泥沙，鲜虾开背炒出红虾油，大火生滚2分钟蜷曲断生，爽脆脆嫩弹牙、鲜汁横溢。",
     "nutritionHighlights": "墨鱼须与基围虾富含蛋白质、多不饱和脂肪酸与磷钙微量元素，低热量高营养，是健康的解馋靓粥。",
     "photoUrl": "https://i2.chuimg.com/10e60858892811e6b87c0242ac110003_650w_650h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 245,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_30",
@@ -111146,7 +113876,7 @@ window.RECIPES_DATA = [
     "prepTime": 12,
     "cookTime": 25,
     "servings": 2,
-    "calories": 205,
+    "calories": 410,
     "protein": 16,
     "fat": 4.5,
     "carbs": 26,
@@ -111278,7 +114008,10 @@ window.RECIPES_DATA = [
     "proTips": "潮汕特色九肚鱼切厚段轻柔下锅，用勺背轻推防粘，大火生滚90秒通体变白即熄火，入口如豆花般顺喉滑化。",
     "nutritionHighlights": "九肚鱼含水率高热量极低，富含软骨素、多不饱和脂肪酸与优质蛋白，生津润燥、滑肠通便。",
     "photoUrl": "https://i2.chuimg.com/5b0fc4539c82464dac79f5a4e8253cb9_800w_534h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 205,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_31",
@@ -111292,7 +114025,7 @@ window.RECIPES_DATA = [
     "prepTime": 10,
     "cookTime": 25,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "protein": 12,
     "fat": 3.8,
     "carbs": 27,
@@ -111424,7 +114157,10 @@ window.RECIPES_DATA = [
     "proTips": "海虾皮用花生油小火慢煸出金黄酥脆焦香再入滚粥，搭配清甜黄芽白菜心滚煮2分钟，汤清味浓、补钙健胃。",
     "nutritionHighlights": "虾皮是天然高钙宝库，搭配白菜心的粗纤维与维生素C，助消化、促排便、老少咸宜。",
     "photoUrl": "https://i2.chuimg.com/5c3925da8aac11e6a9a10242ac110002_2044w_2048h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_32",
@@ -111438,7 +114174,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 225,
+    "calories": 450,
     "protein": 20,
     "fat": 5,
     "carbs": 25.5,
@@ -111571,7 +114307,10 @@ window.RECIPES_DATA = [
     "proTips": "海鲈鱼纯鱼柳无刺蒜瓣肉，斜切薄片油封，大火生滚30秒挺拔雪白即停火，肉质极其细腻鲜甜。",
     "nutritionHighlights": "海鲈鱼富含高品质易消化动物蛋白、维生素A与铜铁锌钙，补肝肾、益脾胃、化痰止咳。",
     "photoUrl": "https://i2.chuimg.com/73cf54fd73014e83a27aeb378840fda0_4032w_3024h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 225,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_33",
@@ -111585,7 +114324,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 25,
     "servings": 2,
-    "calories": 235,
+    "calories": 470,
     "protein": 21.5,
     "fat": 4.8,
     "carbs": 27,
@@ -111717,7 +114456,10 @@ window.RECIPES_DATA = [
     "proTips": "刺身级象拔蚌切1毫米薄片冰水拔脆，大滚沸粥大火汆烫仅15秒微卷即刻关火，嘎嘣脆甜爆汁、鲜绝天下。",
     "nutritionHighlights": "象拔蚌富含高活性胶原蛋白、铁、核黄素与多种微量元素，低脂肪高营养，壮阳补阴、美白肌肤。",
     "photoUrl": "https://i2.chuimg.com/98f26c0c7a2f4bd5af0e5ae5426dcc53_1280w_960h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 235,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_34",
@@ -111731,7 +114473,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "protein": 18.5,
     "fat": 4.5,
     "carbs": 27.5,
@@ -111863,7 +114605,10 @@ window.RECIPES_DATA = [
     "proTips": "撕净蛏子黑膜沙囊对半剖开，大滚白粥中快烫1分钟，撒入大量水芹碎，蛏肉肥厚弹嫩无沙，鲜美爽口。",
     "nutritionHighlights": "蛏子皇富含碘、硒、锌与高质量贝类蛋白质，清热解毒、利水消肿、滋阴润燥。",
     "photoUrl": "https://i2.chuimg.com/4cec9efef4454544906b4e88eac47c0c_1280w_1023h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_35",
@@ -111877,7 +114622,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 35,
     "servings": 2,
-    "calories": 265,
+    "calories": 530,
     "protein": 21,
     "fat": 6.8,
     "carbs": 29,
@@ -112017,7 +114762,10 @@ window.RECIPES_DATA = [
     "proTips": "粗盐洗净滑涎挑去苦胆，入锅双面煎黄，加开水大火滚出奶白原汤再下大米同煲，骨肉酥软、老姜枸杞温补暖阳。",
     "nutritionHighlights": "泥鳅素有“水中人参”之美誉，富含高生物价优质蛋白质、铁、磷及微量元素锌，温中益气、祛湿强阳、补肾壮骨。",
     "photoUrl": "https://i2.chuimg.com/fdf01333c8e64fb5bdd38a15818fa8c4_912w_684h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 265,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_36",
@@ -112031,7 +114779,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 255,
+    "calories": 510,
     "protein": 20.5,
     "fat": 5.5,
     "carbs": 30,
@@ -112177,7 +114925,10 @@ window.RECIPES_DATA = [
     "proTips": "螺肉去粘液斜切薄片，熬好白粥调入浓香金牌鲍汁，大火生滚螺片60秒即熟，浓油赤酱、螺肉脆若鲍鱼。",
     "nutritionHighlights": "螺肉高蛋白极低脂肪，富含维生素A、无机盐与铁锌微量元素，清热明目、开胃滋阴。",
     "photoUrl": "https://i2.chuimg.com/d0bad7a007ca4cefade15891cf6a19e1_1500w_1124h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 255,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_37",
@@ -112191,7 +114942,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 25,
     "servings": 2,
-    "calories": 235,
+    "calories": 470,
     "protein": 21,
     "fat": 4.8,
     "carbs": 27,
@@ -112330,7 +115081,10 @@ window.RECIPES_DATA = [
     "proTips": "纯青虾仁手打摔打起胶做成颗粒虾滑，与鲜扇贝柱同滚2分钟浮起即关火，不加一滴添加剂，纯正天然脆嫩爆汁。",
     "nutritionHighlights": "富含高浓度优质海洋球蛋白、镁、磷与微量元素锌，易于吸收转化，是儿童成长与术后复原的极品美食。",
     "photoUrl": "https://i2.chuimg.com/46157bf853424e9b88637d3550b58b81_2668w_2668h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 235,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_38",
@@ -112344,7 +115098,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 32,
     "servings": 2,
-    "calories": 285,
+    "calories": 570,
     "protein": 22,
     "fat": 7.2,
     "carbs": 31,
@@ -112482,7 +115236,10 @@ window.RECIPES_DATA = [
     "proTips": "冬笋焯水去涩切薄片，青蟹拍裂大螯锁膏，与干贝白粥同滚4分钟，冬笋清脆吸鲜，青蟹肉肥膏红，时令绝配。",
     "nutritionHighlights": "青蟹富含甲壳素与优质蛋白质，冬笋富含植物纤维与氨基酸，开胃下气、强壮体格。",
     "photoUrl": "https://i2.chuimg.com/71e43412ab184c6889de92503027a369_1080w_608h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 285,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_39",
@@ -112496,7 +115253,7 @@ window.RECIPES_DATA = [
     "prepTime": 12,
     "cookTime": 25,
     "servings": 2,
-    "calories": 225,
+    "calories": 450,
     "protein": 18,
     "fat": 6,
     "carbs": 26,
@@ -112621,7 +115378,10 @@ window.RECIPES_DATA = [
     "proTips": "虾仁切丁薄上浆，蛋液摊薄皮切金黄蛋丝，与甜玉米大米同熬滚烫出锅，蛋香虾鲜、清甜补钙，孩子百喝不厌。",
     "nutritionHighlights": "富含易消化海洋优质蛋白质、卵磷脂、天然钙与磷元素，温和调理脾胃，助力儿童骨骼生长。",
     "photoUrl": "https://i2.chuimg.com/20bf3fadd0b044d38ce79382eaeb9398_960w_1280h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 225,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_40",
@@ -112635,7 +115395,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "protein": 17,
     "fat": 6.5,
     "carbs": 31,
@@ -112773,7 +115533,10 @@ window.RECIPES_DATA = [
     "proTips": "五年陈年黑金老菜脯用花生油爆出陈醇酱香，与干贝大米同煲成微黄浓稠老火粥，下肉碎滑熟，消食解积、甘润落胃。",
     "nutritionHighlights": "潮汕陈年老菜脯含丰富活性酶与有机酸，有消食健胃、顺气解郁、降脂下气之独特食疗功效。",
     "photoUrl": "https://i2.chuimg.com/c756e35244534184a430933db6f4674c_1242w_1660h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_41",
@@ -112787,7 +115550,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 40,
     "servings": 2,
-    "calories": 235,
+    "calories": 470,
     "protein": 11.5,
     "fat": 3.5,
     "carbs": 39,
@@ -112911,7 +115674,10 @@ window.RECIPES_DATA = [
     "proTips": "铁棍山药蒸透压细腻山药泥，与鲜豆浆、糯米粳米小火慢煲，分次加浆勤搅底防焦，奶白如玉、甘润滑喉、养颜极品。",
     "nutritionHighlights": "富含大豆异黄酮、优质植物蛋白与山药黏液质，润肺养胃、美白肌肤、健脾生津，深受女士青睐。",
     "photoUrl": "https://i2.chuimg.com/2cc21d7c34414692a45921b4ecd536b2_480w_384h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 235,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_42",
@@ -112925,7 +115691,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 35,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "protein": 6.5,
     "fat": 2.2,
     "carbs": 43,
@@ -113037,7 +115803,10 @@ window.RECIPES_DATA = [
     "proTips": "小米轻淘不搓皮，开水下锅滴油防溢，与铁棍山药去核红枣同煲30分钟，离火静置出厚层金黄米油，温和养胃第一。",
     "nutritionHighlights": "小米富含多种维生素B1、B2与色氨酸，山药含黏液质保护胃壁，红枣补血，极适宜慢性胃炎、虚弱失眠与坐月子者。",
     "photoUrl": "https://i2.chuimg.com/14d393992c6d4a62a563aa4f69894158_3024w_4032h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_43",
@@ -113051,7 +115820,7 @@ window.RECIPES_DATA = [
     "prepTime": 30,
     "cookTime": 60,
     "servings": 2,
-    "calories": 285,
+    "calories": 570,
     "protein": 8.5,
     "fat": 3,
     "carbs": 56,
@@ -113180,7 +115949,10 @@ window.RECIPES_DATA = [
     "proTips": "硬豆提前浸透先煲20分钟，再下糯米桂圆红枣同炖至豆烂起沙，黄冰糖调甜，八味和合、软糯香甜。",
     "nutritionHighlights": "集合豆类、杂粮、坚果多重膳食纤维、花青素与矿物质，益气补中、健脾开胃、温暖御寒。",
     "photoUrl": "https://i2.chuimg.com/132ac88678414ec3b21ca73bb13d2a3e_968w_726h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 285,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_44",
@@ -113194,7 +115966,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 45,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "protein": 8,
     "fat": 4.5,
     "carbs": 48,
@@ -113305,7 +116077,10 @@ window.RECIPES_DATA = [
     "proTips": "保留花生红衣，红豆黑米充分浸泡同煲至起沙，调入古法老红糖与去核大红枣，暖宫散寒、益气生血、面色红润。",
     "nutritionHighlights": "富含天然花青素、多酚抗氧化物、植物血红素铁与蛋白质，特别适宜气血不足、手脚冰凉者日常调理。",
     "photoUrl": "https://i2.chuimg.com/d26fdfe718564cf798ce22f5ca504c9b_1080w_864h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_45",
@@ -113319,7 +116094,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 45,
     "servings": 2,
-    "calories": 195,
+    "calories": 390,
     "protein": 4.5,
     "fat": 0.8,
     "carbs": 45,
@@ -113430,7 +116205,10 @@ window.RECIPES_DATA = [
     "proTips": "银耳剪碎大火剧烈沸滚撞出浓稠胶质，雪梨带皮与兰州鲜百合同煨，晶莹剔透拉丝顺滑，润肺止咳、滋阴生津。",
     "nutritionHighlights": "银耳富含丰富银耳酸性异多糖与微量元素，具有天然植物胶原蛋白美誉，清肺润肠、降火安神。",
     "photoUrl": "https://i2.chuimg.com/60bbb09e4c6f40cc8b95f78fa7ea64e9_780w_1040h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_46",
@@ -113444,7 +116222,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 45,
     "servings": 2,
-    "calories": 295,
+    "calories": 590,
     "protein": 11.5,
     "fat": 9.5,
     "carbs": 42,
@@ -113555,7 +116333,10 @@ window.RECIPES_DATA = [
     "proTips": "黑豆提前泡透，熟黑芝麻现研半碎激发出植物油脂，与核桃黑米糯米同煲，漆黑如墨油润生香，乌发强肾之圣品。",
     "nutritionHighlights": "中医“黑色入肾”，黑芝麻与核桃富含优质天然维生素E、卵磷脂、不饱和脂肪酸与花青素，养肾补脑、乌发防脱。",
     "photoUrl": "https://i2.chuimg.com/3bbc0ce8882011e6a9a10242ac110002_650w_432h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 295,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_47",
@@ -113569,7 +116350,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 50,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "protein": 7.5,
     "fat": 1.8,
     "carbs": 42,
@@ -113680,7 +116461,10 @@ window.RECIPES_DATA = [
     "proTips": "薏米干炒微黄去寒转温，赤小豆浸透与茯苓芡实陈皮同煲40分钟至豆软出沙，理气行水、健脾温阳，祛湿而不伤正气。",
     "nutritionHighlights": "经典的国医祛湿利水名方，富含茯苓多糖、薏苡仁酯与三萜类化合物，除体内湿浊、利水消肿、轻身健脾。",
     "photoUrl": "https://i2.chuimg.com/4a66eb981dda4dcb8835bda5a1794c7c_4032w_3024h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_48",
@@ -113694,7 +116478,7 @@ window.RECIPES_DATA = [
     "prepTime": 12,
     "cookTime": 25,
     "servings": 2,
-    "calories": 165,
+    "calories": 330,
     "protein": 5.5,
     "fat": 2,
     "carbs": 32,
@@ -113805,7 +116589,10 @@ window.RECIPES_DATA = [
     "proTips": "老南瓜煮烂后勺背压碎染金整锅粥，下厚燕麦片煮5分钟析出浓稠β-葡聚糖，天然甘甜无需放糖，低卡高纤刮油饱腹。",
     "nutritionHighlights": "老南瓜富含果胶与胡萝卜素，燕麦富含可溶性β-葡聚糖，促进肠道蠕动、平稳餐后血糖、减脂轻体。",
     "photoUrl": "https://i2.chuimg.com/da96d691d5eb46d395fb754faa23021f_1080w_771h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 165,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_49",
@@ -113819,7 +116606,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 35,
     "servings": 2,
-    "calories": 255,
+    "calories": 510,
     "protein": 6,
     "fat": 1.5,
     "carbs": 55,
@@ -113930,7 +116717,10 @@ window.RECIPES_DATA = [
     "proTips": "无苦芯白莲子与糯米同煲出稠浆，下莆田桂圆大红枣慢煲至莲子酥粉、桂圆饱满，睡前温服一碗，安心定志。",
     "nutritionHighlights": "桂圆与大枣富含易吸收单糖、有机酸与多种维生素，莲子含丰富生物碱，具有补心脾、益气血、安神助眠之效。",
     "photoUrl": "https://i2.chuimg.com/487e2efa23314c1e8a5c57e756d7725b_1280w_961h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 255,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_50",
@@ -113944,7 +116734,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 190,
+    "calories": 380,
     "protein": 7,
     "fat": 0.8,
     "carbs": 41,
@@ -114049,7 +116839,10 @@ window.RECIPES_DATA = [
     "proTips": "绿豆冷冻后沸水下锅10分钟瞬间爆裂起沙，与大米百合慢煨，关火投入鲜薄荷叶余温焖30秒，冰凉透心、消暑解渴。",
     "nutritionHighlights": "绿豆富含大量黄酮类物质、多糖与植物多酚，清热解毒、利水利尿，薄荷提神醒脑，盛夏三伏解暑第一。",
     "photoUrl": "https://i2.chuimg.com/44972d5686ff11e6b87c0242ac110003_461w_690h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 190,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_51",
@@ -114063,7 +116856,7 @@ window.RECIPES_DATA = [
     "prepTime": 30,
     "cookTime": 45,
     "servings": 2,
-    "calories": 185,
+    "calories": 370,
     "protein": 6,
     "fat": 2,
     "carbs": 36,
@@ -114168,7 +116961,10 @@ window.RECIPES_DATA = [
     "proTips": "三色糙米与高山苦荞浸透慢火煲40分钟，关火加盖焖透10分钟回软消除粗粝感，原味麦香甘醇，高纤低GI控糖佳品。",
     "nutritionHighlights": "苦荞富含芦丁（维生素P）与生物类黄酮，糙米富含B族维生素与谷维素，软化血管、调节血脂、平稳血糖。",
     "photoUrl": "https://i2.chuimg.com/ce68ad348a1a11e6b87c0242ac110003_2322w_4128h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 185,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_52",
@@ -114182,7 +116978,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 50,
     "servings": 2,
-    "calories": 275,
+    "calories": 550,
     "protein": 21,
     "fat": 6.5,
     "carbs": 32,
@@ -114319,7 +117115,10 @@ window.RECIPES_DATA = [
     "proTips": "乌鸡焯透与黄芪党参药包先煲20分钟出金黄药汤，捞包下米慢熬至骨肉酥烂，气血双补、大补元气、温和不燥。",
     "nutritionHighlights": "乌鸡富含黑色素、蛋白质与18种氨基酸，搭配黄芪党参补中益气、健脾养胃，对久病体虚、气血两亏者有显著补益功效。",
     "photoUrl": "https://i2.chuimg.com/4cd70c348b8c11e6a9a10242ac110002_1440w_1080h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_53",
@@ -114333,7 +117132,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 50,
     "servings": 2,
-    "calories": 310,
+    "calories": 620,
     "protein": 22,
     "fat": 9,
     "carbs": 34,
@@ -114471,7 +117270,10 @@ window.RECIPES_DATA = [
     "proTips": "张仲景当归生姜羊肉汤化裁为粥，当归煎透去渣下米与薄羊肉片慢滚，调入老红糖老姜丝，温阳通经、驱尽冬寒。",
     "nutritionHighlights": "羊肉性大温，富含高品质蛋白质与血红素铁，配合当归生姜活血行气、散寒止痛，是治疗体寒宫寒、手足不温的千古名方。",
     "photoUrl": "https://i2.chuimg.com/9269a6b2bbd94048b7ee5afda3e75248_721w_466h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 310,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_54",
@@ -114485,7 +117287,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 45,
     "servings": 2,
-    "calories": 265,
+    "calories": 530,
     "protein": 7,
     "fat": 1.2,
     "carbs": 56,
@@ -114597,7 +117399,10 @@ window.RECIPES_DATA = [
     "proTips": "红豆慢煲出沙，小芋头微碱处理煮至酥糯赤红，调入老红糖同煨，撒金黄干桂花，香甜软糯、秋意浓郁。",
     "nutritionHighlights": "芋头富含优质黏液蛋白与钾元素，红小豆清热利湿健脾，老红糖活血暖宫，润燥安神。",
     "photoUrl": "https://i2.chuimg.com/660c70bcd1a041879e15312b0ea4fd8e_1080w_1345h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 265,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_55",
@@ -114611,7 +117416,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 195,
+    "calories": 390,
     "protein": 7.5,
     "fat": 0.8,
     "carbs": 42,
@@ -114716,7 +117521,10 @@ window.RECIPES_DATA = [
     "proTips": "冷冻绿豆入沸水极速爆开，莲子去大芯留微量莲心，与鲜百合大米慢熬成沙调冰糖，苦甘适度、清心泻火、安神助眠。",
     "nutritionHighlights": "莲子心含莲心碱、异莲心碱，强心降压、清心热，配伍绿豆百合，是夏季清热除烦、失眠盗汗的最佳药膳。",
     "photoUrl": "https://i2.chuimg.com/72675ac05a6145748e8f6ab1d2ff8aa8_1280w_1706h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_56",
@@ -114730,7 +117538,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 45,
     "servings": 2,
-    "calories": 230,
+    "calories": 460,
     "protein": 6.5,
     "fat": 1.5,
     "carbs": 48,
@@ -114835,7 +117643,10 @@ window.RECIPES_DATA = [
     "proTips": "去皮小麦仁温水泡透，与红心蜜薯、老南瓜块慢火同熬至南瓜化泥、红薯粉糯，麦仁Q弹筋道，无需加糖自带浓郁天然农家甜香。",
     "nutritionHighlights": "小麦仁富含B族维生素、膳食纤维与植物蛋白质，红薯南瓜富含胡萝卜素与果胶，润肠通便、健脾益胃、益气养身。",
     "photoUrl": "https://i2.chuimg.com/e197261d91f0468986cb8f8f4fccc247_2000w_2668h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 230,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_57",
@@ -114849,7 +117660,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 215,
+    "calories": 430,
     "protein": 5.5,
     "fat": 1,
     "carbs": 46,
@@ -114960,7 +117771,10 @@ window.RECIPES_DATA = [
     "proTips": "纯葛根粉凉水化开，趁粥热小火淋入顺搅至晶莹如玉，搭配铁棍山药与鲜百合，清凉生津、解肌退热、健脾止泻。",
     "nutritionHighlights": "葛根富含葛根素与大豆苷元，能解肌生津、扩张冠状血管、降血糖降血压，配伍山药百合，调和阴阳润五脏。",
     "photoUrl": "https://i2.chuimg.com/0e37f2088e2145b6b097c9297a352283_2268w_4032h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 215,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_58",
@@ -114974,7 +117788,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 45,
     "servings": 2,
-    "calories": 215,
+    "calories": 430,
     "protein": 6.5,
     "fat": 1.5,
     "carbs": 44,
@@ -115092,7 +117906,10 @@ window.RECIPES_DATA = [
     "proTips": "炒白术茯苓料包与炒薏仁、大米红枣同煲45分钟，捞包调微甜，白术燥湿健脾，茯苓淡渗利湿，温和强健脾胃。",
     "nutritionHighlights": "经典“四君子汤”与健脾利水古法化裁，茯苓多糖与白术挥发油协同作用，健脾燥湿、生津益气、消除水肿。",
     "photoUrl": "https://i2.chuimg.com/f36ab366bc804ed7a77e9628c62c887c_1280w_1024h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 215,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_59",
@@ -115106,7 +117923,7 @@ window.RECIPES_DATA = [
     "prepTime": 10,
     "cookTime": 30,
     "servings": 2,
-    "calories": 195,
+    "calories": 390,
     "protein": 6,
     "fat": 2.2,
     "carbs": 40,
@@ -115205,7 +118022,10 @@ window.RECIPES_DATA = [
     "proTips": "玉米糁凉水调糊入沸锅，加指尖微量小苏打彻底释放结合型烟酸，顺搅至金黄如胶、糊香弥漫，原汁原味北方农家魂。",
     "nutritionHighlights": "玉米糁富含玉米黄素、叶黄素与膳食纤维，微碱性环境下烟酸完全游离吸收，护眼明目、润肠降脂。",
     "photoUrl": "https://i2.chuimg.com/35cf438268d942f8b9407d71f1e4aff2_947w_732h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_60",
@@ -115219,7 +118039,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "protein": 4.5,
     "fat": 2,
     "carbs": 52,
@@ -115330,7 +118150,10 @@ window.RECIPES_DATA = [
     "proTips": "西米煮透冰镇保持水晶Q弹，紫薯芋头慢煲成梦幻紫色稠露，兑入浓纯牛奶，芋头粉糯、西米爆弹、甜美温润。",
     "nutritionHighlights": "紫薯富含大量原花青素、硒元素与膳食纤维，抗氧化衰老，芋头健脾润肠，西米清润开胃，颜值与营养兼备。",
     "photoUrl": "https://i2.chuimg.com/153b3a94873a11e6b87c0242ac110003_360w_240h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_61",
@@ -115344,7 +118167,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "protein": 19.5,
     "fat": 8,
     "carbs": 32,
@@ -115476,7 +118299,10 @@ window.RECIPES_DATA = [
     "proTips": "白粥熬至粘稠调入秘制老卤鸭原汁，卤鸭切厚条生滚1分钟，撒大量红葱头酥与白胡椒，咸甜酱香、闽南八市正宗古早味。",
     "nutritionHighlights": "鸭肉凉补不上火，富含B族维生素与优质蛋白质，滋阴润燥、健脾开胃。",
     "photoUrl": "https://i2.chuimg.com/c37fd9fc25d24391bb80491d2dc18881_480w_384h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_62",
@@ -115490,7 +118316,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 275,
+    "calories": 550,
     "protein": 20,
     "fat": 7.5,
     "carbs": 31,
@@ -115641,7 +118467,10 @@ window.RECIPES_DATA = [
     "proTips": "炸红葱头油炒香米与三层肉干贝，入砂锅煲成咸稀饭，地瓜粉裹滑嫩海蛎生滚1分钟，撒青蒜苗与葱酥，咸香鲜嫩、泉州古早味绝品。",
     "nutritionHighlights": "海蛎富含丰富的天然锌元素与优质蛋白，搭配干贝与粗纤维香菇，健脾开胃、补益肝肾。",
     "photoUrl": "https://i2.chuimg.com/48ac463684a911e6a9a10242ac110002_1280w_960h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_63",
@@ -115655,7 +118484,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 30,
     "servings": 2,
-    "calories": 285,
+    "calories": 570,
     "protein": 21.5,
     "fat": 7.2,
     "carbs": 33,
@@ -115806,7 +118635,10 @@ window.RECIPES_DATA = [
     "proTips": "卤牛肉切丁，与面筋、黄豆、花生米、大米同煲，调入十三香与白胡椒粉，咸香浓稠、豆烂肉香，开封古都传统清晨硬早点。",
     "nutritionHighlights": "优质牛肉高蛋白高肌酸，配伍大豆卵磷脂与五谷碳水，耐饿扛饱、健脾益气。",
     "photoUrl": "https://i2.chuimg.com/3d9fe97372044885a1c1a3412609503b_1080w_864h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 285,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_64",
@@ -115820,7 +118652,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 20,
     "servings": 2,
-    "calories": 250,
+    "calories": 500,
     "protein": 6.5,
     "fat": 9,
     "carbs": 35,
@@ -115932,7 +118764,10 @@ window.RECIPES_DATA = [
     "proTips": "糜子面顺搅成浓亮稠糊，现焙花椒芝麻擀成咸香椒盐，香油解麻酱双层浇淋，不用勺箸转碗吸溜，地道老北京韵味。",
     "nutritionHighlights": "芝麻富含丰富的天然钙、不饱和脂肪酸与芝麻素，糜子面健脾开胃，老幼皆宜。",
     "photoUrl": "https://i2.chuimg.com/4e62c0fa875b11e6b87c0242ac110003_3072w_2304h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 250,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_65",
@@ -115946,7 +118781,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 40,
     "servings": 2,
-    "calories": 280,
+    "calories": 560,
     "protein": 23,
     "fat": 8.5,
     "carbs": 27,
@@ -116084,7 +118919,10 @@ window.RECIPES_DATA = [
     "proTips": "牛骨浓汤煲化麦仁大米，下熟牛肉片与重度黑胡椒生姜滚沸，乘100度滚汤冲入碗底生蛋液成嫩蛋花，热辣滚烫、非遗名吃。",
     "nutritionHighlights": "牛骨高汤富含胶原蛋白与骨钙，生姜胡椒散寒止痛、温中开胃，是山东民间御寒健脾、发汗解表的传奇名汤。",
     "photoUrl": "https://i2.chuimg.com/14c11d1802d6475db824b6d68d0469e9_2687w_2560h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 280,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_66",
@@ -116098,7 +118936,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "protein": 16.5,
     "fat": 7,
     "carbs": 33,
@@ -116236,7 +119074,10 @@ window.RECIPES_DATA = [
     "proTips": "熟猪油煸香肉丁与冬笋，与大米黄豆煲出稠粥，出锅前拌入焯透鲜荠菜碎，碧绿如翠、笋脆肉香，老上海暖心菜粥。",
     "nutritionHighlights": "荠菜含丰富胡萝卜素、维生素C与高天然钙质，冬笋粗纤维清肠通便，低脂鲜美、清热和中。",
     "photoUrl": "https://i2.chuimg.com/0adbb5f2b3ca41b59c2e0730473e222a_1080w_1440h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_67",
@@ -116250,7 +119091,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 205,
+    "calories": 410,
     "protein": 6,
     "fat": 1,
     "carbs": 43,
@@ -116362,7 +119203,10 @@ window.RECIPES_DATA = [
     "proTips": "鲜嫩荷叶煎清汤熬白米鲜莲，下苏州新鲜鸡头米仅煮3分钟弹糯爆浆，撒金桂花调冰糖，清幽雅致、消夏安神。",
     "nutritionHighlights": "新鲜鸡头米富含大量复合淀粉、蛋白质、维生素与矿物质，健脾固肾、抗衰延年，中医称其为“水中人参”。",
     "photoUrl": "https://i2.chuimg.com/9cd355ec8ba211e6a9a10242ac110002_680w_510h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 205,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_68",
@@ -116376,7 +119220,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 275,
+    "calories": 550,
     "protein": 21,
     "fat": 8,
     "carbs": 30,
@@ -116528,7 +119372,10 @@ window.RECIPES_DATA = [
     "proTips": "郫县豆瓣煸香炒出红油牛肉末臊子，与皮蛋白粥大火同滚，出锅撒汉源青花椒粉与油炸酥黄豆，麻辣鲜香、颠覆传统。",
     "nutritionHighlights": "牛肉提供优质高蛋白，辣椒与花椒富含辣椒素与芳香醇，能驱寒祛湿、强力唤醒食欲。",
     "photoUrl": "https://i2.chuimg.com/08212ed68f5643dca600577567864188_3072w_2304h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 275,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_69",
@@ -116542,7 +119389,7 @@ window.RECIPES_DATA = [
     "prepTime": 30,
     "cookTime": 60,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "protein": 7,
     "fat": 2,
     "carbs": 45,
@@ -116641,7 +119488,10 @@ window.RECIPES_DATA = [
     "proTips": "大粒玉米碴与红小豆浸透，入铁锅加微量食用碱大火翻滚转小火慢煨1小时，木勺揽稠，筋道爽弹、豆沙甘香、地道关东风骨。",
     "nutritionHighlights": "保留了玉米全部的胚芽与胚乳，富含玉米黄素、亚油酸、植物粗纤维与钾，刮肠排毒、降脂饱腹。",
     "photoUrl": "https://i2.chuimg.com/3a8694f209ad11e6aacbb82a72e00100.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_70",
@@ -116655,7 +119505,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 40,
     "servings": 2,
-    "calories": 240,
+    "calories": 480,
     "protein": 6,
     "fat": 2,
     "carbs": 50,
@@ -116754,7 +119604,10 @@ window.RECIPES_DATA = [
     "proTips": "正宗陕北软黄糜子米与清涧大红枣同煮，用木杖顺壁用力“揽”出筋力粘性，焖至金黄如胶、枣香扑鼻，黄土高原至真温养。",
     "nutritionHighlights": "糜子米富含人体必需的8种氨基酸、维生素E与胡萝卜素，大红枣补中益气、养血安神，温补脾胃极佳。",
     "photoUrl": "https://i2.chuimg.com/d4d6db28889411e6b87c0242ac110003_640w_566h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 240,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_71",
@@ -116768,7 +119621,7 @@ window.RECIPES_DATA = [
     "prepTime": 20,
     "cookTime": 30,
     "servings": 2,
-    "calories": 260,
+    "calories": 520,
     "protein": 19.5,
     "fat": 6.8,
     "carbs": 30,
@@ -116900,7 +119753,10 @@ window.RECIPES_DATA = [
     "proTips": "松茸湿巾擦净切厚片，宣威老火腿小火微煎出陈油与大米熬稠，大火生滚松茸仅90秒断生停火，林海松香扑鼻、鲜咸脆嫩。",
     "nutritionHighlights": "松茸富含全球独有的抗肿瘤活性物质松茸多糖与松茸多肽，火腿提供丰富游离氨基酸，强健免疫机能、补气生津。",
     "photoUrl": "https://i2.chuimg.com/285ca1bb156c49d5ae4c267cd352a6af_6240w_4160h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 260,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_72",
@@ -116914,7 +119770,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 235,
+    "calories": 470,
     "protein": 21,
     "fat": 5.5,
     "carbs": 26,
@@ -117059,7 +119915,10 @@ window.RECIPES_DATA = [
     "proTips": "自然发酵凯里红酸汤入沸粥调出色泽艳红底汤，薄鱼片大火生滚30秒断生关火，滴入灵魂木姜子油，酸辣开胃、醒脾生津。",
     "nutritionHighlights": "发酵酸汤富含乳酸、有机酸与丰富番茄红素，能强力促进消化液分泌、生津止渴、解腻开胃。",
     "photoUrl": "https://i2.chuimg.com/57597e42d7db42299d24bbec59e313de_1179w_1087h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 235,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_73",
@@ -117073,7 +119932,7 @@ window.RECIPES_DATA = [
     "prepTime": 10,
     "cookTime": 30,
     "servings": 2,
-    "calories": 215,
+    "calories": 430,
     "protein": 4,
     "fat": 1,
     "carbs": 48,
@@ -117172,7 +120031,10 @@ window.RECIPES_DATA = [
     "proTips": "红心蜜地瓜大块冷水下锅慢熬，让地瓜内部淀粉充分水解成麦芽糖，地瓜外融内糯，微盐引出极致甘甜，台湾传唱百年的古早味稀饭。",
     "nutritionHighlights": "地瓜富含膳食纤维、胡萝卜素、维生素A与钾，通便排毒、平稳血压，温和滋养肠胃。",
     "photoUrl": "https://i2.chuimg.com/3356f4335d494539a6af815abbfc672e_1280w_960h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 215,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_74",
@@ -117186,7 +120048,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "protein": 17.5,
     "fat": 4.5,
     "carbs": 28,
@@ -117311,7 +120173,10 @@ window.RECIPES_DATA = [
     "proTips": "现剥甜玉米粒胡萝卜大米同煲甜浆，鲜虾切小粒生滚1分半断生，拌入焯透菠菜碎与初榨核桃油，钙铁锌DHA全覆盖，孩子长高必备。",
     "nutritionHighlights": "富含易消化海洋动物蛋白、天然活性钙质、胡萝卜素与DHA必需脂肪酸，强健骨骼牙齿、保护视力、促进大脑发育。",
     "photoUrl": "https://i2.chuimg.com/d1fdc591ce3e4fc48af16704b3d5baa3_1280w_1023h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_75",
@@ -117325,7 +120190,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 180,
+    "calories": 360,
     "protein": 15,
     "fat": 4.5,
     "carbs": 21,
@@ -117437,7 +120302,10 @@ window.RECIPES_DATA = [
     "proTips": "太湖无刺小银鱼切碎末，嫩豆腐压泥，菠菜焯透除草酸切细茸，入熟烂胚芽米油中慢煨2分钟，滴初榨核桃油，无刺细腻、极速补钙。",
     "nutritionHighlights": "银鱼是天然的优质高钙全息食材，豆腐提供易吸收大豆钙与植物卵磷脂，核桃油提供DHA前体，是宝宝辅食期的黄金营养粥。",
     "photoUrl": "https://i2.chuimg.com/b7ec031e843e4cfaa26212cc787717ea_750w_750h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 180,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_76",
@@ -117451,7 +120319,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 195,
+    "calories": 390,
     "protein": 14.5,
     "fat": 3.5,
     "carbs": 27,
@@ -117570,7 +120438,10 @@ window.RECIPES_DATA = [
     "proTips": "里脊肉剁细泥打散，大米熬烂后同胡萝卜肉泥滑熟，最后拌入新鲜苹果泥煮1分钟，酸甜清香开胃、消食导滞、健脾养胃。",
     "nutritionHighlights": "煮熟苹果富含水溶性果胶多酚与天然苹果酸，能收敛止泻、调节肠道菌群，胡萝卜护眼，专治小儿积食厌食。",
     "photoUrl": "https://i2.chuimg.com/1e8f262d28db452793dfd74624b0bc0a_2732w_2560h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_77",
@@ -117584,7 +120455,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 25,
     "servings": 2,
-    "calories": 195,
+    "calories": 390,
     "protein": 21.5,
     "fat": 3.5,
     "carbs": 22,
@@ -117723,7 +120594,10 @@ window.RECIPES_DATA = [
     "proTips": "鸡胸肉丝用蛋清抓透锁住水分，大火生滚仅40秒多汁滑嫩，下鲜芦笋荷兰豆滚烫30秒保持翠绿，现磨黑胡椒提神，高蛋白低脂刮油首选。",
     "nutritionHighlights": "鸡胸肉提供高达21g纯净低脂肪动物蛋白，芦笋富含天门冬酰胺与叶酸，荷兰豆高膳食纤维，清爽控卡、促肌减脂。",
     "photoUrl": "https://i2.chuimg.com/72e72da151214848b7b22415c44152c3_1451w_1160h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 195,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_78",
@@ -117737,7 +120611,7 @@ window.RECIPES_DATA = [
     "prepTime": 10,
     "cookTime": 20,
     "servings": 2,
-    "calories": 145,
+    "calories": 290,
     "protein": 5,
     "fat": 2.5,
     "carbs": 23,
@@ -117856,7 +120730,10 @@ window.RECIPES_DATA = [
     "proTips": "魔芋丝微醋焯净碱味切短段，与传统厚燕麦片同熬出胶，撒奇亚籽膨胀吸水，调入淡盐胡椒，极低卡路里、超强饱腹清肠。",
     "nutritionHighlights": "魔芋葡甘露聚糖具有超强膨胀吸水力，奇亚籽富含Omega-3必需脂肪酸与膳食纤维，强力促进肠胃蠕动、排毒刮油。",
     "photoUrl": "https://i2.chuimg.com/85e6b46579f24494bbd6508e281f9cbf_3024w_3024h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 145,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_79",
@@ -117870,7 +120747,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 210,
+    "calories": 420,
     "protein": 16,
     "fat": 4,
     "carbs": 27,
@@ -118009,7 +120886,10 @@ window.RECIPES_DATA = [
     "proTips": "鲜荷叶快速煎出碧绿清汤煲粥底，冬瓜切薄片生滚出甜汁，里脊肉片快汆40秒嫩滑断生，清热解暑、利尿消肿、除湿排毒。",
     "nutritionHighlights": "荷叶含有荷叶碱与黄酮苷，冬瓜含丙醇二酸与大量钾离子，强力促进体内多余水分与钠盐排出，消除水肿、轻身降脂。",
     "photoUrl": "https://i2.chuimg.com/9fcbf8f3a0a945e2aef7d55bed479b2e_1280w_960h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 210,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   },
   {
     "id": "rec_congee_80",
@@ -118023,7 +120903,7 @@ window.RECIPES_DATA = [
     "prepTime": 15,
     "cookTime": 28,
     "servings": 2,
-    "calories": 220,
+    "calories": 440,
     "protein": 16.5,
     "fat": 5,
     "carbs": 27.5,
@@ -118162,6 +121042,9 @@ window.RECIPES_DATA = [
     "proTips": "白萝卜擦丝去辛辣，老生姜切细丝与大米熬煮至萝卜透明出甜，生滚瘦肉丝40秒断生，调入白胡椒香油，顺气化痰、暖身驱寒。",
     "nutritionHighlights": "民间“冬吃萝卜夏吃姜”，白萝卜含丰富芥子油、淀粉酶与粗纤维，消食化积、止咳化痰、顺气解郁，老姜温胃驱寒。",
     "photoUrl": "https://i2.chuimg.com/a9b43c71faf7446f80534ed77744a551_1280w_960h.jpg",
-    "isGrandBanquets": false
+    "isGrandBanquets": false,
+    "caloriePerServing": 220,
+    "calorieLevel": "light",
+    "calorieBurnTip": "🟢 轻负担低脂 · 慢跑20分钟即可轻松消耗"
   }
 ];

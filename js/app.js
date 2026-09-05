@@ -942,6 +942,11 @@ const App = {
     this.activeRecipeForDetail = recipe;
     const serv = targetServings || recipe.servings || 2;
     const multiplier = serv / (recipe.servings || 2);
+    const perServingCal = Math.round(recipe.caloriePerServing || 280);
+    const totalMealCal = Math.round(perServingCal * serv);
+    const totalTime = (recipe.prepTimeMinutes || 10) + (recipe.cookTimeMinutes || 15);
+    const calLevel = recipe.calorieLevel || 'balanced';
+    const calTip = recipe.calorieBurnTip || '🟡 营养均衡 · 约合1.5碗米饭，元气满满';
 
     const modal = document.getElementById("detailModal");
     const body = document.getElementById("detailModalBody");
@@ -966,6 +971,31 @@ const App = {
         </div>
         <h2 class="detail-title">${recipe.name}</h2>
         <p class="detail-desc">${recipe.subtitle}</p>
+      </div>
+
+      <!-- 菜品关键参数与热量卡片 -->
+      <div class="detail-meta-grid">
+        <div class="detail-meta-item">
+          <span class="meta-label">⏱️ 预估用时</span>
+          <span class="meta-val">${totalTime} 分钟</span>
+        </div>
+        <div class="detail-meta-item">
+          <span class="meta-label">🍳 烹饪难度</span>
+          <span class="meta-val">${recipe.difficulty || '新手友好'}</span>
+        </div>
+        <div class="detail-meta-item">
+          <span class="meta-label">🔥 单人热量</span>
+          <span class="meta-val highlight-cal">约 ${perServingCal} kcal</span>
+        </div>
+        <div class="detail-meta-item">
+          <span class="meta-label">🍲 本餐总热量</span>
+          <span class="meta-val">约 ${totalMealCal} kcal</span>
+        </div>
+      </div>
+
+      <!-- 热量暖心健康提示标 -->
+      <div class="detail-calorie-tip-bar calorie-level-${calLevel}">
+        <span>${calTip}</span>
       </div>
 
       <!-- 份量切换器 -->

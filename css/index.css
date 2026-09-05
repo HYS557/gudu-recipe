@@ -1120,6 +1120,77 @@ body {
   margin-bottom: 16px;
 }
 
+/* 菜谱详情关键参数与热量卡片网格 */
+.detail-meta-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 480px) {
+  .detail-meta-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.detail-meta-item {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+  padding: 8px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 3px;
+}
+
+.meta-label {
+  font-size: 11px;
+  color: var(--text-muted);
+}
+
+.meta-val {
+  font-size: 13.5px;
+  font-weight: 700;
+  color: var(--text-main);
+}
+
+.meta-val.highlight-cal {
+  color: #FA4D32;
+}
+
+/* 热量情绪健康提示条 */
+.detail-calorie-tip-bar {
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 12.5px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  line-height: 1.4;
+}
+
+.calorie-level-light {
+  background: #EDF9F0;
+  border: 1px solid #C3E8CC;
+  color: #2D6A4F;
+}
+
+.calorie-level-balanced {
+  background: #FFF8ED;
+  border: 1px solid #FFE6C2;
+  color: #B45309;
+}
+
+.calorie-level-rich {
+  background: #FFF3ED;
+  border: 1px solid #FFDAC7;
+  color: #C2410C;
+}
+
 .servings-controller {
   display: flex;
   align-items: center;
