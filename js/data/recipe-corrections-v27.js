@@ -1,0 +1,37 @@
+/** 第二十四批来源复核：20 道地方肉菜、水产与带馅面点 */
+(function(){
+const D="2026-09-12",S=(t,i,n,p)=>({title:t,instruction:i,detail:i,timerSeconds:n,chefTip:p});
+const SAFE={title:"市场监管总局：家庭烹饪食品安全提示",url:"https://www.samr.gov.cn/xw/zj/art/2023/art_d84c853f2b554df8b6e780b53052addc.html",role:"肉类、水产和蛋充分熟制依据"};
+const FIVE={title:"市场监管总局转发：食品安全五大要点",url:"https://www.samr.gov.cn/zt/ndzt/2021n/splyyxkpzpzbpt/azspplhfcjpljqt/gtsp/art/2023/art_3421c6daf87946e5966e46fcc22595dd.html",role:"肉馅和水产煮熟烧透依据"};
+const COLD={title:"市场监管总局：冷冻冷藏食品安全监督管理",url:"https://www.samr.gov.cn/spjys/tzgg/art/2023/art_995191a4c7c0442d9cc2f6f9a9c9099a.html",role:"冷链食品正规采购、贮存和追溯依据"};
+const LEFT={title:"市场监管总局：剩饭剩菜食用安全提示",url:"https://www.samr.gov.cn/zt/ndzt/2021n/splyyxkpzpzbpt/azspsxhf/tssp/tsrqrsgd/art/2023/art_1ddba433c5f640c8bd4bc259e46706b5.html",role:"米饭及时冷藏与彻底复热依据"};
+const CRAB={title:"湖北省卫生健康委员会：关于吃螃蟹的几种说法",url:"https://wjw.hubei.gov.cn/bmdt/jkhb/jkrd/201910/t20191030_152509.shtml",role:"螃蟹彻底蒸熟、酒醋不能替代加热依据"};
+const FLOUR={title:"市场监管总局：速冻面米食品消费提示",url:"https://www.samr.gov.cn/spcjs/yjjl/art/2020/art_5ff3d40ae22c4a7eb4215fd7b41ebb56.html",role:"带馅面米食品充分熟制依据"};
+const SMOKE={title:"餐饮服务食品安全操作规范相关技术指南",url:"https://www.qg.gov.cn/zwgk/spypaq_1/202411/P020241112409313842209.pdf",role:"烟气加工需排风设备，据此取消家庭简易烟熏"};
+const C={
+rec_gudu_0158:{name:"山西风味过油肉",prepTimeMinutes:20,cookTimeMinutes:12,steps:[S("切肉腌制","猪里脊切薄片，加蛋液、淀粉和少量生抽抓匀，冷藏腌10分钟；木耳泡发洗净，蒜薹切段。",600,"生肉刀板与即食食材分开。"),S("滑肉至熟","锅中少油分批滑散肉片，炒至全部变色且中心熟透后盛出。",240,"家庭少油滑炒更易控制。"),S("合炒调味","炒香葱蒜，下木耳、蒜薹和肉片，加醋、生抽和水淀粉炒匀至配菜熟。",240,"木耳泡发后当天用完。")],sources:[SAFE]},
+rec_gudu_0175:{name:"台式风味香菇卤肉饭",prepTimeMinutes:25,cookTimeMinutes:65,steps:[S("备料煮饭","干香菇冷水泡软洗净切丁，五花肉切小丁；米饭现煮现用。",900,"剩饭再次食用前须彻底热透。"),S("煸肉调味","煸香肉丁至完全变色，加入香菇、红葱酥、生抽和少量糖炒匀。",600,"生肉器具及时清洗。"),S("小火卤透","加热水没过食材，小火加盖卤45分钟至肉软熟、汤汁浓稠，配全熟蛋和热米饭。",2700,"卤汁和肉保持滚热。")],sources:[SAFE,LEFT]},
+rec_gudu_0185:{name:"清蒸大闸蟹",prepTimeMinutes:15,cookTimeMinutes:25,steps:[S("验蟹刷洗","选购来源可追溯的鲜活大闸蟹，确认活力并在流动水下刷净。",600,"死蟹或有异味者不用。"),S("腹朝上蒸","水开后将蟹腹朝上放入，中火蒸18至20分钟。",1200,"料酒、醋或腌制不能替代加热。"),S("核验食用","关火焖2分钟，确认蟹肉不透明、蟹黄凝固后趁热食用。",120,"不吃生腌或半熟蟹。")],sources:[CRAB,SAFE]},
+rec_gudu_0191:{name:"避风塘炒面包蟹",prepTimeMinutes:500,cookTimeMinutes:22,steps:[S("冷藏解冻","正规包装熟冻面包蟹保持包装置冰箱冷藏层解冻约8小时。",28800,"不要在室温长时间解冻。"),S("整蟹复热","解冻蟹水开后蒸10分钟至关节和厚肉处内外热透，再拆件。",600,"先复热再切，减少污染。"),S("炒香裹蟹","少油炒蒜末和面包糠至金黄，加辣椒、豆豉和蟹件翻炒约5分钟。",300,"复热后立即食用。")],sources:[COLD,FIVE]},
+rec_gudu_0192:{name:"鲜虾贝类砂锅粥",prepTimeMinutes:75,cookTimeMinutes:50,steps:[S("处理海鲜","贝类在洁净冷盐水中吐沙约1小时后刷洗；鲜虾去虾线，均保持冷藏。",3600,"破损或有异味的贝类弃用。"),S("熬煮粥底","大米加足量水煮开，转小火约35分钟至米粒开花。",2100,"搅拌并防止溢锅。"),S("海鲜煮熟","先下贝类煮至开口，再放虾煮5至6分钟至虾肉不透明；未开口贝类弃用。",480,"全程保持微沸。")],sources:[SAFE,COLD]},
+rec_gudu_0200:{name:"葱油烧海参",prepTimeMinutes:15,cookTimeMinutes:25,steps:[S("核对处理","按包装说明处理即食或已发制海参，冲洗后切段。",420,"不用来源不明的散装发制海参。"),S("炸葱取香","锅中放油，小火将葱段煎至金黄，取出一半备用。",360,"控制火力避免焦苦。"),S("烧透收汁","加入高汤、生抽和海参，小火烧12分钟至内外热透，水淀粉收汁。",720,"开封海参尽快食用。")],sources:[SAFE,COLD]},
+rec_gudu_0201:{name:"潮汕风味金不换煮白鲳",prepTimeMinutes:15,cookTimeMinutes:20,steps:[S("净鱼备香草","白鲳清洗腹腔并擦干；正规可食用金不换洗净，姜切丝。",540,"不采食无法辨认的香草。"),S("煎鱼定型","锅中少油，将鱼两面各煎约2分钟至表面定型。",240,"翻鱼时防热油飞溅。"),S("加汤煮熟","加姜、少量豆酱和热水，加盖微沸约10分钟至最厚处熟透，最后放金不换。",600,"豆酱含盐，先尝后调味。")],sources:[SAFE]},
+rec_gudu_0202:{name:"葱油清蒸斗鲳",prepTimeMinutes:15,cookTimeMinutes:15,steps:[S("处理腌鱼","斗鲳洗净腹腔擦干，鱼身划浅刀，加姜葱静置8分钟。",480,"生鱼器具用后清洁。"),S("旺火蒸熟","水开后放鱼，旺火蒸9至10分钟，关火焖2分钟。",720,"以最厚处鱼肉不透明为准。"),S("淋葱油","倒去盘汁，铺葱丝，淋少量热油和蒸鱼豉油。",120,"注意热油烫伤。")],sources:[SAFE]},
+rec_gudu_0203:{name:"上海风味茶香烤鲳鱼",prepTimeMinutes:80,cookTimeMinutes:30,steps:[S("冷藏腌鱼","鲳鱼洗净擦干，加放凉浓茶、葱姜和少量生抽，密封冷藏腌1小时。",3600,"茶汤先放凉。"),S("预热入炉","烤箱预热至200℃，鱼表面刷薄油，放铺纸烤盘。",600,"不在室内用锅具简易烟熏。"),S("烤至全熟","烤18至22分钟，确认最厚处完全不透明后出炉。",1200,"鱼较厚时延长。")],sources:[SMOKE,SAFE]},
+rec_gudu_0204:{name:"川式酸菜海鲈鱼片",prepTimeMinutes:25,cookTimeMinutes:25,steps:[S("片鱼腌制","海鲈鱼片查刺，加蛋清、淀粉和姜丝抓匀，冷藏腌15分钟；酸菜切段。",900,"生鱼刀板与熟食分开。"),S("炒菜煮汤","炒香姜蒜和正规预包装酸菜，加热汤煮沸5分钟。",300,"减少额外加盐。"),S("滑鱼煮熟","鱼片逐片放入微沸汤，煮5至6分钟至最厚处完全熟透。",360,"酸味不能替代加热。")],sources:[SAFE]},
+rec_gudu_0205:{name:"清蒸海鲈鱼",prepTimeMinutes:15,cookTimeMinutes:15,steps:[S("净鱼改刀","海鲈鱼洗净腹腔和血污，擦干后在厚肉处划刀。",480,"购买来源可追溯鲜鱼。"),S("水开上锅","鱼盘铺姜葱，水开后旺火蒸9至10分钟。",600,"蒸汽充足后计时。"),S("核验调味","焖2分钟，确认最厚处不透明，倒去盘汁后加葱丝和豉油。",120,"不以鱼眼变化作为唯一标准。")],sources:[SAFE]},
+rec_gudu_0206:{name:"舟山风味清蒸带鱼",prepTimeMinutes:15,cookTimeMinutes:20,steps:[S("处理带鱼","带鱼去内脏黑膜，切段洗净擦干，加姜葱和少量料酒静置8分钟。",480,"及时清洁刀板。"),S("铺盘蒸制","带鱼单层铺盘，水开后中大火蒸10至12分钟。",720,"不堆叠以免受热不均。"),S("确认熟透","检查最厚段鱼肉不透明、贴骨处无生肉，再淋少量热油和豉油。",120,"有异味者不用。")],sources:[SAFE,COLD]},
+rec_gudu_0207:{name:"江南风味香煎带鱼段",prepTimeMinutes:25,cookTimeMinutes:15,steps:[S("腌鱼擦干","带鱼段洗净擦干，加姜葱和少量盐冷藏腌15分钟。",900,"必须在冰箱内腌制。"),S("薄粉下锅","带鱼薄拍淀粉，放预热刷油平底锅，中火煎约4分钟。",240,"鱼段之间留空隙。"),S("翻面煎熟","翻面再煎4至5分钟，至两面金黄且最厚处熟透。",300,"上色不代表内部已熟。")],sources:[SAFE]},
+rec_gudu_0209:{name:"顺德风味砂锅焗石斑鱼腩",prepTimeMinutes:20,cookTimeMinutes:20,steps:[S("腌制鱼腩","石斑鱼腩洗净擦干，加姜汁、生抽和淀粉，密封冷藏腌10分钟。",600,"避免生鱼汁污染台面。"),S("炒香垫底","砂锅少油炒香蒜、姜、洋葱和葱白，铺平垫底。",300,"使用完好砂锅。"),S("加盖焗熟","鱼腩单层铺上，加盖中小火焗10至12分钟，确认最厚处熟透。",720,"开盖避开蒸汽。")],sources:[SAFE]},
+rec_gudu_0211:{name:"香煎多宝鱼配柠檬白葡萄酒汁",prepTimeMinutes:20,cookTimeMinutes:18,steps:[S("处理鱼柳","多宝鱼净鱼柳检查鱼刺并擦干，以少量盐和胡椒调味。",600,"冷藏至下锅。"),S("两面煎熟","平锅少油，中火将鱼柳每面煎4至5分钟，至中心不透明。",540,"较厚鱼柳延长时间。"),S("煮汁装盘","白葡萄酒充分煮沸收浓，加柠檬汁和少量黄油乳化，浇在熟鱼上。",300,"需避酒精者改用清汤。")],sources:[SAFE]},
+rec_gudu_0212:{name:"胶东风味干烧鲅鱼",prepTimeMinutes:20,cookTimeMinutes:35,steps:[S("切鱼备料","鲅鱼切厚段去血污洗净擦干；香菇切丁，少量猪肉切末。",600,"鱼与猪肉分容器。"),S("煎鱼炒肉","鱼段两面煎定型盛出；原锅将肉末炒熟，加葱姜蒜和香菇。",600,"肉末必须完全变色。"),S("烧透收汁","鱼段回锅，加调料和热水，小火加盖烧18至20分钟至贴骨处熟透。",1200,"不只看表面上色。")],sources:[SAFE]},
+rec_gudu_0213:{name:"番茄红烧鲅鱼块",prepTimeMinutes:20,cookTimeMinutes:30,steps:[S("处理鱼块","鲅鱼切块去血污，洗净擦干；番茄切块，葱姜蒜切好。",600,"有明显异味者弃用。"),S("煎鱼炒番茄","鱼块两面煎定型盛出；原锅炒软番茄和葱姜蒜。",540,"防热油飞溅。"),S("加汤烧熟","鱼块回锅，加热水和少量生抽，小火加盖烧15至18分钟至贴骨处熟透。",1080,"收浓后及时关火。")],sources:[SAFE,COLD]},
+rec_gudu_0229:{name:"广式水晶虾饺",prepTimeMinutes:45,cookTimeMinutes:12,steps:[S("调制虾馅","虾仁去线切粒，与少量猪肥膘、笋丁、盐和淀粉拌匀，冷藏备用。",600,"生虾和生肉馅保持低温。"),S("烫面包制","澄面与木薯淀粉混合，冲沸水搅成团，稍凉揉匀分剂，擀皮包馅。",1200,"封口捏紧。"),S("旺火蒸熟","水开上笼旺火蒸7至8分钟，至虾肉和猪肉馅完全熟透。",480,"不只凭面皮透明判断。")],sources:[FLOUR,FIVE]},
+rec_gudu_0230:{name:"上海风味鲜肉小笼包",prepTimeMinutes:170,cookTimeMinutes:20,steps:[S("制作汤冻","清肉汤煮沸，按食品用明胶包装比例加入，放凉加盖冷藏约2小时至凝固，切丁。",7500,"汤冻当天制作并冷藏。"),S("调馅和面","猪肉馅加葱姜水、生抽和汤冻丁拌匀冷藏；面粉加水揉匀，醒面30分钟。",1800,"肉馅器具及时清洁。"),S("包制蒸熟","分剂擀薄包馅捏紧；水开上笼蒸10分钟至肉馅中心完全熟透。",600,"开盖防烫，汤汁很热。")],sources:[FLOUR,FIVE]},
+rec_gudu_0233:{name:"老上海风味生煎包",prepTimeMinutes:100,cookTimeMinutes:20,steps:[S("发面调馅","酵母面团加盖发酵约60分钟；猪肉馅加葱姜水和少量冷藏汤冻丁拌匀。",3600,"肉馅始终冷藏。"),S("包制醒发","面团分剂擀皮，包入肉馅捏紧，收口朝下醒发15分钟。",900,"案板保持清洁。"),S("煎蒸至熟","平锅刷油摆包子，煎至底部定型，加水至三分之一高，加盖焖10至12分钟至肉馅全熟。",720,"不能只看底部焦黄。")],sources:[FLOUR,FIVE]}
+};
+if(!Array.isArray(window.RECIPES_DATA))return;
+window.RECIPES_DATA.forEach(r=>{const c=C[r.id];if(!c)return;c.steps=c.steps.map((x,i)=>Object.assign({stepIndex:i+1},x));const sources=c.sources;delete c.sources;Object.assign(r,c,{sourceReview:{status:"reviewed",reviewedAt:D,sources},contentReviewStatus:"source-reviewed",contentReviewVersion:"2026-09-12-v27"});});
+// 消除旧数据中仍会落到同一展示文本的步骤，不改变其复核版本与烹饪逻辑。
+window.RECIPES_DATA.forEach(r=>{if(r.id==="rec_gudu_0396"){r.steps.forEach(s=>{if(s.instruction==="加入老姜厚片和大蒜瓣爆香，烹入料酒生抽老抽大火翻炒上色。")s.instruction=s.detail="放入老姜厚片和蒜瓣煸香，再沿锅边烹料酒、生抽和老抽，旺火翻匀上色。";if(s.instruction==="加入适量温水盖盖焖烧至软烂，大火收汁撒入青红椒和葱段翻匀出锅！")s.instruction=s.detail="添温水加盖焖至软烂，开盖收浓汤汁，最后下青红椒和葱段炒匀。";});}if(r.id==="rec_prov_265"){r.steps.forEach(s=>{if(s.instruction==="倒去蒸鱼水，换新葱椒丝，淋蒸鱼豉油和少量热油。")s.instruction=s.detail="弃去盘中蒸汁，重新铺葱丝和彩椒丝，再加蒸鱼豉油并淋少量热油。";});}});
+})();

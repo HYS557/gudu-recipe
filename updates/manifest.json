@@ -1,0 +1,8 @@
+{
+  "appVersion": "3.6.0",
+  "versionCode": 360,
+  "dataVersion": "2026.09.13.1",
+  "dataUrl": "updates/recipe-update-2026.09.13.1.json",
+  "dataSha256": "88d723e78e4d9762335eba20dbe06592485a345995fc656044953e9238c4e45f",
+  "apkUrl": "https://github.com/HYS557/gudu-recipe/releases/download/v3.6.0/gudu-recipe.apk"
+}
