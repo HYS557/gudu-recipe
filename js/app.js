@@ -162,13 +162,16 @@ const App = {
         <div style="text-align:center; margin-bottom:16px;">
           <img src="./icons/icon-192.png" style="width:68px; height:68px; border-radius:18px; box-shadow:0 4px 14px rgba(255,107,53,0.25); display:inline-block; margin-bottom:8px;" alt="咕嘟食谱标志">
           <h3 style="font-size:18px; font-weight:800; color:var(--text-main);">咕嘟食谱 · 旬味寻真</h3>
-          <span style="display:inline-block; margin-top:4px; font-size:11px; background:rgba(255,107,53,0.12); color:#FF6B35; padding:2px 8px; border-radius:12px; font-weight:700;">v3.5.0 商业稳定版</span>
+          <span style="display:inline-block; margin-top:4px; font-size:11px; background:rgba(255,107,53,0.12); color:#FF6B35; padding:2px 8px; border-radius:12px; font-weight:700;">v3.6.0 自动更新版</span>
         </div>
         <p style="margin-bottom:12px;"><strong>产品使命：</strong>汇聚中华 34 省地道家常、慢熬靓汤、面食点心与异国料理，结合 24 节气顺时而食理念，以「保姆级避坑教程 + 智能微信买菜清单」让每个人都能轻松享受烹饪的烟火暖意。</p>
         <p style="margin-bottom:16px;"><strong>技术架构：</strong>轻量级高性能原生混合容器，支持离线高速缓存、60fps 跟手滚动与全屏防油污大字厨房工作台。</p>
         <div style="border-top:1px solid var(--border-color); padding-top:14px; display:flex; justify-content:space-between; align-items:center;">
           <span style="font-size:12px; color:var(--text-muted);">本地数据状态：正常</span>
-          <button class="btn btn-outline btn-sm" onclick="App.clearLocalCache()">清理本地缓存</button>
+          <div style="display:flex; gap:8px;">
+            <button class="btn btn-outline btn-sm" onclick="GuduUpdater.manualCheck()">检查更新</button>
+            <button class="btn btn-outline btn-sm" onclick="App.clearLocalCache()">清理本地缓存</button>
+          </div>
         </div>
       `;
     }

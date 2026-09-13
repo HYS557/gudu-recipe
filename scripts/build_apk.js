@@ -51,6 +51,7 @@ function copyDirRecursive(src, dest) {
 copyDirRecursive(path.join(ROOT_DIR, 'css'), path.join(assetsDir, 'css'));
 copyDirRecursive(path.join(ROOT_DIR, 'js'), path.join(assetsDir, 'js'));
 copyDirRecursive(path.join(ROOT_DIR, 'icons'), path.join(assetsDir, 'icons'));
+copyDirRecursive(path.join(ROOT_DIR, 'updates'), path.join(assetsDir, 'updates'));
 if (fs.existsSync(path.join(ROOT_DIR, 'images'))) {
   copyDirRecursive(path.join(ROOT_DIR, 'images'), path.join(assetsDir, 'images'));
 }
@@ -73,8 +74,8 @@ fs.writeFileSync(path.join(valuesDir, 'strings.xml'), `<?xml version="1.0" encod
 const manifestContent = `<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gudurecipe.app"
-    android:versionCode="8"
-    android:versionName="2.4.0">
+    android:versionCode="360"
+    android:versionName="3.6.0">
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35" />
 
@@ -107,6 +108,8 @@ fs.writeFileSync(path.join(BUILD_DIR, 'AndroidManifest.xml'), manifestContent);
 const mainActivityContent = `package com.gudurecipe.app;
 
 import android.app.Activity;
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
@@ -150,8 +153,11 @@ public class MainActivity extends Activity {
         webView.setWebViewClient(new WebViewClient() {
             @Override
             public boolean shouldOverrideUrlLoading(WebView view, String url) {
-                view.loadUrl(url);
-                return true;
+                if (url != null && (url.startsWith("http://") || url.startsWith("https://"))) {
+                    startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse(url)));
+                    return true;
+                }
+                return false;
             }
         });
 
