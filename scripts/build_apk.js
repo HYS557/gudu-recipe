@@ -74,8 +74,8 @@ fs.writeFileSync(path.join(valuesDir, 'strings.xml'), `<?xml version="1.0" encod
 const manifestContent = `<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gudurecipe.app"
-    android:versionCode="360"
-    android:versionName="3.6.0">
+    android:versionCode="370"
+    android:versionName="3.7.0">
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35" />
 
@@ -268,6 +268,9 @@ console.log(`\n🎉 构建成功！最终 APK 位于: ${alignedApk}`);
 const desktopApk = 'C:\\Users\\Admin1\\Desktop\\咕嘟食谱_终极大厨版.apk';
 fs.copyFileSync(alignedApk, desktopApk);
 console.log(`📁 已同步生成 APK 到桌面: ${desktopApk}`);
+
+console.log('🔐 APK 已构建但尚未安装；请先核验签名和版本信息。');
+process.exit(0);
 
 const adbPath = 'C:\\Users\\Admin1\\AppData\\Local\\Android\\Sdk\\platform-tools\\adb.exe';
 try {

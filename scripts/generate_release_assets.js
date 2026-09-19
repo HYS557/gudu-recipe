@@ -15,7 +15,7 @@ if (!fs.existsSync(huashuDir)) {
 // 24小时全球永久公网免开电脑地址
 const publicWebUrl = 'https://hys557.github.io/gudu-recipe/';
 const publicDownloadUrl = 'https://hys557.github.io/gudu-recipe/download.html';
-const publicApkUrl = 'https://github.com/HYS557/gudu-recipe/releases/download/v3.6.0/gudu-recipe.apk';
+const publicApkUrl = 'https://github.com/HYS557/gudu-recipe/releases/download/v3.7.0/gudu-recipe.apk';
 
 // =============================================================================
 // 1. 生成桌面【话术文件夹】内的苹果安装文案及全套微信分享话术
