@@ -11,14 +11,14 @@ function loadCanonical(file) {
   return JSON.parse(JSON.stringify(sandbox.window.RECIPES_DATA));
 }
 
-function validateReleasePackage(pkg, manifest, actualHash) {
+function validateReleasePackage(pkg, manifest, actualHash, expectedCount = 1482) {
   const errors = [];
   if (!pkg || pkg.dataVersion !== manifest.dataVersion) errors.push('package and manifest data versions differ');
-  if (!pkg || !Array.isArray(pkg.upserts) || pkg.upserts.length !== 961) errors.push('package must contain 961 upserts');
+  if (!pkg || !Array.isArray(pkg.upserts) || pkg.upserts.length !== expectedCount) errors.push(`package must contain ${expectedCount} upserts`);
   if (pkg && ((pkg.patches && pkg.patches.length) || (pkg.removeIds && pkg.removeIds.length))) errors.push('migration package may not patch or remove IDs');
   if (manifest.dataSha256 !== actualHash) errors.push('manifest SHA-256 does not match package bytes');
   if (pkg && Array.isArray(pkg.upserts)) {
-    try { assertValidRecipeCollection(pkg.upserts, 961); } catch (error) { errors.push(error.message); }
+    try { assertValidRecipeCollection(pkg.upserts, expectedCount); } catch (error) { errors.push(error.message); }
   }
   return { errors };
 }
@@ -26,8 +26,8 @@ function validateReleasePackage(pkg, manifest, actualHash) {
 function main() {
   const root = path.resolve(__dirname, '..');
   const recipes = loadCanonical(path.join(root, 'js', 'data', 'recipes-canonical.js'));
-  assertValidRecipeCollection(recipes, 961);
-  console.log(`Validated ${recipes.length}/961 recipes`);
+  assertValidRecipeCollection(recipes, 1482);
+  console.log(`Validated ${recipes.length}/1482 recipes`);
   console.log('Nutrition failures: 0');
   console.log('Time failures: 0');
   console.log('Scaling failures: 0');
@@ -42,7 +42,7 @@ function main() {
     const result = validateReleasePackage(JSON.parse(bytes), JSON.parse(fs.readFileSync(manifestFile, 'utf8')),
       crypto.createHash('sha256').update(bytes).digest('hex'));
     if (result.errors.length) throw new Error(result.errors.join('; '));
-    console.log('Release package: 961 valid upserts; versions and SHA-256 match');
+    console.log(`Release package: ${recipes.length} valid upserts; versions and SHA-256 match`);
   }
 }
 

@@ -1,0 +1,35 @@
+{
+  "dataVersion": "2026.09.20.2",
+  "totalAdded": 521,
+  "totalAfterMerge": 1482,
+  "categories": {
+    "sauce": {
+      "label": "酱料与蘸料",
+      "count": 152
+    },
+    "pickle": {
+      "label": "腌菜与泡菜",
+      "count": 97
+    },
+    "stock": {
+      "label": "高汤与汤底",
+      "count": 65
+    },
+    "marinade": {
+      "label": "腌料",
+      "count": 76
+    },
+    "filling": {
+      "label": "馅料",
+      "count": 78
+    },
+    "brine": {
+      "label": "卤水与底料",
+      "count": 53
+    }
+  },
+  "duplicateIds": 0,
+  "duplicateNames": 0,
+  "excludedCategoriesPresent": false,
+  "incompleteRecipes": []
+}

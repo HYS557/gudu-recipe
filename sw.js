@@ -1,7 +1,7 @@
 /**
  * 咕嘟食谱 - Service Worker
  */
-const CACHE_NAME = 'gudu-recipe-v3.7.0';
+const CACHE_NAME = 'gudu-recipe-v3.8.0';
 const ASSETS_TO_CACHE = [
   './',
   './index.html',
@@ -15,7 +15,7 @@ const ASSETS_TO_CACHE = [
   './js/app.js',
   './manifest.json',
   './updates/manifest.json',
-  './updates/recipe-update-2026.09.20.1.json',
+  './updates/recipe-update-2026.09.20.2.json',
   './icons/icon.svg',
   './icons/icon-192.png'
 ];

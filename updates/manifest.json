@@ -1,8 +1,8 @@
 {
-  "appVersion": "3.7.0",
-  "versionCode": 370,
-  "dataVersion": "2026.09.20.1",
-  "dataUrl": "updates/recipe-update-2026.09.20.1.json",
-  "dataSha256": "93aa42caf16bc1db0784c6fcc4b6e20e320aa61f8540b7963368d162fc4ddbfe",
-  "apkUrl": "https://github.com/HYS557/gudu-recipe/releases/download/v3.7.0/gudu-recipe.apk"
+  "appVersion": "3.8.0",
+  "versionCode": 380,
+  "dataVersion": "2026.09.20.2",
+  "dataUrl": "updates/recipe-update-2026.09.20.2.json",
+  "dataSha256": "db9e4cbf91e982f94d7d11cb2cbf06c6997ef03e4b8b3c726c21229c1ec5f8d6",
+  "apkUrl": "https://github.com/HYS557/gudu-recipe/releases/download/v3.8.0/gudu-recipe.apk"
 }

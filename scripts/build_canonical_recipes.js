@@ -11,6 +11,7 @@ const refs = require('./data/nutrition-reference.json');
 const aliases = require('./data/ingredient-aliases.json');
 const overrides = require('./data/recipe-enrichment-overrides.json');
 const guidanceRules = require('./data/guidance-rules.json');
+const { buildFoundationRecipes } = require('./lib/foundation-recipes');
 
 function sha256(value) { return crypto.createHash('sha256').update(value, 'utf8').digest('hex'); }
 
@@ -23,7 +24,9 @@ function automaticNutritionOverride(recipe, explicit = {}) {
 }
 
 function buildCanonicalRecipes(rootDir, outputFile = path.join(rootDir, 'js', 'data', 'recipes-canonical.js'), auditFile = path.join(rootDir, 'output', 'recipe-enrichment-audit.json')) {
-  const { recipes: sourceRecipes, loadedFiles } = loadResolvedRecipes(rootDir);
+  const resolved = loadResolvedRecipes(rootDir);
+  const sourceRecipes = [...resolved.recipes, ...buildFoundationRecipes()];
+  const loadedFiles = [...resolved.loadedFiles, 'scripts/lib/foundation-recipes.js'];
   const recipes = sourceRecipes.map(recipe => {
     const override = overrides[recipe.id] || {};
     const nutrition = calculateNutrition(recipe, refs, aliases, automaticNutritionOverride(recipe, override.nutrition || {}));
@@ -33,22 +36,22 @@ function buildCanonicalRecipes(rootDir, outputFile = path.join(rootDir, 'js', 'd
       calories: nutrition.total.caloriesKcal,
       caloriePerServing: nutrition.perServing.caloriesKcal,
       nutrition,
-      timeBreakdown: deriveTimeBreakdown(recipe, override.time || {}),
+      timeBreakdown: deriveTimeBreakdown(recipe, { ...(recipe.enrichmentSeed || {}), ...(override.time || {}) }),
       scaling: buildScalingMetadata(recipe, override.scaling || {}),
       alternatives: buildAlternatives(recipe, guidanceRules, override.alternatives || {}),
       storage: buildStorage(recipe, guidanceRules, override.storage || {}),
-      enrichmentVersion: '2026.09.20.1'
+      enrichmentVersion: '2026.09.20.2'
     };
   });
   const failures = [];
   for (const recipe of recipes) for (const error of validateEnrichedRecipe(recipe)) failures.push(`${recipe.id}: ${error}`);
   failures.push(...validateGuidanceCoverage(recipes));
   if (failures.length) throw new Error(failures.join('\n'));
-  assertValidRecipeCollection(recipes, 961);
+  assertValidRecipeCollection(recipes, sourceRecipes.length);
   const json = JSON.stringify(recipes);
   const output = `window.RECIPES_DATA=${json};\n`;
   const audit = {
-    version: '2026.09.20.1', count: recipes.length,
+    version: '2026.09.20.2', count: recipes.length,
     loadedFiles, inputHash: sha256(JSON.stringify(sourceRecipes)), outputHash: sha256(output),
     nutritionFailures: 0, timeFailures: 0, scalingFailures: 0, guidanceFailures: 0, failures
   };

@@ -5,7 +5,7 @@
 })(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
   const CONFIG = {
-    appVersion: '3.7.0', versionCode: 370, bundledDataVersion: '2026.09.20.1',
+    appVersion: '3.8.0', versionCode: 380, bundledDataVersion: '2026.09.20.2',
     publicBaseUrl: 'https://hys557.github.io/gudu-recipe/',
     cacheKey: 'GUDU_RECIPE_UPDATE_PACKAGE_V1', checkKey: 'GUDU_RECIPE_UPDATE_LAST_CHECK',
     checkIntervalMs: 6 * 60 * 60 * 1000

@@ -584,6 +584,8 @@ const App = {
       }
 
       // 2. 一级分类过滤
+      const foundationCategories = ["sauce", "pickle", "stock", "marinade", "filling", "brine"];
+      if (foundationCategories.includes(this.activeCategory) && recipe.categoryType !== this.activeCategory) return false;
       if (this.activeCategory === "regional" && !recipe.region.match(/江西|广西|陕西|东北|四川|湖南|广东|福建|海南|江苏|浙江|山东|北京|天津|河南|湖北|安徽|山西|河北|内蒙|港澳台|国民家常|云南|贵州|新疆|甘肃|青海|宁夏|西藏/)) return false;
       if (this.activeCategory === "soup") {
         if (recipe.categoryType === "dessert" || recipe.categoryType === "noodle") return false;

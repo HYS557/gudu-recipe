@@ -1,6 +1,6 @@
 {
-  "version": "2026.09.20.1",
-  "count": 961,
+  "version": "2026.09.20.2",
+  "count": 1482,
   "loadedFiles": [
     "recipes.js",
     "recipe-corrections-v1.js",
@@ -109,10 +109,11 @@
     "recipe-nutrition-corrections-v46.js",
     "recipe-nutrition-corrections-v47.js",
     "recipe-nutrition-corrections-v48.js",
-    "recipe-nutrition-corrections-v49.js"
+    "recipe-nutrition-corrections-v49.js",
+    "scripts/lib/foundation-recipes.js"
   ],
-  "inputHash": "afdd3fd413ee43d44c0577a0014fdd4e1a8595a066a0d269e38de470d05dcd06",
-  "outputHash": "b68f8367f9fee141ac5fc9f49708a8fb6492424e9c8a6f13a36ab920a3225544",
+  "inputHash": "e6bf9d60c35eb320911ea873a979b15704b7bfec12e5c04dbfc86dd95ebb2a9c",
+  "outputHash": "94aef1e0613e19b0cf1fa4f32159b881d0be42a6313df95f441a99ae74c8ee4b",
   "nutritionFailures": 0,
   "timeFailures": 0,
   "scalingFailures": 0,
