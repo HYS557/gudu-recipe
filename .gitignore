@@ -4,3 +4,4 @@ scripts/temp_render/
 scripts/temp_resize/
 scripts/temp_qr_poster.html
 .gemini/
+.worktrees/
