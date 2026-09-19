@@ -1,0 +1,44 @@
+{
+  "verifiedAt": "2026-09-20T04:00:00+08:00",
+  "device": {
+    "serial": "ZY32M4H49X",
+    "model": "XT2527_3",
+    "package": "com.gudurecipe.app",
+    "versionCode": 370,
+    "versionName": "3.7.0",
+    "firstInstallTime": "2026-09-03 01:45:43",
+    "installMode": "adb install -r",
+    "dataPreserved": true
+  },
+  "apk": {
+    "certificateSha256": "aeff52122c9be1a54f4b29d798dbc6a58abc5854f3c17f944d254d3aeb1b140d",
+    "signatureMatchedPrevious": true,
+    "requiredAssetsPresent": true
+  },
+  "startup": {
+    "activityFocused": "com.gudurecipe.app/.MainActivity",
+    "blockingJavaScriptErrors": 0,
+    "androidRuntimeErrors": 0
+  },
+  "mobileFlowGate": {
+    "method": "same packaged HTML/JS verified in Edge plus signed APK startup/logcat",
+    "servingSizes": [1, 2, 4, 6],
+    "sections": ["nutrition", "timeBreakdown", "alternatives", "storage"],
+    "search": "passed packaged UI regression",
+    "favorites": "storage key preserved and app data retained",
+    "manualUpdate": "manifest/package/SHA contract passed",
+    "categorySamples": {
+      "stir-fry": "rec_gudu_0001",
+      "braise": "rec_gudu_0036",
+      "fry": "rec_gudu_0040",
+      "steam": "rec_gudu_0010",
+      "soup": "rec_gudu_0002",
+      "congee": "rec_congee_01",
+      "pastry": "rec_gudu_0136",
+      "cold-dish": "rec_gudu_0029",
+      "drink": "rec_dessert_07",
+      "banquet": "rec_gudu_0185"
+    }
+  },
+  "blockingIssues": []
+}
