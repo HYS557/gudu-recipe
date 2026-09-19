@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build:data": "node scripts/build_canonical_recipes.js",
+    "validate:data": "node scripts/validate_enriched_recipes.js"
+  },
   "dependencies": {
     "qrcode": "^1.5.4"
   }
