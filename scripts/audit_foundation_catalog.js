@@ -8,7 +8,7 @@ const categories = Object.fromEntries(Object.keys(LABELS).map(key => [key, {
   count: recipes.filter(recipe => recipe.categoryType === key).length
 }]));
 const audit = {
-  dataVersion: '2026.09.20.2',
+  dataVersion: '2026.09.20.3',
   totalAdded: recipes.length,
   totalAfterMerge: 961 + recipes.length,
   categories,

@@ -1,3 +1,8 @@
+const fs = require('fs');
+const path = require('path');
+const photoMapPath = path.join(__dirname, '..', 'data', 'foundation-photos.json');
+const FOUNDATION_PHOTOS = fs.existsSync(photoMapPath) ? JSON.parse(fs.readFileSync(photoMapPath, 'utf8')) : {};
+
 const CATALOG = {
   sauce: `蒜蓉沙姜酱|蒜蓉辣椒酱|蒜蓉酱|沙姜蘸酱|姜葱蓉|葱油酱|红葱头酱|豉油皇蘸汁|白切鸡姜蓉|海南鸡饭蘸酱|潮汕沙茶酱|潮汕蒜蓉醋|普宁豆酱蘸汁|潮汕鱼露蘸汁|广式叉烧酱|广式海鲜酱|广式柱候酱|广式豉汁酱|广式梅子酱|广式陈皮酱|港式XO酱|港式咖喱鱼蛋酱|港式甜酱|粤式烧鹅酸梅酱|川味蒜泥白肉汁|川味红油蘸汁|川味怪味汁|川味麻酱汁|川味椒麻汁|川味鱼香汁|川味宫保汁|川味麻辣干锅酱|川味豆瓣红油酱|重庆火锅油碟|重庆火锅干碟蘸汁|贵州糊辣椒蘸水|贵州折耳根蘸水|云南小米辣蘸水|云南腌菜膏蘸水|云南乳扇蘸酱|广西酸嘢蘸椒盐汁|桂林辣椒酱|江西剁椒酱|湖南剁辣椒酱|湖南擂椒酱|湖南豆豉辣椒酱|东北鸡蛋酱|东北大酱蘸汁|北京炸酱|老北京芝麻酱|天津麻酱汁|山东蒜泥醋汁|山西老醋蘸汁|陕西油泼辣子|陕西蒜水蘸汁|河南荆芥蒜汁|新疆皮辣红蘸汁|新疆孜然辣酱|内蒙古韭菜花酱|东北韭菜花酱|香椿酱|香菜青椒酱|青花椒酱|藤椒酱|花椒油蘸汁|芝麻花生酱|腐乳蘸酱|甜面酱蘸汁|黄豆酱蘸汁|豆豉鲮鱼酱|香菇肉酱|牛肉辣酱|鸡肉香菇酱|番茄肉酱|台式肉燥酱|台式三杯酱|台式沙茶蘸酱|台式蒜蓉酱油膏|日式照烧酱|日式烧肉酱|日式寿喜烧汁|日式芝麻沙拉汁|日式味噌酱|日式柚子醋汁|日式天妇罗蘸汁|日式蒲烧汁|日式章鱼烧酱|日式大阪烧酱|日式咖喱酱|日式明太子酱|日式芥末酱油|韩式甜辣酱|韩式烤肉酱|韩式拌饭酱|韩式包饭酱|韩式辣炒年糕酱|韩式炸鸡酱|韩式冷面汁|泰式甜辣酱|泰式酸辣海鲜汁|泰式青辣椒蘸酱|泰式沙嗲酱|泰式罗望子酱|越南鱼露蘸汁|越南春卷蘸汁|新加坡海南鸡辣酱|新加坡叁巴酱|马来西亚沙嗲酱|印尼参巴酱|菲律宾酸醋蘸汁|印度薄荷酸奶酱|印度罗望子甜酸酱|印度咖喱蘸酱|中东鹰嘴豆泥酱|中东芝麻酱|墨西哥莎莎酱|墨西哥鳄梨酱|墨西哥奶酪辣酱|意式番茄酱|意式青酱|意式白酱|意式肉酱|意式油醋汁|法式第戎芥末酱|法式蛋黄酱|法式塔塔酱|法式荷兰酱|法式贝亚恩酱|西式黑椒汁|西式蘑菇汁|西式红酒汁|西式烧汁|西式奶油汁|美式烧烤酱|美式水牛城辣酱|美式千岛酱|美式牧场酱|蜂蜜芥末酱|凯撒沙拉酱|酸奶香草酱|牛油果酸奶酱|花生沙嗲蘸酱|芝麻味噌蘸酱|柠檬黄油酱|蒜香黄油酱|香草黄油酱|焦糖酱|巧克力酱|莓果酱|芒果酱|百香果酱|苹果肉桂酱`,
   pickle: `四川泡萝卜|四川泡豇豆|四川泡姜|四川泡辣椒|四川泡仔姜|四川洗澡泡菜|四川跳水泡菜|重庆涪陵榨菜家庭版|湖南剁椒腌萝卜|湖南酸豆角|湖南腌刀豆|湖南外婆菜|江西酸萝卜|江西腌辣椒|江西酸菜梗|贵州酸菜|贵州糟辣椒|贵州盐酸菜|云南水腌菜|云南酸腌菜|广西酸嘢萝卜|广西酸嘢木瓜|广西酸嘢黄瓜|广西酸笋|广东咸酸菜|广东酸荞头|广东腌黄瓜|潮汕咸菜|潮汕橄榄菜|潮汕贡菜|客家梅菜|客家咸菜|福建糟菜|福建腌萝卜|浙江倒笃菜|浙江霉干菜|杭州酱萝卜|上海糖醋萝卜|江苏甜酸黄瓜|苏式酱菜|扬州乳黄瓜|东北酸白菜|东北腌黄瓜|东北蒜茄子|东北辣白菜|北京糖蒜|北京酱黄瓜|天津冬菜|山东腊八蒜|山东酱疙瘩|河南芥菜丝|河北水疙瘩|山西腌酸菜|陕西浆水菜|陕西腌韭菜|甘肃浆水菜|宁夏腌沙葱|新疆腌恰玛古|内蒙古酸白菜|朝鲜族辣白菜|韩式萝卜泡菜|韩式黄瓜泡菜|韩式葱泡菜|韩式苏子叶泡菜|韩式水泡菜|日式浅渍黄瓜|日式浅渍白菜|日式腌萝卜|日式梅干|日式醋渍姜|越南酸萝卜胡萝卜|泰式酸辣黄瓜|菲律宾腌木瓜|印度芒果泡菜|德国酸菜|俄罗斯酸黄瓜|地中海腌橄榄|意式油渍彩椒|墨西哥腌墨西哥椒|美式莳萝酸黄瓜|糖醋仔姜|糖醋蒜|糖醋藠头|蜂蜜柠檬渍萝卜|话梅腌番茄|梅子渍小番茄|紫苏梅渍姜|酱油腌辣椒|酱油腌蒜|酱油腌黄瓜|醋渍洋葱|盐渍柠檬|盐渍青梅|酒糟腌萝卜|豆豉腌辣椒|腐乳腌菜梗|泡椒凤爪用泡椒水`,
@@ -57,15 +62,17 @@ function buildFoundationRecipes() {
   for (const [category, source] of Object.entries(CATALOG)) {
     source.split('|').forEach((name, index) => {
       const data = profile(category, name);
+      const id = `rec_foundation_${category}_${String(index + 1).padStart(3, '0')}`;
+      const photoUrl = FOUNDATION_PHOTOS[id]?.photoUrl || './icons/icon-192.png';
       recipes.push({
-        id: `rec_foundation_${category}_${String(index + 1).padStart(3, '0')}`,
+        id,
         name, subtitle: `${LABELS[category]}标准家庭配方，克数清楚、便于复用`,
         region: '家庭厨房/多地域', cookingMethod: category === 'pickle' ? '冷藏腌渍' : category === 'stock' ? '小火熬制' : '标准调制',
         difficulty: '新手友好', prepTimeMinutes: data.prep, cookTimeMinutes: data.cook,
         prepTime: data.prep, cookTime: data.cook, servings: 4, calories: 0,
         tags: [LABELS[category], name, '基础配方'], cuisineCategory: LABELS[category], categoryType: category,
         isDrinkingSnack: false, isGrandBanquet: false, isFatLossFriendly: false, isSeafood: /鱼|虾|蟹|贝|蚝/.test(name),
-        image: './icons/icon-192.png', photoUrl: './icons/icon-192.png',
+        image: photoUrl, photoUrl,
         ingredients: data.ingredients.map(([itemName, amount]) => ({ name: itemName, amount, unit: '克', type: 'main' })),
         seasonings: [], steps: data.steps.map((instruction, stepIndex) => ({ stepIndex: stepIndex + 1, title: ['准备与称量', '调制加工', '分装保存'][stepIndex], instruction, detail: instruction, timerSeconds: stepIndex === 1 ? data.cook * 60 : 300, chefTip: stepIndex === 2 ? '使用洁净干燥容器，避免交叉污染。' : '按克数操作。' })),
         chefTips: ['首次制作建议减半试做。', '生熟工具分开。', '含肉蛋水产配方必须彻底熟制。'],

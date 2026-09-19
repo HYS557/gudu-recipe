@@ -18,3 +18,15 @@ test('only the six approved foundation categories are unique and complete', () =
   assert.equal(new Set(recipes.map(recipe => recipe.name)).size, recipes.length);
   for (const category of approved) assert.ok(recipes.some(recipe => recipe.categoryType === category));
 });
+
+test('every foundation recipe has its own matched food photo', () => {
+  const recipes = buildFoundationRecipes();
+  const urls = new Set();
+  for (const recipe of recipes) {
+    assert.match(recipe.photoUrl, /^https:\/\//, `${recipe.name} 缺少网络实拍图`);
+    assert.equal(recipe.image, recipe.photoUrl, `${recipe.name} 的封面字段不一致`);
+    assert.notEqual(recipe.photoUrl, './icons/icon-192.png', `${recipe.name} 仍在使用默认图标`);
+    assert.ok(!urls.has(recipe.photoUrl), `${recipe.name} 与其他食谱重复使用同一张图`);
+    urls.add(recipe.photoUrl);
+  }
+});

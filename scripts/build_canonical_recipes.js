@@ -40,7 +40,7 @@ function buildCanonicalRecipes(rootDir, outputFile = path.join(rootDir, 'js', 'd
       scaling: buildScalingMetadata(recipe, override.scaling || {}),
       alternatives: buildAlternatives(recipe, guidanceRules, override.alternatives || {}),
       storage: buildStorage(recipe, guidanceRules, override.storage || {}),
-      enrichmentVersion: '2026.09.20.2'
+      enrichmentVersion: '2026.09.20.3'
     };
   });
   const failures = [];
@@ -51,7 +51,7 @@ function buildCanonicalRecipes(rootDir, outputFile = path.join(rootDir, 'js', 'd
   const json = JSON.stringify(recipes);
   const output = `window.RECIPES_DATA=${json};\n`;
   const audit = {
-    version: '2026.09.20.2', count: recipes.length,
+    version: '2026.09.20.3', count: recipes.length,
     loadedFiles, inputHash: sha256(JSON.stringify(sourceRecipes)), outputHash: sha256(output),
     nutritionFailures: 0, timeFailures: 0, scalingFailures: 0, guidanceFailures: 0, failures
   };

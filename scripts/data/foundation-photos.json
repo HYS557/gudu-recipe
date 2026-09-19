@@ -1,0 +1,4693 @@
+{
+  "rec_foundation_sauce_001": {
+    "id": "rec_foundation_sauce_001",
+    "name": "蒜蓉沙姜酱",
+    "categoryType": "sauce",
+    "title": "万能百搭超级好味的沙姜蒜蓉辣椒酱",
+    "photoUrl": "https://i2.chuimg.com/dcbefeea41b84243b3e9d52054691a60_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蒜蓉沙姜酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_002": {
+    "id": "rec_foundation_sauce_002",
+    "name": "蒜蓉辣椒酱",
+    "categoryType": "sauce",
+    "title": "下饭炒菜神酱超级香的剁椒蒜蓉辣椒酱",
+    "photoUrl": "https://i2.chuimg.com/056dde84a7764ed3bb5043726c49d2e7_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蒜蓉辣椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_003": {
+    "id": "rec_foundation_sauce_003",
+    "name": "蒜蓉酱",
+    "categoryType": "sauce",
+    "title": "万能蒜蓉酱",
+    "photoUrl": "https://i2.chuimg.com/5dd7e60c2c0248a88ae15695abb4aaa8_1552w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蒜蓉酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_004": {
+    "id": "rec_foundation_sauce_004",
+    "name": "沙姜蘸酱",
+    "categoryType": "sauce",
+    "title": "万能沙姜蘸酱",
+    "photoUrl": "https://i2.chuimg.com/d90b4727d08143598736ac75915e10d5_1280w_855h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "沙姜蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_005": {
+    "id": "rec_foundation_sauce_005",
+    "name": "姜葱蓉",
+    "categoryType": "sauce",
+    "title": "姜葱蓉蘸料（白斩鸡必备调料）",
+    "photoUrl": "https://i2.chuimg.com/2ed939884fb048058e5161932d63f39c_994w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "姜葱蓉",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_006": {
+    "id": "rec_foundation_sauce_006",
+    "name": "葱油酱",
+    "categoryType": "sauce",
+    "title": "葱油拌面酱（精确到克）",
+    "photoUrl": "https://i2.chuimg.com/670d19a0b8a448ffa66d1ddfe6ea58d2_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "葱油酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_007": {
+    "id": "rec_foundation_sauce_007",
+    "name": "红葱头酱",
+    "categoryType": "sauce",
+    "title": "红葱香酱",
+    "photoUrl": "https://i2.chuimg.com/1af00decf3f7447ea0b19e751d9e76f7_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "红葱头酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_008": {
+    "id": "rec_foundation_sauce_008",
+    "name": "豉油皇蘸汁",
+    "categoryType": "sauce",
+    "title": "豉油皇鸡脚",
+    "photoUrl": "https://i2.chuimg.com/cea947da884a11e6b87c0242ac110003_640w_622h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "豉油皇蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_009": {
+    "id": "rec_foundation_sauce_009",
+    "name": "白切鸡姜蓉",
+    "categoryType": "sauce",
+    "title": "白切鸡必须的配料姜蓉",
+    "photoUrl": "https://i2.chuimg.com/c7e80d3ea9eb45caa2e5769adcd8a437_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "白切鸡姜蓉",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_010": {
+    "id": "rec_foundation_sauce_010",
+    "name": "海南鸡饭蘸酱",
+    "categoryType": "sauce",
+    "title": "海南鸡饭（附鸡油饭和两种蘸酱的做法）",
+    "photoUrl": "https://i2.chuimg.com/11ff717e9f9543c6b156c42b7f3f5552_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "海南鸡饭蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_011": {
+    "id": "rec_foundation_sauce_011",
+    "name": "潮汕沙茶酱",
+    "categoryType": "sauce",
+    "title": "沙茶牛肉煲(潮汕味道)",
+    "photoUrl": "https://i2.chuimg.com/b29e890a9a0b4def8a1c65ad9dc6ef5c_2560w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮汕沙茶酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_012": {
+    "id": "rec_foundation_sauce_012",
+    "name": "潮汕蒜蓉醋",
+    "categoryType": "sauce",
+    "title": "自制潮汕风味蒜蓉辣椒酱",
+    "photoUrl": "https://i2.chuimg.com/837934aeb4d1458abf7884fdde4bed9f_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮汕蒜蓉醋",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_013": {
+    "id": "rec_foundation_sauce_013",
+    "name": "普宁豆酱蘸汁",
+    "categoryType": "sauce",
+    "title": "原汁原味的普宁豆酱焗鲳鱼",
+    "photoUrl": "https://i2.chuimg.com/09fd122c270e42d79b76585142b205b8_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "普宁豆酱蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_014": {
+    "id": "rec_foundation_sauce_014",
+    "name": "潮汕鱼露蘸汁",
+    "categoryType": "sauce",
+    "title": "鱼露的用法（煲仔饭，蒸鱼，凉拌蘸汁，炒蔬菜）",
+    "photoUrl": "https://i2.chuimg.com/6b0aab6c0a724b2dae5c1525d1b1030f_1616w_1077h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮汕鱼露蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_015": {
+    "id": "rec_foundation_sauce_015",
+    "name": "广式叉烧酱",
+    "categoryType": "sauce",
+    "title": "广东叉烧包",
+    "photoUrl": "https://i2.chuimg.com/dc944c1fd4754b5295b6b22d7dd7f5f0_480w_384h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式叉烧酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_016": {
+    "id": "rec_foundation_sauce_016",
+    "name": "广式海鲜酱",
+    "categoryType": "sauce",
+    "title": "【粤式经典】清蒸鲈鱼🐟｜8分钟完美蒸制 ×去腥方法 ×秘制海鲜酱汁",
+    "photoUrl": "https://i2.chuimg.com/ae9f08a187394db291e7087e9294e8c6_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式海鲜酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_017": {
+    "id": "rec_foundation_sauce_017",
+    "name": "广式柱候酱",
+    "categoryType": "sauce",
+    "title": "用柱候酱煮的超级好吃的广式子姜焖鸭",
+    "photoUrl": "https://i2.chuimg.com/cf86236624f04030bcee50df9b04e04d_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式柱候酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_018": {
+    "id": "rec_foundation_sauce_018",
+    "name": "广式豉汁酱",
+    "categoryType": "sauce",
+    "title": "广式豉汁酱，浓香醇厚",
+    "photoUrl": "https://i2.chuimg.com/dbcc6dd6c5d7444c915860f448d37fb4_681w_681h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式豉汁酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_019": {
+    "id": "rec_foundation_sauce_019",
+    "name": "广式梅子酱",
+    "categoryType": "sauce",
+    "title": "酸酸甜甜的梅子酱排骨",
+    "photoUrl": "https://i2.chuimg.com/106144c18bf0496fa2efe549d7599020_1032w_825h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式梅子酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_020": {
+    "id": "rec_foundation_sauce_020",
+    "name": "广式陈皮酱",
+    "categoryType": "sauce",
+    "title": "私房菜——番茄陈皮骨",
+    "photoUrl": "https://i2.chuimg.com/2fcc2099024c408c9f54d06c1234739b_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式陈皮酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_021": {
+    "id": "rec_foundation_sauce_021",
+    "name": "港式XO酱",
+    "categoryType": "sauce",
+    "title": "剩下的米饭别扔！5分钟搞定港式XO酱素炒饭！好吃到舔盘！",
+    "photoUrl": "https://i2.chuimg.com/8f88e71ad7874b359b199b1991a1da87_1080w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "港式XO酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_022": {
+    "id": "rec_foundation_sauce_022",
+    "name": "港式咖喱鱼蛋酱",
+    "categoryType": "sauce",
+    "title": "港式街头小吃-咖喱三宝鱼蛋",
+    "photoUrl": "https://i2.chuimg.com/11309ae2010c4c10ab1b7e4f0ebf56ef_1176w_940h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "港式咖喱鱼蛋酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_024": {
+    "id": "rec_foundation_sauce_024",
+    "name": "粤式烧鹅酸梅酱",
+    "categoryType": "sauce",
+    "title": "酸梅酱 【就差一只深井烧鹅了🌚】",
+    "photoUrl": "https://i2.chuimg.com/254404f9d058402283eb8944fecffe4f_750w_600h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "粤式烧鹅酸梅酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_025": {
+    "id": "rec_foundation_sauce_025",
+    "name": "川味蒜泥白肉汁",
+    "categoryType": "sauce",
+    "title": "蒜泥白肉",
+    "photoUrl": "https://i2.chuimg.com/6cdd659a859311e6b87c0242ac110003_1614w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味蒜泥白肉汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_026": {
+    "id": "rec_foundation_sauce_026",
+    "name": "川味红油蘸汁",
+    "categoryType": "sauce",
+    "title": "川味红油 川味凉菜的灵魂",
+    "photoUrl": "https://i2.chuimg.com/1211f1efdfbb47d3a75d0c6534a8067a_4288w_2848h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味红油蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_027": {
+    "id": "rec_foundation_sauce_027",
+    "name": "川味怪味汁",
+    "categoryType": "sauce",
+    "title": "四川怪味蚕豆",
+    "photoUrl": "https://i2.chuimg.com/7382d0805502473fa04637006c1464d7_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味怪味汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_028": {
+    "id": "rec_foundation_sauce_028",
+    "name": "川味麻酱汁",
+    "categoryType": "sauce",
+    "title": "鸡丝凉面川味麻酱汁",
+    "photoUrl": "https://i2.chuimg.com/cfbde46f148440f2b927a5c7a9f10b5b_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味麻酱汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_029": {
+    "id": "rec_foundation_sauce_029",
+    "name": "川味椒麻汁",
+    "categoryType": "sauce",
+    "title": "万能川味椒麻酱",
+    "photoUrl": "https://i2.chuimg.com/df4f3059aed44425b19eabf2bf04934b_1280w_1296h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味椒麻汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_030": {
+    "id": "rec_foundation_sauce_030",
+    "name": "川味鱼香汁",
+    "categoryType": "sauce",
+    "title": "香煎挪威青花鱼配川味鱼香汁",
+    "photoUrl": "https://i2.chuimg.com/27834c729d1447348821c903fd5b7ec0_1000w_667h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味鱼香汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_031": {
+    "id": "rec_foundation_sauce_031",
+    "name": "川味宫保汁",
+    "categoryType": "sauce",
+    "title": "茄汁、鱼香汁、糖醋汁、宫保汁、照烧汁、京酱汁，6款常用料汁黄金比例",
+    "photoUrl": "https://i2.chuimg.com/747eae824cbe48b0b3ba14d8d38b511b_684w_382h.png?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味宫保汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_032": {
+    "id": "rec_foundation_sauce_032",
+    "name": "川味麻辣干锅酱",
+    "categoryType": "sauce",
+    "title": "四川风味麻辣萝卜干",
+    "photoUrl": "https://i2.chuimg.com/4328840cc67847efbc73f61efe31cf6b_750w_500h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味麻辣干锅酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_033": {
+    "id": "rec_foundation_sauce_033",
+    "name": "川味豆瓣红油酱",
+    "categoryType": "sauce",
+    "title": "【香兰世家】四川红油豆瓣酱 | 干净卫生，香气扑鼻，有了它，做菜更美味！",
+    "photoUrl": "https://i2.chuimg.com/c962dd0b565a4d7992d548c61b0ea535_2160w_1440h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味豆瓣红油酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_034": {
+    "id": "rec_foundation_sauce_034",
+    "name": "重庆火锅油碟",
+    "categoryType": "sauce",
+    "title": "重庆火锅香油碟",
+    "photoUrl": "https://i2.chuimg.com/fe96cea201a011e7947d0242ac110002_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "重庆火锅油碟",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_035": {
+    "id": "rec_foundation_sauce_035",
+    "name": "重庆火锅干碟蘸汁",
+    "categoryType": "sauce",
+    "title": "重庆火锅家庭版",
+    "photoUrl": "https://i2.chuimg.com/9ea6fdecce5f11e6947d0242ac110002_748w_748h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "重庆火锅干碟蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_036": {
+    "id": "rec_foundation_sauce_036",
+    "name": "贵州糊辣椒蘸水",
+    "categoryType": "sauce",
+    "title": "贵州糊辣椒蘸水配方",
+    "photoUrl": "https://i2.chuimg.com/e046f0e435534fc89090dbb531b883cc_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "贵州糊辣椒蘸水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_037": {
+    "id": "rec_foundation_sauce_037",
+    "name": "贵州折耳根蘸水",
+    "categoryType": "sauce",
+    "title": "🪷素瓜豆汤｜贵州糊辣椒蘸水菜",
+    "photoUrl": "https://i2.chuimg.com/40303407f97c458f9690ff62e4bd79b6_740w_925h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "贵州折耳根蘸水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_038": {
+    "id": "rec_foundation_sauce_038",
+    "name": "云南小米辣蘸水",
+    "categoryType": "sauce",
+    "title": "云南小米辣蘸水",
+    "photoUrl": "https://i2.chuimg.com/4d70d6882beb45d6862311f095050dee_864w_1152h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "云南小米辣蘸水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_039": {
+    "id": "rec_foundation_sauce_039",
+    "name": "云南腌菜膏蘸水",
+    "categoryType": "sauce",
+    "title": "云南风味腌菜炒肉",
+    "photoUrl": "https://i2.chuimg.com/23e86a6d943b4321b724b2ab7be1b0a9_1242w_1656h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "云南腌菜膏蘸水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_040": {
+    "id": "rec_foundation_sauce_040",
+    "name": "云南乳扇蘸酱",
+    "categoryType": "sauce",
+    "title": "煎乳扇",
+    "photoUrl": "https://i2.chuimg.com/cd86096a888611e6a9a10242ac110002_640w_480h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "云南乳扇蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_041": {
+    "id": "rec_foundation_sauce_041",
+    "name": "广西酸嘢蘸椒盐汁",
+    "categoryType": "sauce",
+    "title": "广西正宗红糖酸嘢做法",
+    "photoUrl": "https://i2.chuimg.com/6703f9a96f504ff982cdfa9438b53232_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广西酸嘢蘸椒盐汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_042": {
+    "id": "rec_foundation_sauce_042",
+    "name": "桂林辣椒酱",
+    "categoryType": "sauce",
+    "title": "广东人做的桂林辣椒酱",
+    "photoUrl": "https://i2.chuimg.com/6b1d9b1cc0024ad09e1afe9143490e9a_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "桂林辣椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_043": {
+    "id": "rec_foundation_sauce_043",
+    "name": "江西剁椒酱",
+    "categoryType": "sauce",
+    "title": "江西人的魂-剁椒酱",
+    "photoUrl": "https://i2.chuimg.com/1b67b5103c5f49ddb9aaca0c1e109650_1921w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "江西剁椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_044": {
+    "id": "rec_foundation_sauce_044",
+    "name": "湖南剁辣椒酱",
+    "categoryType": "sauce",
+    "title": "一口衡阳剁辣椒，藏着游子回不去的童年烟火",
+    "photoUrl": "https://i2.chuimg.com/fcfee02608e0430ca7cd00f2bb71651d_2624w_3499h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "湖南剁辣椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_045": {
+    "id": "rec_foundation_sauce_045",
+    "name": "湖南擂椒酱",
+    "categoryType": "sauce",
+    "title": "擂椒茄子",
+    "photoUrl": "https://i2.chuimg.com/266eca8e872a11e6a9a10242ac110002_460w_690h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "湖南擂椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_046": {
+    "id": "rec_foundation_sauce_046",
+    "name": "湖南豆豉辣椒酱",
+    "categoryType": "sauce",
+    "title": "蒜蓉豆豉辣椒酱",
+    "photoUrl": "https://i2.chuimg.com/3caebaa637ae4df3afb987e4517d812a_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "湖南豆豉辣椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_047": {
+    "id": "rec_foundation_sauce_047",
+    "name": "东北鸡蛋酱",
+    "categoryType": "sauce",
+    "title": "“东北yyds鸡蛋酱”太费米饭了！3步搞定超简单！",
+    "photoUrl": "https://i2.chuimg.com/53ee2c6ae7664296883a64abe1bb02e1_943w_1209h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东北鸡蛋酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_049": {
+    "id": "rec_foundation_sauce_049",
+    "name": "北京炸酱",
+    "categoryType": "sauce",
+    "title": "老北京炸酱",
+    "photoUrl": "https://i2.chuimg.com/2b45b0aec576486fbc005efc8478e8f8_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "北京炸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_050": {
+    "id": "rec_foundation_sauce_050",
+    "name": "老北京芝麻酱",
+    "categoryType": "sauce",
+    "title": "老北京二八酱（花生芝麻酱）",
+    "photoUrl": "https://i2.chuimg.com/17d6d18211bc400ebd22f5cddb24fbcf_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "老北京芝麻酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_052": {
+    "id": "rec_foundation_sauce_052",
+    "name": "山东蒜泥醋汁",
+    "categoryType": "sauce",
+    "title": "蒜泥白肉 - 蒜泥五花肉",
+    "photoUrl": "https://i2.chuimg.com/e18ae77bc3d941a89e6117600608a160_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蒜泥醋",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_053": {
+    "id": "rec_foundation_sauce_053",
+    "name": "山西老醋蘸汁",
+    "categoryType": "sauce",
+    "title": "老醋海蛰头",
+    "photoUrl": "https://i2.chuimg.com/87de0cf286f911e6a9a10242ac110002_435w_650h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "山西老醋蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_054": {
+    "id": "rec_foundation_sauce_054",
+    "name": "陕西油泼辣子",
+    "categoryType": "sauce",
+    "title": "【西安小吃系列】2:陕西油泼辣子家庭版",
+    "photoUrl": "https://i2.chuimg.com/cf06923d8fa64302884f207574b38b21_1124w_1500h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "陕西油泼辣子",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_055": {
+    "id": "rec_foundation_sauce_055",
+    "name": "陕西蒜水蘸汁",
+    "categoryType": "sauce",
+    "title": "陕西蒜水",
+    "photoUrl": "https://i2.chuimg.com/8dda57da9fce4d18b4940f8742b68c80_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "陕西蒜水蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_056": {
+    "id": "rec_foundation_sauce_056",
+    "name": "河南荆芥蒜汁",
+    "categoryType": "sauce",
+    "title": "蒜汁番茄鸡蛋捞面（河南荆芥版）一人食",
+    "photoUrl": "https://i2.chuimg.com/3a9d372aecf941f3ab3fd630e73215f1_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "河南荆芥蒜汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_057": {
+    "id": "rec_foundation_sauce_057",
+    "name": "新疆皮辣红蘸汁",
+    "categoryType": "sauce",
+    "title": "新疆皮辣红",
+    "photoUrl": "https://i2.chuimg.com/ed6f3cf4884711e6b87c0242ac110003_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "新疆皮辣红蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_058": {
+    "id": "rec_foundation_sauce_058",
+    "name": "新疆孜然辣酱",
+    "categoryType": "sauce",
+    "title": "新疆烤包子（孜然羊肉）",
+    "photoUrl": "https://i2.chuimg.com/ec105e2f0e524e2abe214240d4294e24_1124w_899h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "新疆孜然辣酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_059": {
+    "id": "rec_foundation_sauce_059",
+    "name": "内蒙古韭菜花酱",
+    "categoryType": "sauce",
+    "title": "家庭版自制韭菜花酱",
+    "photoUrl": "https://i2.chuimg.com/0b44cb51cedc47d88beb0cbb4577879d_3072w_4096h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韭菜花",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_060": {
+    "id": "rec_foundation_sauce_060",
+    "name": "东北韭菜花酱",
+    "categoryType": "sauce",
+    "title": "冬天里东北人必备品～韭菜花酱",
+    "photoUrl": "https://i2.chuimg.com/23896524e3714cc393391fa05be3c17e_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东北韭菜花酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_061": {
+    "id": "rec_foundation_sauce_061",
+    "name": "香椿酱",
+    "categoryType": "sauce",
+    "title": "香椿酱",
+    "photoUrl": "https://i2.chuimg.com/36bcdf4a05f34866ad0b1a5caa245b08_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "香椿酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_062": {
+    "id": "rec_foundation_sauce_062",
+    "name": "香菜青椒酱",
+    "categoryType": "sauce",
+    "title": "酱菜 酱青椒 酱香菜 酱土豆 酱豇豆",
+    "photoUrl": "https://i2.chuimg.com/486f699a885111e6b87c0242ac110003_640w_426h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "香菜青椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_063": {
+    "id": "rec_foundation_sauce_063",
+    "name": "青花椒酱",
+    "categoryType": "sauce",
+    "title": "自制青花椒油和青花椒酱",
+    "photoUrl": "https://i2.chuimg.com/454a6c31ab0345c49a8cddc9967d0a83_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "青花椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_064": {
+    "id": "rec_foundation_sauce_064",
+    "name": "藤椒酱",
+    "categoryType": "sauce",
+    "title": "香、麻～藤椒酱",
+    "photoUrl": "https://i2.chuimg.com/55b36ff680af4fd98d3466fee5fe16cb_1242w_1606h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "藤椒酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_065": {
+    "id": "rec_foundation_sauce_065",
+    "name": "花椒油蘸汁",
+    "categoryType": "sauce",
+    "title": "花椒油（自制花椒麻油）",
+    "photoUrl": "https://i2.chuimg.com/7978bf423d384ce8a07f6128df3569ed_1157w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "花椒油蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_066": {
+    "id": "rec_foundation_sauce_066",
+    "name": "芝麻花生酱",
+    "categoryType": "sauce",
+    "title": "芝麻花生酱",
+    "photoUrl": "https://i2.chuimg.com/f11863ec872c11e6b87c0242ac110003_517w_690h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "芝麻花生酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_067": {
+    "id": "rec_foundation_sauce_067",
+    "name": "腐乳蘸酱",
+    "categoryType": "sauce",
+    "title": "暖暖什锦豆乳锅+香滑花生酱腐乳蘸料",
+    "photoUrl": "https://i2.chuimg.com/2d50603c33ca42cc954b49267427f385_1334w_750h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "腐乳蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_068": {
+    "id": "rec_foundation_sauce_068",
+    "name": "甜面酱蘸汁",
+    "categoryType": "sauce",
+    "title": "鸡蛋甜面汤 大师保护嗓子的秘诀",
+    "photoUrl": "https://i2.chuimg.com/0c59813e8ff74f85a238e2505f16891b_4205w_2793h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "甜面酱蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_069": {
+    "id": "rec_foundation_sauce_069",
+    "name": "黄豆酱蘸汁",
+    "categoryType": "sauce",
+    "title": "很有味道的黄豆",
+    "photoUrl": "https://i2.chuimg.com/3d186a7d801f4295b51deab9ec95ebac_2610w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "黄豆",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_070": {
+    "id": "rec_foundation_sauce_070",
+    "name": "豆豉鲮鱼酱",
+    "categoryType": "sauce",
+    "title": "豆豉鲮鱼酱",
+    "photoUrl": "https://i2.chuimg.com/9200b77235b247f29d06a0d872f94a47_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "豆豉鲮鱼酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_071": {
+    "id": "rec_foundation_sauce_071",
+    "name": "香菇肉酱",
+    "categoryType": "sauce",
+    "title": "万能香菇肉酱下饭酱，香菇肉酱面，香菇肉酱盖饭",
+    "photoUrl": "https://i2.chuimg.com/c7a0eb356c624336922fac24e07110ad_3742w_2807h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "香菇肉酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_072": {
+    "id": "rec_foundation_sauce_072",
+    "name": "牛肉辣酱",
+    "categoryType": "sauce",
+    "title": "牛肉辣椒酱",
+    "photoUrl": "https://i2.chuimg.com/0c107f4cb3d144a58c35d8c41f6c3ea1_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛肉辣酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_073": {
+    "id": "rec_foundation_sauce_073",
+    "name": "鸡肉香菇酱",
+    "categoryType": "sauce",
+    "title": "绝绝子～香菇鸡肉酱",
+    "photoUrl": "https://i2.chuimg.com/0951920b08bf40f294a0a7bc1aa266ba_1144w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鸡肉香菇酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_074": {
+    "id": "rec_foundation_sauce_074",
+    "name": "番茄肉酱",
+    "categoryType": "sauce",
+    "title": "番茄肉酱意面Bolognese意大利chef亲授",
+    "photoUrl": "https://i2.chuimg.com/dc64e1f3b37a41c39cd5a472dfa2ee99_1280w_1293h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "番茄肉酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_075": {
+    "id": "rec_foundation_sauce_075",
+    "name": "台式肉燥酱",
+    "categoryType": "sauce",
+    "title": "百搭的台式肉燥酱",
+    "photoUrl": "https://i2.chuimg.com/e2b1c2a787ed46989b21818dac7ead68_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "台式肉燥酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_076": {
+    "id": "rec_foundation_sauce_076",
+    "name": "台式三杯酱",
+    "categoryType": "sauce",
+    "title": "浓油赤酱-台式三杯鸡",
+    "photoUrl": "https://i2.chuimg.com/937ec30e39844dd7bb84c99e90ede226_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "台式三杯酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_077": {
+    "id": "rec_foundation_sauce_077",
+    "name": "台式沙茶蘸酱",
+    "categoryType": "sauce",
+    "title": "沙茶酱拌面",
+    "photoUrl": "https://i2.chuimg.com/cb3a5f8e8b9d11e6a9a10242ac110002_1080w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "台式沙茶蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_078": {
+    "id": "rec_foundation_sauce_078",
+    "name": "台式蒜蓉酱油膏",
+    "categoryType": "sauce",
+    "title": "簡單快手自製台式醬油膏及萬用蒜蓉膏",
+    "photoUrl": "https://i2.chuimg.com/4b085b6a8f5042ed9cd597a79e53a932_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "台式蒜蓉酱油膏",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_079": {
+    "id": "rec_foundation_sauce_079",
+    "name": "日式照烧酱",
+    "categoryType": "sauce",
+    "title": "日式照烧酱",
+    "photoUrl": "https://i2.chuimg.com/00ed3b73b9954cbd841e2227b7052aa8_750w_500h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式照烧酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_080": {
+    "id": "rec_foundation_sauce_080",
+    "name": "日式烧肉酱",
+    "categoryType": "sauce",
+    "title": "日式烧肉饭（酱油版）",
+    "photoUrl": "https://i2.chuimg.com/6ae1376e1814409a9e35389d32b16a79_1921w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式烧肉酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_081": {
+    "id": "rec_foundation_sauce_081",
+    "name": "日式寿喜烧汁",
+    "categoryType": "sauce",
+    "title": "饭扫光！寿喜烧汁牛丼饭日式肥牛盖饭超简单",
+    "photoUrl": "https://i2.chuimg.com/5ba88a2170d74a229c1eff8b7d25b0c2_1242w_1554h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式寿喜烧汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_082": {
+    "id": "rec_foundation_sauce_082",
+    "name": "日式芝麻沙拉汁",
+    "categoryType": "sauce",
+    "title": "日式焙煎芝麻豆腐沙拉",
+    "photoUrl": "https://i2.chuimg.com/9127577288f811e6b87c0242ac110003_746w_560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式芝麻沙拉汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_083": {
+    "id": "rec_foundation_sauce_083",
+    "name": "日式味噌酱",
+    "categoryType": "sauce",
+    "title": "日式味噌酱的做法",
+    "photoUrl": "https://i2.chuimg.com/55c00f63f58047da95790f2ca7b78178_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式味噌酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_084": {
+    "id": "rec_foundation_sauce_084",
+    "name": "日式柚子醋汁",
+    "categoryType": "sauce",
+    "title": "日式居酒屋的心情｜柚子醋汁鸡｜清爽多汁",
+    "photoUrl": "https://i2.chuimg.com/4918fa1ed5de4bdabb7911710c3ae859_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式柚子醋汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_085": {
+    "id": "rec_foundation_sauce_085",
+    "name": "日式天妇罗蘸汁",
+    "categoryType": "sauce",
+    "title": "天妇罗 + 蘸汁（超详细！没有天妇罗粉也能做！）tempura 天ぷら",
+    "photoUrl": "https://i2.chuimg.com/eee6540368624ae68f4e92b655ca5e4b_828w_1792h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式天妇罗蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_086": {
+    "id": "rec_foundation_sauce_086",
+    "name": "日式蒲烧汁",
+    "categoryType": "sauce",
+    "title": "日式鳗鱼饭（附蒲烧汁做法）",
+    "photoUrl": "https://i2.chuimg.com/3e77059091564181ab7c1d5ad86db288_1594w_1301h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式蒲烧汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_087": {
+    "id": "rec_foundation_sauce_087",
+    "name": "日式章鱼烧酱",
+    "categoryType": "sauce",
+    "title": "日式章鱼烧完美复刻·绝密私房章鱼小丸子酱料大公开",
+    "photoUrl": "https://i2.chuimg.com/3a923b154de143b8835198032c09ff75_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式章鱼烧酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_088": {
+    "id": "rec_foundation_sauce_088",
+    "name": "日式大阪烧酱",
+    "categoryType": "sauce",
+    "title": "虾仁大阪烧（传统御好烧）（自制大阪烧酱和蛋黄酱）（小美辅助操作版）",
+    "photoUrl": "https://i2.chuimg.com/2ecbf696dd444f099fead7bd5e4b6c64_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式大阪烧酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_089": {
+    "id": "rec_foundation_sauce_089",
+    "name": "日式咖喱酱",
+    "categoryType": "sauce",
+    "title": "🇯🇵日式炸猪排(附猪排淋酱及日式咖喱的做法)🇯🇵",
+    "photoUrl": "https://i2.chuimg.com/302aa5a8e48b47e08b28984778ffb7a1_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式咖喱酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_090": {
+    "id": "rec_foundation_sauce_090",
+    "name": "日式明太子酱",
+    "categoryType": "sauce",
+    "title": "面包伴侣—明太子鱼鱼籽抹酱",
+    "photoUrl": "https://i2.chuimg.com/7d6d64828ef149e195296c80c076d2fc_1280w_854h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式明太子酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_091": {
+    "id": "rec_foundation_sauce_091",
+    "name": "日式芥末酱油",
+    "categoryType": "sauce",
+    "title": "日式芥末酱油",
+    "photoUrl": "https://i2.chuimg.com/47a07b2c3b24414bacffc43951cfdfe6_684w_912h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式芥末酱油",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_092": {
+    "id": "rec_foundation_sauce_092",
+    "name": "韩式甜辣酱",
+    "categoryType": "sauce",
+    "title": "韩式炸鸡（附韩式甜辣酱和蜂蜜芥末酱配方）",
+    "photoUrl": "https://i2.chuimg.com/441c8617a6e844dabd5f9e00cc13e257_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式甜辣酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_093": {
+    "id": "rec_foundation_sauce_093",
+    "name": "韩式烤肉酱",
+    "categoryType": "sauce",
+    "title": "懒人在家韩式烤肉➕高度复刻烤肉店蘸酱",
+    "photoUrl": "https://i2.chuimg.com/cef01d70e723420eb948e96bdec0d4da_1124w_1124h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式烤肉酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_094": {
+    "id": "rec_foundation_sauce_094",
+    "name": "韩式拌饭酱",
+    "categoryType": "sauce",
+    "title": "可以卖💰的韩式拌饭酱料",
+    "photoUrl": "https://i2.chuimg.com/b9353db74bfa4933bbf818cf5248c13f_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式拌饭酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_095": {
+    "id": "rec_foundation_sauce_095",
+    "name": "韩式包饭酱",
+    "categoryType": "sauce",
+    "title": "就酱吃饭团--韩式包饭酱饭团",
+    "photoUrl": "https://i2.chuimg.com/ecbbb9708a8c48de84cb1a1a5db4f1c3_1611w_1209h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式包饭酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_096": {
+    "id": "rec_foundation_sauce_096",
+    "name": "韩式辣炒年糕酱",
+    "categoryType": "sauce",
+    "title": "韩国街头同款辣炒年糕‼️超详细浓稠酱汁配方",
+    "photoUrl": "https://i2.chuimg.com/b3708557b67d40a591472fa38c843a01_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式辣炒年糕酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_097": {
+    "id": "rec_foundation_sauce_097",
+    "name": "韩式炸鸡酱",
+    "categoryType": "sauce",
+    "title": "韩国辣酱炸鸡",
+    "photoUrl": "https://i2.chuimg.com/18c9fa729c1811e6b3cc0242ac110002_1536w_2048h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式炸鸡酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_098": {
+    "id": "rec_foundation_sauce_098",
+    "name": "韩式冷面汁",
+    "categoryType": "sauce",
+    "title": "上海冷面｜麻酱｜调味酱汁",
+    "photoUrl": "https://i2.chuimg.com/7e34159906f4479ea28b251bb1d8f745_720w_900h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式冷面汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_099": {
+    "id": "rec_foundation_sauce_099",
+    "name": "泰式甜辣酱",
+    "categoryType": "sauce",
+    "title": "泰式甜辣酱汁（万用蘸酱）Naam Jim Sub Pa Rod",
+    "photoUrl": "https://i2.chuimg.com/661bd69289e411e6a9a10242ac110002_1800w_1350h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式甜辣酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_100": {
+    "id": "rec_foundation_sauce_100",
+    "name": "泰式酸辣海鲜汁",
+    "categoryType": "sauce",
+    "title": "懒人福音—泰式酸辣汁捞海鲜",
+    "photoUrl": "https://i2.chuimg.com/ca8f7d72b8784cd4a60932895a6c7124_3840w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式酸辣海鲜汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_101": {
+    "id": "rec_foundation_sauce_101",
+    "name": "泰式青辣椒蘸酱",
+    "categoryType": "sauce",
+    "title": "简易青辣椒酱",
+    "photoUrl": "https://i2.chuimg.com/da889692dbe14807a07241ea759b4bba_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "青辣椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_102": {
+    "id": "rec_foundation_sauce_102",
+    "name": "泰式沙嗲酱",
+    "categoryType": "sauce",
+    "title": "沙嗲鸡肉串+沙嗲酱 --马来西亚泰国风味",
+    "photoUrl": "https://i2.chuimg.com/4f0f24114af24059bde1d556e7d3c6d7_992w_744h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式沙嗲酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_103": {
+    "id": "rec_foundation_sauce_103",
+    "name": "泰式罗望子酱",
+    "categoryType": "sauce",
+    "title": "泰式罗望子酱炒大虾",
+    "photoUrl": "https://i2.chuimg.com/320fbeaef81611e6947d0242ac110002_1936w_1936h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式罗望子酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_104": {
+    "id": "rec_foundation_sauce_104",
+    "name": "越南鱼露蘸汁",
+    "categoryType": "sauce",
+    "title": "越南春卷鱼露蘸汁",
+    "photoUrl": "https://i2.chuimg.com/074d323d87104557bd903315be76507b_992w_744h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "越南鱼露蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_105": {
+    "id": "rec_foundation_sauce_105",
+    "name": "越南春卷蘸汁",
+    "categoryType": "sauce",
+    "title": "【外貌协会🌴】越南春卷（附蘸汁做法，超低热量！）",
+    "photoUrl": "https://i2.chuimg.com/3469a97ea2f948c4b69a41a8509d8988_2448w_3264h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "越南春卷蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_106": {
+    "id": "rec_foundation_sauce_106",
+    "name": "新加坡海南鸡辣酱",
+    "categoryType": "sauce",
+    "title": "海南鸡饭(新加坡版)",
+    "photoUrl": "https://i2.chuimg.com/352980a1113a4aada9c0a1de57030aa0_1008w_756h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "新加坡海南鸡辣酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_107": {
+    "id": "rec_foundation_sauce_107",
+    "name": "新加坡叁巴酱",
+    "categoryType": "sauce",
+    "title": "新加坡风味叁巴酱虾球四季豆",
+    "photoUrl": "https://i2.chuimg.com/1b7e30cad7f04378ba9292f9f641ade7_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "新加坡叁巴酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_108": {
+    "id": "rec_foundation_sauce_108",
+    "name": "马来西亚沙嗲酱",
+    "categoryType": "sauce",
+    "title": "【沙嗲金钱肚】广东早茶必点！越吃越富贵",
+    "photoUrl": "https://i2.chuimg.com/6bb4fc1b99d24e9b84e8c42357137354_640w_480h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "沙嗲",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_109": {
+    "id": "rec_foundation_sauce_109",
+    "name": "印尼参巴酱",
+    "categoryType": "sauce",
+    "title": "参巴酱",
+    "photoUrl": "https://i2.chuimg.com/ab31b1fb2df2462aa3e81d45369c0c28_1080w_575h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "印尼参巴酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_110": {
+    "id": "rec_foundation_sauce_110",
+    "name": "菲律宾酸醋蘸汁",
+    "categoryType": "sauce",
+    "title": "酸醋嫩姜",
+    "photoUrl": "https://i2.chuimg.com/9601934781af4241891aabcd13d2d232_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酸醋",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_111": {
+    "id": "rec_foundation_sauce_111",
+    "name": "印度薄荷酸奶酱",
+    "categoryType": "sauce",
+    "title": "薄荷酸奶酱——可以抹一切",
+    "photoUrl": "https://i2.chuimg.com/fa68961c99394fb0ad984f2412786230_1868w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "印度薄荷酸奶酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_112": {
+    "id": "rec_foundation_sauce_112",
+    "name": "印度罗望子甜酸酱",
+    "categoryType": "sauce",
+    "title": "甜酸酱",
+    "photoUrl": "https://i2.chuimg.com/95008425a51e431594be44cd610ef42e_3036w_2612h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "印度罗望子甜酸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_113": {
+    "id": "rec_foundation_sauce_113",
+    "name": "印度咖喱蘸酱",
+    "categoryType": "sauce",
+    "title": "二款印度和尼泊尔Momo蘸酱：微辣红咖喱番茄酱、黄咖喱玉米花生酱|印度菜厨艺比赛菜品",
+    "photoUrl": "https://i2.chuimg.com/84d52a4d154546a885fe68bcda01c98e_880w_704h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "印度咖喱蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_114": {
+    "id": "rec_foundation_sauce_114",
+    "name": "中东鹰嘴豆泥酱",
+    "categoryType": "sauce",
+    "title": "中东鹰嘴豆泥酱Hummus",
+    "photoUrl": "https://i2.chuimg.com/cee0d0c7509741298eaf4796e06acc41_1280w_720h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "中东鹰嘴豆泥酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_115": {
+    "id": "rec_foundation_sauce_115",
+    "name": "中东芝麻酱",
+    "categoryType": "sauce",
+    "title": "肝脏3:6:9净化法之鹰嘴豆饼佐中东芝麻酱",
+    "photoUrl": "https://i2.chuimg.com/15948b4bc70e4ffc8a44e63e0cf3d177_1242w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "中东芝麻酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_116": {
+    "id": "rec_foundation_sauce_116",
+    "name": "墨西哥莎莎酱",
+    "categoryType": "sauce",
+    "title": "零失败的墨西哥🇲🇽salsa莎莎酱和guacamole牛油果🥑酱",
+    "photoUrl": "https://i2.chuimg.com/9a2a48bfd4994427b51aa9a6081a59d8_1688w_1124h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "墨西哥莎莎酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_117": {
+    "id": "rec_foundation_sauce_117",
+    "name": "墨西哥鳄梨酱",
+    "categoryType": "sauce",
+    "title": "Guacamole 墨西哥鳄梨酱",
+    "photoUrl": "https://i2.chuimg.com/aea61a78881b11e6b87c0242ac110003_1000w_667h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "墨西哥鳄梨酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_118": {
+    "id": "rec_foundation_sauce_118",
+    "name": "墨西哥奶酪辣酱",
+    "categoryType": "sauce",
+    "title": "双重奶酪的快乐‼️奶酪年糕辣鸡翅",
+    "photoUrl": "https://i2.chuimg.com/ce608485f1ec4c4a90d194d542af0c79_1280w_1011h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "奶酪辣",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_119": {
+    "id": "rec_foundation_sauce_119",
+    "name": "意式番茄酱",
+    "categoryType": "sauce",
+    "title": "意式番茄肉酱",
+    "photoUrl": "https://i2.chuimg.com/41c7e48faf5e47c5a0a09df70f549487_1124w_899h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式番茄酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_120": {
+    "id": "rec_foundation_sauce_120",
+    "name": "意式青酱",
+    "categoryType": "sauce",
+    "title": "『🅝🅞 043 』自制意式青酱Pesto｜附详细做法💯",
+    "photoUrl": "https://i2.chuimg.com/bf970b65867a4d36849e2cbac538884e_3000w_2250h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式青酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_121": {
+    "id": "rec_foundation_sauce_121",
+    "name": "意式白酱",
+    "categoryType": "sauce",
+    "title": "正宗意式白酱宽面Fettucine Alfredo",
+    "photoUrl": "https://i2.chuimg.com/4549e417ed014f398c7fb1654a452c6b_2507w_2051h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式白酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_122": {
+    "id": "rec_foundation_sauce_122",
+    "name": "意式肉酱",
+    "categoryType": "sauce",
+    "title": "经典意式肉酱面",
+    "photoUrl": "https://i2.chuimg.com/5310eb98c1be4d7a9300b3f19766bf07_1080w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式肉酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_123": {
+    "id": "rec_foundation_sauce_123",
+    "name": "意式油醋汁",
+    "categoryType": "sauce",
+    "title": "意式油醋汁 Italian Dressing",
+    "photoUrl": "https://i2.chuimg.com/60d54db1fe554c37960b8f045e31a0f0_964w_1350h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式油醋汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_124": {
+    "id": "rec_foundation_sauce_124",
+    "name": "法式第戎芥末酱",
+    "categoryType": "sauce",
+    "title": "黄芥末酱（法式第戎芥末酱）第二版",
+    "photoUrl": "https://i2.chuimg.com/f1cd4eeaee4948d3accbab1f34c5cb06_3347w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式第戎芥末酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_125": {
+    "id": "rec_foundation_sauce_125",
+    "name": "法式蛋黄酱",
+    "categoryType": "sauce",
+    "title": "法式蛋黄酱",
+    "photoUrl": "https://i2.chuimg.com/5185addc86f8450c919deecfde69c429_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式蛋黄酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_126": {
+    "id": "rec_foundation_sauce_126",
+    "name": "法式塔塔酱",
+    "categoryType": "sauce",
+    "title": "法式蘸酱塔塔酱",
+    "photoUrl": "https://i2.chuimg.com/7b4a19455da84d3dae40e2d306c3fa18_1339w_978h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式塔塔酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_127": {
+    "id": "rec_foundation_sauce_127",
+    "name": "法式荷兰酱",
+    "categoryType": "sauce",
+    "title": "荷兰酱与班尼迪克蛋（传统做法）",
+    "photoUrl": "https://i2.chuimg.com/1fa6fae9f11f445d82b02d2172f2c4f9_1280w_720h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式荷兰酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_128": {
+    "id": "rec_foundation_sauce_128",
+    "name": "法式贝亚恩酱",
+    "categoryType": "sauce",
+    "title": "贝亚恩酱",
+    "photoUrl": "https://i2.chuimg.com/879a0c24f3a340eaa635f94e312dbdb8_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式贝亚恩酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_129": {
+    "id": "rec_foundation_sauce_129",
+    "name": "西式黑椒汁",
+    "categoryType": "sauce",
+    "title": "西餐厅的黑椒牛柳意面（附秘制黑椒汁做法）",
+    "photoUrl": "https://i2.chuimg.com/9acf6a899a3c485db1814c4462ffdf05_3780w_3025h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "西式黑椒汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_130": {
+    "id": "rec_foundation_sauce_130",
+    "name": "西式蘑菇汁",
+    "categoryType": "sauce",
+    "title": "『健康早餐』蘑菇汁烤小土豆",
+    "photoUrl": "https://i2.chuimg.com/bb3eba15107a4ae494b6f79a3501bae3_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "西式蘑菇汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_131": {
+    "id": "rec_foundation_sauce_131",
+    "name": "西式红酒汁",
+    "categoryType": "sauce",
+    "title": "法式香煎羊排配香草红酒汁",
+    "photoUrl": "https://i2.chuimg.com/3090395bcfce4223bc566a9445a33f48_970w_1453h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "西式红酒汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_133": {
+    "id": "rec_foundation_sauce_133",
+    "name": "西式奶油汁",
+    "categoryType": "sauce",
+    "title": "笔记/西餐/黄油酱汁/奶油乳制品酱汁",
+    "photoUrl": "https://i2.chuimg.com/05cae6bd9e3a47eab1b6abefe443cd6c_640w_475h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "西式奶油汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_134": {
+    "id": "rec_foundation_sauce_134",
+    "name": "美式烧烤酱",
+    "categoryType": "sauce",
+    "title": "美式烧烤酱手撕猪肉三明治BBQ Pulled Pork Sandwich软嫩多汁 铸铁锅烤箱版",
+    "photoUrl": "https://i2.chuimg.com/07c1222293504cb9b78aeb802acb17b2_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "美式烧烤酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_135": {
+    "id": "rec_foundation_sauce_135",
+    "name": "美式水牛城辣酱",
+    "categoryType": "sauce",
+    "title": "美式Buffalo烤鸡翅（水牛城辣酱/蓝纹）丨低碳生酮",
+    "photoUrl": "https://i2.chuimg.com/6ee1c78e436a4119a19bbae1335cabe3_1200w_800h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "美式水牛城辣酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_136": {
+    "id": "rec_foundation_sauce_136",
+    "name": "美式千岛酱",
+    "categoryType": "sauce",
+    "title": "美式BBQ烤排配薯角千岛酱\nPs:千岛酱纯手工自制，功力不足，手打残废了",
+    "photoUrl": "https://i2.chuimg.com/e59b5468156e4144a1d27bce394f6e01_1283w_1124h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "美式千岛酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_137": {
+    "id": "rec_foundation_sauce_137",
+    "name": "美式牧场酱",
+    "categoryType": "sauce",
+    "title": "牧场沙拉酱|美国最受欢迎酱料|低卡版",
+    "photoUrl": "https://i2.chuimg.com/9a8e13d7531342e18082de8752f97bc6_2731w_4096h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "美式牧场酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_138": {
+    "id": "rec_foundation_sauce_138",
+    "name": "蜂蜜芥末酱",
+    "categoryType": "sauce",
+    "title": "万能芥末蜂蜜酱（沙拉就酱）",
+    "photoUrl": "https://i2.chuimg.com/5fae517791c44a4aaa68accf9bca8b0a_3072w_2286h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蜂蜜芥末酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_139": {
+    "id": "rec_foundation_sauce_139",
+    "name": "凯撒沙拉酱",
+    "categoryType": "sauce",
+    "title": "恺撒沙拉+凯撒沙拉酱",
+    "photoUrl": "https://i2.chuimg.com/e85d41ae88b811e6a9a10242ac110002_4207w_2914h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "凯撒沙拉酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_140": {
+    "id": "rec_foundation_sauce_140",
+    "name": "酸奶香草酱",
+    "categoryType": "sauce",
+    "title": "香草酸奶酱—解腻神酱",
+    "photoUrl": "https://i2.chuimg.com/ad3edc09d436436dbd74f429f856e375_4096w_2731h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酸奶香草酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_141": {
+    "id": "rec_foundation_sauce_141",
+    "name": "牛油果酸奶酱",
+    "categoryType": "sauce",
+    "title": "牛油果酸奶黄瓜酱 Avocado Tzatziki Sauce",
+    "photoUrl": "https://i2.chuimg.com/269de23e8b4311e6b87c0242ac110003_533w_800h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛油果酸奶酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_142": {
+    "id": "rec_foundation_sauce_142",
+    "name": "花生沙嗲蘸酱",
+    "categoryType": "sauce",
+    "title": "沙嗲牛肉干",
+    "photoUrl": "https://i2.chuimg.com/fe3a607c3fd3464b8cb1e8763fd77557_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "花生沙嗲蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_143": {
+    "id": "rec_foundation_sauce_143",
+    "name": "芝麻味噌蘸酱",
+    "categoryType": "sauce",
+    "title": "芦笋佐味噌芝麻酱",
+    "photoUrl": "https://i2.chuimg.com/bb441f62875511e6b87c0242ac110003_700w_464h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "芝麻味噌蘸酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_144": {
+    "id": "rec_foundation_sauce_144",
+    "name": "柠檬黄油酱",
+    "categoryType": "sauce",
+    "title": "煎脆皮三文鱼配挪威柠檬黄油酱汁 Pan-seared Crispy Salmon with Norwegian Lemon Butter Sauce",
+    "photoUrl": "https://i2.chuimg.com/4403caa6447e11e7bc9d0242ac110002_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "柠檬黄油酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_145": {
+    "id": "rec_foundation_sauce_145",
+    "name": "蒜香黄油酱",
+    "categoryType": "sauce",
+    "title": "万能百搭的蒜香黄油酱",
+    "photoUrl": "https://i2.chuimg.com/5c4a30320cae4c54bbcd4064b2e9188c_1500w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蒜香黄油酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_146": {
+    "id": "rec_foundation_sauce_146",
+    "name": "香草黄油酱",
+    "categoryType": "sauce",
+    "title": "【香草蒜蓉黄油酱】西餐和面包的最佳配角",
+    "photoUrl": "https://i2.chuimg.com/963c62d4877211e6a9a10242ac110002_334w_500h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "香草黄油酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_147": {
+    "id": "rec_foundation_sauce_147",
+    "name": "焦糖酱",
+    "categoryType": "sauce",
+    "title": "PH大师的焦糖奶油酱",
+    "photoUrl": "https://i2.chuimg.com/81940423d0484da1b78a02c737e80ab0_1650w_1100h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "焦糖酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_148": {
+    "id": "rec_foundation_sauce_148",
+    "name": "巧克力酱",
+    "categoryType": "sauce",
+    "title": "超经典的巧克力酱（三种原料&10分钟）",
+    "photoUrl": "https://i2.chuimg.com/9d59e7ecdf5b4990b9395d82d8b7c044_1204w_903h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "巧克力酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_149": {
+    "id": "rec_foundation_sauce_149",
+    "name": "莓果酱",
+    "categoryType": "sauce",
+    "title": "复合莓果酱",
+    "photoUrl": "https://i2.chuimg.com/bc47cc036c2a4aa1a2d54330319d2d25_480w_384h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "莓果酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_150": {
+    "id": "rec_foundation_sauce_150",
+    "name": "芒果酱",
+    "categoryType": "sauce",
+    "title": "芒果酱",
+    "photoUrl": "https://i2.chuimg.com/24775f308b5711e6a9a10242ac110002_1080w_1439h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "芒果酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_151": {
+    "id": "rec_foundation_sauce_151",
+    "name": "百香果酱",
+    "categoryType": "sauce",
+    "title": "百香果酱 能够保留营养的果酱",
+    "photoUrl": "https://i2.chuimg.com/ca8d8e68f18b11e6947d0242ac110002_1620w_2160h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "百香果酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_152": {
+    "id": "rec_foundation_sauce_152",
+    "name": "苹果肉桂酱",
+    "categoryType": "sauce",
+    "title": "焦糖苹果肉桂酱",
+    "photoUrl": "https://i2.chuimg.com/7264ed08b24311e6947d0242ac110002_854w_641h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "苹果肉桂酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_001": {
+    "id": "rec_foundation_pickle_001",
+    "name": "四川泡萝卜",
+    "categoryType": "pickle",
+    "title": "川味泡萝卜｜传统家常咸菜",
+    "photoUrl": "https://i2.chuimg.com/8a7fe2a085f047deb1f1163cb71cb6e8_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "四川泡萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_002": {
+    "id": "rec_foundation_pickle_002",
+    "name": "四川泡豇豆",
+    "categoryType": "pickle",
+    "title": "四川烂肉炒泡豇豆",
+    "photoUrl": "https://i2.chuimg.com/aaacd5491d594e09a3fdb6ecad5f36b5_1224w_918h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "四川泡豇豆",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_003": {
+    "id": "rec_foundation_pickle_003",
+    "name": "四川泡姜",
+    "categoryType": "pickle",
+    "title": "四川泡菜：泡姜泡辣椒",
+    "photoUrl": "https://i2.chuimg.com/18aff5c0c2fe47dbaee8bcdadcc61d8f_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "四川泡姜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_004": {
+    "id": "rec_foundation_pickle_004",
+    "name": "四川泡辣椒",
+    "categoryType": "pickle",
+    "title": "能让你多吃一碗饭的开胃小咸菜～腌辣椒（尖椒）圈",
+    "photoUrl": "https://i2.chuimg.com/12d8cc3b38044edaa10a76adab0810b1_1124w_1500h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泡辣椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_005": {
+    "id": "rec_foundation_pickle_005",
+    "name": "四川泡仔姜",
+    "categoryType": "pickle",
+    "title": "川味家常泡仔姜",
+    "photoUrl": "https://i2.chuimg.com/08f7850190424882b367feaab84d22e3_1000w_750h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "四川泡仔姜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_006": {
+    "id": "rec_foundation_pickle_006",
+    "name": "四川洗澡泡菜",
+    "categoryType": "pickle",
+    "title": "中餐厅林大厨四川洗澡泡菜",
+    "photoUrl": "https://i2.chuimg.com/5ecc4494841d4c91bf72add51b373cfa_3024w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "四川洗澡泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_007": {
+    "id": "rec_foundation_pickle_007",
+    "name": "四川跳水泡菜",
+    "categoryType": "pickle",
+    "title": "厨师长教你：四川“跳水泡菜”的家常做法，酸甜脆爽，开胃解腻",
+    "photoUrl": "https://i2.chuimg.com/5d174196d96c485195070cc07df84797_3840w_2160h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "四川跳水泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_008": {
+    "id": "rec_foundation_pickle_008",
+    "name": "重庆涪陵榨菜家庭版",
+    "categoryType": "pickle",
+    "title": "涪陵榨菜炒蛋",
+    "photoUrl": "https://i2.chuimg.com/79ee771e87f611e6b87c0242ac110003_512w_382h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "重庆涪陵榨菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_009": {
+    "id": "rec_foundation_pickle_009",
+    "name": "湖南剁椒腌萝卜",
+    "categoryType": "pickle",
+    "title": "剁椒腌仔姜（湘味）",
+    "photoUrl": "https://i2.chuimg.com/cdeebf388b9111e6b87c0242ac110003_708w_648h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "湖南剁椒腌萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_010": {
+    "id": "rec_foundation_pickle_010",
+    "name": "湖南酸豆角",
+    "categoryType": "pickle",
+    "title": "够酸爽过瘾的湖南菜酸豆角炒鸡杂",
+    "photoUrl": "https://i2.chuimg.com/088a60eefa144ebe8452515f390dd1ce_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "湖南酸豆角",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_011": {
+    "id": "rec_foundation_pickle_011",
+    "name": "湖南腌刀豆",
+    "categoryType": "pickle",
+    "title": "湖南人的下饭神器-剁椒刀豆（内含制作全过程）",
+    "photoUrl": "https://i2.chuimg.com/712e104852c44dcb8c0b56e5fd10d24b_1656w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "湖南腌刀豆",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_012": {
+    "id": "rec_foundation_pickle_012",
+    "name": "湖南外婆菜",
+    "categoryType": "pickle",
+    "title": "时尚湘菜外婆菜",
+    "photoUrl": "https://i2.chuimg.com/bc959b25ca0543fb9f70ae5f8cfbcb40_1694w_1124h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "湖南外婆菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_013": {
+    "id": "rec_foundation_pickle_013",
+    "name": "江西酸萝卜",
+    "categoryType": "pickle",
+    "title": "在江西种草到的酸萝卜鸡杂！！！",
+    "photoUrl": "https://i2.chuimg.com/d687371060e9428fb61a7d485c569b9f_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "江西酸萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_014": {
+    "id": "rec_foundation_pickle_014",
+    "name": "江西腌辣椒",
+    "categoryType": "pickle",
+    "title": "陕西版腌辣椒",
+    "photoUrl": "https://i2.chuimg.com/83385af2d7c146af88b5b4578a681715_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "江西腌辣椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_015": {
+    "id": "rec_foundation_pickle_015",
+    "name": "江西酸菜梗",
+    "categoryType": "pickle",
+    "title": "江西酸菜米粉",
+    "photoUrl": "https://i2.chuimg.com/3c6b24df3f2e4cd3bef5f77b40a7dbc2_3072w_2050h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "江西酸菜梗",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_016": {
+    "id": "rec_foundation_pickle_016",
+    "name": "贵州酸菜",
+    "categoryType": "pickle",
+    "title": "无盐版酸菜（贵州）",
+    "photoUrl": "https://i2.chuimg.com/998ee7fbd91c4df69a300ee0232bf61b_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "贵州酸菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_017": {
+    "id": "rec_foundation_pickle_017",
+    "name": "贵州糟辣椒",
+    "categoryType": "pickle",
+    "title": "自制贵州糟辣椒",
+    "photoUrl": "https://i2.chuimg.com/59c4d458897011e6a9a10242ac110002_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "贵州糟辣椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_018": {
+    "id": "rec_foundation_pickle_018",
+    "name": "贵州盐酸菜",
+    "categoryType": "pickle",
+    "title": "贵州无盐酸菜",
+    "photoUrl": "https://i2.chuimg.com/56c00b1cc3bd43108ca6512721bdaa56_720w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "贵州盐酸菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_019": {
+    "id": "rec_foundation_pickle_019",
+    "name": "云南水腌菜",
+    "categoryType": "pickle",
+    "title": "昆明传统水腌菜（苦菜外地叫芥菜）",
+    "photoUrl": "https://i2.chuimg.com/f44b5a49e7fa4e27b482186128450201_2000w_1125h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "云南水腌菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_020": {
+    "id": "rec_foundation_pickle_020",
+    "name": "云南酸腌菜",
+    "categoryType": "pickle",
+    "title": "云南酸腌菜（雪菜版）",
+    "photoUrl": "https://i2.chuimg.com/fc0751f4880411e6b87c0242ac110003_3248w_2301h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "云南酸腌菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_021": {
+    "id": "rec_foundation_pickle_021",
+    "name": "广西酸嘢萝卜",
+    "categoryType": "pickle",
+    "title": "广西酸野白萝卜",
+    "photoUrl": "https://i2.chuimg.com/9bdf6d300863486f9509c897a1a87fb2_1242w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广西酸嘢萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_022": {
+    "id": "rec_foundation_pickle_022",
+    "name": "广西酸嘢木瓜",
+    "categoryType": "pickle",
+    "title": "广西酸嘢",
+    "photoUrl": "https://i2.chuimg.com/4dfc840b9ef7438089f5132e65a68f94_1236w_1236h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广西酸嘢木瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_023": {
+    "id": "rec_foundation_pickle_023",
+    "name": "广西酸嘢黄瓜",
+    "categoryType": "pickle",
+    "title": "万物皆🉑酸的冰糖酸嘢#猪的广西特色料理#",
+    "photoUrl": "https://i2.chuimg.com/a809e087f1894066977be2ada719b788_3024w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广西酸嘢黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_024": {
+    "id": "rec_foundation_pickle_024",
+    "name": "广西酸笋",
+    "categoryType": "pickle",
+    "title": "自制广西酸笋",
+    "photoUrl": "https://i2.chuimg.com/113e487ae75a4123b3531e9ab5ae1a05_711w_716h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广西酸笋",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_025": {
+    "id": "rec_foundation_pickle_025",
+    "name": "广东咸酸菜",
+    "categoryType": "pickle",
+    "title": "咸酸菜炒蚬肉 (家常粤菜)",
+    "photoUrl": "https://i2.chuimg.com/daf0c25e882011e6a9a10242ac110002_638w_638h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广东咸酸菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_026": {
+    "id": "rec_foundation_pickle_026",
+    "name": "广东酸荞头",
+    "categoryType": "pickle",
+    "title": "甜酸荞头",
+    "photoUrl": "https://i2.chuimg.com/182e53fa892c11e6b87c0242ac110003_1239w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广东酸荞头",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_027": {
+    "id": "rec_foundation_pickle_027",
+    "name": "广东腌黄瓜",
+    "categoryType": "pickle",
+    "title": "小时候味道腌黄瓜，我的家乡湛江",
+    "photoUrl": "https://i2.chuimg.com/458babf0b2e145968fb668b1daacaa15_3780w_3022h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广东腌黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_028": {
+    "id": "rec_foundation_pickle_028",
+    "name": "潮汕咸菜",
+    "categoryType": "pickle",
+    "title": "潮汕咸菜",
+    "photoUrl": "https://i2.chuimg.com/76369b9e8a1a11e6a9a10242ac110002_2400w_3200h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮汕咸菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_029": {
+    "id": "rec_foundation_pickle_029",
+    "name": "潮汕橄榄菜",
+    "categoryType": "pickle",
+    "title": "潮汕橄榄菜",
+    "photoUrl": "https://i2.chuimg.com/e6e86507a41c4c7fa63d0f8024c9c52d_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮汕橄榄菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_030": {
+    "id": "rec_foundation_pickle_030",
+    "name": "潮汕贡菜",
+    "categoryType": "pickle",
+    "title": "潮汕好吃不冷藏不变质的“贡菜”",
+    "photoUrl": "https://i2.chuimg.com/9ad881e5ec84437d8af6c1de5333b87e_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮汕贡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_031": {
+    "id": "rec_foundation_pickle_031",
+    "name": "客家梅菜",
+    "categoryType": "pickle",
+    "title": "客家梅菜干闷五花肉 超下饭😋",
+    "photoUrl": "https://i2.chuimg.com/f1cfa3a628cf454c96274e3106c60dbd_828w_1104h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "客家梅菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_032": {
+    "id": "rec_foundation_pickle_032",
+    "name": "客家咸菜",
+    "categoryType": "pickle",
+    "title": "客家咸菜焖猪肉",
+    "photoUrl": "https://i2.chuimg.com/4735eb26d9174ff29aa40e49d9a6de06_1280w_1302h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "客家咸菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_033": {
+    "id": "rec_foundation_pickle_033",
+    "name": "福建糟菜",
+    "categoryType": "pickle",
+    "title": "闽清糟菜炒雷笋",
+    "photoUrl": "https://i2.chuimg.com/2054ccf15f2047f4a3ad7b0d419e9331_1280w_1709h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "福建糟菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_034": {
+    "id": "rec_foundation_pickle_034",
+    "name": "福建腌萝卜",
+    "categoryType": "pickle",
+    "title": "闽南漳州菜头酸（爽脆腌萝卜）配海蛎煎超好料",
+    "photoUrl": "https://i2.chuimg.com/2f8460044ccb46aa88f5458de02c689e_3024w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "福建腌萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_035": {
+    "id": "rec_foundation_pickle_035",
+    "name": "浙江倒笃菜",
+    "categoryType": "pickle",
+    "title": "#444 杭州春菜-倒笃菜炒杭椒春笋豆干香菇",
+    "photoUrl": "https://i2.chuimg.com/68af292ac9c74460bc4c0afec75d143a_3643w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "浙江倒笃菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_036": {
+    "id": "rec_foundation_pickle_036",
+    "name": "浙江霉干菜",
+    "categoryType": "pickle",
+    "title": "浙江绍兴梅干菜烧肉",
+    "photoUrl": "https://i2.chuimg.com/2d6172c93a18411f8eff23d9df70b92b_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "浙江霉干菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_037": {
+    "id": "rec_foundation_pickle_037",
+    "name": "杭州酱萝卜",
+    "categoryType": "pickle",
+    "title": "无敌好吃的杭州酱萝卜",
+    "photoUrl": "https://i2.chuimg.com/f7edc844b2e641d286fe9ca57760df50_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "杭州酱萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_038": {
+    "id": "rec_foundation_pickle_038",
+    "name": "上海糖醋萝卜",
+    "categoryType": "pickle",
+    "title": "上海抗疫菜——小萝卜天天吃爽口味绝的糖醋樱桃小萝卜樱桃萝卜［1］",
+    "photoUrl": "https://i2.chuimg.com/10c9edc3c36e442daf1d7a026e5a98a3_334w_423h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "上海糖醋萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_039": {
+    "id": "rec_foundation_pickle_039",
+    "name": "江苏甜酸黄瓜",
+    "categoryType": "pickle",
+    "title": "酱黄瓜酸黄瓜凉拌黄瓜",
+    "photoUrl": "https://i2.chuimg.com/62aa13b73cc74e5ebf9b372ff327fb71_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "江苏甜酸黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_041": {
+    "id": "rec_foundation_pickle_041",
+    "name": "扬州乳黄瓜",
+    "categoryType": "pickle",
+    "title": "粥的拍档—扬州酱菜乳黄瓜的吃法",
+    "photoUrl": "https://i2.chuimg.com/0b12307c26fe41429b8b0c683a647b4d_1316w_1240h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "扬州乳黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_042": {
+    "id": "rec_foundation_pickle_042",
+    "name": "东北酸白菜",
+    "categoryType": "pickle",
+    "title": "腌酸菜-东北酸菜-酸白菜",
+    "photoUrl": "https://i2.chuimg.com/23099b629b4043e1b0fdf3df13123d43_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东北酸白菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_043": {
+    "id": "rec_foundation_pickle_043",
+    "name": "东北腌黄瓜",
+    "categoryType": "pickle",
+    "title": "东北特色腌黄瓜",
+    "photoUrl": "https://i2.chuimg.com/a0b246a0888711e6b87c0242ac110003_638w_640h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东北腌黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_044": {
+    "id": "rec_foundation_pickle_044",
+    "name": "东北蒜茄子",
+    "categoryType": "pickle",
+    "title": "欲罢不能之东北蒜茄子",
+    "photoUrl": "https://i2.chuimg.com/a908042f8566437997fcde81e9316515_1242w_1656h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东北蒜茄子",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_045": {
+    "id": "rec_foundation_pickle_045",
+    "name": "东北辣白菜",
+    "categoryType": "pickle",
+    "title": "东北妈妈的辣白菜",
+    "photoUrl": "https://i2.chuimg.com/661b6647d71b4267af7c1a98b310899c_1280w_1708h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东北辣白菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_046": {
+    "id": "rec_foundation_pickle_046",
+    "name": "北京糖蒜",
+    "categoryType": "pickle",
+    "title": "北京糖蒜",
+    "photoUrl": "https://i2.chuimg.com/71561342d7944ce48fe88fed97a8398c_2304w_3072h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "北京糖蒜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_047": {
+    "id": "rec_foundation_pickle_047",
+    "name": "北京酱黄瓜",
+    "categoryType": "pickle",
+    "title": "腌酱黄瓜",
+    "photoUrl": "https://i2.chuimg.com/a6e37afe3a1f11e7947d0242ac110002_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "北京酱黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_048": {
+    "id": "rec_foundation_pickle_048",
+    "name": "天津冬菜",
+    "categoryType": "pickle",
+    "title": "天津冬菜",
+    "photoUrl": "https://i2.chuimg.com/0eddcf562d724678999a7e9d95a8364d_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "天津冬菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_049": {
+    "id": "rec_foundation_pickle_049",
+    "name": "山东腊八蒜",
+    "categoryType": "pickle",
+    "title": "山东人过年吃——腊八蒜→简单到不需要方子",
+    "photoUrl": "https://i2.chuimg.com/6b5d2b3fd4da4ef2815ffcd533f9d391_1080w_810h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "山东腊八蒜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_050": {
+    "id": "rec_foundation_pickle_050",
+    "name": "山东酱疙瘩",
+    "categoryType": "pickle",
+    "title": "酱咸菜丝  芥菜疙瘩 先炒后蒸 贼好吃",
+    "photoUrl": "https://i2.chuimg.com/130bdfef24b6401abd345442e2a4be74_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "山东酱疙瘩",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_051": {
+    "id": "rec_foundation_pickle_051",
+    "name": "河南芥菜丝",
+    "categoryType": "pickle",
+    "title": "芥菜丝",
+    "photoUrl": "https://i2.chuimg.com/6233d5c78fd145f9ac68b2b4a666587c_1248w_1665h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "河南芥菜丝",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_052": {
+    "id": "rec_foundation_pickle_052",
+    "name": "河北水疙瘩",
+    "categoryType": "pickle",
+    "title": "《河北大锅菜》",
+    "photoUrl": "https://i2.chuimg.com/bee069c88b6f11e6a9a10242ac110002_1560w_2104h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "河北水疙瘩",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_053": {
+    "id": "rec_foundation_pickle_053",
+    "name": "山西腌酸菜",
+    "categoryType": "pickle",
+    "title": "传统酸菜腌制—山西味道",
+    "photoUrl": "https://i2.chuimg.com/e6c2208089b711e6b87c0242ac110003_1152w_1536h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "山西腌酸菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_054": {
+    "id": "rec_foundation_pickle_054",
+    "name": "陕西浆水菜",
+    "categoryType": "pickle",
+    "title": "陕西浆水菜",
+    "photoUrl": "https://i2.chuimg.com/eb5cd5108abe11e6b87c0242ac110003_835w_566h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "陕西浆水菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_055": {
+    "id": "rec_foundation_pickle_055",
+    "name": "陕西腌韭菜",
+    "categoryType": "pickle",
+    "title": "腌韭菜",
+    "photoUrl": "https://i2.chuimg.com/25422b5aaa7111e6bc9d0242ac110002_600w_369h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "陕西腌韭菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_056": {
+    "id": "rec_foundation_pickle_056",
+    "name": "甘肃浆水菜",
+    "categoryType": "pickle",
+    "title": "寻味陇上人家：定西“浆水” 、芹菜浆水",
+    "photoUrl": "https://i2.chuimg.com/3514de655fa149de8a6852f4efc78003_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "甘肃浆水菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_057": {
+    "id": "rec_foundation_pickle_057",
+    "name": "宁夏腌沙葱",
+    "categoryType": "pickle",
+    "title": "凉拌沙葱",
+    "photoUrl": "https://i2.chuimg.com/840f75c92d214439a96303d208926cf4_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "宁夏腌沙葱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_058": {
+    "id": "rec_foundation_pickle_058",
+    "name": "新疆腌恰玛古",
+    "categoryType": "pickle",
+    "title": "凉拌恰玛菇",
+    "photoUrl": "https://i2.chuimg.com/a4af373e00ba41639bfe7dfca8d2a2b3_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "新疆腌恰玛古",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_059": {
+    "id": "rec_foundation_pickle_059",
+    "name": "内蒙古酸白菜",
+    "categoryType": "pickle",
+    "title": "酸爽开胃的酸辣娃娃菜（白菜）",
+    "photoUrl": "https://i2.chuimg.com/263b9f96b3e14da6ae1996a84858f750_1225w_1417h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酸白菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_060": {
+    "id": "rec_foundation_pickle_060",
+    "name": "朝鲜族辣白菜",
+    "categoryType": "pickle",
+    "title": "活了二十年吃过最好吃的辣白菜教程！抖音点赞过百万教程抄袭搬运😘",
+    "photoUrl": "https://i2.chuimg.com/574d2edf078448dfb0a1814ef7057491_1632w_1224h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "朝鲜族辣白菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_061": {
+    "id": "rec_foundation_pickle_061",
+    "name": "韩式萝卜泡菜",
+    "categoryType": "pickle",
+    "title": "超简单又好吃的传统韩式萝卜泡菜(kkakdugi /Korean radish kimchi)",
+    "photoUrl": "https://i2.chuimg.com/d05dd052aa45414f845ae96cf2ebd939_960w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式萝卜泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_062": {
+    "id": "rec_foundation_pickle_062",
+    "name": "韩式黄瓜泡菜",
+    "categoryType": "pickle",
+    "title": "韩式黄瓜泡菜/简易版",
+    "photoUrl": "https://i2.chuimg.com/b244537a885211e6a9a10242ac110002_620w_465h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式黄瓜泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_063": {
+    "id": "rec_foundation_pickle_063",
+    "name": "韩式葱泡菜",
+    "categoryType": "pickle",
+    "title": "“韩国传统小葱泡菜制作方法”",
+    "photoUrl": "https://i2.chuimg.com/999af612a55a46a2a959c596f4cdd651_1118w_1114h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式葱泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_064": {
+    "id": "rec_foundation_pickle_064",
+    "name": "韩式苏子叶泡菜",
+    "categoryType": "pickle",
+    "title": "韩式：腌苏子叶泡菜",
+    "photoUrl": "https://i2.chuimg.com/085f36c124764f149e4e2c218313590c_1170w_1546h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式苏子叶泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_065": {
+    "id": "rec_foundation_pickle_065",
+    "name": "韩式水泡菜",
+    "categoryType": "pickle",
+    "title": "韩式泡菜海鲜饼（附：做出韩国料理店水准的秘诀）",
+    "photoUrl": "https://i2.chuimg.com/83a6beb977394fc98ec602cabef393c4_2000w_2996h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式水泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_066": {
+    "id": "rec_foundation_pickle_066",
+    "name": "日式浅渍黄瓜",
+    "categoryType": "pickle",
+    "title": "浅渍黄瓜时令蔬菜日式酱油一夜渍",
+    "photoUrl": "https://i2.chuimg.com/20004edc7af8411c9d1dbbcf18e384fa_800w_800h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式浅渍黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_067": {
+    "id": "rec_foundation_pickle_067",
+    "name": "日式浅渍白菜",
+    "categoryType": "pickle",
+    "title": "白菜浅渍",
+    "photoUrl": "https://i2.chuimg.com/041b5f26f95248b99625a99058bd7d9c_1024w_769h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式浅渍白菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_068": {
+    "id": "rec_foundation_pickle_068",
+    "name": "日式腌萝卜",
+    "categoryType": "pickle",
+    "title": "日式柠香腌萝卜",
+    "photoUrl": "https://i2.chuimg.com/9febf7f2876011e6a9a10242ac110002_600w_401h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式腌萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_069": {
+    "id": "rec_foundation_pickle_069",
+    "name": "日式梅干",
+    "categoryType": "pickle",
+    "title": "日式酸梅干拌黄瓜鸡胸肉（酸爽开胃、降脂减肥）",
+    "photoUrl": "https://i2.chuimg.com/f69d88dfcbce4884bf579834e047893f_750w_750h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式梅干",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_070": {
+    "id": "rec_foundation_pickle_070",
+    "name": "日式醋渍姜",
+    "categoryType": "pickle",
+    "title": "日式甜醋渍鲜姜",
+    "photoUrl": "https://i2.chuimg.com/757a664f201a44839aeaac45e91b3d4d_750w_600h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式醋渍姜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_071": {
+    "id": "rec_foundation_pickle_071",
+    "name": "越南酸萝卜胡萝卜",
+    "categoryType": "pickle",
+    "title": "酸甜萝卜，开胃爽口超好吃！",
+    "photoUrl": "https://i2.chuimg.com/72a557c22660405ab3a16386862be039_864w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "越南酸萝卜胡萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_072": {
+    "id": "rec_foundation_pickle_072",
+    "name": "泰式酸辣黄瓜",
+    "categoryType": "pickle",
+    "title": "木耳拌黄瓜（泰式酸辣味）",
+    "photoUrl": "https://i2.chuimg.com/3c480ea2194d4a2bb94e114f99a52f4b_1920w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式酸辣黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_073": {
+    "id": "rec_foundation_pickle_073",
+    "name": "菲律宾腌木瓜",
+    "categoryType": "pickle",
+    "title": "自制木瓜炖牛奶| 滋补养颜能喝出来牛奶肌哦",
+    "photoUrl": "https://i2.chuimg.com/dee658a66b284c15acacbd0678a2f604_1279w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "菲律宾腌木瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_074": {
+    "id": "rec_foundation_pickle_074",
+    "name": "印度芒果泡菜",
+    "categoryType": "pickle",
+    "title": "糖醋芒果泡菜 Aamba Khatta Achaar (Sweet and Sour Mango Pickles)",
+    "photoUrl": "https://i2.chuimg.com/fd1bd88d0a8e4d9d9ee6c9d43e2ad7f2_675w_1013h.webp?imageView2/2/w/660/interlace/1/q/88",
+    "query": "芒果泡菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_075": {
+    "id": "rec_foundation_pickle_075",
+    "name": "德国酸菜",
+    "categoryType": "pickle",
+    "title": "AIP饮食|益生菌发酵食物-基础德国酸菜",
+    "photoUrl": "https://i2.chuimg.com/b0c4926678b049b1a617fccb10475273_1219w_914h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "德国酸菜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_076": {
+    "id": "rec_foundation_pickle_076",
+    "name": "俄罗斯酸黄瓜",
+    "categoryType": "pickle",
+    "title": "俄罗斯酸黄瓜",
+    "photoUrl": "https://i2.chuimg.com/f3c2534f715f40b883fa9b203ca6cb21_1000w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "俄罗斯酸黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_077": {
+    "id": "rec_foundation_pickle_077",
+    "name": "地中海腌橄榄",
+    "categoryType": "pickle",
+    "title": "地中海风味大虾【特级初榨橄榄油】",
+    "photoUrl": "https://i2.chuimg.com/7971dce745df45dd9216995cd45e381e_1556w_1169h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "地中海腌橄榄",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_078": {
+    "id": "rec_foundation_pickle_078",
+    "name": "意式油渍彩椒",
+    "categoryType": "pickle",
+    "title": "油渍彩椒茄子干",
+    "photoUrl": "https://i2.chuimg.com/b186896c7bcd4b30ad224a8e8ef53e3b_912w_684h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式油渍彩椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_080": {
+    "id": "rec_foundation_pickle_080",
+    "name": "美式莳萝酸黄瓜",
+    "categoryType": "pickle",
+    "title": "【健康泡菜】美式酸黄瓜Dill pickles",
+    "photoUrl": "https://i2.chuimg.com/2f281e6c8b6e11e6b87c0242ac110003_800w_533h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "美式莳萝酸黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_081": {
+    "id": "rec_foundation_pickle_081",
+    "name": "糖醋仔姜",
+    "categoryType": "pickle",
+    "title": "糖醋仔姜",
+    "photoUrl": "https://i2.chuimg.com/dbcb47b58dc6422380b24f25521758bc_1080w_1440h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "糖醋仔姜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_082": {
+    "id": "rec_foundation_pickle_082",
+    "name": "糖醋蒜",
+    "categoryType": "pickle",
+    "title": "糖醋大蒜头",
+    "photoUrl": "https://i2.chuimg.com/ef70702a68ac4bc1954bd42ad514b23a_983w_653h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "糖醋蒜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_083": {
+    "id": "rec_foundation_pickle_083",
+    "name": "糖醋藠头",
+    "categoryType": "pickle",
+    "title": "糖醋藠头",
+    "photoUrl": "https://i2.chuimg.com/1b5cd33a87b011e6a9a10242ac110002_640w_427h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "糖醋藠头",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_084": {
+    "id": "rec_foundation_pickle_084",
+    "name": "蜂蜜柠檬渍萝卜",
+    "categoryType": "pickle",
+    "title": "蜂蜜柠檬渍白萝卜",
+    "photoUrl": "https://i2.chuimg.com/85f427fe8b5011e6b87c0242ac110003_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蜂蜜柠檬渍萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_085": {
+    "id": "rec_foundation_pickle_085",
+    "name": "话梅腌番茄",
+    "categoryType": "pickle",
+    "title": "紫苏话梅腌番茄",
+    "photoUrl": "https://i2.chuimg.com/5e8252262a194a84a96195a13951850f_1280w_1312h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "话梅腌番茄",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_086": {
+    "id": "rec_foundation_pickle_086",
+    "name": "梅子渍小番茄",
+    "categoryType": "pickle",
+    "title": "梅子汁渍小番茄",
+    "photoUrl": "https://i2.chuimg.com/104cd81e9be94543948830d89b0e4961_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "梅子渍小番茄",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_087": {
+    "id": "rec_foundation_pickle_087",
+    "name": "紫苏梅渍姜",
+    "categoryType": "pickle",
+    "title": "紫苏桃子姜，一秒回到老长沙的夏天",
+    "photoUrl": "https://i2.chuimg.com/8b03bcf77d5b4fac951b76de0f4631c7_4032w_2624h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "紫苏梅渍姜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_088": {
+    "id": "rec_foundation_pickle_088",
+    "name": "酱油腌辣椒",
+    "categoryType": "pickle",
+    "title": "超下饭的～酱油腌辣椒（尖椒）咸菜",
+    "photoUrl": "https://i2.chuimg.com/7b5714fb3588465abca4c83821212190_1124w_899h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酱油腌辣椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_089": {
+    "id": "rec_foundation_pickle_089",
+    "name": "酱油腌蒜",
+    "categoryType": "pickle",
+    "title": "酱油泡蒜/酱油腌蒜",
+    "photoUrl": "https://i2.chuimg.com/3dab094cd5e542b1875ac3ff6935a7bb_4597w_3448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酱油腌蒜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_090": {
+    "id": "rec_foundation_pickle_090",
+    "name": "酱油腌黄瓜",
+    "categoryType": "pickle",
+    "title": "腌黄瓜，酱油萝卜，腌姜",
+    "photoUrl": "https://i2.chuimg.com/b12fdbbabd2443e69dca4d715bed829b_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酱油腌黄瓜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_091": {
+    "id": "rec_foundation_pickle_091",
+    "name": "醋渍洋葱",
+    "categoryType": "pickle",
+    "title": "醋渍洋葱",
+    "photoUrl": "https://i2.chuimg.com/7fc9d1a055e84eb7af5380b8d838d7e5_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "醋渍洋葱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_092": {
+    "id": "rec_foundation_pickle_092",
+    "name": "盐渍柠檬",
+    "categoryType": "pickle",
+    "title": "咸柠七（盐渍青柠檬）超级简单版 止咳化痰神药",
+    "photoUrl": "https://i2.chuimg.com/5c29166a8b8111e6a9a10242ac110002_775w_841h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "盐渍柠檬",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_093": {
+    "id": "rec_foundation_pickle_093",
+    "name": "盐渍青梅",
+    "categoryType": "pickle",
+    "title": "塩梅干し（盐渍青梅）",
+    "photoUrl": "https://i2.chuimg.com/d4bca670892211e6a9a10242ac110002_1280w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "盐渍青梅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_094": {
+    "id": "rec_foundation_pickle_094",
+    "name": "酒糟腌萝卜",
+    "categoryType": "pickle",
+    "title": "开胃泡菜，酸辣爽口腌萝卜&雪碧水果樱桃萝卜",
+    "photoUrl": "https://i2.chuimg.com/8e3b74dc99cc47da9ee0eac90d4d2013_1280w_964h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酒糟腌萝卜",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_095": {
+    "id": "rec_foundation_pickle_095",
+    "name": "豆豉腌辣椒",
+    "categoryType": "pickle",
+    "title": "豆豉腌辣椒",
+    "photoUrl": "https://i2.chuimg.com/2414ea12879711e6a9a10242ac110002_1200w_1600h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "豆豉腌辣椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_096": {
+    "id": "rec_foundation_pickle_096",
+    "name": "腐乳腌菜梗",
+    "categoryType": "pickle",
+    "title": "腌菜炒肉",
+    "photoUrl": "https://i2.chuimg.com/c2692e3e87e311e6a9a10242ac110002_3264w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "腐乳腌菜梗",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_097": {
+    "id": "rec_foundation_pickle_097",
+    "name": "泡椒凤爪用泡椒水",
+    "categoryType": "pickle",
+    "title": "泡椒凤爪",
+    "photoUrl": "https://i2.chuimg.com/caa8ee96af064d8eb53ada604669a491_1350w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泡椒凤爪用泡椒水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_001": {
+    "id": "rec_foundation_stock_001",
+    "name": "中式清鸡高汤",
+    "categoryType": "stock",
+    "title": "灵芝莲子清鸡汤",
+    "photoUrl": "https://i2.chuimg.com/53f3e42f083f490f81ee62e7fc828dd3_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "清鸡",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_003": {
+    "id": "rec_foundation_stock_003",
+    "name": "老母鸡火腿高汤",
+    "categoryType": "stock",
+    "title": "老母鸡汤",
+    "photoUrl": "https://i2.chuimg.com/5c0bf4cc871c11e6b87c0242ac110003_490w_653h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "老母鸡火腿高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_004": {
+    "id": "rec_foundation_stock_004",
+    "name": "猪骨高汤",
+    "categoryType": "stock",
+    "title": "猪骨高汤",
+    "photoUrl": "https://i2.chuimg.com/6375b542894f11e6b87c0242ac110003_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪骨高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_005": {
+    "id": "rec_foundation_stock_005",
+    "name": "筒骨奶白汤",
+    "categoryType": "stock",
+    "title": "奶白浓香筒骨汤",
+    "photoUrl": "https://i2.chuimg.com/1950b859894e4b2e8713b758874e9018_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "筒骨奶白汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_006": {
+    "id": "rec_foundation_stock_006",
+    "name": "排骨清汤",
+    "categoryType": "stock",
+    "title": "排骨清汤火锅汤底",
+    "photoUrl": "https://i2.chuimg.com/eb73917a88dd11e6b87c0242ac110003_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "排骨清汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_007": {
+    "id": "rec_foundation_stock_007",
+    "name": "牛骨高汤",
+    "categoryType": "stock",
+    "title": "牛骨高汤",
+    "photoUrl": "https://i2.chuimg.com/908a9b8b326e44569fe13479e9d3f6e3_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛骨高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_008": {
+    "id": "rec_foundation_stock_008",
+    "name": "牛肉清汤",
+    "categoryType": "stock",
+    "title": "牛肉清汤｜是清澈干净的鲜美，夏天更要健康暖胃！",
+    "photoUrl": "https://i2.chuimg.com/7c82081909524adabef0cc015ad7cbb0_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛肉清汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_009": {
+    "id": "rec_foundation_stock_009",
+    "name": "羊骨高汤",
+    "categoryType": "stock",
+    "title": "羊骨清汤",
+    "photoUrl": "https://i2.chuimg.com/d7f956c032aa4376b1707319dfa66e2e_1280w_1465h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "羊骨高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_010": {
+    "id": "rec_foundation_stock_010",
+    "name": "鸭架高汤",
+    "categoryType": "stock",
+    "title": "片完烤鸭 鸭架的好去处 鸭架豆腐汤",
+    "photoUrl": "https://i2.chuimg.com/f77835784e7940a8949305fbf1ce2bef_2567w_2054h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鸭架高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_011": {
+    "id": "rec_foundation_stock_011",
+    "name": "烤鸭架高汤",
+    "categoryType": "stock",
+    "title": "椒盐酥烤鸭架",
+    "photoUrl": "https://i2.chuimg.com/6f7d89348baf11e6a9a10242ac110002_2448w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烤鸭架高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_012": {
+    "id": "rec_foundation_stock_012",
+    "name": "鹅架高汤",
+    "categoryType": "stock",
+    "title": "🔥老底子宁波菜 鹅架烧芋艿子",
+    "photoUrl": "https://i2.chuimg.com/ee874c1bb87642d4a7fecd1a0623c5d7_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鹅架",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_013": {
+    "id": "rec_foundation_stock_013",
+    "name": "火腿高汤",
+    "categoryType": "stock",
+    "title": "上汤香菇火腿娃娃菜",
+    "photoUrl": "https://i2.chuimg.com/e93ca2a0874511e6a9a10242ac110002_700w_525h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "火腿高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_014": {
+    "id": "rec_foundation_stock_014",
+    "name": "金华火腿鸡汤",
+    "categoryType": "stock",
+    "title": "冬虫夏草金华火腿炖鸡汤",
+    "photoUrl": "https://i2.chuimg.com/e289962376c84a739c621f0e94a8200c_480w_384h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "金华火腿鸡汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_015": {
+    "id": "rec_foundation_stock_015",
+    "name": "鱼骨清汤",
+    "categoryType": "stock",
+    "title": "太爱三文鱼骨清汤",
+    "photoUrl": "https://i2.chuimg.com/c768569fb16b4b77a321d72522e4b811_3264w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鱼骨清汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_016": {
+    "id": "rec_foundation_stock_016",
+    "name": "鱼骨白汤",
+    "categoryType": "stock",
+    "title": "四季汤之玉米鱼骨奶白汤",
+    "photoUrl": "https://i2.chuimg.com/0299df2d916a4342bdf627cd82e7ab50_2448w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鱼骨白汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_017": {
+    "id": "rec_foundation_stock_017",
+    "name": "鲫鱼奶白汤",
+    "categoryType": "stock",
+    "title": "这样做的鲫鱼汤超好喝，奶白奶白的",
+    "photoUrl": "https://i2.chuimg.com/6492dddca3a84e4e9fc2b3c7fabefc30_750w_750h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鲫鱼奶白汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_018": {
+    "id": "rec_foundation_stock_018",
+    "name": "虾壳高汤",
+    "categoryType": "stock",
+    "title": "一碗虾油（付虾壳高汤做法）",
+    "photoUrl": "https://i2.chuimg.com/8270573d001d4a62a9ae7784ccfec54e_1632w_1224h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "虾壳高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_019": {
+    "id": "rec_foundation_stock_019",
+    "name": "蟹壳高汤",
+    "categoryType": "stock",
+    "title": "蟹壳汤（螃蟹两吃）",
+    "photoUrl": "https://i2.chuimg.com/e31a1850a4a54281846267792e53f68e_480w_384h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蟹壳高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_020": {
+    "id": "rec_foundation_stock_020",
+    "name": "贝类清汤",
+    "categoryType": "stock",
+    "title": "沿海叫法：天鹅蛋饺子/馄饨（此天鹅蛋为贝类，学名：紫石房蛤）",
+    "photoUrl": "https://i2.chuimg.com/cebbf02e881d11e6b87c0242ac110003_4208w_2368h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "贝类清汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_021": {
+    "id": "rec_foundation_stock_021",
+    "name": "海鲜综合高汤",
+    "categoryType": "stock",
+    "title": "🐟 海鲜浓汤（使用腰果奶+高汤）",
+    "photoUrl": "https://i2.chuimg.com/cc14c83033d343a48565ec21dd258b43_550w_366h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "海鲜综合高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_022": {
+    "id": "rec_foundation_stock_022",
+    "name": "昆布高汤",
+    "categoryType": "stock",
+    "title": "昆布素高汤",
+    "photoUrl": "https://i2.chuimg.com/d2ec7ab9cae844dbb83db1a4468cf64a_1152w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "昆布高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_023": {
+    "id": "rec_foundation_stock_023",
+    "name": "柴鱼昆布高汤",
+    "categoryType": "stock",
+    "title": "🇯🇵小美日式出汁（柴鱼昆布高汤）○Cookidoo",
+    "photoUrl": "https://i2.chuimg.com/c6025caf26424da091fbbafde63f20c3_836w_1045h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "柴鱼昆布高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_024": {
+    "id": "rec_foundation_stock_024",
+    "name": "日式一番出汁",
+    "categoryType": "stock",
+    "title": "日式高汤一番出汁",
+    "photoUrl": "https://i2.chuimg.com/91a2d5f73fa140cba7082c7d52132f38_1257w_1277h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式一番出汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_025": {
+    "id": "rec_foundation_stock_025",
+    "name": "日式二番出汁",
+    "categoryType": "stock",
+    "title": "最常用的日本高汤做法/二番出汁の引き方",
+    "photoUrl": "https://i2.chuimg.com/f9e76a18c9c8428db7b60122a759bdc9_1080w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式二番出汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_026": {
+    "id": "rec_foundation_stock_026",
+    "name": "煮干小鱼高汤",
+    "categoryType": "stock",
+    "title": "小鱼锅贴",
+    "photoUrl": "https://i2.chuimg.com/69814ef287ff11e6a9a10242ac110002_852w_649h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "煮干小鱼高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_027": {
+    "id": "rec_foundation_stock_027",
+    "name": "味噌汤底",
+    "categoryType": "stock",
+    "title": "日本人教你做味噌汤（日本家庭料理，一辈子也喝不够～）",
+    "photoUrl": "https://i2.chuimg.com/15cc22f66e3f4531801598bb6b936377_1145w_1145h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "味噌",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_028": {
+    "id": "rec_foundation_stock_028",
+    "name": "韩式鳀鱼昆布汤",
+    "categoryType": "stock",
+    "title": "韩式鳀鱼海带豆芽汤",
+    "photoUrl": "https://i2.chuimg.com/d55c370776e246fe920ac8db559b935f_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式鳀鱼昆布汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_029": {
+    "id": "rec_foundation_stock_029",
+    "name": "韩式牛骨汤",
+    "categoryType": "stock",
+    "title": "韩式牛骨汤，简单粗暴的滋补靓汤",
+    "photoUrl": "https://i2.chuimg.com/441efd3ce9c44335a96e4241cc2b3e55_848w_822h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式牛骨汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_030": {
+    "id": "rec_foundation_stock_030",
+    "name": "韩式泡菜汤底",
+    "categoryType": "stock",
+    "title": "泡菜猪肉锅(万能韩式肉类汤底）",
+    "photoUrl": "https://i2.chuimg.com/830e36e53f814acab8a5e6b142fe4f3a_480w_384h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式泡菜汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_031": {
+    "id": "rec_foundation_stock_031",
+    "name": "泰式冬阴功汤底",
+    "categoryType": "stock",
+    "title": "在家也能做的泰式海鲜火锅（冬阴功汤底）",
+    "photoUrl": "https://i2.chuimg.com/dd1c89ceeb9b419bb0673eea5657f619_2961w_3094h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式冬阴功汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_032": {
+    "id": "rec_foundation_stock_032",
+    "name": "泰式椰奶汤底",
+    "categoryType": "stock",
+    "title": "比泰式鲜榨好喝的自榨椰奶🥥",
+    "photoUrl": "https://i2.chuimg.com/0e06631f825e4e0e8f7d618c2be8639f_1242w_994h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式椰奶汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_033": {
+    "id": "rec_foundation_stock_033",
+    "name": "越南牛肉粉汤底",
+    "categoryType": "stock",
+    "title": "越南牛肉河粉汤底",
+    "photoUrl": "https://i2.chuimg.com/885d791a9ce84a57a3773114d95ee5c3_2022w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "越南牛肉粉汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_034": {
+    "id": "rec_foundation_stock_034",
+    "name": "越南鸡肉粉汤底",
+    "categoryType": "stock",
+    "title": "越南鸡肉米粉Pho Ga",
+    "photoUrl": "https://i2.chuimg.com/8fbc429a8a7811e6b87c0242ac110003_548w_551h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "越南鸡肉粉汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_035": {
+    "id": "rec_foundation_stock_035",
+    "name": "新加坡肉骨茶汤底",
+    "categoryType": "stock",
+    "title": "堂妈小厨——新加坡肉骨茶",
+    "photoUrl": "https://i2.chuimg.com/01712df19de24c639e5c3bf2b0388da9_2304w_3072h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "新加坡肉骨茶汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_036": {
+    "id": "rec_foundation_stock_036",
+    "name": "马来西亚叻沙汤底",
+    "categoryType": "stock",
+    "title": "极致减重饮食第一弹：马来风情的魔芋叻沙！",
+    "photoUrl": "https://i2.chuimg.com/c2440348894611e6a9a10242ac110002_600w_450h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "马来西亚叻沙汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_037": {
+    "id": "rec_foundation_stock_037",
+    "name": "印度咖喱汤底",
+    "categoryType": "stock",
+    "title": "印度masala咖喱鸡",
+    "photoUrl": "https://i2.chuimg.com/d5c5253f2baf4a83977dea3ebc6c762f_744w_744h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "印度咖喱汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_038": {
+    "id": "rec_foundation_stock_038",
+    "name": "中东香料羊汤底",
+    "categoryType": "stock",
+    "title": "Ras el hanout（中东复合香料）",
+    "photoUrl": "https://i2.chuimg.com/ff7ef0726c274e31833688055e9e7aa7_1000w_667h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "中东香料羊汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_039": {
+    "id": "rec_foundation_stock_039",
+    "name": "法式白色鸡高汤",
+    "categoryType": "stock",
+    "title": "法餐 14: 白色浓汤     VELOUTE  BLANC",
+    "photoUrl": "https://i2.chuimg.com/eef58fbde50b47bdbb9d97734a992003_800w_600h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式白色鸡高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_040": {
+    "id": "rec_foundation_stock_040",
+    "name": "法式褐色牛高汤",
+    "categoryType": "stock",
+    "title": "低温慢烤猪肋排（包含超强法式褐色高汤和浓缩牛排烧烤酱做法）",
+    "photoUrl": "https://i2.chuimg.com/07fffcf770d44bd58b02b67c21a58144_1213w_970h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式褐色牛高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_042": {
+    "id": "rec_foundation_stock_042",
+    "name": "法式蔬菜高汤",
+    "categoryType": "stock",
+    "title": "法式蔬菜高汤",
+    "photoUrl": "https://i2.chuimg.com/30139a4905d54f81b6ba1506a23bcd67_1944w_1284h.png?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式蔬菜高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_043": {
+    "id": "rec_foundation_stock_043",
+    "name": "意式蔬菜高汤",
+    "categoryType": "stock",
+    "title": "意大利蔬菜浓汤",
+    "photoUrl": "https://i2.chuimg.com/cee240075dcf4de99669df3cd254871a_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式蔬菜高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_044": {
+    "id": "rec_foundation_stock_044",
+    "name": "西式蘑菇高汤",
+    "categoryType": "stock",
+    "title": "蒜香焗蘑菇",
+    "photoUrl": "https://i2.chuimg.com/5ee18d1487ea11e6a9a10242ac110002_1280w_853h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "西式蘑菇高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_045": {
+    "id": "rec_foundation_stock_045",
+    "name": "番茄蔬菜汤底",
+    "categoryType": "stock",
+    "title": "分享巨好吃的南瓜番茄汤底的蔬菜汤！",
+    "photoUrl": "https://i2.chuimg.com/96c43918550941a583b6905522314a6a_623w_800h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "番茄蔬菜汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_046": {
+    "id": "rec_foundation_stock_046",
+    "name": "洋葱清汤底",
+    "categoryType": "stock",
+    "title": "Flammkuchen火焰薄饼 德式薄底披萨 超级简单快手 经典洋葱火腿味",
+    "photoUrl": "https://i2.chuimg.com/dcf4d12fc1cb46f0ae132ea4b9b3c251_1439w_959h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "洋葱底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_047": {
+    "id": "rec_foundation_stock_047",
+    "name": "玉米蔬菜高汤",
+    "categoryType": "stock",
+    "title": "胡萝卜炒玉米粒（少油版）",
+    "photoUrl": "https://i2.chuimg.com/7d1ddb3a89d311e6a9a10242ac110002_3264w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "玉米蔬菜高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_048": {
+    "id": "rec_foundation_stock_048",
+    "name": "菌菇素高汤",
+    "categoryType": "stock",
+    "title": "黄豆芽香菇素高汤",
+    "photoUrl": "https://i2.chuimg.com/1fb28265fa684300b6892f038ec34115_2160w_1440h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "菌菇素高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_049": {
+    "id": "rec_foundation_stock_049",
+    "name": "黄豆芽素高汤",
+    "categoryType": "stock",
+    "title": "发黄豆芽",
+    "photoUrl": "https://i2.chuimg.com/41e1e776875511e6a9a10242ac110002_600w_468h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "黄豆芽素高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_050": {
+    "id": "rec_foundation_stock_050",
+    "name": "海带香菇素高汤",
+    "categoryType": "stock",
+    "title": "海带香菇高汤西红柿面 [素食.纯素.净素]",
+    "photoUrl": "https://i2.chuimg.com/01e45290a6a747faa8911c29129e0a23_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "海带香菇素高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_051": {
+    "id": "rec_foundation_stock_051",
+    "name": "火锅清汤锅底",
+    "categoryType": "stock",
+    "title": "中国到底哪里的火锅最好吃？_凤凰网美食_凤凰网",
+    "photoUrl": "https://e0.ifengimg.com/12/2019/0621/B930C6B72B4826ED4AFF6947FF3ECEFFFFCBD539_size133_w1080_h719.jpeg",
+    "query": "火锅清汤锅底",
+    "source": "必应图片完整名称复核",
+    "sourcePage": "https://ishare.ifeng.com/c/s/7nfffCT6PUw",
+    "matchScore": 1
+  },
+  "rec_foundation_stock_052": {
+    "id": "rec_foundation_stock_052",
+    "name": "火锅菌汤锅底",
+    "categoryType": "stock",
+    "title": "菌汤火锅",
+    "photoUrl": "https://i2.chuimg.com/d66c66e089b311e6b87c0242ac110003_2048w_1536h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "火锅菌汤锅底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_053": {
+    "id": "rec_foundation_stock_053",
+    "name": "火锅番茄锅底",
+    "categoryType": "stock",
+    "title": "六颗番茄🍅火锅汤底",
+    "photoUrl": "https://i2.chuimg.com/8823d849288644cfa6e3b0863021ea25_3024w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "火锅番茄锅底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_054": {
+    "id": "rec_foundation_stock_054",
+    "name": "火锅麻辣锅底",
+    "categoryType": "stock",
+    "title": "超简单下饭菜🍒火锅底料版麻辣香锅",
+    "photoUrl": "https://i2.chuimg.com/3aef1db8226b4fe7bc4a47a8c25d0ef5_1079w_1313h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "火锅麻辣锅底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_055": {
+    "id": "rec_foundation_stock_055",
+    "name": "酸菜鱼汤底",
+    "categoryType": "stock",
+    "title": "可以喝汤的酸菜鱼🐟｜鱼高汤汤底做法｜超详细&不辣版的做法📝",
+    "photoUrl": "https://i2.chuimg.com/2852c712ee954a409f8c8e06d9f1b493_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酸菜鱼汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_056": {
+    "id": "rec_foundation_stock_056",
+    "name": "金汤酸汤底",
+    "categoryType": "stock",
+    "title": "10分钟封神菜！金汤酸菜粉丝牛肉，酸辣暴击 汤底舔盘",
+    "photoUrl": "https://i2.chuimg.com/35ae776d419a49a5822e7f363bba659a_825w_550h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "金汤酸汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_057": {
+    "id": "rec_foundation_stock_057",
+    "name": "砂锅粥海鲜汤底",
+    "categoryType": "stock",
+    "title": "海鲜砂锅粥（鱼汤底）",
+    "photoUrl": "https://i2.chuimg.com/e69eae3b351d46e2a38b0a25713b26f4_1280w_582h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "砂锅粥海鲜汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_058": {
+    "id": "rec_foundation_stock_058",
+    "name": "关东煮汤底",
+    "categoryType": "stock",
+    "title": "家庭关东煮｜汤底比便利店鲜甜",
+    "photoUrl": "https://i2.chuimg.com/27d9e46bfa974586b38b36e5b8e8ec45_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "关东煮汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_059": {
+    "id": "rec_foundation_stock_059",
+    "name": "螺蛳粉汤底",
+    "categoryType": "stock",
+    "title": "螺蛳粉火锅攻略(含汤底配方)",
+    "photoUrl": "https://i2.chuimg.com/d7bd6107c8f84eceb6bb0b78b126ac7d_2999w_3998h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "螺蛳粉汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_060": {
+    "id": "rec_foundation_stock_060",
+    "name": "米线鸡汤底",
+    "categoryType": "stock",
+    "title": "乌鸡汤米线---实力汤底小白别进来！！",
+    "photoUrl": "https://i2.chuimg.com/c1284d26a397412f912256bff234d8ab_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "米线鸡汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_061": {
+    "id": "rec_foundation_stock_061",
+    "name": "兰州牛肉面汤底",
+    "categoryType": "stock",
+    "title": "兰州正宗牛肉面汤",
+    "photoUrl": "https://i2.chuimg.com/20456114871511e6a9a10242ac110002_335w_500h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "兰州牛肉面汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_062": {
+    "id": "rec_foundation_stock_062",
+    "name": "日式拉面清汤底",
+    "categoryType": "stock",
+    "title": "鲜香浓郁的豚骨拉面日式汤底",
+    "photoUrl": "https://i2.chuimg.com/1bef83064b044da6a60ac3ca20f2cee0_3579w_2684h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式拉面清汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_063": {
+    "id": "rec_foundation_stock_063",
+    "name": "豚骨拉面汤底",
+    "categoryType": "stock",
+    "title": "不用熬骨汤的豚骨拉面汤底",
+    "photoUrl": "https://i2.chuimg.com/d8e2179a22bd43a2b719fbdefb08155b_2880w_2160h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "豚骨拉面汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_064": {
+    "id": "rec_foundation_stock_064",
+    "name": "担担面汤底",
+    "categoryType": "stock",
+    "title": "鸡汤豆奶汤底的担担面",
+    "photoUrl": "https://i2.chuimg.com/d429265a87e411e6b87c0242ac110003_3136w_2352h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "担担面汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_065": {
+    "id": "rec_foundation_stock_065",
+    "name": "麻辣烫骨汤底",
+    "categoryType": "stock",
+    "title": "骨汤麻辣烫汤底",
+    "photoUrl": "https://i2.chuimg.com/15d3e9ecd5de4ae1b3c5be82a7eb0472_887w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "麻辣烫骨汤底",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_001": {
+    "id": "rec_foundation_marinade_001",
+    "name": "广式叉烧腌料",
+    "categoryType": "marinade",
+    "title": "最简便广式叉烧",
+    "photoUrl": "https://i2.chuimg.com/8794f1edfe134de3960b7d02518cde64_1610w_2147h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式叉烧腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_002": {
+    "id": "rec_foundation_marinade_002",
+    "name": "广式烧鹅腌料",
+    "categoryType": "marinade",
+    "title": "烧鹅",
+    "photoUrl": "https://i2.chuimg.com/30ca33ae4a5911e7947d0242ac110002_1836w_3264h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式烧鹅腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_003": {
+    "id": "rec_foundation_marinade_003",
+    "name": "广式豉油鸡腌料",
+    "categoryType": "marinade",
+    "title": "广东豉油鸡",
+    "photoUrl": "https://i2.chuimg.com/2690d32763eb45a68308dfb141d05c7c_2921w_2336h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式豉油鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_004": {
+    "id": "rec_foundation_marinade_004",
+    "name": "粤式蒜香排骨腌料",
+    "categoryType": "marinade",
+    "title": "蒜香排骨",
+    "photoUrl": "https://i2.chuimg.com/3f3d222720484223beba37b0fe2e3fa5_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "粤式蒜香排骨腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_005": {
+    "id": "rec_foundation_marinade_005",
+    "name": "蜜汁鸡翅腌料",
+    "categoryType": "marinade",
+    "title": "蒜香蜜汁烤鸡翅（自制腌料）",
+    "photoUrl": "https://i2.chuimg.com/ce5a2b2e7d5146b293820d109f9d60d1_2731w_4096h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蜜汁鸡翅腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_006": {
+    "id": "rec_foundation_marinade_006",
+    "name": "新奥尔良鸡翅腌料",
+    "categoryType": "marinade",
+    "title": "新奥尔良烤鸡翅",
+    "photoUrl": "https://i2.chuimg.com/bb0b7f3cbaff42caadaf23575ea839fe_1024w_1028h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "新奥尔良鸡翅腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_007": {
+    "id": "rec_foundation_marinade_007",
+    "name": "盐焗鸡腌料",
+    "categoryType": "marinade",
+    "title": "沙姜鸡煲(自制盐焗鸡腌料)",
+    "photoUrl": "https://i2.chuimg.com/f581b9245cd94a309e50f6f84cb55bbc_984w_656h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "盐焗鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_008": {
+    "id": "rec_foundation_marinade_008",
+    "name": "白切鸡预腌料",
+    "categoryType": "marinade",
+    "title": "自家预制菜NO:9\n简版葱油白切鸡",
+    "photoUrl": "https://i2.chuimg.com/bee95345ac67485abe752a05b96f80ed_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "白切鸡预腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_009": {
+    "id": "rec_foundation_marinade_009",
+    "name": "葱油鸡腌料",
+    "categoryType": "marinade",
+    "title": "葱油鸡（姜葱鸡）简单做法全，详细到没下过厨都会做",
+    "photoUrl": "https://i2.chuimg.com/dc01eb4e687e430ebe0b60a5cbdb27f1_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "葱油鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_010": {
+    "id": "rec_foundation_marinade_010",
+    "name": "豉汁排骨腌料",
+    "categoryType": "marinade",
+    "title": "豉汁排骨煲仔饭(经典)",
+    "photoUrl": "https://i2.chuimg.com/51f77d9e0eac420aa26c9edf1145c217_2560w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "豉汁排骨腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_011": {
+    "id": "rec_foundation_marinade_011",
+    "name": "黑椒牛排腌料",
+    "categoryType": "marinade",
+    "title": "黑椒牛排（配酱汁做法）",
+    "photoUrl": "https://i2.chuimg.com/9cfcc3e2f2e84bfe8fd79d9ad25fcbc3_3072w_2304h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "黑椒牛排腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_012": {
+    "id": "rec_foundation_marinade_012",
+    "name": "嫩滑牛肉腌料",
+    "categoryType": "marinade",
+    "title": "滑蛋牛肉，牛肉滑嫩，鸡蛋松软",
+    "photoUrl": "https://i2.chuimg.com/ddb61b9e40584f178b5b33e7b8ddf1aa_1350w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "嫩滑牛肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_013": {
+    "id": "rec_foundation_marinade_013",
+    "name": "孜然羊肉腌料",
+    "categoryType": "marinade",
+    "title": "爱👅孜然羊肉的请举手【附百搭嫩肉腌料🤫】",
+    "photoUrl": "https://i2.chuimg.com/37a4d4923a4348168f75f0afb20dfaa3_1242w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "孜然羊肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_014": {
+    "id": "rec_foundation_marinade_014",
+    "name": "烤羊排腌料",
+    "categoryType": "marinade",
+    "title": "烤羊排腌料分享，不膻超嫩",
+    "photoUrl": "https://i2.chuimg.com/e1ce45c571fc435ba8510a2f523474e0_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烤羊排腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_015": {
+    "id": "rec_foundation_marinade_015",
+    "name": "烤全鸡腌料",
+    "categoryType": "marinade",
+    "title": "烤全鸡（自制腌料）",
+    "photoUrl": "https://i2.chuimg.com/a6702b6206344c8ab1e86ded0b49d2fd_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烤全鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_016": {
+    "id": "rec_foundation_marinade_016",
+    "name": "照烧鸡腿腌料",
+    "categoryType": "marinade",
+    "title": "照烧鸡腿堡",
+    "photoUrl": "https://i2.chuimg.com/f6d00feb7b3d413c98715c09542492e1_1620w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "照烧鸡腿腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_017": {
+    "id": "rec_foundation_marinade_017",
+    "name": "炸鸡腌料",
+    "categoryType": "marinade",
+    "title": "万能炸鸡腌料+炸粉",
+    "photoUrl": "https://i2.chuimg.com/3b9149f4be3a4e8885c6f981da3a9344_412w_412h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "炸鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_018": {
+    "id": "rec_foundation_marinade_018",
+    "name": "盐酥鸡腌料",
+    "categoryType": "marinade",
+    "title": "台湾小吃「盐酥鸡」",
+    "photoUrl": "https://i2.chuimg.com/a83e7b8a49a411e7947d0242ac110002_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "盐酥鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_019": {
+    "id": "rec_foundation_marinade_019",
+    "name": "韩式烤肉腌料",
+    "categoryType": "marinade",
+    "title": "家庭烤肉腌料（牛吊龙、梅花肉）",
+    "photoUrl": "https://i2.chuimg.com/d7556f3791384b77a77cc4e392ada9f8_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式烤肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_020": {
+    "id": "rec_foundation_marinade_020",
+    "name": "韩式辣烤鸡腌料",
+    "categoryType": "marinade",
+    "title": "袋袋烤鸡--自制腌料+脆皮秘籍",
+    "photoUrl": "https://i2.chuimg.com/c8ce04c889c511e6a9a10242ac110002_800w_532h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式辣烤鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_021": {
+    "id": "rec_foundation_marinade_021",
+    "name": "日式味噌鱼腌料",
+    "categoryType": "marinade",
+    "title": "日式味噌叉烧拉面",
+    "photoUrl": "https://i2.chuimg.com/4b74d656411949e58cd398786f56fc5c_640w_480h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式味噌鱼腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_022": {
+    "id": "rec_foundation_marinade_022",
+    "name": "日式西京烧腌料",
+    "categoryType": "marinade",
+    "title": "【曼达小馆】居酒屋系列：银鳕鱼西京烧",
+    "photoUrl": "https://i2.chuimg.com/e463e1068a6c11e6a9a10242ac110002_1024w_607h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式西京烧腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_023": {
+    "id": "rec_foundation_marinade_023",
+    "name": "日式唐扬鸡腌料",
+    "categoryType": "marinade",
+    "title": "日式唐扬鸡块-附鸡肉Juicy的窍门！",
+    "photoUrl": "https://i2.chuimg.com/6b3e89295e104baaa78fad53af2d4a1c_949w_595h.png?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式唐扬鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_024": {
+    "id": "rec_foundation_marinade_024",
+    "name": "泰式香茅鸡腌料",
+    "categoryType": "marinade",
+    "title": "🌱泰式香茅鸡中翼🌱——简单便捷就能炮制出泰式风味❗️你只需要一包泰式香茅腌料❗️",
+    "photoUrl": "https://i2.chuimg.com/3f326ae0146a44a6badcc110beb10467_2560w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式香茅鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_025": {
+    "id": "rec_foundation_marinade_025",
+    "name": "泰式烤猪颈肉腌料",
+    "categoryType": "marinade",
+    "title": "酸辣鲜香泰式烤猪颈肉➕腌鞋底都好吃的万能腌料",
+    "photoUrl": "https://i2.chuimg.com/471e4f3ef7ed4d2ab7858bc3eb526354_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "泰式烤猪颈肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_026": {
+    "id": "rec_foundation_marinade_026",
+    "name": "越南香茅猪排腌料",
+    "categoryType": "marinade",
+    "title": "香茅猪扒",
+    "photoUrl": "https://i2.chuimg.com/9115c22e87ad11e6a9a10242ac110002_4288w_2848h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "越南香茅猪排腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_027": {
+    "id": "rec_foundation_marinade_027",
+    "name": "马来沙嗲鸡腌料",
+    "categoryType": "marinade",
+    "title": "泰式沙嗲鸡肉串+爽口黄瓜沙拉",
+    "photoUrl": "https://i2.chuimg.com/73059b1df01a455eaa9e19e176c9fb66_4096w_2731h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "马来沙嗲鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_028": {
+    "id": "rec_foundation_marinade_028",
+    "name": "印度坦都里鸡腌料",
+    "categoryType": "marinade",
+    "title": "印度坦都里烤鸡 Tandoori Chicken",
+    "photoUrl": "https://i2.chuimg.com/07eda5a0df884b8fad29c8ca18431211_1200w_798h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "印度坦都里鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_029": {
+    "id": "rec_foundation_marinade_029",
+    "name": "印度咖喱鱼腌料",
+    "categoryType": "marinade",
+    "title": "Chicken Tikka Masala 印度🇮🇳玛莎拉鸡咖喱",
+    "photoUrl": "https://i2.chuimg.com/c00a8d42a53149759cb29fa3bf1658ca_1500w_1124h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "印度咖喱鱼腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_030": {
+    "id": "rec_foundation_marinade_030",
+    "name": "中东烤肉腌料",
+    "categoryType": "marinade",
+    "title": "烤肉煎肉万能腌料",
+    "photoUrl": "https://i2.chuimg.com/2be9e5abcd4a4d409b573fab4024c897_463w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "中东烤肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_031": {
+    "id": "rec_foundation_marinade_031",
+    "name": "土耳其烤羊肉腌料",
+    "categoryType": "marinade",
+    "title": "烤羊肉串",
+    "photoUrl": "https://i2.chuimg.com/c5dc182fd3d845c3bc7cbd2d47f736db_684w_912h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "土耳其烤羊肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_032": {
+    "id": "rec_foundation_marinade_032",
+    "name": "希腊酸奶鸡腌料",
+    "categoryType": "marinade",
+    "title": "给小姐妹保留的希腊酸奶制作流程",
+    "photoUrl": "https://i2.chuimg.com/a76109ae7a5b4362a156fea10842ff41_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "希腊酸奶鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_033": {
+    "id": "rec_foundation_marinade_033",
+    "name": "意式香草鸡腌料",
+    "categoryType": "marinade",
+    "title": "意式香草奶冻",
+    "photoUrl": "https://i2.chuimg.com/9cf38aae873a11e6a9a10242ac110002_683w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式香草鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_034": {
+    "id": "rec_foundation_marinade_034",
+    "name": "法式红酒牛肉腌料",
+    "categoryType": "marinade",
+    "title": "法式红酒炖牛肉",
+    "photoUrl": "https://i2.chuimg.com/657ecd1f5b5c44b59ad1bfbff5c44eb0_1124w_1392h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "法式红酒牛肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_035": {
+    "id": "rec_foundation_marinade_035",
+    "name": "美式烧烤排骨腌料",
+    "categoryType": "marinade",
+    "title": "秘制美式烤排骨",
+    "photoUrl": "https://i2.chuimg.com/0ea213ea89a311e6b87c0242ac110003_1549w_1162h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "美式烧烤排骨腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_036": {
+    "id": "rec_foundation_marinade_036",
+    "name": "美式烟熏牛胸腌料",
+    "categoryType": "marinade",
+    "title": "美式烟熏烤肉（碳烤炉版本）",
+    "photoUrl": "https://i2.chuimg.com/204d9affedf3476f920d757a9536b6c4_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "美式烟熏牛胸腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_037": {
+    "id": "rec_foundation_marinade_037",
+    "name": "墨西哥辣味鸡腌料",
+    "categoryType": "marinade",
+    "title": "家庭湘菜姜辣鸡爪姜辣凤爪，非常适合新手做的风味鸡爪，软糯入味逼格高",
+    "photoUrl": "https://i2.chuimg.com/c861ce1253c44644a98f66e461d32466_1000w_750h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "墨西哥辣味鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_038": {
+    "id": "rec_foundation_marinade_038",
+    "name": "古巴柑橘猪肉腌料",
+    "categoryType": "marinade",
+    "title": "猪肉脯橘子沙拉",
+    "photoUrl": "https://i2.chuimg.com/e548d9feb6c54b6891ab1c6f43eca81d_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "柑橘猪肉",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_039": {
+    "id": "rec_foundation_marinade_039",
+    "name": "牙买加香辣鸡腌料",
+    "categoryType": "marinade",
+    "title": "香辣鸡",
+    "photoUrl": "https://i2.chuimg.com/c9b078605c8a479a97047202c6aa46c8_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牙买加香辣鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_040": {
+    "id": "rec_foundation_marinade_040",
+    "name": "巴西烤肉腌料",
+    "categoryType": "marinade",
+    "title": "巴西烤肉",
+    "photoUrl": "https://i2.chuimg.com/b062946a4b7811e7bc9d0242ac110002_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "巴西烤肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_041": {
+    "id": "rec_foundation_marinade_041",
+    "name": "蒜香黄油虾腌料",
+    "categoryType": "marinade",
+    "title": "蒜蓉黄油虾",
+    "photoUrl": "https://i2.chuimg.com/996bfc4b148a433b95edf1f795464143_1280w_854h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蒜香黄油虾腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_042": {
+    "id": "rec_foundation_marinade_042",
+    "name": "椒盐大虾腌料",
+    "categoryType": "marinade",
+    "title": "椒盐大虾，酥脆入味的制胜秘诀！",
+    "photoUrl": "https://i2.chuimg.com/06c3652648b8486095d19b42a511775d_1920w_1078h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "椒盐大虾腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_043": {
+    "id": "rec_foundation_marinade_043",
+    "name": "避风塘海鲜腌料",
+    "categoryType": "marinade",
+    "title": "比餐厅做的还好吃——避风塘炒虾",
+    "photoUrl": "https://i2.chuimg.com/dadceb70264b4357acb185aa1240d70c_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "避风塘海鲜腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_044": {
+    "id": "rec_foundation_marinade_044",
+    "name": "清蒸鱼基础腌料",
+    "categoryType": "marinade",
+    "title": "清蒸桂花鱼(鳜鱼)，适合各种清蒸鱼，超级鲜美",
+    "photoUrl": "https://i2.chuimg.com/dde7f5fd597b47ecbdad9ccd2b93f08b_912w_684h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "清蒸鱼腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_045": {
+    "id": "rec_foundation_marinade_045",
+    "name": "烤鱼腌料",
+    "categoryType": "marinade",
+    "title": "不输给饭店的麻辣烤鱼（不需要料包哦）",
+    "photoUrl": "https://i2.chuimg.com/c1c0133e4091490f8e7ace454765c171_1504w_1128h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烤鱼腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_046": {
+    "id": "rec_foundation_marinade_046",
+    "name": "酸菜鱼鱼片腌料",
+    "categoryType": "marinade",
+    "title": "酸菜鱼一捞就碎？大厨秘授绝招，果然鱼片嫩滑有弹性，快来试试吧！",
+    "photoUrl": "https://i2.chuimg.com/f48d56127ca944719c5c1e5d25dcc7cd_1000w_1417h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酸菜鱼鱼片腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_047": {
+    "id": "rec_foundation_marinade_047",
+    "name": "水煮鱼鱼片腌料",
+    "categoryType": "marinade",
+    "title": "厨师长教你：川菜“酸菜水煮鱼”的家常做法，鱼片滑嫩，麻辣鲜香",
+    "photoUrl": "https://i2.chuimg.com/ce9e5720672441f8975523ee6e1fda09_4096w_2160h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "水煮鱼鱼片腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_048": {
+    "id": "rec_foundation_marinade_048",
+    "name": "滑炒鱼片腌料",
+    "categoryType": "marinade",
+    "title": "滑炒鱼片",
+    "photoUrl": "https://i2.chuimg.com/c61915b6d3034614a25086b428e7081e_810w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "滑炒鱼片腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_049": {
+    "id": "rec_foundation_marinade_049",
+    "name": "鱿鱼烧烤腌料",
+    "categoryType": "marinade",
+    "title": "家庭版～烧烤鱿鱼（杏鲍菇）",
+    "photoUrl": "https://i2.chuimg.com/996940d783124e59ba9f2aa1d9bd3fa3_1280w_720h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鱿鱼烧烤腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_050": {
+    "id": "rec_foundation_marinade_050",
+    "name": "生蚝蒜香腌汁",
+    "categoryType": "marinade",
+    "title": "捞汁生蚝",
+    "photoUrl": "https://i2.chuimg.com/5b92235ea6cf4b1dbb6ba2b4e2a125ad_1050w_1400h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "生蚝蒜香腌汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_051": {
+    "id": "rec_foundation_marinade_051",
+    "name": "花甲酸辣腌汁",
+    "categoryType": "marinade",
+    "title": "厨师长教你：“香辣花甲”的家常做法，好吃的停不下来",
+    "photoUrl": "https://i2.chuimg.com/6a7ecf25db034861b0d631bd347b4b8b_2340w_1080h.png?imageView2/2/w/660/interlace/1/q/88",
+    "query": "花甲酸辣腌汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_052": {
+    "id": "rec_foundation_marinade_052",
+    "name": "凉拌鸡胸腌料",
+    "categoryType": "marinade",
+    "title": "鸡胸肉这样做巨好吃❗️凉拌鸡丝😋低脂高蛋白",
+    "photoUrl": "https://i2.chuimg.com/218eb07a47e84b0f88a2092aceb65259_3000w_4000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "凉拌鸡胸腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_053": {
+    "id": "rec_foundation_marinade_053",
+    "name": "低盐鸡胸腌料",
+    "categoryType": "marinade",
+    "title": "七种口味的鸡胸肉腌料配方",
+    "photoUrl": "https://i2.chuimg.com/ea2f0d67837043d9bea79bbd675ef26b_1448w_1448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "低盐鸡胸腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_054": {
+    "id": "rec_foundation_marinade_054",
+    "name": "黑椒鸡胸腌料",
+    "categoryType": "marinade",
+    "title": "柠香鸡胸肉-万能的腌料方子",
+    "photoUrl": "https://i2.chuimg.com/7adf5d135fca45c9b784b60bbe95ea3a_1242w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "黑椒鸡胸腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_055": {
+    "id": "rec_foundation_marinade_055",
+    "name": "蜂蜜芥末鸡腌料",
+    "categoryType": "marinade",
+    "title": "芥末鸡",
+    "photoUrl": "https://i2.chuimg.com/5c30a40e872411e6a9a10242ac110002_490w_653h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蜂蜜芥末鸡腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_056": {
+    "id": "rec_foundation_marinade_056",
+    "name": "柠檬香草鱼腌料",
+    "categoryType": "marinade",
+    "title": "柠檬香草戚风",
+    "photoUrl": "https://i2.chuimg.com/6720acde890811e6b87c0242ac110003_2000w_1333h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "柠檬香草鱼腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_057": {
+    "id": "rec_foundation_marinade_057",
+    "name": "蒜香猪排腌料",
+    "categoryType": "marinade",
+    "title": "【香酥炸大排】猪排的鲜嫩有妙招",
+    "photoUrl": "https://i2.chuimg.com/221bf64785874ea8813104030052c332_3008w_2008h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蒜香猪排腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_058": {
+    "id": "rec_foundation_marinade_058",
+    "name": "红糟肉腌料",
+    "categoryType": "marinade",
+    "title": "红糟肉",
+    "photoUrl": "https://i2.chuimg.com/993339988ba711e6a9a10242ac110002_1696w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "红糟肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_059": {
+    "id": "rec_foundation_marinade_059",
+    "name": "腐乳肉腌料",
+    "categoryType": "marinade",
+    "title": "腐乳肉",
+    "photoUrl": "https://i2.chuimg.com/66c5b51330d54120a2b866658fd7345d_800w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "腐乳肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_060": {
+    "id": "rec_foundation_marinade_060",
+    "name": "南乳五花肉腌料",
+    "categoryType": "marinade",
+    "title": "南乳扣肉，一个小技巧，新手也能轻松做到",
+    "photoUrl": "https://i2.chuimg.com/12c9aaf980684bdc96185d13d009e616_1352w_1081h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "南乳五花肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_061": {
+    "id": "rec_foundation_marinade_061",
+    "name": "梅干菜扣肉预腌料",
+    "categoryType": "marinade",
+    "title": "梅菜扣肉",
+    "photoUrl": "https://i2.chuimg.com/f5100bf0d78411e6bc9d0242ac110002_1280w_856h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "梅干菜扣肉预腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_062": {
+    "id": "rec_foundation_marinade_062",
+    "name": "腊肉干腌料",
+    "categoryType": "marinade",
+    "title": "烤鸡胸肉干（人吃 有调料）",
+    "photoUrl": "https://i2.chuimg.com/147cde6b4ad74388824946c86cfd6212_1449w_1446h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "腊肉干腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_063": {
+    "id": "rec_foundation_marinade_063",
+    "name": "广式腊肠腌料",
+    "categoryType": "marinade",
+    "title": "超好吃的广式腊肠",
+    "photoUrl": "https://i2.chuimg.com/511c100aa42a4d238196845d041e47c5_1080w_1207h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式腊肠腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_064": {
+    "id": "rec_foundation_marinade_064",
+    "name": "川味腊肠腌料",
+    "categoryType": "marinade",
+    "title": "炒下饭的蒜苗炒腊肠（四川香辣腊肠）",
+    "photoUrl": "https://i2.chuimg.com/0681e2fecf3d4a18aa4bc2558b75b447_1124w_899h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味腊肠腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_065": {
+    "id": "rec_foundation_marinade_065",
+    "name": "酱牛肉预腌料",
+    "categoryType": "marinade",
+    "title": "极简·古法｜酱牛肉·卤牛肉·牛腱子｜卡卡爸·不藏私",
+    "photoUrl": "https://i2.chuimg.com/f78f0de4e4044486817c51f1b16732a2_750w_750h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酱牛肉预腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_066": {
+    "id": "rec_foundation_marinade_066",
+    "name": "卤牛腱预腌料",
+    "categoryType": "marinade",
+    "title": "&#34;零失败&#34;卤牛腱子肉",
+    "photoUrl": "https://i2.chuimg.com/96007bf0f2ce4a1fbc1d75294c99156d_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "卤牛腱预腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_067": {
+    "id": "rec_foundation_marinade_067",
+    "name": "锅包肉挂浆腌料",
+    "categoryType": "marinade",
+    "title": "冰梅锅包肉",
+    "photoUrl": "https://i2.chuimg.com/8eeadc2f08534a41947d2bd865d4aa97_2048w_2048h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "锅包肉挂浆腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_068": {
+    "id": "rec_foundation_marinade_068",
+    "name": "小酥肉腌料",
+    "categoryType": "marinade",
+    "title": "香死人不偿命的干炸小酥肉（特别简单）",
+    "photoUrl": "https://i2.chuimg.com/130f8777d45546fcb4d6fda706e1542c_680w_455h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "小酥肉腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_069": {
+    "id": "rec_foundation_marinade_069",
+    "name": "炸猪排腌料",
+    "categoryType": "marinade",
+    "title": "上海名堂炸猪排！脆薄炸街好吃！不掉粉不掉糠！",
+    "photoUrl": "https://i2.chuimg.com/5ee546c6c1b547639efd0376eb1ab1de_1028w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "炸猪排腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_070": {
+    "id": "rec_foundation_marinade_070",
+    "name": "炸鱼柳腌料",
+    "categoryType": "marinade",
+    "title": "香炸鱼柳",
+    "photoUrl": "https://i2.chuimg.com/f4a3a7c4878b11e6a9a10242ac110002_526w_701h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "炸鱼柳腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_071": {
+    "id": "rec_foundation_marinade_071",
+    "name": "天妇罗海鲜预腌料",
+    "categoryType": "marinade",
+    "title": "大虾天妇罗",
+    "photoUrl": "https://i2.chuimg.com/2c8af6ac874a11e6a9a10242ac110002_600w_400h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "天妇罗海鲜预腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_072": {
+    "id": "rec_foundation_marinade_072",
+    "name": "烧烤鸡胗腌料",
+    "categoryType": "marinade",
+    "title": "烧烤鸡胗",
+    "photoUrl": "https://i2.chuimg.com/357631121cae4eb98493145a35139749_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烧烤鸡胗腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_073": {
+    "id": "rec_foundation_marinade_073",
+    "name": "烧烤掌中宝腌料",
+    "categoryType": "marinade",
+    "title": "香辣掌中宝（鸡脆骨）",
+    "photoUrl": "https://i2.chuimg.com/caf4329465874f898f0c31ecf02007ac_3360w_2519h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烧烤掌中宝腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_074": {
+    "id": "rec_foundation_marinade_074",
+    "name": "烧烤蔬菜腌料",
+    "categoryType": "marinade",
+    "title": "万能烧烤腌料",
+    "photoUrl": "https://i2.chuimg.com/39af1b358dfd4fb4974f3706bbe23200_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烧烤蔬菜腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_075": {
+    "id": "rec_foundation_marinade_075",
+    "name": "烤豆腐腌料",
+    "categoryType": "marinade",
+    "title": "烤箱烤豆腐|5元烤一大盘，在家轻松搞定火爆小吃街的美食！",
+    "photoUrl": "https://i2.chuimg.com/cce413c2b6284f22b9595ad96b000425_1080w_606h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烤豆腐腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_marinade_076": {
+    "id": "rec_foundation_marinade_076",
+    "name": "烤蘑菇腌料",
+    "categoryType": "marinade",
+    "title": "爆汁烤蘑菇（无油，只加少许盐调味，健康又美味）",
+    "photoUrl": "https://i2.chuimg.com/1cf5d47818e7475984d3317df5a8bb34_1632w_1224h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烤蘑菇腌料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_001": {
+    "id": "rec_foundation_filling_001",
+    "name": "猪肉白菜饺子馅",
+    "categoryType": "filling",
+    "title": "白菜猪肉水饺馅",
+    "photoUrl": "https://i2.chuimg.com/58c2c0c6b5774d5c9aa9ee943893af99_720w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉白菜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_002": {
+    "id": "rec_foundation_filling_002",
+    "name": "猪肉韭菜饺子馅",
+    "categoryType": "filling",
+    "title": "韭菜猪肉饺子馅",
+    "photoUrl": "https://i2.chuimg.com/03b7bb66541f4b538c07fcee6dfd042b_684w_912h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉韭菜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_003": {
+    "id": "rec_foundation_filling_003",
+    "name": "猪肉芹菜饺子馅",
+    "categoryType": "filling",
+    "title": "猪肉芹菜饺子馅，饺子馅怎么调才好吃",
+    "photoUrl": "https://i2.chuimg.com/f2c2ac2fa6a54e18a5f94e6ff6503f84_1282w_977h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉芹菜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_004": {
+    "id": "rec_foundation_filling_004",
+    "name": "猪肉大葱饺子馅",
+    "categoryType": "filling",
+    "title": "猪肉大葱饺子馅超级简单",
+    "photoUrl": "https://i2.chuimg.com/3f4fa0ad93244f37a7dbf90093df2af7_1242w_1656h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉大葱饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_005": {
+    "id": "rec_foundation_filling_005",
+    "name": "猪肉香菇饺子馅",
+    "categoryType": "filling",
+    "title": "香菇猪肉（包子，饺子馅）",
+    "photoUrl": "https://i2.chuimg.com/28f3b24067b745b9b30efb3fdc497cf4_500w_500h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉香菇饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_006": {
+    "id": "rec_foundation_filling_006",
+    "name": "猪肉玉米饺子馅",
+    "categoryType": "filling",
+    "title": "小朋友爱吃的饺子🥟\n玉米胡萝卜猪肉馅～",
+    "photoUrl": "https://i2.chuimg.com/3050e03e99104fdd95331a6c25222abf_1921w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉玉米饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_007": {
+    "id": "rec_foundation_filling_007",
+    "name": "猪肉莲藕饺子馅",
+    "categoryType": "filling",
+    "title": "白莲藕猪肉饺子馅",
+    "photoUrl": "https://i2.chuimg.com/18d12e802e6241e6ba6e14941b7af059_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉莲藕饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_008": {
+    "id": "rec_foundation_filling_008",
+    "name": "猪肉酸菜饺子馅",
+    "categoryType": "filling",
+    "title": "猪肉酸菜水饺馅",
+    "photoUrl": "https://i2.chuimg.com/ce9ab4e623e411e7bc9d0242ac110002_1377w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪肉酸菜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_009": {
+    "id": "rec_foundation_filling_009",
+    "name": "牛肉洋葱饺子馅",
+    "categoryType": "filling",
+    "title": "牛肉洋葱包子馅（饺子馅）",
+    "photoUrl": "https://i2.chuimg.com/8ddd92f244d54cdb8617b3441dab71a6_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛肉洋葱饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_010": {
+    "id": "rec_foundation_filling_010",
+    "name": "牛肉芹菜饺子馅",
+    "categoryType": "filling",
+    "title": "爆汁牛肉芹菜饺子🥟（附牛肉馅不干柴方法）",
+    "photoUrl": "https://i2.chuimg.com/80e793bb034a41c8bb261298bbeb2273_2160w_2160h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛肉芹菜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_011": {
+    "id": "rec_foundation_filling_011",
+    "name": "羊肉大葱饺子馅",
+    "categoryType": "filling",
+    "title": "巨简单、万能的羊肉大葱饺子馅调法（可替代任何馅料）",
+    "photoUrl": "https://i2.chuimg.com/e6e00a58b06649fab9a3b6ea53df4f15_1170w_2532h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "羊肉大葱饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_012": {
+    "id": "rec_foundation_filling_012",
+    "name": "羊肉胡萝卜饺子馅",
+    "categoryType": "filling",
+    "title": "羊肉胡萝卜饺子馅",
+    "photoUrl": "https://i2.chuimg.com/e85265d0ceca4cb2b8723bf791ff8335_1242w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "羊肉胡萝卜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_013": {
+    "id": "rec_foundation_filling_013",
+    "name": "鸡肉香菇饺子馅",
+    "categoryType": "filling",
+    "title": "韭菜香菇鸡蛋饺子馅",
+    "photoUrl": "https://i2.chuimg.com/fbdab3408b3a11e6a9a10242ac110002_1080w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鸡肉香菇饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_014": {
+    "id": "rec_foundation_filling_014",
+    "name": "虾仁三鲜饺子馅",
+    "categoryType": "filling",
+    "title": "一款非常鲜美的馄饨饺子馅：菌菇三鲜虾仁馅",
+    "photoUrl": "https://i2.chuimg.com/08a6571384394628b6e8d57fe6f47bcf_1440w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "虾仁三鲜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_015": {
+    "id": "rec_foundation_filling_015",
+    "name": "鲅鱼饺子馅",
+    "categoryType": "filling",
+    "title": "胶东鲅鱼饺子馅",
+    "photoUrl": "https://i2.chuimg.com/29e62e133a1643ffb00841a310dede84_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鲅鱼饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_016": {
+    "id": "rec_foundation_filling_016",
+    "name": "素三鲜饺子馅",
+    "categoryType": "filling",
+    "title": "三鲜水饺（三鲜馅饺子）",
+    "photoUrl": "https://i2.chuimg.com/6072f0b3a91b4e30b6716aa9596169af_1242w_1656h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "素三鲜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_017": {
+    "id": "rec_foundation_filling_017",
+    "name": "韭菜鸡蛋饺子馅",
+    "categoryType": "filling",
+    "title": "不出水的韭菜鸡蛋饺子馅",
+    "photoUrl": "https://i2.chuimg.com/1385e1c92f804b16b38a7e3e2a1e7251_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韭菜鸡蛋饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_018": {
+    "id": "rec_foundation_filling_018",
+    "name": "西葫芦鸡蛋饺子馅",
+    "categoryType": "filling",
+    "title": "西葫芦鸡蛋饺子馅",
+    "photoUrl": "https://i2.chuimg.com/7a85cb76cc434050b9107ba5eca3cf4a_399w_320h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "西葫芦鸡蛋饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_019": {
+    "id": "rec_foundation_filling_019",
+    "name": "荠菜豆腐饺子馅",
+    "categoryType": "filling",
+    "title": "猪肉笋干荠菜香菇豆腐馅，的饺子",
+    "photoUrl": "https://i2.chuimg.com/e73e43f25a9e447caf22cec3c73b8298_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "荠菜豆腐饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_020": {
+    "id": "rec_foundation_filling_020",
+    "name": "香菇青菜饺子馅",
+    "categoryType": "filling",
+    "title": "青菜香菇馅❗️❗️可做素饺子、素包子、搭粥小菜",
+    "photoUrl": "https://i2.chuimg.com/d62695e32dbc412e807fe056071e8dbf_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "香菇青菜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_021": {
+    "id": "rec_foundation_filling_021",
+    "name": "鲜肉包子馅",
+    "categoryType": "filling",
+    "title": "万能鲜肉馅的做法（饺子馅包子馅零失手通用）",
+    "photoUrl": "https://i2.chuimg.com/a567cf560666401e94557dc35c075eb3_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鲜肉包子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_022": {
+    "id": "rec_foundation_filling_022",
+    "name": "酱肉包子馅",
+    "categoryType": "filling",
+    "title": "世界上最好吃的酱肉包子馅",
+    "photoUrl": "https://i2.chuimg.com/d4a489ac181e4d5587a0236aa0017e74_3781w_3023h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酱肉包子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_023": {
+    "id": "rec_foundation_filling_023",
+    "name": "梅干菜肉包馅",
+    "categoryType": "filling",
+    "title": "包子馅1-梅干菜酱肉包子馅",
+    "photoUrl": "https://i2.chuimg.com/f9a8d873172e4d25ba71523d11d08f06_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "梅干菜肉包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_024": {
+    "id": "rec_foundation_filling_024",
+    "name": "叉烧包馅",
+    "categoryType": "filling",
+    "title": "好吃到爆炸的万能叉烧馅（叉烧包&叉烧酥）",
+    "photoUrl": "https://i2.chuimg.com/85d3cc37d4fa46efb21669b70dacfb81_480w_384h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "叉烧包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_025": {
+    "id": "rec_foundation_filling_025",
+    "name": "灌汤包馅",
+    "categoryType": "filling",
+    "title": "汤汁超多的灌汤包～～附超详细超好的皮冻制作方法",
+    "photoUrl": "https://i2.chuimg.com/55e945c112dc48888f5c8f9e24948d0e_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "灌汤包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_026": {
+    "id": "rec_foundation_filling_026",
+    "name": "生煎包馅",
+    "categoryType": "filling",
+    "title": "牛肉馅生煎包",
+    "photoUrl": "https://i2.chuimg.com/22a872f8ea09429b8373db6e507afc85_3264w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "生煎包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_027": {
+    "id": "rec_foundation_filling_027",
+    "name": "牛肉包子馅",
+    "categoryType": "filling",
+    "title": "大葱牛肉饺子馅、包子馅",
+    "photoUrl": "https://i2.chuimg.com/e709dede8b014b71aeed5ae1628c9747_897w_946h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛肉包子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_028": {
+    "id": "rec_foundation_filling_028",
+    "name": "羊肉包子馅",
+    "categoryType": "filling",
+    "title": "羊肉馅去膻提香的几个要点-适用于包子馅饺子馅",
+    "photoUrl": "https://i2.chuimg.com/76f1480de2624e7293bc6ef474dc22aa_1242w_942h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "羊肉包子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_029": {
+    "id": "rec_foundation_filling_029",
+    "name": "香菇菜包馅",
+    "categoryType": "filling",
+    "title": "香菇菜包馅",
+    "photoUrl": "https://i2.chuimg.com/d1a690741bbe4ce6a8ad8a5166858ad5_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "香菇菜包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_030": {
+    "id": "rec_foundation_filling_030",
+    "name": "粉丝豆腐包馅",
+    "categoryType": "filling",
+    "title": "香辣粉丝豆腐包",
+    "photoUrl": "https://i2.chuimg.com/6d146c8031fa496f8e65983f1b688cd2_1124w_1499h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "粉丝豆腐包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_031": {
+    "id": "rec_foundation_filling_031",
+    "name": "韭菜盒子馅",
+    "categoryType": "filling",
+    "title": "不一样的韭菜盒子（馅饼）",
+    "photoUrl": "https://i2.chuimg.com/601891243b7240009e75dd8a63f8e986_912w_684h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韭菜盒子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_032": {
+    "id": "rec_foundation_filling_032",
+    "name": "萝卜丝饼馅",
+    "categoryType": "filling",
+    "title": "白萝卜丝火腿月饼馅料",
+    "photoUrl": "https://i2.chuimg.com/1fc234d6578944acab0c50280cc295bb_6720w_4480h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "萝卜丝饼馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_033": {
+    "id": "rec_foundation_filling_033",
+    "name": "馅饼猪肉馅",
+    "categoryType": "filling",
+    "title": "吃一口回味一整天的猪肉馅饼",
+    "photoUrl": "https://i2.chuimg.com/8ca56689ae724ff8bb748f4b415ae6e7_992w_744h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "馅饼猪肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_034": {
+    "id": "rec_foundation_filling_034",
+    "name": "门钉肉饼馅",
+    "categoryType": "filling",
+    "title": "门钉肉饼（牛肉大葱馅）清真，老北京的特色不要露怯呦",
+    "photoUrl": "https://i2.chuimg.com/e81f6b72330b4e43a023457c25feae51_730w_1003h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "门钉肉饼馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_035": {
+    "id": "rec_foundation_filling_035",
+    "name": "锅贴鲜肉馅",
+    "categoryType": "filling",
+    "title": "饺子馅/虾仁鲜肉馅/煎饺/水饺馅调配",
+    "photoUrl": "https://i2.chuimg.com/c9ce466b71334c25938bc284b64b7d9c_1260w_1680h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "锅贴鲜肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_036": {
+    "id": "rec_foundation_filling_036",
+    "name": "烧卖糯米馅",
+    "categoryType": "filling",
+    "title": "超豪华的糯米烧卖馅",
+    "photoUrl": "https://i2.chuimg.com/83cb5ceff4a8400cba444366b0b7edfb_1508w_2016h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "烧卖糯米馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_037": {
+    "id": "rec_foundation_filling_037",
+    "name": "广式烧卖馅",
+    "categoryType": "filling",
+    "title": "广式干蒸烧卖",
+    "photoUrl": "https://i2.chuimg.com/7601998e3e284b0d990fd5e94bf1ab25_1280w_1062h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "广式烧卖馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_038": {
+    "id": "rec_foundation_filling_038",
+    "name": "鲜虾云吞馅",
+    "categoryType": "filling",
+    "title": "鲜虾猪肉云吞馅",
+    "photoUrl": "https://i2.chuimg.com/82ccb4a1546c4dc382ff4061db6bb4eb_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鲜虾云吞馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_039": {
+    "id": "rec_foundation_filling_039",
+    "name": "福建扁肉馅",
+    "categoryType": "filling",
+    "title": "福州古早味儿扁肉馅",
+    "photoUrl": "https://i2.chuimg.com/affae0e2c32b4407948e1392f80d209f_1080w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "福建扁肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_040": {
+    "id": "rec_foundation_filling_040",
+    "name": "潮汕粿条肉馅",
+    "categoryType": "filling",
+    "title": "潮汕粿条卷肉沫",
+    "photoUrl": "https://i2.chuimg.com/11360205c67d4573b3d4aba0dc82e318_864w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮汕粿条肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_041": {
+    "id": "rec_foundation_filling_041",
+    "name": "春卷三丝馅",
+    "categoryType": "filling",
+    "title": "春卷-四种口味合集",
+    "photoUrl": "https://i2.chuimg.com/225b56b48a3211e6a9a10242ac110002_1536w_2048h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "春卷三丝馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_042": {
+    "id": "rec_foundation_filling_042",
+    "name": "炸菜角馅",
+    "categoryType": "filling",
+    "title": "素包子和炸菜角馅",
+    "photoUrl": "https://i2.chuimg.com/8b8f034f0fbe4f958018796429cdbc90_1050w_1050h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "炸菜角馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_043": {
+    "id": "rec_foundation_filling_043",
+    "name": "客家酿豆腐馅",
+    "categoryType": "filling",
+    "title": "客家酿豆腐《甜艾肉馅版》",
+    "photoUrl": "https://i2.chuimg.com/df79674c21a211e7947d0242ac110002_2448w_3264h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "客家酿豆腐馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_044": {
+    "id": "rec_foundation_filling_044",
+    "name": "酿苦瓜肉馅",
+    "categoryType": "filling",
+    "title": "香菇肉末酿苦瓜",
+    "photoUrl": "https://i2.chuimg.com/7848339a8a0411e6b87c0242ac110003_2400w_3200h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酿苦瓜肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_045": {
+    "id": "rec_foundation_filling_045",
+    "name": "酿茄子肉馅",
+    "categoryType": "filling",
+    "title": "泰式酿茄子",
+    "photoUrl": "https://i2.chuimg.com/4c2ff34032b211e7947d0242ac110002_2448w_3264h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酿茄子肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_046": {
+    "id": "rec_foundation_filling_046",
+    "name": "藕夹肉馅",
+    "categoryType": "filling",
+    "title": "【宝宝辅食】肉末虾仁藕夹",
+    "photoUrl": "https://i2.chuimg.com/356cd58259d54cd0b7fce9be2753a8b0_230w_408h.gif?imageView2/2/w/660/interlace/1/q/88",
+    "query": "藕夹肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_047": {
+    "id": "rec_foundation_filling_047",
+    "name": "茄盒肉馅",
+    "categoryType": "filling",
+    "title": "家常主食 炸茄盒 肉馅儿茄子",
+    "photoUrl": "https://i2.chuimg.com/6a84dc65483a47f7844170e2aa580a64_3024w_3364h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "茄盒肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_048": {
+    "id": "rec_foundation_filling_048",
+    "name": "青椒酿肉馅",
+    "categoryType": "filling",
+    "title": "健康美味青椒酿肉 😋😋（🤓绿绿的青辣椒包裹着香醇的肉馅😎根本停不下了😋😋）",
+    "photoUrl": "https://i2.chuimg.com/0a2e43bb1e5d44728d6422f59ac9c652_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "青椒酿肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_049": {
+    "id": "rec_foundation_filling_049",
+    "name": "糯米鸡馅",
+    "categoryType": "filling",
+    "title": "五一小长假，在家撸吃的鸡蛋黄肉松馅糯米饭塌饼",
+    "photoUrl": "https://i2.chuimg.com/90355fd388be45c6a2946a2760d13b17_1199w_1254h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "糯米鸡馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_050": {
+    "id": "rec_foundation_filling_050",
+    "name": "粽子鲜肉馅",
+    "categoryType": "filling",
+    "title": "鲜肉粽子",
+    "photoUrl": "https://i2.chuimg.com/51cb6748872311e6b87c0242ac110003_690w_517h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "粽子鲜肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_051": {
+    "id": "rec_foundation_filling_051",
+    "name": "粽子豆沙馅",
+    "categoryType": "filling",
+    "title": "无油少糖也不需要炒制的豆沙馅儿（馒头、豆包、糯米粽子专用）",
+    "photoUrl": "https://i2.chuimg.com/b3f3108cda064988b2333298e277b982_1521w_1047h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "粽子豆沙馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_052": {
+    "id": "rec_foundation_filling_052",
+    "name": "月饼莲蓉馅",
+    "categoryType": "filling",
+    "title": "超柔软莲蓉馅(月饼专用)",
+    "photoUrl": "https://i2.chuimg.com/62ddc1ee21404d9f96464dfd73aad4d3_1152w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "月饼莲蓉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_053": {
+    "id": "rec_foundation_filling_053",
+    "name": "月饼豆沙馅",
+    "categoryType": "filling",
+    "title": "豆沙馅（蛋黄酥、月饼专用）",
+    "photoUrl": "https://i2.chuimg.com/1a84c7a260ae45a0879d33c55a3e2a32_1440w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "月饼豆沙馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_054": {
+    "id": "rec_foundation_filling_054",
+    "name": "月饼枣泥馅",
+    "categoryType": "filling",
+    "title": "记录枣泥核桃馅（广式月饼用）",
+    "photoUrl": "https://i2.chuimg.com/89f40f8ea1e84986a96d017d893665a8_1008w_756h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "月饼枣泥馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_055": {
+    "id": "rec_foundation_filling_055",
+    "name": "月饼五仁馅",
+    "categoryType": "filling",
+    "title": "月饼季卖疯了🥮自用了8年的五仁馅配方",
+    "photoUrl": "https://i2.chuimg.com/aef94549c78244a4805f37e196fea228_1280w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "月饼五仁馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_056": {
+    "id": "rec_foundation_filling_056",
+    "name": "月饼奶黄馅",
+    "categoryType": "filling",
+    "title": "《Tinrry下午茶》冰皮月饼（奶黄馅）",
+    "photoUrl": "https://i2.chuimg.com/27e2b024887e11e6a9a10242ac110002_578w_420h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "月饼奶黄馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_057": {
+    "id": "rec_foundation_filling_057",
+    "name": "月饼流心馅",
+    "categoryType": "filling",
+    "title": "万能的金沙奶黄馅（流心月饼必备)",
+    "photoUrl": "https://i2.chuimg.com/e6984d5f37e04e8aa03e2082ed9d4412_3796w_2847h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "月饼流心馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_058": {
+    "id": "rec_foundation_filling_058",
+    "name": "汤圆黑芝麻馅",
+    "categoryType": "filling",
+    "title": "家传黑芝麻汤圆馅心\n（黑洋酥）",
+    "photoUrl": "https://i2.chuimg.com/971b1644edd111e6947d0242ac110002_1138w_853h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "汤圆黑芝麻馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_059": {
+    "id": "rec_foundation_filling_059",
+    "name": "汤圆花生馅",
+    "categoryType": "filling",
+    "title": "比外面买的还要香喷喷的花生馅儿汤圆",
+    "photoUrl": "https://i2.chuimg.com/cda63b456f6c44bf88f4331b2e411eaa_2147w_1718h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "汤圆花生馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_060": {
+    "id": "rec_foundation_filling_060",
+    "name": "汤圆豆沙馅",
+    "categoryType": "filling",
+    "title": "自制豆沙汤圆（附豆沙馅儿制作步骤图）",
+    "photoUrl": "https://i2.chuimg.com/1702b4e7429e49529cebe5cc3fd3575e_1284w_1289h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "汤圆豆沙馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_061": {
+    "id": "rec_foundation_filling_061",
+    "name": "青团豆沙馅",
+    "categoryType": "filling",
+    "title": "网红艾草青团，豆沙馅（Q弹不塌陷）",
+    "photoUrl": "https://i2.chuimg.com/1454925d8b694c9d8df98881dfddd063_3072w_2979h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "青团豆沙馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_062": {
+    "id": "rec_foundation_filling_062",
+    "name": "青团咸蛋黄肉松馅",
+    "categoryType": "filling",
+    "title": "青团 | 咸蛋黄肉松馅",
+    "photoUrl": "https://i2.chuimg.com/1965957e989040cca89b1069a444b93d_1860w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "青团咸蛋黄肉松馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_063": {
+    "id": "rec_foundation_filling_063",
+    "name": "老婆饼冬瓜蓉馅",
+    "categoryType": "filling",
+    "title": "老婆饼（玉米油做皮，冬瓜蓉做馅）",
+    "photoUrl": "https://i2.chuimg.com/65d3a7909cf34ccd90c1cc2c472292da_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "老婆饼冬瓜蓉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_064": {
+    "id": "rec_foundation_filling_064",
+    "name": "蛋黄酥豆沙馅",
+    "categoryType": "filling",
+    "title": "超细腻蛋黄酥豆沙馅",
+    "photoUrl": "https://i2.chuimg.com/f5e9c8dc4b4111e7947d0242ac110002_530w_800h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "蛋黄酥豆沙馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_065": {
+    "id": "rec_foundation_filling_065",
+    "name": "凤梨酥馅",
+    "categoryType": "filling",
+    "title": "台式土凤梨酥（100%菠萝馅）",
+    "photoUrl": "https://i2.chuimg.com/6fa964ce8aa511e6a9a10242ac110002_606w_874h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "凤梨酥馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_066": {
+    "id": "rec_foundation_filling_066",
+    "name": "鲜花饼玫瑰馅",
+    "categoryType": "filling",
+    "title": "🌹玫瑰馅🌹鲜花饼🌹",
+    "photoUrl": "https://i2.chuimg.com/19b18ae9c2cc4ead8b5814919b9078ae_756w_1008h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鲜花饼玫瑰馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_067": {
+    "id": "rec_foundation_filling_067",
+    "name": "奶黄包馅",
+    "categoryType": "filling",
+    "title": "奶黄包（自制奶黄馅）",
+    "photoUrl": "https://i2.chuimg.com/6556ace93b354ad683cf47870bc10588_2160w_1726h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "奶黄包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_068": {
+    "id": "rec_foundation_filling_068",
+    "name": "流沙包馅",
+    "categoryType": "filling",
+    "title": "【流沙包】流心的包子，这样填馅一步到位！",
+    "photoUrl": "https://i2.chuimg.com/a16247a3000548eb95332b26f8289d18_1980w_1100h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "流沙包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_069": {
+    "id": "rec_foundation_filling_069",
+    "name": "豆沙包馅",
+    "categoryType": "filling",
+    "title": "豆包儿(自制红豆馅) 豆沙包，附超级简单红豆馅制作过程",
+    "photoUrl": "https://i2.chuimg.com/cf6183be8a6011e6a9a10242ac110002_5760w_3840h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "豆沙包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_070": {
+    "id": "rec_foundation_filling_070",
+    "name": "芝麻包馅",
+    "categoryType": "filling",
+    "title": "南瓜包（芝麻馅.芋头馅）",
+    "photoUrl": "https://i2.chuimg.com/48809cf221de11e7bc9d0242ac110002_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "芝麻包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_071": {
+    "id": "rec_foundation_filling_071",
+    "name": "椰蓉面包馅",
+    "categoryType": "filling",
+    "title": "椰蓉馅（面包馅）",
+    "photoUrl": "https://i2.chuimg.com/addbd9b616af11e7947d0242ac110002_1382w_1015h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "椰蓉面包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_072": {
+    "id": "rec_foundation_filling_072",
+    "name": "肉松面包馅",
+    "categoryType": "filling",
+    "title": "网红爆款毛线球肉松馅面包",
+    "photoUrl": "https://i2.chuimg.com/039c1ed16cf2487e8ddc786ca91cf181_750w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "肉松面包馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_073": {
+    "id": "rec_foundation_filling_073",
+    "name": "披萨番茄肉馅",
+    "categoryType": "filling",
+    "title": "披萨意大利面专用番茄肉酱",
+    "photoUrl": "https://i2.chuimg.com/d52c46b0439f4070b4a9d5050955bf1c_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "披萨番茄肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_074": {
+    "id": "rec_foundation_filling_074",
+    "name": "意式千层面肉馅",
+    "categoryType": "filling",
+    "title": "意式千层面｜厨师机压面绞肉版，香喷喷巨好吃。自从学会自己做千层面，孩子再也不吵着去西餐厅了！",
+    "photoUrl": "https://i2.chuimg.com/6f7e1b4548d043b3a9e8756dc2c8d682_306w_513h.png?imageView2/2/w/660/interlace/1/q/88",
+    "query": "意式千层面肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_075": {
+    "id": "rec_foundation_filling_075",
+    "name": "墨西哥卷饼牛肉馅",
+    "categoryType": "filling",
+    "title": "青椒洋葱牛肉碎taco（墨西哥玉米卷）",
+    "photoUrl": "https://i2.chuimg.com/0df38be489ea11e6a9a10242ac110002_2048w_1536h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "墨西哥卷饼牛肉馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_076": {
+    "id": "rec_foundation_filling_076",
+    "name": "越南春卷鲜虾馅",
+    "categoryType": "filling",
+    "title": "越南春卷 夏日低热量",
+    "photoUrl": "https://i2.chuimg.com/b74d83e7bd114216847dd369ac8f0f6b_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "越南春卷鲜虾馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_077": {
+    "id": "rec_foundation_filling_077",
+    "name": "日式煎饺馅",
+    "categoryType": "filling",
+    "title": "【豆腐饺子皮】脆底日式煎饺（芹菜猪肉馅）",
+    "photoUrl": "https://i2.chuimg.com/37f99c571d6348ff8c7e50b02459f2d5_1280w_1023h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式煎饺馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_filling_078": {
+    "id": "rec_foundation_filling_078",
+    "name": "韩式泡菜饺子馅",
+    "categoryType": "filling",
+    "title": "韩式泡菜猪肉馅饺子",
+    "photoUrl": "https://i2.chuimg.com/193570ccba7211e6bc9d0242ac110002_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式泡菜饺子馅",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_001": {
+    "id": "rec_foundation_brine_001",
+    "name": "家常五香卤水",
+    "categoryType": "brine",
+    "title": "家常版潮汕卤水",
+    "photoUrl": "https://i2.chuimg.com/9a19b934a8a849c6a36d02580a00c1a7_1080w_1920h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "家常五香卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_003": {
+    "id": "rec_foundation_brine_003",
+    "name": "潮州卤水",
+    "categoryType": "brine",
+    "title": "潮州卤水（懒人版）",
+    "photoUrl": "https://i2.chuimg.com/5271b05bf3ab4ee78bc7d059e71013ee_1280w_960h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "潮州卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_005": {
+    "id": "rec_foundation_brine_005",
+    "name": "武汉鸭脖卤水",
+    "categoryType": "brine",
+    "title": "一吃就会上瘾的卤鸭头鸭脖子",
+    "photoUrl": "https://i2.chuimg.com/ce70a5ba312e43769dbae1182336e84b_1242w_994h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "武汉鸭脖卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_006": {
+    "id": "rec_foundation_brine_006",
+    "name": "南京盐水鸭卤水",
+    "categoryType": "brine",
+    "title": "上海小金陵盐水鸭（盐卤水版）还能卤鸭胗猪肝",
+    "photoUrl": "https://i2.chuimg.com/cfea1bb5a5224a208278ebf996332af6_2268w_1701h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "南京盐水鸭卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_007": {
+    "id": "rec_foundation_brine_007",
+    "name": "德州扒鸡卤水",
+    "categoryType": "brine",
+    "title": "德州扒鸡（家庭版）",
+    "photoUrl": "https://i2.chuimg.com/16d3835ef1c94e0788fc36a3437680b7_1836w_2448h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "德州扒鸡卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_008": {
+    "id": "rec_foundation_brine_008",
+    "name": "道口烧鸡卤水",
+    "categoryType": "brine",
+    "title": "道口烧鸡",
+    "photoUrl": "https://i2.chuimg.com/83e2b4b4882911e6a9a10242ac110002_640w_640h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "道口烧鸡卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_009": {
+    "id": "rec_foundation_brine_009",
+    "name": "沟帮子熏鸡卤水",
+    "categoryType": "brine",
+    "title": "厨师长教你：“五香熏鸡”的家常做法，先卤后熏，皮香肉嫩",
+    "photoUrl": "https://i2.chuimg.com/f86bd6a95ef44c00ae7c668a66af52db_3840w_2160h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "沟帮子熏鸡卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_010": {
+    "id": "rec_foundation_brine_010",
+    "name": "白芷鸡卤水",
+    "categoryType": "brine",
+    "title": "川芎白芷鸡蛋",
+    "photoUrl": "https://i2.chuimg.com/5627c406d9684e7c9d61f12a9faceeea_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "白芷鸡",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_011": {
+    "id": "rec_foundation_brine_011",
+    "name": "酱牛肉卤水",
+    "categoryType": "brine",
+    "title": "复刻小高姐的三酱牛肉方子和现成卤水版的方子",
+    "photoUrl": "https://i2.chuimg.com/aa62f4695f3243c49c7842c70dfce1af_3024w_4032h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酱牛肉卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_012": {
+    "id": "rec_foundation_brine_012",
+    "name": "牛腱卤水",
+    "categoryType": "brine",
+    "title": "卤水牛腱",
+    "photoUrl": "https://i2.chuimg.com/4e197978870a11e6b87c0242ac110003_640w_428h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛腱卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_013": {
+    "id": "rec_foundation_brine_013",
+    "name": "牛杂卤水",
+    "categoryType": "brine",
+    "title": "潮汕卤牛杂火锅",
+    "photoUrl": "https://i2.chuimg.com/c654cce20a174f03b0ad13541d7ecd63_3024w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "牛杂卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_014": {
+    "id": "rec_foundation_brine_014",
+    "name": "羊肉卤水",
+    "categoryType": "brine",
+    "title": "吃不到膻味的比烧烤更好吃的孜然羊肉🐏",
+    "photoUrl": "https://i2.chuimg.com/76d69fff07234083b45007e98ea2a103_864w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "羊肉",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_015": {
+    "id": "rec_foundation_brine_015",
+    "name": "猪头肉卤水",
+    "categoryType": "brine",
+    "title": "卤水猪头肉/鸡蛋",
+    "photoUrl": "https://i2.chuimg.com/94555e31e2d84778973c0d4f268721cf_864w_1152h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪头肉卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_016": {
+    "id": "rec_foundation_brine_016",
+    "name": "猪蹄卤水",
+    "categoryType": "brine",
+    "title": "香辣烤猪蹄，附详细的卤水方法",
+    "photoUrl": "https://i2.chuimg.com/374e083487ab11e6a9a10242ac110002_640w_480h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪蹄卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_017": {
+    "id": "rec_foundation_brine_017",
+    "name": "肥肠卤水",
+    "categoryType": "brine",
+    "title": "厨师长教你：“卤水肥肠”的正宗做法，满满的干货",
+    "photoUrl": "https://i2.chuimg.com/be4fa081033943f9815ea1de31dd5afb_1920w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "肥肠卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_018": {
+    "id": "rec_foundation_brine_018",
+    "name": "猪耳卤水",
+    "categoryType": "brine",
+    "title": "卤水猪耳朵",
+    "photoUrl": "https://i2.chuimg.com/cdca96b2402711e7bc9d0242ac110002_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "猪耳卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_019": {
+    "id": "rec_foundation_brine_019",
+    "name": "鸭货卤水",
+    "categoryType": "brine",
+    "title": "卤水鸭肫/卤鸭胗/卤鸭肾/卤鸭肫（卤味鸭货）",
+    "photoUrl": "https://i2.chuimg.com/d74fed6f73de456a85cbe543c1a21fd2_1280w_1707h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鸭货卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_020": {
+    "id": "rec_foundation_brine_020",
+    "name": "卤鸡爪卤水",
+    "categoryType": "brine",
+    "title": "卤水鸡爪—广东人超爱的老牌卤水致美斋！",
+    "photoUrl": "https://i2.chuimg.com/4d7eaf998f0040daa074ff356846af89_1050w_1355h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "卤鸡爪卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_021": {
+    "id": "rec_foundation_brine_021",
+    "name": "卤鸡蛋卤水",
+    "categoryType": "brine",
+    "title": "卤水鸡爪鸡蛋（懒人做法）",
+    "photoUrl": "https://i2.chuimg.com/6c77789ef0d14d25989e77fe6019f849_810w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "卤鸡蛋卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_022": {
+    "id": "rec_foundation_brine_022",
+    "name": "卤豆腐卤水",
+    "categoryType": "brine",
+    "title": "卤水豆腐（自制）",
+    "photoUrl": "https://i2.chuimg.com/52811d91378a48ada32ec5acd4b214cd_1280w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "卤豆腐卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_023": {
+    "id": "rec_foundation_brine_023",
+    "name": "卤藕卤水",
+    "categoryType": "brine",
+    "title": "速成版卤鸡爪卤藕卤蛋卤味（现成卤水汁）",
+    "photoUrl": "https://i2.chuimg.com/69c76336b9b0456ab3584635fe584e3c_744w_992h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "卤藕卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_024": {
+    "id": "rec_foundation_brine_024",
+    "name": "卤海带卤水",
+    "categoryType": "brine",
+    "title": "卤味 卤水 | 鸡腿 小肠 猪心 藕片 海带结",
+    "photoUrl": "https://i2.chuimg.com/c080630270c54c1f867d4bd0631652c0_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "卤海带卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_026": {
+    "id": "rec_foundation_brine_026",
+    "name": "茶叶蛋卤水",
+    "categoryType": "brine",
+    "title": "茶叶卤水鹌鹑蛋",
+    "photoUrl": "https://i2.chuimg.com/4f1388753bc544588e44650cb15399ce_1600w_1198h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "茶叶蛋卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_027": {
+    "id": "rec_foundation_brine_027",
+    "name": "可乐卤水",
+    "categoryType": "brine",
+    "title": "可乐卤水汁焖乳鸽：简单易做不上火",
+    "photoUrl": "https://i2.chuimg.com/3093c8cee64c44529e19b14e1b2cacdb_1101w_1280h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "可乐卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_028": {
+    "id": "rec_foundation_brine_028",
+    "name": "啤酒卤水",
+    "categoryType": "brine",
+    "title": "夏日啤酒烤串最佳搭档-花毛一体😋😋（卤水花生毛豆）",
+    "photoUrl": "https://i2.chuimg.com/50dea54b40774d9999d3a902d9537ab0_3414w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "啤酒卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_029": {
+    "id": "rec_foundation_brine_029",
+    "name": "糟卤汁",
+    "categoryType": "brine",
+    "title": "拌拌就香-糟卤汁类",
+    "photoUrl": "https://i2.chuimg.com/2b37b53c934f4bea81d7b9310078609f_1280w_1024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "糟卤汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_030": {
+    "id": "rec_foundation_brine_030",
+    "name": "醉卤汁",
+    "categoryType": "brine",
+    "title": "醉卤汁",
+    "photoUrl": "https://i2.chuimg.com/389b5b93f26d4e75895ce30b1ab02d3a_959w_1081h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "醉卤汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_031": {
+    "id": "rec_foundation_brine_031",
+    "name": "盐水卤汁",
+    "categoryType": "brine",
+    "title": "入味的盐水五香花生",
+    "photoUrl": "https://i2.chuimg.com/18b158aedc7e4800af1c3965dfb14cf6_1552w_1242h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "盐水卤汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_032": {
+    "id": "rec_foundation_brine_032",
+    "name": "白卤水",
+    "categoryType": "brine",
+    "title": "Q版-广式和味万能版红白卤水",
+    "photoUrl": "https://i2.chuimg.com/1f3de9801f6311e7947d0242ac110002_450w_450h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "白卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_033": {
+    "id": "rec_foundation_brine_033",
+    "name": "红卤水",
+    "categoryType": "brine",
+    "title": "可以卤进全世界的红卤水，过年有的吃了。",
+    "photoUrl": "https://i2.chuimg.com/8568e935604e497eb04db264b10eca5a_1500w_1000h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "红卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_034": {
+    "id": "rec_foundation_brine_034",
+    "name": "油卤底料",
+    "categoryType": "brine",
+    "title": "油卤鸭头（鸭脑壳）",
+    "photoUrl": "https://i2.chuimg.com/e22d5582fbf711e6947d0242ac110002_1280w_853h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "油卤底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_035": {
+    "id": "rec_foundation_brine_035",
+    "name": "现捞卤水",
+    "categoryType": "brine",
+    "title": "现卤现捞",
+    "photoUrl": "https://i2.chuimg.com/c376819607d544158cf48d6cef0c2e3e_1008w_756h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "现捞卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_036": {
+    "id": "rec_foundation_brine_036",
+    "name": "火锅老油底料",
+    "categoryType": "brine",
+    "title": "《肉食火锅》不燥热不油腻老成都火锅兔（不用火锅底料）",
+    "photoUrl": "https://i2.chuimg.com/54c5424652b145a091b23d0f2bd4bfc1_4096w_3072h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "火锅老油底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_037": {
+    "id": "rec_foundation_brine_037",
+    "name": "重庆麻辣火锅底料",
+    "categoryType": "brine",
+    "title": "自制重庆麻辣火锅底料",
+    "photoUrl": "https://i2.chuimg.com/d9b29c55efaa4abf965b6218c19375e5_992w_744h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "重庆麻辣火锅底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_038": {
+    "id": "rec_foundation_brine_038",
+    "name": "成都牛油火锅底料",
+    "categoryType": "brine",
+    "title": "秘制牛油火锅底料，使用超过火锅店的专业秘制配方",
+    "photoUrl": "https://i2.chuimg.com/81c4dcd2471e4511ae7cb751c1f7136a_1125w_841h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "成都牛油火锅底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_039": {
+    "id": "rec_foundation_brine_039",
+    "name": "清油火锅底料",
+    "categoryType": "brine",
+    "title": "清油火锅底料",
+    "photoUrl": "https://i2.chuimg.com/5cc7cdfc5ea8419f86e47dfda1e61a7e_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "清油火锅底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_040": {
+    "id": "rec_foundation_brine_040",
+    "name": "酸菜鱼底料",
+    "categoryType": "brine",
+    "title": "【酸菜鱼火锅】",
+    "photoUrl": "https://i2.chuimg.com/d852ad8ba61e4d8fb13c3f57ae9aac23_7952w_5304h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "酸菜鱼底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_041": {
+    "id": "rec_foundation_brine_041",
+    "name": "水煮鱼底料",
+    "categoryType": "brine",
+    "title": "火锅水煮鱼",
+    "photoUrl": "https://i2.chuimg.com/bb3233d8b2214f8f92aebdfac8293728_3200w_1797h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "水煮鱼底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_042": {
+    "id": "rec_foundation_brine_042",
+    "name": "麻辣香锅底料",
+    "categoryType": "brine",
+    "title": "麻辣干锅（自制香辣锅底）",
+    "photoUrl": "https://i2.chuimg.com/84865e96f130477f96fdf64379a5ebf0_936w_749h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "麻辣香锅底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_043": {
+    "id": "rec_foundation_brine_043",
+    "name": "麻辣烫底料",
+    "categoryType": "brine",
+    "title": "无底料自制麻辣烫",
+    "photoUrl": "https://i2.chuimg.com/2859aeb78adc47058b0f71173f33fc53_1080w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "麻辣烫底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_044": {
+    "id": "rec_foundation_brine_044",
+    "name": "冒菜底料",
+    "categoryType": "brine",
+    "title": "超下饭的冒菜（火锅底料版）",
+    "photoUrl": "https://i2.chuimg.com/7123b29d1f164a3382006809703eae0e_1080w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "冒菜底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_045": {
+    "id": "rec_foundation_brine_045",
+    "name": "串串香底料",
+    "categoryType": "brine",
+    "title": "串串香锅底",
+    "photoUrl": "https://i2.chuimg.com/ce8546b68b3611e6a9a10242ac110002_592w_412h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "串串香底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_046": {
+    "id": "rec_foundation_brine_046",
+    "name": "干锅底料",
+    "categoryType": "brine",
+    "title": "干锅底料 火锅蘸料 下饭酱",
+    "photoUrl": "https://i2.chuimg.com/ebc48b136929414aba9bb6d38ea6586b_800w_533h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "干锅底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_047": {
+    "id": "rec_foundation_brine_047",
+    "name": "红烧通用底料",
+    "categoryType": "brine",
+    "title": "红烧鲈鱼（红烧鱼通用精确到克 新手友好）",
+    "photoUrl": "https://i2.chuimg.com/b6ccc1adc4d344078b6765f9032e94a8_1280w_759h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "红烧通用底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_048": {
+    "id": "rec_foundation_brine_048",
+    "name": "黄焖通用底料",
+    "categoryType": "brine",
+    "title": "黄焖羊肉（配料简单零基础）",
+    "photoUrl": "https://i2.chuimg.com/470afbbb8d3542f8b172e99ec802ebdd_864w_864h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "黄焖通用底料",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_049": {
+    "id": "rec_foundation_brine_049",
+    "name": "台式卤肉汁",
+    "categoryType": "brine",
+    "title": "零失败台式卤肉饭，汁浓味厚超下饭",
+    "photoUrl": "https://i2.chuimg.com/baa89f9be9ce4cfd93ab99ae3802c4c7_1280w_1706h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "台式卤肉汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_050": {
+    "id": "rec_foundation_brine_050",
+    "name": "日式叉烧卤汁",
+    "categoryType": "brine",
+    "title": "100%成功｜日式豚骨拉面🍜（附叉烧、溏心蛋做法，以及浓汤保存法）",
+    "photoUrl": "https://i2.chuimg.com/1013df45cf2b45be9b9df886ab8484b1_4032w_3022h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式叉烧卤汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_051": {
+    "id": "rec_foundation_brine_051",
+    "name": "日式溏心蛋卤汁",
+    "categoryType": "brine",
+    "title": "卖点㊙️方日式卤汁之～【日式溏心蛋】",
+    "photoUrl": "https://i2.chuimg.com/fc53ab7838d3458cb52a5e8eb0a8db53_3998w_2998h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "日式溏心蛋卤汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_052": {
+    "id": "rec_foundation_brine_052",
+    "name": "韩式酱牛肉卤汁",
+    "categoryType": "brine",
+    "title": "老北京秘制酱牛肉（老汤制作和养护）",
+    "photoUrl": "https://i2.chuimg.com/6e49999705104f5ebb3ead8abf97fe3c_1080w_1424h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "韩式酱牛肉卤汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_053": {
+    "id": "rec_foundation_brine_053",
+    "name": "东南亚香料卤汁",
+    "categoryType": "brine",
+    "title": "【玩香料】印度红扁豆汤 Red Lentil Dhal",
+    "photoUrl": "https://i2.chuimg.com/1606a384be954959ae2b287c6741043a_4032w_3024h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东南亚香料卤汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_023": {
+    "id": "rec_foundation_sauce_023",
+    "name": "港式甜酱",
+    "categoryType": "sauce",
+    "title": "自制甜面酱",
+    "photoUrl": "https://i2.chuimg.com/8076b9e086c311e6a9a10242ac110002_1440w_1080h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "港式甜酱",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_048": {
+    "id": "rec_foundation_sauce_048",
+    "name": "东北大酱蘸汁",
+    "categoryType": "sauce",
+    "title": "传统自制东北大酱",
+    "photoUrl": "https://i2.chuimg.com/8a7f30e4d64511e6bc9d0242ac110002_1512w_1512h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "东北大酱蘸汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_051": {
+    "id": "rec_foundation_sauce_051",
+    "name": "天津麻酱汁",
+    "categoryType": "sauce",
+    "title": "如意芝麻酱素面（天津麻酱面）",
+    "photoUrl": "https://i2.chuimg.com/864d2158894b11e6b87c0242ac110003_638w_478h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "天津麻酱汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_sauce_132": {
+    "id": "rec_foundation_sauce_132",
+    "name": "西式烧汁",
+    "categoryType": "sauce",
+    "title": "【圣诞食谱2】Gravy肉汁 西餐烤肉必配",
+    "photoUrl": "https://i2.chuimg.com/7c1db496c14e11e6947d0242ac110002_310w_220h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "西式肉汁",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_079": {
+    "id": "rec_foundation_pickle_079",
+    "name": "墨西哥腌墨西哥椒",
+    "categoryType": "pickle",
+    "title": "自制腌墨西哥辣椒(Pickled Jalapenos)",
+    "photoUrl": "https://i2.chuimg.com/2c75fec4ab1611e6bc9d0242ac110002_3024w_2879h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "墨西哥腌墨西哥椒",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_002": {
+    "id": "rec_foundation_stock_002",
+    "name": "中式浓鸡高汤",
+    "categoryType": "stock",
+    "title": "鸡骨头不要扔！边角料做鸡高汤【美味减脂餐】",
+    "photoUrl": "https://i2.chuimg.com/28085d96704644808b0c455cb9f72de8_4096w_2731h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "中式浓鸡高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_stock_041": {
+    "id": "rec_foundation_stock_041",
+    "name": "法式鱼高汤",
+    "categoryType": "stock",
+    "title": "柴鱼高汤玉子烧",
+    "photoUrl": "https://i2.chuimg.com/ae5f37b6874e11e6a9a10242ac110002_600w_400h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "鱼高汤",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_002": {
+    "id": "rec_foundation_brine_002",
+    "name": "粤式精卤水",
+    "categoryType": "brine",
+    "title": "广东碌鸭/鹅（做法来源粤菜厨师）",
+    "photoUrl": "https://i2.chuimg.com/0765b05fd3e74d33abbcd212e00eb14d_1000w_750h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "粤式精卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_004": {
+    "id": "rec_foundation_brine_004",
+    "name": "川味辣卤水",
+    "categoryType": "brine",
+    "title": "川味辣卤猪蹄，软糯入味巨好吃😋",
+    "photoUrl": "https://i2.chuimg.com/2ef67aa89cb044a0b17cfc865f0e5e24_1920w_2560h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "川味辣卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_brine_025": {
+    "id": "rec_foundation_brine_025",
+    "name": "素卤水",
+    "categoryType": "brine",
+    "title": "一锅熟超简单卤水鸭翅鸭掌素菜",
+    "photoUrl": "https://i2.chuimg.com/ce545ac29ae5466db6bf350cd658a707_912w_912h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "素食卤水",
+    "source": "下厨房搜索"
+  },
+  "rec_foundation_pickle_040": {
+    "id": "rec_foundation_pickle_040",
+    "name": "苏式酱菜",
+    "categoryType": "pickle",
+    "title": "苏式辣白菜萝卜",
+    "photoUrl": "https://i2.chuimg.com/94323f6a033c42ebaca32006e24701bd_1440w_1152h.jpg?imageView2/2/w/660/interlace/1/q/88",
+    "query": "苏式腌菜",
+    "source": "下厨房搜索"
+  }
+}

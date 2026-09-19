@@ -7,8 +7,8 @@ const { validateReleasePackage } = require('../scripts/validate_enriched_recipes
 
 test('release package contains 1482 valid canonical upserts and matches manifest hash', () => {
   const root = path.resolve(__dirname, '..');
-  const packagePath = path.join(root, 'updates/recipe-update-2026.09.20.2.json');
   const manifest = JSON.parse(fs.readFileSync(path.join(root, 'updates/manifest.json'), 'utf8'));
+  const packagePath = path.join(root, manifest.dataUrl);
   const bytes = fs.readFileSync(packagePath);
   const pkg = JSON.parse(bytes);
   const result = validateReleasePackage(pkg, manifest, crypto.createHash('sha256').update(bytes).digest('hex'));

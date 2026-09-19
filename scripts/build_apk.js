@@ -74,8 +74,8 @@ fs.writeFileSync(path.join(valuesDir, 'strings.xml'), `<?xml version="1.0" encod
 const manifestContent = `<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.gudurecipe.app"
-    android:versionCode="380"
-    android:versionName="3.8.0">
+    android:versionCode="381"
+    android:versionName="3.8.1">
 
     <uses-sdk android:minSdkVersion="24" android:targetSdkVersion="35" />
 
