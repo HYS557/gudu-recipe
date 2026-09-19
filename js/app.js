@@ -944,7 +944,7 @@ const App = {
     if (!recipe) return;
     this.activeRecipeForDetail = recipe;
     const serv = targetServings || recipe.servings || 2;
-    const multiplier = serv / (recipe.servings || 2);
+    const scaledData = window.RecipeDetails ? window.RecipeDetails.scale(recipe, serv) : { ingredients: recipe.ingredients || [], seasonings: recipe.seasonings || [] };
     const perServingCal = Math.round(recipe.caloriePerServing || 280);
     const totalMealCal = Math.round(perServingCal * serv);
     const totalTime = (recipe.prepTimeMinutes || 10) + (recipe.cookTimeMinutes || 15);
@@ -1005,6 +1005,7 @@ const App = {
       <div class="servings-controller">
         <span style="font-size:13px; font-weight:700; color:var(--text-main);">份量用量智能折算：</span>
         <div style="display:flex; gap:6px;">
+          <button class="btn btn-sm ${serv === 1 ? 'btn-primary' : 'btn-outline'}" onclick="App.openRecipeDetail('${recipe.id}', 1)">1人份</button>
           <button class="btn btn-sm ${serv === 2 ? 'btn-primary' : 'btn-outline'}" onclick="App.openRecipeDetail('${recipe.id}', 2)">2人份</button>
           <button class="btn btn-sm ${serv === 4 ? 'btn-primary' : 'btn-outline'}" onclick="App.openRecipeDetail('${recipe.id}', 4)">4人份</button>
           <button class="btn btn-sm ${serv === 6 ? 'btn-primary' : 'btn-outline'}" onclick="App.openRecipeDetail('${recipe.id}', 6)">6人份</button>
@@ -1016,16 +1017,16 @@ const App = {
         <h3 style="font-size:15px; font-weight:800; margin-bottom:12px; color:var(--text-main);">🥬 所需用料 (按 ${serv} 人份精准计算)</h3>
         
         ${(() => {
-          const mainIngs = recipe.ingredients.filter(i => i.type === 'main' || i.isCore === true);
-          const displayMain = mainIngs.length > 0 ? mainIngs : recipe.ingredients.slice(0, 3);
-          const secondaryIngs = recipe.ingredients.filter(i => i.type === 'secondary' || i.isCore === false);
-          const displaySec = secondaryIngs.length > 0 ? secondaryIngs : (mainIngs.length === 0 ? recipe.ingredients.slice(3) : []);
+          const mainIngs = scaledData.ingredients.filter(i => i.type === 'main' || i.isCore === true);
+          const displayMain = mainIngs.length > 0 ? mainIngs : scaledData.ingredients.slice(0, 3);
+          const secondaryIngs = scaledData.ingredients.filter(i => i.type === 'secondary' || i.isCore === false);
+          const displaySec = secondaryIngs.length > 0 ? secondaryIngs : (mainIngs.length === 0 ? scaledData.ingredients.slice(3) : []);
 
           let ingHtml = `
             <div class="ing-section-title">🥩 核心主料：</div>
             <div class="ing-grid">
               ${displayMain.map(ing => {
-                const scaled = typeof ing.amount === 'number' ? (Math.round((ing.amount * multiplier) * 10) / 10) : ing.amount;
+                const scaled = ing.displayAmount || ing.amount;
                 const unit = ing.unit || '';
                 return `
                   <div class="ing-item">
@@ -1042,7 +1043,7 @@ const App = {
               <div class="ing-section-title">🧄 提味配菜与辅料：</div>
               <div class="ing-grid">
                 ${displaySec.map(ing => {
-                  const scaled = typeof ing.amount === 'number' ? (Math.round((ing.amount * multiplier) * 10) / 10) : ing.amount;
+                  const scaled = ing.displayAmount || ing.amount;
                   const unit = ing.unit || '';
                   return `
                     <div class="ing-item">
@@ -1069,11 +1070,10 @@ const App = {
       <div style="margin-bottom:24px;">
         <div class="ing-section-title">🧂 规范调味料配比：</div>
         <div class="ing-grid">
-          ${(recipe.seasonings || []).map(sea => {
+          ${(scaledData.seasonings || []).map(sea => {
             let amountDisplay = "";
-            if (typeof sea.baseAmount === 'number' && !isNaN(sea.baseAmount)) {
-              const scaled = Math.round((sea.baseAmount * multiplier) * 10) / 10;
-              amountDisplay = `约 ${scaled} ${sea.unit || ''}`.trim();
+            if (sea.displayAmount) {
+              amountDisplay = sea.displayAmount;
             } else if (sea.amountText) {
               amountDisplay = sea.amountText;
             } else if (sea.amount) {
@@ -1097,6 +1097,12 @@ const App = {
       <!-- 分步烹饪与避坑Tips -->
       <div style="margin-bottom:24px;">
         <h3 style="font-size:15px; font-weight:800; margin-bottom:10px;">🍳 保姆级分步做法 (防翻车Tips)</h3>
+        ${window.RecipeDetails ? [
+          window.RecipeDetails.renderNutrition(recipe, serv),
+          window.RecipeDetails.renderTimes(recipe),
+          window.RecipeDetails.renderAlternatives(recipe),
+          window.RecipeDetails.renderStorage(recipe)
+        ].join('') : ''}
         <div class="steps-list">
           ${(recipe.steps || []).map((step, idx) => {
             const stepIndex = typeof step === 'object' ? (step.stepIndex || step.step || (idx + 1)) : (idx + 1);

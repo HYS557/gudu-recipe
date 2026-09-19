@@ -1793,4 +1793,17 @@ body {
   font-size: 11.5px;
 }
 
+.recipe-info-section { margin: 12px 0; border: 1px solid var(--border-color); border-radius: 12px; background: var(--bg-page); overflow: hidden; }
+.recipe-info-section summary { cursor: pointer; padding: 13px 15px; font-weight: 800; color: var(--text-main); background: #fff; }
+.recipe-info-content { padding: 14px 15px; font-size: 13px; line-height: 1.65; }
+.recipe-info-content ul { margin: 8px 0 0; padding-left: 20px; }
+.recipe-info-note { color: var(--text-muted); font-size: 11.5px; margin: 8px 0 0; }
+.nutrition-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.nutrition-grid span { background: #fff; border-radius: 8px; padding: 8px 10px; display: flex; flex-direction: column; }
+.nutrition-grid strong { color: var(--primary-red); margin-top: 2px; }
+.time-chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.time-chip-row span { padding: 4px 8px; border-radius: 999px; background: #fff; border: 1px solid var(--border-light); }
+
+@media (min-width: 640px) { .nutrition-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+
 
