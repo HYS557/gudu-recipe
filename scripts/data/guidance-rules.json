@@ -1,0 +1,7 @@
+{
+  "default": { "roomTemperatureMinutes": 120, "refrigeratedDays": 2, "frozenDays": 14, "freezeRecommended": true, "overnightRecommended": true },
+  "highRisk": { "roomTemperatureMinutes": 60, "refrigeratedDays": 1, "frozenDays": null, "freezeRecommended": false, "overnightRecommended": false },
+  "rice": { "roomTemperatureMinutes": 60, "refrigeratedDays": 1, "frozenDays": 14, "freezeRecommended": true, "overnightRecommended": true },
+  "fried": { "roomTemperatureMinutes": 120, "refrigeratedDays": 1, "frozenDays": 7, "freezeRecommended": false, "overnightRecommended": false },
+  "soup": { "roomTemperatureMinutes": 120, "refrigeratedDays": 2, "frozenDays": 14, "freezeRecommended": true, "overnightRecommended": true }
+}
