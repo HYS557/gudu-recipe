@@ -40,5 +40,16 @@
       "banquet": "rec_gudu_0185"
     }
   },
+  "publicDeployment": {
+    "commit": "0e9cf5f9e2c062aec738ee63b3beba05279c2927",
+    "pagesStatus": "built",
+    "appVersion": "3.7.0",
+    "dataVersion": "2026.09.20.1",
+    "dataSha256Matched": true,
+    "canonicalScriptReachable": true,
+    "recipeDetailsReachable": true,
+    "apkStatus": 200,
+    "apkBytes": 17285426
+  },
   "blockingIssues": []
 }
