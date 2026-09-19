@@ -1,0 +1,12 @@
+[
+  {"category":"stir-fry","id":"rec_gudu_0001"},{"category":"stir-fry","id":"rec_gudu_0003"},{"category":"stir-fry","id":"rec_gudu_0004"},
+  {"category":"braise","id":"rec_gudu_0036"},{"category":"braise","id":"rec_gudu_0041"},{"category":"braise","id":"rec_gudu_0064"},
+  {"category":"fry","id":"rec_gudu_0040"},{"category":"fry","id":"rec_gudu_0110"},{"category":"fry","id":"rec_gudu_0134"},
+  {"category":"steam","id":"rec_gudu_0010"},{"category":"steam","id":"rec_gudu_0017"},{"category":"steam","id":"rec_gudu_0021"},
+  {"category":"soup","id":"rec_gudu_0002"},{"category":"soup","id":"rec_gudu_0030"},{"category":"soup","id":"rec_gudu_0056"},
+  {"category":"congee","id":"rec_gudu_0086"},{"category":"congee","id":"rec_congee_01"},{"category":"congee","id":"rec_congee_73"},
+  {"category":"pastry","id":"rec_gudu_0136"},{"category":"pastry","id":"rec_gudu_0167"},{"category":"pastry","id":"rec_gudu_0277"},
+  {"category":"cold-dish","id":"rec_gudu_0029"},{"category":"cold-dish","id":"rec_gudu_0058"},{"category":"cold-dish","id":"rec_gudu_0194"},
+  {"category":"drink","id":"rec_dessert_07"},{"category":"drink","id":"rec_dessert_08"},{"category":"drink","id":"rec_dessert_13"},
+  {"category":"banquet","id":"rec_gudu_0185"},{"category":"banquet","id":"rec_gudu_0186"},{"category":"banquet","id":"rec_gudu_0188"}
+]

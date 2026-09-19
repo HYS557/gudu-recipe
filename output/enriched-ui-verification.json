@@ -1,0 +1,227 @@
+{
+  "passed": true,
+  "sampleCount": 30,
+  "servingSizes": [
+    1,
+    2,
+    4,
+    6
+  ],
+  "failures": [],
+  "results": [
+    {
+      "category": "stir-fry",
+      "id": "rec_gudu_0001",
+      "name": "余干辣椒炒肉",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "stir-fry",
+      "id": "rec_gudu_0003",
+      "name": "莲花血鸭",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "stir-fry",
+      "id": "rec_gudu_0004",
+      "name": "江西风味豆皮炒肉",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "braise",
+      "id": "rec_gudu_0036",
+      "name": "新疆风味大盘鸡",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "braise",
+      "id": "rec_gudu_0041",
+      "name": "东北风味猪肉炖酸菜粉条",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "braise",
+      "id": "rec_gudu_0064",
+      "name": "川味软炖猪肘",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "fry",
+      "id": "rec_gudu_0040",
+      "name": "老式锅包肉（全熟家庭版）",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "fry",
+      "id": "rec_gudu_0110",
+      "name": "闽式红糟炸鳗鱼",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "fry",
+      "id": "rec_gudu_0134",
+      "name": "北京风味炸酱面",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "steam",
+      "id": "rec_gudu_0010",
+      "name": "剁椒蒸胖头鱼头",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "steam",
+      "id": "rec_gudu_0017",
+      "name": "北海风味蒜蓉蒸生蚝",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "steam",
+      "id": "rec_gudu_0021",
+      "name": "黄皮酱蒸排骨",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "soup",
+      "id": "rec_gudu_0002",
+      "name": "南昌瓦罐肉饼汤",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "soup",
+      "id": "rec_gudu_0030",
+      "name": "西安酸汤水饺",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "soup",
+      "id": "rec_gudu_0056",
+      "name": "酸菜鱼",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "congee",
+      "id": "rec_gudu_0086",
+      "name": "生滚牛肉粥",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "congee",
+      "id": "rec_congee_01",
+      "name": "皮蛋瘦肉粥（熟透版）",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "congee",
+      "id": "rec_congee_73",
+      "name": "地瓜白米稀饭",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "pastry",
+      "id": "rec_gudu_0136",
+      "name": "天津煎饼果子",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "pastry",
+      "id": "rec_gudu_0167",
+      "name": "唐山棋子烧饼",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "pastry",
+      "id": "rec_gudu_0277",
+      "name": "泰式金钱虾饼",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "cold-dish",
+      "id": "rec_gudu_0029",
+      "name": "陕西凉皮",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "cold-dish",
+      "id": "rec_gudu_0058",
+      "name": "夫妻肺片（熟肉制品版）",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "cold-dish",
+      "id": "rec_gudu_0194",
+      "name": "泰式酸辣捞汁小海鲜",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "drink",
+      "id": "rec_dessert_07",
+      "name": "酸梅饮（预包装料包版）",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "drink",
+      "id": "rec_dessert_08",
+      "name": "玉米牛奶饮",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "drink",
+      "id": "rec_dessert_13",
+      "name": "鸭屎香柠檬茶",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "banquet",
+      "id": "rec_gudu_0185",
+      "name": "清蒸大闸蟹",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "banquet",
+      "id": "rec_gudu_0186",
+      "name": "白灼基围虾",
+      "passed": true,
+      "errors": []
+    },
+    {
+      "category": "banquet",
+      "id": "rec_gudu_0188",
+      "name": "清蒸深海石斑鱼",
+      "passed": true,
+      "errors": []
+    }
+  ],
+  "checkedAt": "2026-09-19T19:51:21.338Z",
+  "totalRecipes": 961,
+  "favoritesPreserved": true,
+  "canonicalOnly": true
+}
