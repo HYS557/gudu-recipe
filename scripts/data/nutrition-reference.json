@@ -1,0 +1,19 @@
+{
+  "pork": { "caloriesKcal": 395, "proteinG": 14, "fatG": 37, "carbsG": 0, "edibleFraction": 1 },
+  "leanMeat": { "caloriesKcal": 165, "proteinG": 24, "fatG": 7, "carbsG": 0, "edibleFraction": 1 },
+  "fish": { "caloriesKcal": 120, "proteinG": 20, "fatG": 4, "carbsG": 0, "edibleFraction": 0.8 },
+  "egg": { "caloriesKcal": 144, "proteinG": 13.3, "fatG": 8.8, "carbsG": 2.8, "edibleFraction": 0.88 },
+  "rice": { "caloriesKcal": 346, "proteinG": 7.4, "fatG": 0.8, "carbsG": 77.9, "edibleFraction": 1 },
+  "flour": { "caloriesKcal": 350, "proteinG": 10.3, "fatG": 1.1, "carbsG": 75.2, "edibleFraction": 1 },
+  "beans": { "caloriesKcal": 335, "proteinG": 21, "fatG": 4, "carbsG": 55, "edibleFraction": 1 },
+  "vegetable": { "caloriesKcal": 28, "proteinG": 1.8, "fatG": 0.3, "carbsG": 5, "edibleFraction": 0.95 },
+  "fruit": { "caloriesKcal": 52, "proteinG": 0.7, "fatG": 0.2, "carbsG": 12, "edibleFraction": 0.85 },
+  "dairy": { "caloriesKcal": 65, "proteinG": 3.2, "fatG": 3.6, "carbsG": 4.8, "edibleFraction": 1 },
+  "sugar": { "caloriesKcal": 400, "proteinG": 0, "fatG": 0, "carbsG": 100, "edibleFraction": 1 },
+  "starch": { "caloriesKcal": 345, "proteinG": 0.2, "fatG": 0.1, "carbsG": 86, "edibleFraction": 1 },
+  "oil": { "caloriesKcal": 900, "proteinG": 0, "fatG": 100, "carbsG": 0, "edibleFraction": 1 },
+  "sauce": { "caloriesKcal": 75, "proteinG": 5, "fatG": 0.5, "carbsG": 12, "edibleFraction": 1 },
+  "spice": { "caloriesKcal": 250, "proteinG": 10, "fatG": 8, "carbsG": 35, "edibleFraction": 1 },
+  "water": { "caloriesKcal": 0, "proteinG": 0, "fatG": 0, "carbsG": 0, "edibleFraction": 1 },
+  "composite": { "caloriesKcal": 120, "proteinG": 5, "fatG": 4, "carbsG": 16, "edibleFraction": 1 }
+}
