@@ -1096,13 +1096,13 @@ const App = {
 
       <!-- 分步烹饪与避坑Tips -->
       <div style="margin-bottom:24px;">
-        <h3 style="font-size:15px; font-weight:800; margin-bottom:10px;">🍳 保姆级分步做法 (防翻车Tips)</h3>
         ${window.RecipeDetails ? [
           window.RecipeDetails.renderNutrition(recipe, serv),
           window.RecipeDetails.renderTimes(recipe),
           window.RecipeDetails.renderAlternatives(recipe),
           window.RecipeDetails.renderStorage(recipe)
         ].join('') : ''}
+        <h3 style="font-size:15px; font-weight:800; margin-bottom:10px;">🍳 保姆级分步做法 (防翻车Tips)</h3>
         <div class="steps-list">
           ${(recipe.steps || []).map((step, idx) => {
             const stepIndex = typeof step === 'object' ? (step.stepIndex || step.step || (idx + 1)) : (idx + 1);

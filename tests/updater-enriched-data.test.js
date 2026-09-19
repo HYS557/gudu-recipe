@@ -26,6 +26,7 @@ test('rejects missing enriched fields and unknown patch ids', () => {
   const bundled = [enriched('r1')];
   assert.equal(updater.validatePackage({ dataVersion: '2', upserts: [{ id: 'r1' }] }, bundled).valid, false);
   assert.equal(updater.validatePackage({ dataVersion: '2', patches: [{ id: 'missing', fields: { name: 'x' } }] }, bundled).valid, false);
+  assert.equal(updater.validatePackage({ dataVersion: '2', patches: [{ id: 'r1', fields: { storage: null } }] }, bundled).valid, false);
 });
 
 test('rejects corrupt package shapes and does not apply them', () => {

@@ -32,9 +32,11 @@
     for (const key of ['patches', 'upserts', 'removeIds']) {
       if (pkg && pkg[key] !== undefined && !Array.isArray(pkg[key])) errors.push(`${key} must be an array`);
     }
-    const known = new Set((Array.isArray(recipes) ? recipes : []).map(r => r && r.id).filter(Boolean));
+    const recipeMap = new Map((Array.isArray(recipes) ? recipes : []).filter(Boolean).map(recipe => [recipe.id, recipe]));
+    const known = new Set(recipeMap.keys());
     for (const item of (pkg && Array.isArray(pkg.patches) ? pkg.patches : [])) {
       if (!item || !known.has(item.id) || !item.fields || typeof item.fields !== 'object') errors.push(`unknown or invalid patch id: ${item && item.id}`);
+      else if (!isEnrichedRecipe({ ...recipeMap.get(item.id), ...item.fields })) errors.push(`patch removes required enriched fields: ${item.id}`);
     }
     for (const recipe of (pkg && Array.isArray(pkg.upserts) ? pkg.upserts : [])) {
       if (!isEnrichedRecipe(recipe)) errors.push(`invalid enriched recipe: ${recipe && recipe.id}`);
