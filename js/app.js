@@ -36,6 +36,28 @@ const App = {
   currentPage: 1,
   pageSize: 12,
   isLoadingMore: false,
+  detailShardPromises: new Map(),
+
+  async hydrateRecipe(recipe) {
+    if (!recipe || !recipe._detailShard || Array.isArray(recipe.steps)) return recipe;
+    const shard = recipe._detailShard;
+    if (!this.detailShardPromises.has(shard)) {
+      const promise = fetch(`./js/data/recipe-shards/${shard}.json?v=3.8.2.2`, { cache: 'force-cache' })
+        .then(response => {
+          if (!response.ok) throw new Error(`detail shard ${shard} failed`);
+          return response.json();
+        });
+      this.detailShardPromises.set(shard, promise);
+    }
+    try {
+      const recipes = await this.detailShardPromises.get(shard);
+      return recipes.find(item => item.id === recipe.id) || recipe;
+    } catch (error) {
+      this.detailShardPromises.delete(shard);
+      this.showToast('菜谱详情加载失败，请检查网络后重试');
+      return recipe;
+    }
+  },
 
   init() {
     this.loadFavorites();
@@ -934,16 +956,18 @@ const App = {
     grid.appendChild(div);
   },
 
-  toggleCart(recipeId) {
+  async toggleCart(recipeId) {
     const list = this.getAllRecipes();
     const target = list.find(r => r.id === recipeId);
-    if (target) ShareService.toggleRecipe(target);
+    if (target) ShareService.toggleRecipe(await this.hydrateRecipe(target));
   },
 
-  openRecipeDetail(recipeId, targetServings = null) {
+  async openRecipeDetail(recipeId, targetServings = null) {
     const list = this.getAllRecipes();
-    const recipe = list.find(r => r.id === recipeId);
-    if (!recipe) return;
+    const baseRecipe = list.find(r => r.id === recipeId);
+    if (!baseRecipe) return;
+    const recipe = await this.hydrateRecipe(baseRecipe);
+    if (!Array.isArray(recipe.steps)) return;
     this.activeRecipeForDetail = recipe;
     const serv = targetServings || recipe.servings || 2;
     const scaledData = window.RecipeDetails ? window.RecipeDetails.scale(recipe, serv) : { ingredients: recipe.ingredients || [], seasonings: recipe.seasonings || [] };
@@ -1609,9 +1633,9 @@ window.MealPlanner = {
     }).join('');
   },
 
-  exportToCart() {
+  async exportToCart() {
     if (!this.currentDishes || this.currentDishes.length === 0) return;
-    const recipes = this.currentDishes.map(d => d.recipe);
+    const recipes = await Promise.all(this.currentDishes.map(d => App.hydrateRecipe(d.recipe)));
     ShareService.menuCart = recipes;
     ShareService.saveToStorage();
     ShareService.updateCartUI();
