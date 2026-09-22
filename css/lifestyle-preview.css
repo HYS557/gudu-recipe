@@ -1,0 +1,1071 @@
+/* 咕嘟食谱 · 暖调轻奢生活志视觉审核版
+   仅覆盖视觉，不改数据、交互与线上版本。 */
+
+:root {
+  --bg-page: #f4f3f0;
+  --bg-card: #fcfbf8;
+  --bg-subtle: rgba(53, 45, 38, .055);
+  --bg-hover: rgba(53, 45, 38, .09);
+  --bg-glass: rgba(250, 247, 241, .88);
+  --text-main: #242321;
+  --text-secondary: #706d68;
+  --text-muted: #96918b;
+  --primary-color: #84483f;
+  --primary-color-hover: #713b34;
+  --primary-red: #84483f;
+  --apple-accent: #6b645b;
+  --apple-accent-light: rgba(107, 100, 91, .11);
+  --apple-green: #626960;
+  --border-color: rgba(61, 51, 42, .11);
+  --border-light: rgba(61, 51, 42, .065);
+  --shadow-sm: 0 6px 24px rgba(63, 48, 35, .045);
+  --shadow-card: 0 14px 40px rgba(63, 48, 35, .075);
+  --shadow-hover: 0 22px 54px rgba(63, 48, 35, .13);
+  --radius-xs: 7px;
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 22px;
+}
+
+html { background: #efeeeb; }
+
+body.lifestyle-preview {
+  background:
+    radial-gradient(circle at 8% 6%, rgba(128, 119, 108, .065), transparent 28rem),
+    linear-gradient(180deg, #f8f7f4 0, #f4f3f0 36rem, #efeeeb 100%);
+  color: var(--text-main);
+  letter-spacing: .012em;
+}
+
+body.lifestyle-preview::before { display: none; }
+
+.app-container { max-width: 1180px; }
+
+.header-bar {
+  background: rgba(248, 247, 244, .9);
+  border-color: rgba(68, 56, 45, .09);
+  backdrop-filter: saturate(125%) blur(22px);
+}
+
+.header-content { min-height: 74px; }
+.brand-logo { gap: 13px; }
+.brand-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  box-shadow: none;
+  border: 1px solid rgba(149, 115, 72, .18);
+  filter: saturate(.78) contrast(.96);
+}
+.brand-text h1,
+.card-title,
+.meal-planner-title,
+.season-solar-title,
+.modal-title,
+.detail-title {
+  font-family: "Source Han Serif SC", "Noto Serif CJK SC", "Songti SC", SimSun, serif;
+}
+.brand-text h1 {
+  font-size: 21px;
+  font-weight: 650;
+  letter-spacing: .11em;
+}
+.brand-text .slogan {
+  margin-top: 2px;
+  font-size: 10px;
+  letter-spacing: .22em;
+  color: #9a8570;
+}
+
+.header-action-btn {
+  background: transparent;
+  box-shadow: none;
+  border-color: rgba(68, 56, 45, .14);
+  color: #665b51;
+  font-weight: 500;
+}
+.header-action-btn:hover { background: rgba(255,255,255,.6); }
+#btnHeaderAbout { display: none; }
+#btnHeaderFav { border: 0; padding-right: 0; }
+
+.search-section { padding: 32px 0 20px; }
+.search-input-wrapper {
+  max-width: 780px;
+  margin: 0 auto;
+  background: rgba(252, 251, 248, .84);
+  border-color: rgba(68, 56, 45, .12);
+  box-shadow: 0 14px 38px rgba(57, 44, 32, .06);
+}
+.search-input { color: #403832; }
+.search-input::placeholder { color: #a0968c; }
+.search-icon { filter: grayscale(1); opacity: .55; }
+
+.meal-planner-entry {
+  position: relative;
+  min-height: 174px;
+  padding: 28px 34px;
+  overflow: hidden;
+  border: 1px solid rgba(129, 93, 60, .18);
+  background:
+    linear-gradient(90deg, rgba(30, 29, 27, .80), rgba(45, 43, 39, .18)),
+    url("../images/qingtun_shizitou.jpg") center 54% / cover;
+  box-shadow: 0 20px 46px rgba(56, 41, 29, .16);
+}
+.meal-planner-entry::before {
+  content: "TODAY'S TABLE";
+  position: absolute;
+  left: 34px;
+  top: 20px;
+  color: rgba(255,255,255,.58);
+  font-size: 9px;
+  letter-spacing: .24em;
+}
+.meal-planner-entry:hover { border-color: rgba(180,154,106,.46); box-shadow: 0 24px 56px rgba(56,41,29,.22); }
+.meal-planner-entry-left { position: relative; z-index: 1; gap: 6px; padding-top: 12px; }
+.meal-planner-badge {
+  padding: 0;
+  background: none;
+  color: #d8c09e;
+  font-size: 10px;
+  font-weight: 500;
+  letter-spacing: .12em;
+}
+.meal-planner-title { color: #fffdf8; font-size: clamp(20px, 2.5vw, 30px); font-weight: 600; letter-spacing: .04em; }
+.meal-planner-sub { color: rgba(255,255,255,.67); letter-spacing: .05em; }
+.meal-planner-btn {
+  display: none;
+}
+
+.season-banner {
+  margin-top: 22px;
+  padding: 22px 24px;
+  background: rgba(252, 251, 248, .8);
+  border-color: rgba(68, 56, 45, .09);
+  box-shadow: 0 10px 32px rgba(63,48,35,.045);
+}
+.season-solar-title { font-weight: 600; letter-spacing: .04em; }
+.season-btn-main,
+.season-fish-tag.active,
+.season-tab.active { background: #363432 !important; border-color: #363432 !important; box-shadow: none !important; }
+.season-actions { display: none; }
+.season-banner { min-height: 112px; display: flex; flex-direction: column; justify-content: center; }
+
+.category-tabs {
+  margin-top: 29px;
+  padding-bottom: 10px;
+  gap: 18px;
+  border-bottom: 1px solid rgba(68,56,45,.10);
+}
+.cat-tab {
+  padding: 9px 0;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: #77736e;
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+.cat-tab.active {
+  background: transparent !important;
+  color: #262422 !important;
+  border-bottom: 1.5px solid #84483f !important;
+  box-shadow: none !important;
+}
+
+.sub-filter-bar { display: none !important; }
+.sub-chip, .sub-pill {
+  background: rgba(255,253,249,.7);
+  border-color: rgba(68,56,45,.1);
+  box-shadow: none;
+  color: #756a60;
+}
+.sub-chip.active, .sub-pill.active { background: #403832 !important; border-color: #403832 !important; }
+
+.recipe-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 22px; }
+.recipe-card {
+  border: 0;
+  border-radius: 14px;
+  background: rgba(252,251,248,.94);
+  box-shadow: var(--shadow-card);
+}
+.recipe-card:nth-child(6n + 1) { grid-row: span 1; }
+.recipe-card:hover { transform: translateY(-4px); }
+.card-media, .card-img-wrap { aspect-ratio: 4 / 3.15; background: #ddd4c8; }
+.card-media img, .card-img { filter: saturate(.78) contrast(.98) brightness(.98); }
+.recipe-card:hover .card-media img, .recipe-card:hover .card-img { transform: scale(1.025); filter: saturate(.94) contrast(1); }
+.card-media::after, .card-img-wrap::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(180deg, transparent 60%, rgba(40,31,24,.12));
+}
+.card-tag-pill {
+  top: 12px;
+  left: 12px;
+  background: rgba(251,248,242,.82);
+  color: #66594d;
+  box-shadow: none;
+  border: 1px solid rgba(255,255,255,.32);
+  font-weight: 500;
+  letter-spacing: .06em;
+}
+.card-quick-add, .card-fav-btn {
+  background: rgba(251,248,242,.84);
+  color: #584d43;
+  box-shadow: 0 5px 18px rgba(38,29,22,.13);
+}
+.card-body { padding: 17px 17px 16px; }
+.card-title { font-size: 17px; font-weight: 600; letter-spacing: .035em; }
+.card-subtitle { margin-top: 3px; color: #857a70; }
+.card-meta-row { border-color: rgba(68,56,45,.07); color: #9a9086; }
+.card-meta-row .score { color: #756d63; }
+
+.commercial-footer { background: #2f2924; color: rgba(255,255,255,.72); }
+.footer-brand-title { font-family: "Songti SC", SimSun, serif; letter-spacing: .08em; }
+
+.ios-tab-bar {
+  left: 50%;
+  right: auto;
+  bottom: 14px;
+  width: min(520px, calc(100% - 28px));
+  transform: translateX(-50%);
+  border: 1px solid rgba(68,56,45,.11);
+  border-radius: 22px;
+  background: rgba(252,251,248,.9);
+  box-shadow: 0 16px 44px rgba(54,42,32,.17);
+  backdrop-filter: blur(22px);
+  overflow: hidden;
+}
+.ios-tab-btn.active { color: #84483f; }
+.ios-tab-icon { filter: grayscale(1) saturate(0); opacity: .72; }
+.ios-tab-btn.active .ios-tab-icon { filter: grayscale(1) saturate(0); opacity: 1; }
+
+.modal-overlay { backdrop-filter: blur(14px); background: rgba(43,36,31,.46); }
+.modal-box, .modal-content { background: #fbf8f2; border-color: rgba(68,56,45,.1); box-shadow: 0 28px 80px rgba(42,31,23,.25); }
+
+@media (max-width: 768px) {
+  .header-content { min-height: 64px; }
+  .brand-icon { width: 38px; height: 38px; }
+  .brand-text h1 { font-size: 18px; }
+  .search-section { padding-top: 20px; }
+  .meal-planner-entry { min-height: 164px; padding: 25px 20px; align-items: flex-end; }
+  .meal-planner-entry::before { left: 20px; top: 17px; }
+  .meal-planner-title { font-size: 22px; }
+  .meal-planner-btn { padding: 10px 12px; }
+  .season-banner { padding: 18px; }
+  .recipe-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; }
+  .card-body { padding: 12px; }
+  .card-title { font-size: 15px; }
+  .card-subtitle { display: none; }
+  .card-tag-pill { font-size: 9px; padding: 3px 8px; }
+}
+
+@media (max-width: 420px) {
+  .header-action-btn { padding: 7px 9px; font-size: 11px; }
+  .meal-planner-entry { display: block; }
+  .meal-planner-btn { margin-top: 14px; }
+}
+
+/* V3 · H5-first：暖白、墨绿、黄铜，减少控件感 */
+:root {
+  --bg-page: #f6f5f0;
+  --bg-card: #fffefa;
+  --text-main: #20231f;
+  --text-secondary: #6c706a;
+  --text-muted: #969991;
+  --primary-color: #40574a;
+  --primary-color-hover: #314439;
+  --primary-red: #40574a;
+  --apple-accent: #9a7c4f;
+  --apple-green: #40574a;
+}
+
+body.lifestyle-preview {
+  background:
+    radial-gradient(circle at 50% 0, rgba(111, 129, 112, .08), transparent 30rem),
+    #f6f5f0;
+}
+.brand-text h1 { color: #233029; }
+.brand-text .slogan { color: #889087; }
+.meal-planner-entry {
+  border-color: rgba(57, 76, 64, .18);
+  background:
+    linear-gradient(90deg, rgba(22, 32, 26, .84), rgba(34, 48, 39, .20)),
+    url("../images/qingtun_shizitou.jpg") center 54% / cover;
+}
+.meal-planner-badge { color: #d6c8a9; }
+.cat-tab.active { border-bottom-color: #40574a !important; }
+.ios-tab-btn.active { color: #40574a; }
+.card-meta-row .score { color: #667b6c; }
+
+@media (max-width: 600px) {
+  :root {
+    --radius-md: 13px;
+    --radius-lg: 18px;
+  }
+
+  body.lifestyle-preview { padding-bottom: calc(82px + var(--sab)); }
+  .app-container { width: 100%; padding-left: 16px; padding-right: 16px; }
+
+  .header-bar {
+    position: sticky;
+    top: 0;
+    padding-top: var(--sat);
+    background: rgba(246, 245, 240, .92);
+  }
+  .header-content { min-height: 58px; padding-top: 0; padding-bottom: 0; }
+  .brand-logo { gap: 9px; }
+  .brand-icon { width: 34px; height: 34px; }
+  .brand-text h1 { font-size: 17px; letter-spacing: .08em; }
+  .brand-text .slogan { display: none; }
+  #btnHeaderFav {
+    width: 38px;
+    height: 38px;
+    overflow: hidden;
+    padding: 0;
+    justify-content: center;
+    color: transparent;
+    font-size: 0;
+  }
+  #btnHeaderFav span:first-child { color: #40574a; font-size: 17px; }
+
+  .search-section { padding: 15px 0 14px; }
+  .search-input-wrapper {
+    height: 44px;
+    border: 0;
+    background: #ebece6;
+    box-shadow: none;
+  }
+  .search-input { font-size: 13px; padding-right: 14px; }
+
+  .meal-planner-entry {
+    min-height: 205px;
+    margin: 0 0 14px;
+    padding: 24px 22px;
+    border: 0;
+    border-radius: 18px;
+    display: flex;
+    align-items: flex-end;
+    box-shadow: 0 16px 36px rgba(33, 47, 38, .16);
+    background-position: center;
+  }
+  .meal-planner-entry::before { left: 22px; top: 22px; font-size: 8px; }
+  .meal-planner-entry-left { padding-top: 0; gap: 5px; }
+  .meal-planner-badge { display: none; }
+  .meal-planner-title { font-size: 24px; line-height: 1.24; letter-spacing: .025em; }
+  .meal-planner-sub {
+    max-width: 270px;
+    font-size: 11px;
+    line-height: 1.55;
+    color: rgba(255,255,255,.72);
+  }
+
+  .season-banner {
+    min-height: auto;
+    margin: 0 0 14px;
+    padding: 15px 16px;
+    border: 0;
+    border-left: 3px solid #8a977d;
+    border-radius: 4px 13px 13px 4px;
+    box-shadow: none;
+    background: #eceee8;
+  }
+  .season-header { margin-bottom: 4px; }
+  .season-switches { display: none; }
+  .season-solar-title { font-size: 15px; }
+  .season-quote { font-size: 11px; line-height: 1.55; margin: 0; }
+
+  .category-tabs {
+    position: relative;
+    margin: 4px -16px 10px;
+    padding: 7px 16px 9px;
+    gap: 22px;
+    border: 0;
+    overflow-x: auto;
+    scroll-snap-type: x proximity;
+  }
+  .category-tabs::after { content: ""; min-width: 1px; }
+  .cat-tab {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    padding: 8px 0;
+    font-size: 13px;
+    color: #858880;
+  }
+  .cat-tab.active { color: #26332b !important; font-weight: 650; }
+
+  #recipeCountLabel { font-size: 11px; color: #8b8e87; }
+  #recipeCountLabel + span { display: none; }
+
+  .recipe-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 17px 11px;
+  }
+  .recipe-card {
+    border-radius: 13px;
+    background: transparent;
+    box-shadow: none;
+    overflow: visible;
+  }
+  .recipe-card:hover { transform: none; box-shadow: none; }
+  .card-media, .card-img-wrap {
+    aspect-ratio: 4 / 5;
+    border-radius: 13px;
+    background: #e5e5df;
+    box-shadow: 0 8px 22px rgba(39, 47, 40, .075);
+  }
+  .card-media img, .card-img { border-radius: inherit; }
+  .card-media::after, .card-img-wrap::after { border-radius: inherit; }
+  .card-tag-pill { top: 8px; left: 8px; font-size: 8px; border: 0; }
+  .card-fav-btn { top: 8px; right: 8px; width: 29px; height: 29px; box-shadow: none; }
+  .card-quick-add {
+    width: 30px;
+    height: 30px;
+    right: 8px;
+    bottom: 8px;
+    font-size: 15px;
+    box-shadow: none;
+  }
+  .card-body { padding: 10px 2px 0; }
+  .card-title { margin-bottom: 3px; font-size: 15px; line-height: 1.35; }
+  .card-subtitle { display: -webkit-box; margin-bottom: 5px; font-size: 10px; -webkit-line-clamp: 1; }
+  .card-meta-row { padding-top: 0; border: 0; font-size: 9px; }
+
+  .ios-tab-bar {
+    bottom: max(8px, var(--sab));
+    width: calc(100% - 24px);
+    border: 0;
+    border-radius: 18px;
+    background: rgba(253, 252, 248, .94);
+    box-shadow: 0 12px 34px rgba(32, 42, 35, .16);
+  }
+  .ios-tab-inner { height: 56px; }
+  .ios-tab-btn { font-size: 10px; }
+  .ios-tab-icon { font-size: 18px; }
+
+  .commercial-footer { display: none; }
+  .modal-box, .modal-content {
+    width: 100%;
+    max-height: calc(100dvh - var(--sat));
+    margin-top: var(--sat);
+    border-radius: 20px 20px 0 0;
+  }
+}
+
+/* V7 · H5-first editorial minimal + soft ambient light */
+body.lifestyle-preview {
+  background:
+    radial-gradient(ellipse at 84% 4%, rgba(205,216,199,.32), transparent 28%),
+    linear-gradient(180deg, #faf9f5 0%, #f5f4ef 100%);
+  background-attachment: scroll;
+}
+.header-bar {
+  border-bottom: 1px solid rgba(28,43,34,.07);
+  background: rgba(250,249,245,.94);
+  box-shadow: none;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.brand-logo::before {
+  background: #31483b;
+  box-shadow: none;
+}
+.search-input-wrapper {
+  border: 1px solid rgba(41,61,49,.1);
+  background: rgba(255,255,255,.68);
+  box-shadow: none;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+.meal-planner-entry {
+  border: 0;
+  border-radius: 18px;
+  box-shadow: none;
+}
+.season-banner {
+  border: 0;
+  border-bottom: 1px solid rgba(31,48,38,.11);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.season-switches {
+  border: 0;
+  background: #ecece6;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.all-category-menu summary {
+  border: 0;
+  border-bottom: 1px solid rgba(40,59,47,.24);
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.all-category-panel {
+  border: 1px solid rgba(255,255,255,.86);
+  background: rgba(248,248,244,.9);
+  box-shadow: 0 22px 55px rgba(34,50,40,.14);
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+}
+.card-media, .card-img-wrap {
+  border: 0;
+  border-radius: 13px;
+  box-shadow: none;
+}
+.card-fav-btn, .card-quick-add {
+  border: 0;
+  background: rgba(250,250,246,.86);
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.ios-tab-bar {
+  border: 1px solid rgba(38,56,45,.09);
+  border-radius: 18px;
+  background: rgba(250,249,245,.96);
+  box-shadow: 0 10px 28px rgba(37,50,42,.1);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+}
+
+@media (max-width: 600px) {
+  .header-bar { position: sticky; top: 0; }
+  .header-content { min-height: 54px; }
+  .brand-logo::before { width: 30px; height: 30px; flex-basis: 30px; font-size: 15px; }
+  .brand-text h1 { font-size: 16px; letter-spacing: .12em; }
+  .app-container { padding-left: 14px; padding-right: 14px; }
+  .search-section { padding: 11px 0 12px; }
+  .search-input-wrapper { height: 40px; border-radius: 12px; }
+  .search-input { font-size: 12px; }
+  .meal-planner-entry {
+    min-height: min(42vh, 330px);
+    margin-bottom: 12px;
+    padding: 26px 22px;
+    border-radius: 16px;
+    background-position: center;
+  }
+  .meal-planner-entry::before { left: 22px; top: 22px; font-size: 7px; }
+  .meal-planner-title { max-width: 275px; font-size: 27px; line-height: 1.16; }
+  .meal-planner-sub { margin-top: 8px; font-size: 10px; line-height: 1.5; }
+  .season-banner { margin: 0 0 10px; padding: 12px 2px; }
+  .season-header { margin: 0; }
+  .season-solar-title { font-size: 13px; }
+  .season-quote { display: none; }
+  .season-switches { display: flex; padding: 2px; transform: scale(.9); transform-origin: right center; }
+  .category-tabs {
+    margin: 0 -14px 4px;
+    padding: 6px 14px 8px;
+    gap: 23px;
+    border: 0;
+  }
+  .category-tabs .cat-tab::after { font-size: 12px; }
+  .all-category-menu { width: 84px; margin: 0 0 13px auto; }
+  .all-category-menu summary { height: 28px; padding: 0; font-size: 11px; }
+  #recipeCountLabel { font-size: 10px; }
+  .recipe-grid { gap: 25px 10px; }
+  .recipe-card:first-child .card-media,
+  .recipe-card:first-child .card-img-wrap { aspect-ratio: 16 / 10; border-radius: 14px; }
+  .recipe-card:first-child .card-title { font-size: 18px; }
+  .recipe-card:not(:first-child) .card-media,
+  .recipe-card:not(:first-child) .card-img-wrap { aspect-ratio: 4 / 5; border-radius: 12px; }
+  .card-body { padding-top: 9px; }
+  .card-title { font-size: 14px; }
+  .card-subtitle { display: none; }
+  .card-meta-row { font-size: 9px; }
+  .ios-tab-bar {
+    left: 10px;
+    right: 10px;
+    bottom: max(8px, var(--sab));
+    width: calc(100% - 20px);
+    border-radius: 16px;
+  }
+  .ios-tab-inner { height: 54px; }
+  .ios-tab-icon { font-size: 17px; }
+  .ios-tab-btn { font-size: 9px; }
+}
+
+@media (max-width: 360px) {
+  .meal-planner-entry { min-height: 290px; }
+  .meal-planner-title { font-size: 25px; }
+  .season-switches { display: none; }
+}
+
+/* V6 · Apple-inspired liquid glass preview */
+body.lifestyle-preview {
+  background:
+    radial-gradient(circle at 8% 12%, rgba(184, 205, 189, .42), transparent 27%),
+    radial-gradient(circle at 92% 24%, rgba(224, 204, 171, .34), transparent 25%),
+    linear-gradient(145deg, #f3f5f1 0%, #eef1ed 46%, #f7f3ec 100%);
+  background-attachment: fixed;
+}
+.header-bar {
+  border-bottom: 1px solid rgba(255,255,255,.55);
+  background: rgba(246,248,245,.58);
+  box-shadow: 0 1px 0 rgba(35,52,42,.05), 0 12px 34px rgba(47,63,53,.06);
+  -webkit-backdrop-filter: saturate(165%) blur(26px);
+  backdrop-filter: saturate(165%) blur(26px);
+}
+.brand-logo::before {
+  background: linear-gradient(145deg, rgba(43,72,57,.94), rgba(75,104,87,.88));
+  box-shadow: inset 0 1px 1px rgba(255,255,255,.28), 0 8px 20px rgba(38,66,51,.16);
+}
+.search-input-wrapper {
+  padding: 0 15px;
+  border: 1px solid rgba(255,255,255,.72);
+  border-radius: 999px;
+  background: linear-gradient(135deg, rgba(255,255,255,.58), rgba(255,255,255,.3));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 10px 28px rgba(55,67,59,.08);
+  -webkit-backdrop-filter: saturate(170%) blur(24px);
+  backdrop-filter: saturate(170%) blur(24px);
+}
+.meal-planner-entry {
+  border: 1px solid rgba(255,255,255,.62);
+  border-radius: 28px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.2), 0 28px 70px rgba(31,49,38,.16);
+}
+.season-banner {
+  padding: 18px 22px;
+  border: 1px solid rgba(255,255,255,.66);
+  border-radius: 20px;
+  background: linear-gradient(135deg, rgba(255,255,255,.5), rgba(255,255,255,.25));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.86), 0 14px 36px rgba(54,67,59,.07);
+  -webkit-backdrop-filter: saturate(155%) blur(22px);
+  backdrop-filter: saturate(155%) blur(22px);
+}
+.season-switches {
+  padding: 4px;
+  border: 1px solid rgba(255,255,255,.7);
+  background: rgba(255,255,255,.28);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.75);
+  -webkit-backdrop-filter: blur(18px);
+  backdrop-filter: blur(18px);
+}
+.category-tabs {
+  border-bottom-color: rgba(255,255,255,.7);
+}
+.all-category-menu summary {
+  padding: 0 13px;
+  border: 1px solid rgba(255,255,255,.72);
+  border-radius: 999px;
+  background: rgba(255,255,255,.36);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.88), 0 8px 20px rgba(45,60,50,.06);
+  -webkit-backdrop-filter: saturate(160%) blur(18px);
+  backdrop-filter: saturate(160%) blur(18px);
+}
+.all-category-panel {
+  border-color: rgba(255,255,255,.72);
+  background: rgba(243,246,242,.7);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 24px 60px rgba(31,48,37,.16);
+  -webkit-backdrop-filter: saturate(170%) blur(32px);
+  backdrop-filter: saturate(170%) blur(32px);
+}
+.card-media, .card-img-wrap {
+  border-radius: 22px;
+  border: 1px solid rgba(255,255,255,.62);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.25), 0 18px 42px rgba(37,52,42,.12);
+}
+.card-fav-btn, .card-quick-add {
+  border: 1px solid rgba(255,255,255,.7);
+  background: rgba(248,250,247,.5);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.9), 0 8px 20px rgba(24,38,29,.11);
+  -webkit-backdrop-filter: saturate(170%) blur(18px);
+  backdrop-filter: saturate(170%) blur(18px);
+}
+.ios-tab-bar {
+  border: 1px solid rgba(255,255,255,.76);
+  border-radius: 22px;
+  background: linear-gradient(135deg, rgba(255,255,255,.68), rgba(241,245,240,.5));
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.95), 0 18px 48px rgba(34,50,39,.16);
+  -webkit-backdrop-filter: saturate(180%) blur(30px);
+  backdrop-filter: saturate(180%) blur(30px);
+}
+.ios-tab-btn.active {
+  text-shadow: 0 1px 0 rgba(255,255,255,.7);
+}
+
+@media (max-width: 600px) {
+  body.lifestyle-preview { background-attachment: scroll; }
+  .search-input-wrapper { padding: 0 13px; }
+  .meal-planner-entry { min-height: 360px; border-radius: 24px; }
+  .season-banner { padding: 14px 16px; border-radius: 17px; }
+  .category-tabs { border-bottom-color: rgba(255,255,255,.72); }
+  .all-category-menu summary { border-bottom: 1px solid rgba(255,255,255,.76); }
+  .card-media, .card-img-wrap { border-radius: 18px; }
+  .ios-tab-bar {
+    left: 12px;
+    right: 12px;
+    bottom: max(9px, var(--sab));
+    width: calc(100% - 24px);
+    border: 1px solid rgba(255,255,255,.78);
+    border-radius: 21px;
+  }
+}
+
+/* V5 · 生活方式杂志：更少控件、更强留白与影像 */
+body.lifestyle-preview {
+  --editorial-ink: #18251e;
+  --editorial-green: #294638;
+  --editorial-gold: #aa8954;
+  --editorial-paper: #f8f6f0;
+  background: var(--editorial-paper);
+  color: var(--editorial-ink);
+}
+.header-bar { background: rgba(248,246,240,.9); border-bottom-color: rgba(24,37,30,.07); }
+.header-content { max-width: 1340px; min-height: 74px; }
+.brand-logo::before { border: 0; background: var(--editorial-green); color: #fff; box-shadow: none; }
+.brand-text h1 { font-family: "Songti SC", STSong, SimSun, serif; font-weight: 600; letter-spacing: .16em; }
+.brand-text .slogan { color: #8f8c82; letter-spacing: .18em; }
+#btnHeaderFav, #btnHeaderAbout { display: none !important; }
+.app-container { max-width: 1340px; }
+.search-section { padding: 26px 0 20px; display: flex; justify-content: flex-end; }
+.search-input-wrapper { width: 310px; height: 42px; border: 0; border-bottom: 1px solid rgba(24,37,30,.2); border-radius: 0; background: transparent; box-shadow: none; }
+.search-input { font-size: 12px; letter-spacing: .04em; }
+.meal-planner-entry { min-height: 430px; padding: 54px 58px; border-radius: 2px; box-shadow: none; background-position: center 47%; }
+.meal-planner-entry::after { background: linear-gradient(90deg, rgba(8,16,11,.68) 0%, rgba(8,16,11,.16) 58%, transparent 100%); }
+.meal-planner-entry::before { left: 58px; top: 52px; color: rgba(255,255,255,.7); letter-spacing: .28em; }
+.meal-planner-entry-left { max-width: 580px; }
+.meal-planner-title { max-width: 520px; font-family: "Songti SC", STSong, SimSun, serif; font-size: clamp(36px,4vw,56px); font-weight: 500; line-height: 1.12; letter-spacing: .03em; }
+.meal-planner-sub { margin-top: 14px; font-size: 13px; letter-spacing: .08em; }
+.meal-planner-btn { display: none; }
+.season-banner { margin: 22px 0 30px; padding: 20px 0; border: 0; border-bottom: 1px solid rgba(24,37,30,.12); border-radius: 0; background: transparent; box-shadow: none; }
+.season-solar-title { font-family: "Songti SC", STSong, SimSun, serif; font-size: 18px; }
+.season-quote { color: #797b73; }
+.category-tabs { margin-bottom: 20px; padding: 0 128px 11px 0; gap: 28px; border-bottom: 1px solid rgba(24,37,30,.11); }
+.cat-tab { padding: 8px 0; letter-spacing: .06em; }
+.cat-tab.active::before { height: 1px; background: var(--editorial-green); }
+.all-category-menu { margin-top: -66px; margin-bottom: 27px; }
+.all-category-menu summary { height: 34px; border: 0; border-radius: 0; background: transparent; color: #6f756e; letter-spacing: .08em; }
+#recipeCountLabel { color: #8d8d85; letter-spacing: .06em; }
+.recipe-grid { gap: 44px 22px; }
+.recipe-card { border-radius: 0; }
+.card-media, .card-img-wrap { border-radius: 1px; box-shadow: none; background: #e7e3da; }
+.card-media img, .card-img { filter: saturate(.82) contrast(.98); transition: filter .35s ease, transform .6s ease; }
+.recipe-card:hover .card-media img, .recipe-card:hover .card-img { filter: saturate(1) contrast(1); transform: scale(1.018); }
+.card-fav-btn, .card-quick-add, .card-tag-pill { opacity: 0; transition: opacity .2s ease; }
+.recipe-card:hover .card-fav-btn, .recipe-card:hover .card-quick-add, .recipe-card:hover .card-tag-pill { opacity: 1; }
+.card-body { padding: 15px 0 0; }
+.card-title { font-family: "Songti SC", STSong, SimSun, serif; font-size: 18px; font-weight: 600; letter-spacing: .04em; }
+.card-subtitle { color: #898981; }
+.card-meta-row { color: #9a978d; letter-spacing: .04em; }
+.ios-tab-bar { width: 520px; bottom: 18px; border: 1px solid rgba(24,37,30,.09); border-radius: 2px; background: rgba(248,246,240,.94); box-shadow: 0 10px 34px rgba(31,41,34,.09); }
+.ios-tab-inner { height: 58px; }
+.ios-tab-btn { color: #8b8d87; letter-spacing: .06em; }
+.ios-tab-btn.active { color: var(--editorial-green); }
+
+@media (min-width: 769px) {
+  .recipe-grid { grid-template-columns: 1.35fr .65fr .65fr; }
+  .recipe-card:first-child { grid-column: span 1; grid-row: span 2; }
+  .recipe-card:first-child .card-media, .recipe-card:first-child .card-img-wrap { aspect-ratio: 4 / 5.25; }
+  .recipe-card:not(:first-child) .card-media, .recipe-card:not(:first-child) .card-img-wrap { aspect-ratio: 4 / 3; }
+}
+
+@media (max-width: 600px) {
+  .header-content { min-height: 56px; }
+  .brand-text h1 { font-size: 16px; }
+  .search-section { padding: 10px 0 14px; }
+  .search-input-wrapper { width: 100%; height: 38px; padding-left: 0; }
+  .search-icon { margin-left: 0; }
+  .meal-planner-entry { min-height: 350px; padding: 34px 24px; border-radius: 0; box-shadow: none; }
+  .meal-planner-entry::before { left: 24px; top: 30px; }
+  .meal-planner-entry::after { background: linear-gradient(0deg, rgba(8,16,11,.72) 0%, rgba(8,16,11,.08) 72%); }
+  .meal-planner-title { max-width: 310px; font-size: 31px; line-height: 1.16; }
+  .meal-planner-sub { max-width: 290px; font-size: 10px; }
+  .season-banner { margin: 16px 0 19px; padding: 13px 0 15px; border-left: 0; border-bottom: 1px solid rgba(24,37,30,.12); background: transparent; }
+  .season-solar-title { font-size: 14px; }
+  .category-tabs { margin: 0 -16px 12px; padding: 3px 16px 10px; gap: 25px; }
+  .all-category-menu { margin: 0 0 17px auto; width: 92px; }
+  .all-category-menu summary { height: 30px; border-bottom: 1px solid rgba(24,37,30,.2); background: transparent; color: #5c665f; }
+  .recipe-grid { gap: 28px 12px; }
+  .recipe-card:first-child .card-media, .recipe-card:first-child .card-img-wrap { aspect-ratio: 4 / 4.65; }
+  .card-fav-btn, .card-quick-add, .card-tag-pill { opacity: 1; }
+  .card-title { font-size: 15px; }
+  .ios-tab-bar { left: 0; right: 0; bottom: 0; width: 100%; transform: none; border-width: 1px 0 0; border-radius: 0; box-shadow: none; }
+  .ios-tab-inner { height: 58px; }
+}
+
+@media (max-width: 360px) {
+  .app-container { padding-left: 13px; padding-right: 13px; }
+  .category-tabs { margin-left: -13px; margin-right: -13px; padding-left: 13px; padding-right: 13px; }
+  .recipe-grid { gap: 14px 9px; }
+  .meal-planner-title { font-size: 22px; }
+}
+
+/* V4 · 编辑精选式首页与收纳分类 */
+.brand-icon { display: none; }
+.brand-logo::before {
+  content: "咕";
+  display: grid;
+  place-items: center;
+  width: 38px;
+  height: 38px;
+  flex: 0 0 38px;
+  border: 1px solid rgba(64, 87, 74, .32);
+  border-radius: 50%;
+  color: #31473a;
+  background: rgba(255, 254, 250, .72);
+  font: 600 18px/1 "Songti SC", SimSun, serif;
+  box-shadow: inset 0 0 0 4px rgba(64, 87, 74, .035);
+}
+
+.category-tabs .cat-tab:nth-child(n + 7) { display: none; }
+.category-tabs { padding-right: 118px; }
+.category-tabs .cat-tab { font-size: 0; }
+.category-tabs .cat-tab::after { font-size: 12px; }
+.category-tabs .cat-tab:nth-child(1)::after { content: "本季精选"; }
+.category-tabs .cat-tab:nth-child(2)::after { content: "地方风味"; }
+.category-tabs .cat-tab:nth-child(3)::after { content: "慢熬靓汤"; }
+.category-tabs .cat-tab:nth-child(4)::after { content: "面食主食"; }
+.category-tabs .cat-tab:nth-child(5)::after { content: "沿海海鲜"; }
+.category-tabs .cat-tab:nth-child(6)::after { content: "饮品甜品"; }
+
+.all-category-menu { position: relative; width: 108px; margin: -50px 0 21px auto; z-index: 12; }
+.all-category-menu summary {
+  list-style: none;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  border: 1px solid rgba(64, 87, 74, .14);
+  border-radius: 999px;
+  color: #40574a;
+  background: rgba(255, 254, 250, .82);
+  font-size: 12px;
+  cursor: pointer;
+  user-select: none;
+}
+.all-category-menu summary::-webkit-details-marker { display: none; }
+.all-category-menu[open] summary span { transform: rotate(45deg); }
+.all-category-menu summary span { transition: transform .2s ease; }
+.all-category-panel {
+  position: absolute;
+  top: 45px;
+  right: 0;
+  width: 360px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 7px;
+  padding: 15px;
+  border: 1px solid rgba(55, 72, 61, .1);
+  border-radius: 16px;
+  background: rgba(255, 254, 250, .97);
+  box-shadow: 0 20px 55px rgba(35, 49, 40, .17);
+  backdrop-filter: blur(20px);
+}
+.all-category-panel button {
+  min-height: 38px;
+  padding: 7px 9px;
+  border: 0;
+  border-radius: 9px;
+  color: #616860;
+  background: #f0f1ec;
+  font-size: 12px;
+  cursor: pointer;
+}
+.all-category-panel button:hover { color: #fff; background: #40574a; }
+
+@media (min-width: 769px) {
+  .recipe-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px 18px; }
+  .recipe-card:first-child { grid-column: span 2; grid-row: span 2; }
+  .recipe-card:first-child .card-media,
+  .recipe-card:first-child .card-img-wrap { aspect-ratio: 4 / 3.15; }
+  .recipe-card:first-child .card-title { font-size: 22px; }
+  .recipe-card:first-child .card-subtitle { font-size: 13px; -webkit-line-clamp: 2; }
+  .recipe-card:not(:first-child) .card-media,
+  .recipe-card:not(:first-child) .card-img-wrap { aspect-ratio: 4 / 4.15; }
+}
+
+@media (max-width: 600px) {
+  .brand-logo::before { width: 32px; height: 32px; flex-basis: 32px; font-size: 16px; }
+  .category-tabs { padding-right: 116px; }
+  .category-tabs .cat-tab::after { font-size: 13px; }
+  .all-category-menu { width: 100px; margin: -52px 0 15px auto; }
+  .all-category-menu summary { height: 36px; background: #40574a; color: #fff; border: 0; }
+  .all-category-panel {
+    position: fixed;
+    left: 12px;
+    right: 12px;
+    top: auto;
+    bottom: calc(78px + var(--sab));
+    width: auto;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 13px;
+    border-radius: 18px;
+  }
+  .recipe-card:first-child { grid-column: 1 / -1; }
+  .recipe-card:first-child .card-media,
+  .recipe-card:first-child .card-img-wrap { aspect-ratio: 16 / 10; }
+  .recipe-card:first-child .card-title { font-size: 18px; }
+  .recipe-card:first-child .card-subtitle { display: -webkit-box; font-size: 11px; }
+  .recipe-card:first-child .card-meta-row { font-size: 10px; }
+}
+
+/* V7 FINAL · keep the mobile-first editorial system last in the cascade */
+body.lifestyle-preview {
+  background: radial-gradient(ellipse at 84% 4%, rgba(205,216,199,.32), transparent 28%), linear-gradient(180deg,#faf9f5 0%,#f5f4ef 100%);
+  background-attachment: scroll;
+}
+.header-bar { background: rgba(250,249,245,.94); border-bottom: 1px solid rgba(28,43,34,.07); box-shadow: none; backdrop-filter: blur(10px); }
+.search-input-wrapper { border: 1px solid rgba(41,61,49,.1); background: rgba(255,255,255,.68); box-shadow: none; backdrop-filter: blur(10px); }
+.season-banner { border: 0; border-bottom: 1px solid rgba(31,48,38,.11); border-radius: 0; background: transparent; box-shadow: none; backdrop-filter: none; }
+.card-media,.card-img-wrap { border: 0; border-radius: 13px; box-shadow: none; }
+.ios-tab-bar { background: rgba(250,249,245,.96); border: 1px solid rgba(38,56,45,.09); border-radius: 18px; box-shadow: 0 10px 28px rgba(37,50,42,.1); backdrop-filter: blur(12px); }
+
+@media (max-width: 600px) {
+  .header-content { min-height: 54px; }
+  .app-container { padding-left: 14px; padding-right: 14px; }
+  .search-section { padding: 11px 0 12px; }
+  .search-input-wrapper { width: 100%; height: 40px; padding: 0 13px; border-radius: 12px; }
+  .meal-planner-entry { min-height: min(42vh,330px); margin-bottom: 12px; padding: 26px 22px; border: 0; border-radius: 16px; box-shadow: none; background-position: center; }
+  .meal-planner-entry::before { left: 22px; top: 22px; }
+  .meal-planner-title { max-width: 275px; font-size: 27px; line-height: 1.16; }
+  .meal-planner-sub { margin-top: 8px; font-size: 10px; }
+  .season-banner { margin: 0 0 10px; padding: 12px 2px; }
+  .season-header { margin: 0; }
+  .season-solar-title { font-size: 13px; }
+  .season-quote { display: none; }
+  .season-switches { display: flex; padding: 2px; border: 0; background: #ecece6; box-shadow: none; transform: scale(.9); transform-origin: right center; }
+  .category-tabs { margin: 0 -14px 4px; padding: 6px 14px 8px; gap: 23px; border: 0; }
+  .all-category-menu { width: 84px; margin: 0 0 13px auto; }
+  .all-category-menu summary { height: 28px; padding: 0; border: 0; border-bottom: 1px solid rgba(40,59,47,.24); border-radius: 0; background: transparent; box-shadow: none; color: #5c665f; font-size: 11px; backdrop-filter: none; }
+  .recipe-grid { gap: 25px 10px; }
+  .recipe-card:first-child .card-media,.recipe-card:first-child .card-img-wrap { aspect-ratio: 16/10; border-radius: 14px; }
+  .recipe-card:not(:first-child) .card-media,.recipe-card:not(:first-child) .card-img-wrap { aspect-ratio: 4/5; border-radius: 12px; }
+  .card-body { padding-top: 9px; }
+  .card-title { font-size: 14px; }
+  .recipe-card:first-child .card-title { font-size: 18px; }
+  .card-subtitle { display: none; }
+  .ios-tab-bar { left: 10px; right: 10px; bottom: max(8px,var(--sab)); width: calc(100% - 20px); transform: none; border: 1px solid rgba(38,56,45,.09); border-radius: 16px; }
+  .ios-tab-inner { width: 100%; max-width: none; height: 54px; }
+}
+
+/* Search fix: the wrapper is layout-only; the visible surface belongs to the input. */
+.search-input-wrapper {
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  -webkit-backdrop-filter: none;
+  backdrop-filter: none;
+}
+.search-input {
+  height: 100%;
+  border: 1px solid rgba(41,61,49,.10);
+  background: rgba(255,255,255,.72);
+  box-shadow: none;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* Desktop editorial lead card: fill its two-row grid area instead of leaving a blank block. */
+@media (min-width: 769px) {
+  .recipe-card:first-child {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .recipe-card:first-child .card-media,
+  .recipe-card:first-child .card-img-wrap {
+    flex: 1 1 auto;
+    min-height: 0;
+    aspect-ratio: auto;
+  }
+  .recipe-card:first-child .card-media img,
+  .recipe-card:first-child .card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .recipe-card:first-child .card-body { flex: 0 0 auto; }
+}
+
+/* Commercial contrast pass: selected controls must remain legible. */
+.season-btn-main,
+.season-btn-main.active,
+.season-fish-tag.active,
+.season-tab.active,
+.sub-chip.active,
+.sub-pill.active {
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+}
+.season-tab.active *,
+.season-fish-tag.active *,
+.sub-chip.active *,
+.sub-pill.active * {
+  color: inherit !important;
+  -webkit-text-fill-color: inherit;
+}
+.season-tab:focus-visible,
+.season-fish-tag:focus-visible,
+.sub-chip:focus-visible,
+.sub-pill:focus-visible,
+.cat-tab:focus-visible,
+.ios-tab-btn:focus-visible {
+  outline: 2px solid rgba(49,72,59,.42);
+  outline-offset: 3px;
+}
+.season-tab:disabled,
+.season-fish-tag:disabled,
+.sub-chip:disabled,
+.sub-pill:disabled {
+  opacity: .45;
+  cursor: not-allowed;
+}
+
+/* Final commercial UI audit fixes. */
+.recipe-card:focus-within .card-fav-btn,
+.recipe-card:focus-within .card-quick-add,
+.recipe-card:focus-within .card-tag-pill { opacity: 1; }
+.btn-primary,
+.ios-btn-apple-primary,
+.spec-pill.active,
+.ios-segment-btn.active,
+.ios-serv-btn.active {
+  border-color: #31483b !important;
+  background: #31483b !important;
+  color: #ffffff !important;
+  -webkit-text-fill-color: #ffffff;
+  box-shadow: none !important;
+}
+.btn-outline:hover,
+.ios-btn-apple-secondary:hover {
+  border-color: #31483b !important;
+  color: #31483b !important;
+  background: rgba(49,72,59,.06) !important;
+}
+.modal-close {
+  width: 42px;
+  height: 42px;
+  color: #38453d;
+  background: #efefe9;
+}
+.modal-title { color: #1f2e26; }
+
+@media (max-width: 600px) {
+  .ios-tab-bar {
+    left: 10px !important;
+    right: 10px !important;
+    width: auto !important;
+    max-width: none !important;
+    transform: none !important;
+  }
+  .ios-tab-inner {
+    display: grid !important;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .ios-tab-btn { width: auto; min-width: 0; }
+  .modal-close { width: 44px; height: 44px; }
+  .modal-header { min-height: 58px; }
+}

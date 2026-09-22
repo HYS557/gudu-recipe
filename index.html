@@ -18,8 +18,9 @@
 
   <!-- 高阶极简生活志设计系统 -->
   <link rel="stylesheet" href="./css/index.css?v=3.8">
+  <link rel="stylesheet" href="./css/lifestyle-preview.css?v=3.8.2">
 </head>
-<body>
+<body class="lifestyle-preview">
 
   <!-- 顶部常驻极简导航 -->
   <!-- 顶部常驻极简导航 (标准 iOS 风格，无冗余重复按钮) -->
@@ -99,6 +100,25 @@
       <button class="cat-tab" data-cat="brine" onclick="App.setCategory('brine')">🏺 卤水底料</button>
     </nav>
 
+    <details class="all-category-menu">
+      <summary>全部分类 <span>＋</span></summary>
+      <div class="all-category-panel">
+        <button onclick="App.setCategory('fatloss'); this.closest('details').removeAttribute('open')">减脂轻食</button>
+        <button onclick="App.setCategory('grand'); this.closest('details').removeAttribute('open')">国宴硬席</button>
+        <button onclick="App.setCategory('drinks'); this.closest('details').removeAttribute('open')">微醺下酒</button>
+        <button onclick="App.setCategory('japanese'); this.closest('details').removeAttribute('open')">日式料理</button>
+        <button onclick="App.setCategory('korean'); this.closest('details').removeAttribute('open')">韩式料理</button>
+        <button onclick="App.setCategory('thai'); this.closest('details').removeAttribute('open')">泰式风味</button>
+        <button onclick="App.setCategory('western'); this.closest('details').removeAttribute('open')">西餐牛排</button>
+        <button onclick="App.setCategory('sauce'); this.closest('details').removeAttribute('open')">酱料蘸料</button>
+        <button onclick="App.setCategory('pickle'); this.closest('details').removeAttribute('open')">腌菜泡菜</button>
+        <button onclick="App.setCategory('stock'); this.closest('details').removeAttribute('open')">高汤汤底</button>
+        <button onclick="App.setCategory('marinade'); this.closest('details').removeAttribute('open')">腌料</button>
+        <button onclick="App.setCategory('filling'); this.closest('details').removeAttribute('open')">馅料</button>
+        <button onclick="App.setCategory('brine'); this.closest('details').removeAttribute('open')">卤水底料</button>
+      </div>
+    </details>
+
     <!-- 二级细分过滤器 (Sub-filter) -->
     <section class="sub-filter-bar" id="subFilterBar"></section>
 
@@ -123,7 +143,7 @@
             </div>
           </div>
           <div class="footer-version-tag">
-            <span>✨ v3.8.1 自动更新版</span>
+            <span>✨ v3.8.2 自动更新版</span>
           </div>
         </div>
         <div class="footer-notice-box">
