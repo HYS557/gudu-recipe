@@ -108,7 +108,7 @@ body.lifestyle-preview::before { display: none; }
   border: 1px solid rgba(129, 93, 60, .18);
   background:
     linear-gradient(90deg, rgba(30, 29, 27, .80), rgba(45, 43, 39, .18)),
-    url("../images/qingtun_shizitou.jpg") center 54% / cover;
+    url("../images/qingtun_shizitou.jpg?v=3.8.2.3") center 54% / cover;
   box-shadow: 0 20px 46px rgba(56, 41, 29, .16);
 }
 .meal-planner-entry::before {
@@ -294,7 +294,7 @@ body.lifestyle-preview {
   border-color: rgba(57, 76, 64, .18);
   background:
     linear-gradient(90deg, rgba(22, 32, 26, .84), rgba(34, 48, 39, .20)),
-    url("../images/qingtun_shizitou.jpg") center 54% / cover;
+    url("../images/qingtun_shizitou.jpg?v=3.8.2.3") center 54% / cover;
 }
 .meal-planner-badge { color: #d6c8a9; }
 .cat-tab.active { border-bottom-color: #40574a !important; }
